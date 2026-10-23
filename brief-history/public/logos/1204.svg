@@ -20,8 +20,11 @@
 
     <!-- Title Text Block -->
     <g font-size="112" text-anchor="start">
-      <text x="45" y="630" textLength="2688" lengthAdjust="spacingAndGlyphs">Mathematics for Business</text>
-      <text x="45" y="740" textLength="1344" lengthAdjust="spacingAndGlyphs">Decisions-II</text>
+      <text x="45" y="630" font-size="112" text-anchor="start">
+        <tspan x="45">Mathematics for Business</tspan>
+        <tspan x="45" dy="110">Decisions-II</tspan>
+      </text>
+      <text x="45" y="740" textLength="0" lengthAdjust="spacingAndGlyphs"></text>
       <text x="45" y="850" textLength="0" lengthAdjust="spacingAndGlyphs"></text>
     </g>
   </g>

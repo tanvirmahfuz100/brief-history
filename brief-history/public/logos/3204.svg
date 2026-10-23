@@ -19,7 +19,7 @@
     <text x="45" y="480" font-size="390" text-anchor="start" letter-spacing="-12">3204</text>
 
     <!-- Title Text Block -->
-    <g font-size="112" text-anchor="start">
+    <g font-size="50" text-anchor="start">
       <text x="45" y="630" textLength="2576" lengthAdjust="spacingAndGlyphs">Organizational Behavior</text>
       <text x="45" y="740" textLength="0" lengthAdjust="spacingAndGlyphs"></text>
       <text x="45" y="850" textLength="0" lengthAdjust="spacingAndGlyphs"></text>

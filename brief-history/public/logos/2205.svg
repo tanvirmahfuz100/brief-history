@@ -20,7 +20,10 @@
 
     <!-- Title Text Block -->
     <g font-size="112" text-anchor="start">
-      <text x="45" y="630" textLength="3248" lengthAdjust="spacingAndGlyphs">Income Tax: Laws and Practice</text>
+      <text x="45" y="630" font-size="112" text-anchor="start">
+        <tspan x="45">Income Tax:</tspan>
+        <tspan x="45" dy="110">Laws and Practice</tspan>
+      </text>
       <text x="45" y="740" textLength="0" lengthAdjust="spacingAndGlyphs"></text>
       <text x="45" y="850" textLength="0" lengthAdjust="spacingAndGlyphs"></text>
     </g>

@@ -20,7 +20,10 @@
 
     <!-- Title Text Block -->
     <g font-size="112" text-anchor="start">
-      <text x="45" y="630" textLength="2576" lengthAdjust="spacingAndGlyphs">Lab: Office Application</text>
+      <text x="45" y="630" font-size="112" text-anchor="start">
+        <tspan x="45">Lab: Office</tspan>
+        <tspan x="45" dy="110">Application</tspan>
+      </text>
       <text x="45" y="740" textLength="0" lengthAdjust="spacingAndGlyphs"></text>
       <text x="45" y="850" textLength="0" lengthAdjust="spacingAndGlyphs"></text>
     </g>

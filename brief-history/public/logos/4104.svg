@@ -20,8 +20,11 @@
 
     <!-- Title Text Block -->
     <g font-size="112" text-anchor="start">
-      <text x="45" y="630" textLength="2912" lengthAdjust="spacingAndGlyphs">Supply Chain and Operation</text>
-      <text x="45" y="740" textLength="1120" lengthAdjust="spacingAndGlyphs">Management</text>
+      <text x="45" y="630" font-size="112" text-anchor="start">
+        <tspan x="45">Supply Chain and Operation</tspan>
+        <tspan x="45" dy="110">Management</tspan>
+      </text>
+      <text x="45" y="740" textLength="0" lengthAdjust="spacingAndGlyphs"></text>
       <text x="45" y="850" textLength="0" lengthAdjust="spacingAndGlyphs"></text>
     </g>
   </g>
