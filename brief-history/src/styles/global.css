@@ -360,3 +360,53 @@ details p { font-family: var(--font-reading); font-size: 15px; color: var(--colo
 .home-footer-meta { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--color-rule); font-family: var(--font-ui); font-size: 12px; color: var(--color-ink-muted); display: flex; flex-direction: column; gap: 0.5rem; }
 .home-footer-meta a { color: var(--color-accent); text-decoration: underline; text-underline-offset: 3px; }
 .home-footer-meta a:hover { text-decoration: none; }
+
+/* Videos (home page) */
+.videos { margin-top: 3rem; }
+.videos-heading { font-family: var(--font-ui); font-size: 15px; color: var(--color-ink-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+.videos-intro { font-family: var(--font-ui); font-size: 13px; color: var(--color-ink-muted); margin-bottom: 1rem; }
+.videos-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
+.video-card {
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  padding: 0.75rem;
+  text-decoration: none;
+  color: var(--color-ink);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.video-card:hover {
+  border-color: var(--color-accent);
+  text-decoration: none;
+}
+.video-card:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+.video-badge {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  display: inline-block;
+  align-self: flex-start;
+}
+.video-badge.own { background: rgba(47, 107, 79, 0.1); color: var(--color-ok); }
+.video-badge.suggestion { background: rgba(138, 90, 43, 0.1); color: var(--color-accent); }
+.video-title { font-family: var(--font-ui); font-size: 14px; font-weight: 600; line-height: 1.4; margin: 0; }
+.video-course { font-size: 12px; color: var(--color-ink-muted); margin: 0; }
+.video-meta { font-size: 11px; color: var(--color-ink-muted); margin-top: auto; }
+.videos-most-watched { font-family: var(--font-ui); font-size: 13px; color: var(--color-ink-muted); }
+.videos-most-watched strong { color: var(--color-ink); }
+.most-chip {
+  display: inline-block;
+  background: rgba(138, 90, 43, 0.05);
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius);
+  padding: 0.2rem 0.5rem;
+  font-size: 12px;
+  color: var(--color-accent);
+  margin-right: 0.5rem;
+  margin-top: 0.25rem;
+}

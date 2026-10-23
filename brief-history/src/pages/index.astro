@@ -2,6 +2,7 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { courseSlug } from '@/lib/slug';
+import { VIDEOS, mostWatched, ownChannelVideos, youtubeSuggestions } from '@/data/videos';
 
 const questions = await getCollection('questions');
 const courseCount = [...new Set(questions.map(q => q.data.course_code))].length;
@@ -168,6 +169,37 @@ const lastUpdated = new Date().toLocaleDateString('en-BD', { year: 'numeric', mo
           </li>
         ))}
       </ul>
+    </section>
+
+    <section class="videos" aria-label="Videos">
+      <h2 class="videos-heading">Videos</h2>
+      <p class="videos-intro">
+        Learn with video lessons. <strong>Pinned:</strong> from our channel · <strong>Suggestions:</strong> from YouTube.
+      </p>
+      <div class="videos-grid">
+        {ownChannelVideos().map((v) => (
+          <a href={v.url} class="video-card" target="_blank" rel="noopener" aria-label={v.title}>
+            <span class="video-badge own">Own channel</span>
+            <span class="video-title">{v.title}</span>
+            <span class="video-course">{v.courseTitle}</span>
+            <span class="video-meta">{v.duration} &middot; {v.views.toLocaleString()} views</span>
+          </a>
+        ))}
+        {youtubeSuggestions().slice(0, 3).map((v) => (
+          <a href={v.url} class="video-card" target="_blank" rel="noopener" aria-label={v.title}>
+            <span class="video-badge suggestion">YouTube</span>
+            <span class="video-title">{v.title}</span>
+            <span class="video-course">{v.courseTitle}</span>
+            <span class="video-meta">{v.duration} &middot; {v.views.toLocaleString()} views</span>
+          </a>
+        ))}
+      </div>
+      <p class="videos-most-watched">
+        <strong>Most watched this week:</strong>
+        {mostWatched(3).map((v) => (
+          <span class="most-chip">{v.courseTitle} &middot; {v.views.toLocaleString()} views</span>
+        ))}
+      </p>
     </section>
 
     <div class="home-footer-meta" aria-label="Site metadata">
