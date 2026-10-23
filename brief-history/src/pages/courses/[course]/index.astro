@@ -15,13 +15,12 @@ export async function getStaticPaths() {
 const { code } = Astro.props;
 const questions = (await getCollection('questions')).filter(q => q.data.course_code === code);
 
-// Resolve the syllabus by the numeric course code (e.g. "ais 1101" -> "1101").
 const numericCode = code.match(/\d+/)?.[0] ?? '';
+const logoPath = `/logos/${numericCode}.svg`;
 const syllabi = await getCollection('syllabi');
 const syllabus = numericCode ? syllabi.find(s => s.data.code === numericCode) : undefined;
 const SyllabusContent = syllabus ? (await render(syllabus)).Content : undefined;
 
-// Group papers by academic session, then by exam type, for a readable index.
 const grouped = new Map();
 for (const q of questions) {
   const session = q.data.session || 'unknown';
@@ -34,82 +33,61 @@ const sessions = [...grouped.entries()].sort((a, b) => a[0].localeCompare(b[0]))
 ---
 
 <BaseLayout title={code}>
-  <div class="running-header">
-    <span class="rh-left">A Brief History of Past Questions</span>
-    <span class="rh-right">{code}</span>
-  </div>
+  <div class="container section">
+    <nav class="course-nav">
+      <a href="/brief-history/browse/">Browse</a>
+      <span aria-hidden="true">/</span>
+      <span>{code.toUpperCase()}</span>
+    </nav>
 
-  <section class="section-block">
-    <h2 class="section-title">{code}</h2>
-    <hr class="double-rule" />
-    <p class="section-sub">{questions.length} paper{questions.length === 1 ? '' : 's'} across {sessions.length} session{sessions.length === 1 ? '' : 's'}</p>
+    <div class="course-logo">
+      <img src={logoPath} alt={`Course ${numericCode}`} width="120" height="120" />
+    </div>
 
-    {sessions.length > 1 && (
-      <nav class="toc" aria-label="Sessions">
-        {sessions.map(([session]) => (
-          <a class="toc-line" href={`#session-${slug(session)}`}>
-            <span class="toc-title">{session}</span>
-            <span class="toc-leader" aria-hidden="true"></span>
-            <span class="toc-page">{grouped.get(session).size} exam{grouped.get(session).size === 1 ? '' : 's'}</span>
-          </a>
-        ))}
-      </nav>
-    )}
+    <h1 class="course-title">{code.toUpperCase()} &mdash; {questions.length > 0 ? questions[0].data.course : code}</h1>
 
     {syllabus ? (
-      <section id="syllabus" class="syllabus" aria-label="Syllabus">
-        <h3>Syllabus</h3>
-        <p class="muted">{syllabus.data.code} — {syllabus.data.title} · {syllabus.data.credits} credits · {syllabus.data.semester}</p>
+      <section class="syllabus-topics">
+        <h2>Syllabus topics</h2>
         <SyllabusContent />
       </section>
-    ) : (
-      <p class="empty-state">Syllabus not available yet.</p>
-    )}
-  </section>
+    ) : null}
 
-  <div class="ornament" aria-hidden="true">* * *</div>
-
-  <section id="papers" class="papers" aria-label="Past papers">
-    <h2 class="section-title">Past papers</h2>
-    <hr class="double-rule" />
-
-    {sessions.map(([session, exams]) => (
-      <section class="session-block" id={`session-${slug(session)}`}>
-        <div class="running-header">
-          <span class="rh-left">{code}</span>
-          <span class="rh-right">{session}</span>
-        </div>
-        <h3 class="session-label">{session}</h3>
-        {[...exams.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([exam, items]) => (
-          <div class="course">
-            <h4>{exam}</h4>
-            <nav class="toc" aria-label={exam}>
-              {items.map((q) => {
-                const hasNotes = Boolean(q.data.notes);
-                const confidence = q.data.ocr_confidence ? q.data.ocr_confidence : null;
-                return (
-                  <a class="toc-line" href={`/brief-history/courses/${courseSlug(code)}/${q.id}/`}>
-                    <span class="toc-title">{q.data.course}</span>
-                    <span class="toc-leader" aria-hidden="true"></span>
-                    <span class="toc-page">
-                      {q.data.year_semester}{q.data.full_marks ? ` · ${q.data.full_marks} marks` : ''}
-                      {confidence ? ` · OCR ${confidence}` : ''}
-                      {hasNotes ? ` · note` : ''}
-                    </span>
-                  </a>
-                );
-              })}
-              {syllabus ? null : null}
-            </nav>
-          </div>
+    <section class="papers-section">
+      <h2>Past questions ({questions.length})</h2>
+      <div class="papers-list">
+        {sessions.map(([session, exams]) => (
+          <section class="session-block" id={`session-${slug(session)}`}>
+            <h3 class="session-label">{session}</h3>
+            {[...exams.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([exam, items]) => (
+              <div class="course">
+                <h4>{exam}</h4>
+                <ul>
+                  {items.map((q) => (
+                    <li class="question-card" key={q.id}>
+                      <a href={`/brief-history/courses/${courseSlug(code)}/${q.id}/`} class="paper-link">
+                        {q.data.course} &mdash; {q.data.exam}
+                      </a>
+                      <p class="question-meta">
+                        <b>{q.data.year_semester}</b>
+                        <span>&bull;</span>
+                        {q.data.full_marks ? <span>{q.data.full_marks} marks</span> : null}
+                        <span>&bull;</span>
+                        {q.data.session}
+                        {q.data.ocr_confidence ? <span>&bull; OCR {q.data.ocr_confidence}</span> : null}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </section>
         ))}
-        <div class="page-number">— {slug(session)} —</div>
-      </section>
-    ))}
-  </section>
+      </div>
+    </section>
 
-  <p class="back-links">
-    <a href="/brief-history/courses/">← Contents</a>
-    <a href="/brief-history/">← Title page</a>
-  </p>
+    <p class="back-links">
+      <a href="/brief-history/browse/">&larr; Back to browse</a>
+    </p>
+  </div>
 </BaseLayout>

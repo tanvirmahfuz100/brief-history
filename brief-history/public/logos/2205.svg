@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <!-- Background Color -->
+  <rect width="100%" height="100%" fill="#1d4ed8" />
+
+  <!-- Background Watermark Text -->
+  <g fill="#173ead" opacity="0.6" font-family="'Times New Roman', Times, serif" font-weight="bold">
+    <text x="500" y="350" font-size="380" text-anchor="middle" textLength="1102" lengthAdjust="spacingAndGlyphs">Income Tax: Laws and Practice</text>
+    <text x="500" y="620" font-size="380" text-anchor="middle" textLength="400" lengthAdjust="spacingAndGlyphs"></text>
+    <text x="500" y="890" font-size="380" text-anchor="middle" textLength="400" lengthAdjust="spacingAndGlyphs"></text>
+  </g>
+
+  <!-- Top Left Yellow Square -->
+  <rect x="0" y="0" width="141" height="141" fill="#f9c77c" />
+
+  <!-- Foreground Main Text -->
+  <g fill="#ffffff" font-family="'Times New Roman', Times, serif">
+    
+    <!-- Large Number "2205" -->
+    <text x="45" y="480" font-size="390" text-anchor="start" letter-spacing="-12">2205</text>
+
+    <!-- Title Text Block -->
+    <g font-size="112" text-anchor="start">
+      <text x="45" y="630" textLength="3248" lengthAdjust="spacingAndGlyphs">Income Tax: Laws and Practice</text>
+      <text x="45" y="740" textLength="0" lengthAdjust="spacingAndGlyphs"></text>
+      <text x="45" y="850" textLength="0" lengthAdjust="spacingAndGlyphs"></text>
+    </g>
+  </g>
+</svg>

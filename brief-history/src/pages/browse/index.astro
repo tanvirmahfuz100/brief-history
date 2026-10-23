@@ -1,0 +1,114 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { courseSlug } from '@/lib/slug';
+
+const questions = await getCollection('questions');
+const byCourse = new Map();
+for (const q of questions) {
+  const key = q.data.course_code;
+  if (!byCourse.has(key)) byCourse.set(key, { code: key, title: q.data.course, department: q.data.department, count: 0 });
+  byCourse.get(key).count++;
+}
+const courses = [...byCourse.values()].sort((a, b) => a.code.localeCompare(b.code));
+const totalPapers = questions.length;
+const totalCourses = courses.length;
+const courseOptions = courses.map(c => `${c.code} — ${c.title}`);
+const exams = [...new Set(questions.map(q => q.data.exam))].sort();
+const sessions = [...new Set(questions.map(q => q.data.session))].sort();
+const departments = [...new Set(questions.map(q => q.data.department).filter(Boolean))].sort();
+const search = new URL(Astro.request.url).searchParams.get('search') || '';
+const courseFilter = new URL(Astro.request.url).searchParams.get('course') || '';
+const examFilter = new URL(Astro.request.url).searchParams.get('exam') || '';
+const sessionFilter = new URL(Astro.request.url).searchParams.get('session') || '';
+const deptFilter = new URL(Astro.request.url).searchParams.get('department') || '';
+
+let filtered = questions;
+if (search) {
+  const s = search.toLowerCase();
+  filtered = filtered.filter(q =>
+    `${q.data.course} ${q.data.exam} ${q.data.session} ${q.data.course_code} ${q.data.year_semester}`.toLowerCase().includes(s)
+  );
+}
+if (courseFilter) {
+  filtered = filtered.filter(q => `${q.data.course_code} — ${q.data.course}` === courseFilter);
+}
+if (examFilter) {
+  filtered = filtered.filter(q => q.data.exam === examFilter);
+}
+if (sessionFilter) {
+  filtered = filtered.filter(q => q.data.session === sessionFilter);
+}
+if (deptFilter) {
+  filtered = filtered.filter(q => q.data.department === deptFilter);
+}
+---
+
+<BaseLayout title="Browse">
+  <div class="container section">
+    <nav class="browse-nav">
+      <a href="/brief-history/">Home</a>
+      <span aria-hidden="true">/</span>
+      <span>Browse</span>
+    </nav>
+
+    <h1 class="browse-title">Browse past questions</h1>
+
+    <div class="filters">
+      <p class="count">
+        <strong>{filtered.length}</strong> of <strong>{totalPapers}</strong> questions across <strong>{totalCourses}</strong> courses
+      </p>
+
+      <form method="GET" action="/brief-history/browse/">
+        <input
+          name="search"
+          class="search-input"
+          type="search"
+          placeholder="Search questions&hellip;"
+          value={search}
+        />
+        <select name="course">
+          <option value="">Course</option>
+          {courseOptions.map((c) => (
+            <option value={c} {c === courseFilter ? 'selected' : null}>{c}</option>
+          ))}
+        </select>
+        <select name="exam">
+          <option value="">Exam</option>
+          {exams.map((e) => (
+            <option value={e} {e === examFilter ? 'selected' : null}>{e}</option>
+          ))}
+        </select>
+        <select name="session">
+          <option value="">Session</option>
+          {sessions.map((s) => (
+            <option value={s} {s === sessionFilter ? 'selected' : null}>{s}</option>
+          ))}
+        </select>
+        <select name="department">
+          <option value="">Department</option>
+          {departments.map((d) => (
+            <option value={d} {d === deptFilter ? 'selected' : null}>{d}</option>
+          ))}
+        </select>
+      </form>
+    </div>
+
+    <nav class="toc" id="course-list">
+      {filtered.map((q) => {
+        const c = courses.find(c => c.code === q.data.course_code);
+        return (
+          <a class="toc-line" href={`/brief-history/courses/${courseSlug(q.data.course_code)}/${q.id}/`}>
+            <span class="toc-title">{q.data.course}</span>
+            <span class="toc-leader" aria-hidden="true"></span>
+            <span class="toc-page">{q.data.course_code} &middot; {q.data.session}</span>
+          </a>
+        );
+      })}
+    </nav>
+
+    {filtered.length === 0 && (
+      <p class="no-results-msg">No questions match your filters.</p>
+    )}
+  </div>
+</BaseLayout>

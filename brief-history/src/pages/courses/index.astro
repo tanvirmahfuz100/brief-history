@@ -11,27 +11,62 @@ for (const q of questions) {
   byCourse.get(key).count++;
 }
 const courses = [...byCourse.values()].sort((a, b) => a.code.localeCompare(b.code));
-const total = courses.length;
+const totalPapers = questions.length;
+const totalCourses = courses.length;
+const courseOptions = courses.map(c => `${c.code} — ${c.title}`);
+const exams = [...new Set(questions.map(q => q.data.exam))].sort();
+const sessions = [...new Set(questions.map(q => q.data.session))].sort();
+const departments = [...new Set(questions.map(q => q.data.department).filter(Boolean))].sort();
 ---
 
-<BaseLayout title="Index">
-  <div class="running-header">
-    <span class="rh-left">A Brief History of Past Questions</span>
-    <span class="rh-right">Index</span>
-  </div>
+<BaseLayout title="Browse">
+  <div class="container section">
+    <nav class="browse-nav">
+      <a href="/brief-history/">Home</a>
+      <span aria-hidden="true">/</span>
+      <span>Browse</span>
+    </nav>
 
-  <section class="index-block" aria-labelledby="index-heading">
-    <h2 id="index-heading">Index</h2>
-    <hr class="double-rule" />
-    <label class="index-label" for="course-filter">Look up in the Index</label>
-    <input
-      class="index-input"
-      id="course-filter"
-      type="search"
-      placeholder="Course, topic or year&hellip;"
-      aria-describedby="index-help"
-    />
-    <p id="index-help" class="no-results" aria-live="polite"></p>
+    <h1 class="browse-title">Browse past questions</h1>
+
+    <div class="filters">
+      <p class="count">
+        <strong>{courses.length}</strong> of <strong>{totalPapers}</strong> questions across <strong>{totalCourses}</strong> courses
+      </p>
+
+      <form method="GET" action="/brief-history/browse/">
+        <input
+          name="search"
+          class="search-input"
+          type="search"
+          placeholder="Search questions&hellip;"
+        />
+        <select name="course">
+          <option value="">Course</option>
+          {courseOptions.map((c) => (
+            <option value={c}>{c}</option>
+          ))}
+        </select>
+        <select name="exam">
+          <option value="">Exam</option>
+          {exams.map((e) => (
+            <option value={e}>{e}</option>
+          ))}
+        </select>
+        <select name="session">
+          <option value="">Session</option>
+          {sessions.map((s) => (
+            <option value={s}>{s}</option>
+          ))}
+        </select>
+        <select name="department">
+          <option value="">Department</option>
+          {departments.map((d) => (
+            <option value={d}>{d}</option>
+          ))}
+        </select>
+      </form>
+    </div>
 
     <nav class="toc" id="course-list">
       {courses.map((c) => (
@@ -42,30 +77,9 @@ const total = courses.length;
         </a>
       ))}
     </nav>
-  </section>
 
-  <p class="muted" style="margin-top:0;">{total} course{total === 1 ? '' : 's'} listed</p>
-
-  <div class="back-links">
-    <a href="/brief-history/">← Title page</a>
+    {courses.length === 0 && (
+      <p class="no-results-msg">No courses match your filters.</p>
+    )}
   </div>
-
-  <script>
-    const input = document.getElementById('course-filter');
-    const empty = document.getElementById('index-help');
-    const lines = document.querySelectorAll('#course-list .toc-line');
-    const totalCount = lines.length;
-    input.addEventListener('input', () => {
-      const q = input.value.toLowerCase();
-      let shown = 0;
-      lines.forEach((li) => {
-        const match = li.textContent.toLowerCase().includes(q);
-        li.hidden = !match;
-        if (match) shown += 1;
-      });
-      empty.hidden = shown !== 0 || q === '';
-      empty.textContent = q && shown === 0 ? 'No courses match “' + input.value + '”.' : '';
-      empty.classList.toggle('visible', q !== '' && shown === 0);
-    });
-  </script>
 </BaseLayout>

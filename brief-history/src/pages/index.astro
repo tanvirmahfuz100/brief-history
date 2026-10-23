@@ -1,100 +1,41 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { courseSlug } from '@/lib/slug';
 
 const questions = await getCollection('questions');
-const courses = [...new Set(questions.map(q => q.data.course_code))].sort();
-const byCourse = new Map();
-for (const q of questions) {
-  const key = q.data.course_code;
-  if (!byCourse.has(key)) byCourse.set(key, { code: key, title: q.data.course, department: q.data.department, count: 0 });
-  byCourse.get(key).count++;
-}
-const courseList = [...byCourse.values()].sort((a, b) => a.code.localeCompare(b.code));
+const courseCount = [...new Set(questions.map(q => q.data.course_code))].length;
+const paperCount = questions.length;
 ---
 
 <BaseLayout title="Home">
-  <div class="title-page">
-    <h1>A Brief History of Past Questions</h1>
-    <p class="subtitle">Being a Complete Record of Examination Questions</p>
-    <p class="edition">First Edition</p>
-  </div>
+  <div class="container section">
+    <h1 class="home-title">A Brief History of Past Questions</h1>
+    <p class="home-subtitle">
+      Public, login-free archive of past exam questions for the Department of
+      Accounting &amp; Information Systems, University of Barishal.
+    </p>
 
-  <section aria-labelledby="toc-heading">
-    <h2 id="toc-heading">Table of Contents</h2>
-    <hr class="double-rule" />
-    <nav class="toc" id="toc">
-      {courseList.map((c) => (
-        <a class="toc-line" href={`/brief-history/courses/${courseSlug(c.code)}/`}>
-          <span class="toc-title">{c.code}</span>
-          <span class="toc-leader" aria-hidden="true"></span>
-          <span class="toc-page">{c.title}</span>
-        </a>
-      ))}
-    </nav>
-  </section>
+    <form class="search-form" action="/brief-history/browse/" method="GET">
+      <label class="search-label" for="search">Search questions</label>
+      <input
+        id="search"
+        name="search"
+        class="search-input"
+        type="search"
+        placeholder="e.g. depreciation, bank reconciliation, AIS 1101&hellip;"
+        required
+      />
+      <button type="submit" class="search-btn">Go to results</button>
+    </form>
 
-  <div class="ornament" aria-hidden="true">* * *</div>
-
-  <section class="preface" aria-labelledby="preface-heading">
-    <h2 id="preface-heading">Preface</h2>
-    <hr class="double-rule" />
     <p>
-      This volume gathers, in one place, the midterm and semester examination
-      questions that have been asked of accounting students from one batch to
-      the next. It is offered not as a substitute for study, but as a
-      companion to it: a way of seeing the shape of the questions across the
-      years, and of noticing how the same ideas keep returning in new clothes.
-      — The Editor
+      Or
+      <a href="/brief-history/browse/" class="browse-link">browse the full archive</a>
+      .
     </p>
-    <p class="muted">
-      {questions.length} papers across {courses.length} courses. Session and
-      exam metadata preserved from the original papers.
+
+    <p class="count-line">
+      <strong>{paperCount}</strong> papers across <strong>{courseCount}</strong> courses.
     </p>
-  </section>
-
-  <div class="halftone" aria-hidden="true"></div>
-
-  <section class="index-block" aria-labelledby="index-heading">
-    <h2 id="index-heading">Index</h2>
-    <hr class="double-rule" />
-    <label class="index-label" for="course-filter">Look up in the Index</label>
-    <input
-      class="index-input"
-      id="course-filter"
-      type="search"
-      placeholder="Course, topic or year&hellip;"
-      aria-describedby="index-help"
-    />
-    <p id="index-help" class="no-results" aria-live="polite"></p>
-    <nav class="toc" id="course-list">
-      {courseList.map((c) => (
-        <a class="toc-line" href={`/brief-history/courses/${courseSlug(c.code)}/`}>
-          <span class="toc-title">{c.code} · {c.title}</span>
-          <span class="toc-leader" aria-hidden="true"></span>
-          <span class="toc-page">{c.count} p.</span>
-        </a>
-      ))}
-    </nav>
-  </section>
-
-  <script>
-    const input = document.getElementById('course-filter');
-    const empty = document.getElementById('index-help');
-    const lines = document.querySelectorAll('#toc .toc-line, #course-list .toc-line');
-    const total = lines.length;
-    input.addEventListener('input', () => {
-      const q = input.value.toLowerCase();
-      let shown = 0;
-      lines.forEach((li) => {
-        const match = li.textContent.toLowerCase().includes(q);
-        li.hidden = !match;
-        if (match) shown += 1;
-      });
-      empty.hidden = shown !== 0 || q === '';
-      empty.textContent = q && shown === 0 ? 'No questions match “' + input.value + '”.' : '';
-      empty.classList.toggle('visible', q !== '' && shown === 0);
-    });
-  </script>
+  </div>
 </BaseLayout>
