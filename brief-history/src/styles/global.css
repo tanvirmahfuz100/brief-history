@@ -1,0 +1,255 @@
+/* Brief History Website — editorial design tokens and base styles.
+   Warm paper surface, dark ink, one restrained accent, serif display
+   type for headings, sans-serif for controls and metadata. */
+
+:root {
+  --color-paper: #f7f4ec;
+  --color-ink: #2b2520;
+  --color-muted: #6b6156;
+  --color-accent: #8a5a2b;
+  --color-accent-hover: #a66f3a;
+  --color-border: #d9d3c4;
+  --color-surface: #ffffff;
+  --color-confidence: #8a5a2b;
+  --font-serif: 'Georgia', 'Times New Roman', 'Bitstream Charter', serif;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  --radius: 6px;
+  --max-width: 720px;
+  --nav-height: 56px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+
+body {
+  margin: 0;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  margin-top: 0;
+  line-height: 1.25;
+  font-weight: 700;
+  color: var(--color-ink);
+}
+h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+h2 { font-size: 1.5rem; margin: 1.75rem 0 0.5rem; border-bottom: 1px solid var(--color-border); padding-bottom: 0.25rem; }
+h3 { font-size: 1.25rem; margin: 1.5rem 0 0.4rem; }
+h4 { font-size: 1.05rem; margin: 1.25rem 0 0.35rem; }
+
+p { margin: 0 0 1rem; }
+ul, ol { margin: 0 0 1rem; padding-left: 1.25rem; }
+li { margin-bottom: 0.25rem; }
+
+a { color: var(--color-accent); text-decoration: underline; }
+a:focus-visible { outline: 3px solid var(--color-accent); outline-offset: 2px; }
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: 100;
+}
+.skip-link:focus {
+  position: fixed;
+  top: var(--nav-height);
+  left: 1rem;
+  width: auto;
+  height: auto;
+  padding: 0.5rem 1rem;
+  background: var(--color-accent);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: var(--radius);
+  font-weight: 700;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  z-index: 50;
+}
+.site-nav {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  height: var(--nav-height);
+}
+.brand {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-ink);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.brand:hover { text-decoration: underline; color: var(--color-accent); }
+
+.page {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+.breadcrumbs {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  margin-bottom: 1rem;
+  white-space: nowrap;
+  overflow-x: auto;
+  padding-bottom: 0.4rem;
+}
+.breadcrumbs a { color: var(--color-ink); text-decoration: none; }
+.breadcrumbs a:hover { text-decoration: underline; }
+
+.muted { color: var(--color-muted); font-size: 0.95rem; }
+
+.empty-state {
+  color: var(--color-muted);
+  font-size: 0.95rem;
+  background: var(--color-surface);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+}
+
+.session-label {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  margin: 1.75rem 0 0.5rem;
+  color: var(--color-ink);
+}
+.exam-label {
+  font-size: 1rem;
+  color: var(--color-ink);
+  margin: 1rem 0 0.4rem;
+  font-weight: 700;
+}
+
+.paper-list { list-style: none; padding: 0; margin: 0; }
+.paper-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.paper-title {
+  text-decoration: none;
+  color: var(--color-ink);
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+}
+.paper-title:hover { text-decoration: underline; color: var(--color-accent); }
+.paper-meta {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.paper-source { font-size: 0.85rem; color: var(--color-muted); margin: 0; }
+.paper-confidence {
+  font-size: 0.85rem;
+  color: var(--color-confidence);
+  margin: 0;
+  font-weight: 600;
+}
+.paper-notes {
+  font-size: 0.9rem;
+  color: var(--color-ink);
+  margin: 0;
+  background: var(--color-paper);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 0.5rem 0.75rem;
+}
+
+.provenance {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.25rem 0.75rem;
+  font-size: 0.9rem;
+  margin: 0.75rem 0;
+}
+.provenance dt {
+  color: var(--color-muted);
+  font-weight: 600;
+  margin: 0;
+}
+.provenance dd { margin: 0; color: var(--color-ink); word-break: break-word; }
+
+details summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.confidence-notice {
+  background: #fdf6ec;
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-accent);
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+
+.back-links { margin: 1.5rem 0 0; font-size: 0.95rem; }
+.back-links a {
+  color: var(--color-ink);
+  text-decoration: none;
+  font-weight: 600;
+}
+.back-links a:hover { text-decoration: underline; color: var(--color-accent); }
+
+.site-footer {
+  max-width: var(--max-width);
+  margin: 2rem auto 0;
+  padding: 1.5rem 1rem 2rem;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+.site-footer p { margin: 0 0 0.5rem; }
+
+@media (max-width: 480px) {
+  .page { padding: 1rem 0.75rem 2rem; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.25rem; margin: 1.4rem 0 0.4rem; }
+  .site-nav { gap: 1rem; padding: 0 0.75rem; }
+  .brand { font-size: 1.1rem; }
+  table { display: block; overflow-x: auto; }
+}

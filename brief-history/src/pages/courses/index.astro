@@ -1,4 +1,5 @@
 ---
+import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 const questions = await getCollection('questions');
 const byCourse = new Map();
@@ -9,13 +10,11 @@ for (const q of questions) {
 }
 const courses = [...byCourse.values()].sort((a,b)=>a.code.localeCompare(b.code));
 ---
-<html lang="en">
-  <head><meta charset="utf-8" /><title>Courses</title></head>
-  <body>
-    <h1>Courses</h1>
-    <ul>
-      {courses.map(c => <li>{c.code} — {c.title} ({c.count})</li>)}
-    </ul>
-    <a href="/brief-history/">Home</a>
-  </body>
-</html>
+
+<BaseLayout title="Courses">
+  <h1>Courses</h1>
+  <ul>
+    {courses.map(c => <li>{c.code} — {c.title} ({c.count})</li>)}
+  </ul>
+  <a href="/brief-history/">Home</a>
+</BaseLayout>

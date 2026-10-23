@@ -1,4 +1,5 @@
 ---
+import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { courseSlug } from '@/lib/slug';
 
@@ -26,78 +27,57 @@ for (const q of questions) {
 const sessions = [...grouped.entries()].sort((a, b) => a[0].localeCompare(b[0]));
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{code} — A Brief History of Past Questions</title>
-    <link rel="stylesheet" href="/brief-history/styles.css" />
-  </head>
-  <body>
-    <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
-      <nav class="site-nav">
-        <a class="brand" href="/brief-history/">A Brief History of Past Questions</a>
-        <a href="/brief-history/courses/">Courses</a>
-      </nav>
-    </header>
+<BaseLayout title={code}>
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="/brief-history/">Home</a> › <a href="/brief-history/courses/">Courses</a> › <span>{code}</span>
+  </nav>
 
-    <main id="main" class="page">
-      <nav class="breadcrumbs" aria-label="Breadcrumb">
-        <a href="/brief-history/">Home</a> › <a href="/brief-history/courses/">Courses</a> › <span>{code}</span>
-      </nav>
+  <section class="course-head">
+    <h1>{code}</h1>
+    <p class="muted">{questions.length} paper{questions.length === 1 ? '' : 's'} across {sessions.length} session{sessions.length === 1 ? '' : 's'}</p>
+  </section>
 
-      <section class="course-head">
-        <h1>{code}</h1>
-        <p class="muted">{questions.length} paper{questions.length === 1 ? '' : 's'} across {sessions.length} session{sessions.length === 1 ? '' : 's'}</p>
-      </section>
+  <section id="syllabus" class="syllabus" aria-label="Syllabus">
+    <h2>Syllabus</h2>
+    <p class="empty-state">Syllabus not available yet.</p>
+  </section>
 
-      <section id="syllabus" class="syllabus" aria-label="Syllabus">
-        <h2>Syllabus</h2>
-        <p class="empty-state">Syllabus not available yet.</p>
-      </section>
-
-      <section id="papers" class="papers" aria-label="Past papers">
-        <h2>Past papers</h2>
-        {sessions.map(([session, exams]) => (
-          <section class="session-block">
-            <h3 class="session-label">{session}</h3>
-            {[...exams.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([exam, items]) => (
-              <div class="exam-block">
-                <h4 class="exam-label">{exam}</h4>
-                <ul class="paper-list">
-                  {items.map(q => {
-                    const hasNotes = Boolean(q.data.notes);
-                    const confidence = q.data.ocr_confidence ? q.data.ocr_confidence : null;
-                    return (
-                      <li class="paper-card">
-                        <a class="paper-title" href={`/brief-history/courses/${courseSlug(code)}/${q.id}/`}>
-                          {q.data.course}
-                        </a>
-                        <p class="paper-meta">
-                          <span>{q.data.session}</span> · <span>{q.data.exam}</span>
-                          {q.data.full_marks ? <> · <span>Full marks: {q.data.full_marks}</span></> : null}
-                          {q.data.time ? <> · <span>Time: {q.data.time}</span></> : null}
-                        </p>
-                        <p class="paper-source">
-                          Source: {q.data.source_file || 'unknown'} · Pages: {q.data.pages.length ? q.data.pages.join(', ') : 'unknown'}
-                        </p>
-                        {confidence ? <p class="paper-confidence">OCR confidence: {confidence}</p> : null}
-                        {hasNotes ? <p class="paper-notes" role="note">Transcription note: {q.data.notes}</p> : null}
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
-            ))}
-          </section>
+  <section id="papers" class="papers" aria-label="Past papers">
+    <h2>Past papers</h2>
+    {sessions.map(([session, exams]) => (
+      <section class="session-block">
+        <h3 class="session-label">{session}</h3>
+        {[...exams.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([exam, items]) => (
+          <div class="exam-block">
+            <h4 class="exam-label">{exam}</h4>
+            <ul class="paper-list">
+              {items.map(q => {
+                const hasNotes = Boolean(q.data.notes);
+                const confidence = q.data.ocr_confidence ? q.data.ocr_confidence : null;
+                return (
+                  <li class="paper-card">
+                    <a class="paper-title" href={`/brief-history/courses/${courseSlug(code)}/${q.id}/`}>
+                      {q.data.course}
+                    </a>
+                    <p class="paper-meta">
+                      <span>{q.data.session}</span> · <span>{q.data.exam}</span>
+                      {q.data.full_marks ? <> · <span>Full marks: {q.data.full_marks}</span></> : null}
+                      {q.data.time ? <> · <span>Time: {q.data.time}</span></> : null}
+                    </p>
+                    <p class="paper-source">
+                      Source: {q.data.source_file || 'unknown'} · Pages: {q.data.pages.length ? q.data.pages.join(', ') : 'unknown'}
+                    </p>
+                    {confidence ? <p class="paper-confidence">OCR confidence: {confidence}</p> : null}
+                    {hasNotes ? <p class="paper-notes" role="note">Transcription note: {q.data.notes}</p> : null}
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
         ))}
       </section>
-    </main>
+    ))}
+  </section>
 
-    <footer class="site-footer">
-      <p>A Project of Theory of Readability</p>
-      <a href="/brief-history/courses/">Back to courses</a>
-    </footer>
-  </body>
-</html>
+  <p class="back-links"><a href="/brief-history/courses/">← Back to courses</a></p>
+</BaseLayout>
