@@ -17,21 +17,21 @@ const pageTitle = title ? `${title} — ${siteTitle}` : siteTitle;
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
 
-    <header>
+    <header class="site-header">
       <div class="bar">
         <a class="brand" href="/brief-history/">
           <img src="/brief-history/logo.png" alt="Brief History logo" width="24" height="24" loading="eager" />
-          Brief History
+          <span>Brief History</span>
         </a>
 
-        <nav>
+        <nav class="main-nav">
           <a href="/brief-history/browse/">Browse</a>
           <a href="/brief-history/tools/">Tools</a>
           <a href="/brief-history/report/">Report</a>
         </nav>
 
         <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
-          <svg viewBox="0 0 20 20" aria-hidden="true" style="color: var(--color-ink); width: 20px; height: 20px; display: block;">
+          <svg viewBox="0 0 20 20" aria-hidden="true" style="color: #ffffff; width: 20px; height: 20px; display: block;">
             <line x1="3" y1="7" x2="17" y2="7" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
             <line x1="3" y1="10" x2="17" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
             <line x1="3" y1="13" x2="17" y2="13" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
@@ -50,7 +50,7 @@ const pageTitle = title ? `${title} — ${siteTitle}` : siteTitle;
       <slot />
     </main>
 
-    <footer>
+    <footer class="site-footer">
       <div class="inner">
         <p>Department of Accounting &amp; Information Systems, University of Barishal.</p>
         <p>A Brief History of Past Questions &mdash; public, login-free archive.</p>

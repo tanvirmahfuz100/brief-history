@@ -36,7 +36,6 @@ const yearGroups = [
   { label: '4th Year', volumes: semesterVolumes.filter(v => v.volume === 'VII' || v.volume === 'VIII') },
 ];
 
-const totalVolPapers = semesterVolumes.reduce((sum, v) => sum + v.paperCount, 0);
 const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
 
 // Most papers: top courses by paper count
@@ -53,41 +52,44 @@ const topCourses = [...coursePaperCounts.entries()]
 // Newly added: most recent papers by ID (descending)
 const newlyAdded = [...questions].sort((a, b) => b.id.localeCompare(a.id)).slice(0, 5);
 
-// Last updated: use the most recent file modification via ID heuristic
+// Last updated: use current date
 const lastUpdated = new Date().toLocaleDateString('en-BD', { year: 'numeric', month: 'long', day: 'numeric' });
 ---
 
 <BaseLayout title="Home">
   <div class="container section">
-    <h1 class="home-title">A Brief History of Past Questions</h1>
-    <p class="home-subtitle">
-      Public, login-free archive of past exam questions for the Department of
-      Accounting &amp; Information Systems, University of Barishal.
-    </p>
+    <!-- Hero section -->
+    <section class="home-hero">
+      <h1 class="home-title">A Brief History of Past Questions</h1>
+      <p class="home-subtitle">
+        Public, login-free archive of past exam questions for the Department of
+        Accounting &amp; Information Systems, University of Barishal.
+      </p>
 
-    <form class="search-form" action="/brief-history/browse/" method="GET">
-      <label class="search-label" for="search">Search questions</label>
-      <input
-        id="search"
-        name="search"
-        class="search-input"
-        type="search"
-        placeholder="e.g. depreciation, bank reconciliation, AIS 1101&hellip;"
-        required
-      />
-      <button type="submit" class="search-btn">Go to results</button>
-    </form>
+      <form class="search-form" action="/brief-history/browse/" method="GET">
+        <label class="search-label" for="search">Search questions</label>
+        <input
+          id="search"
+          name="search"
+          class="search-input"
+          type="search"
+          placeholder="e.g. depreciation, bank reconciliation, AIS 1101&hellip;"
+          required
+        />
+        <button type="submit" class="search-btn">Go to results</button>
+      </form>
 
-    <p>
-      Or
-      <a href="/brief-history/browse/" class="browse-link">browse the full archive</a>
-      .
-    </p>
+      <p class="count-line">
+        <strong>{paperCount}</strong> papers across <strong>{courseCount}</strong> courses &middot; <strong>{semesterVolumes.length}</strong> semesters
+      </p>
 
-    <p class="count-line">
-      <strong>{paperCount}</strong> papers across <strong>{courseCount}</strong> courses &middot; <strong>{semesterVolumes.length}</strong> semesters
-    </p>
+      <p>
+        Or
+        <a href="/brief-history/browse/" class="browse-link">browse the full archive &rarr;</a>
+      </p>
+    </section>
 
+    <!-- Semesters -->
     <section class="semesters" aria-label="Semesters">
       <h2 class="semester-heading">Semesters</h2>
       {yearGroups.map((year) => (
@@ -117,6 +119,7 @@ const lastUpdated = new Date().toLocaleDateString('en-BD', { year: 'numeric', mo
       ))}
     </section>
 
+    <!-- Quick actions -->
     <section class="quick-actions" aria-label="Quick actions">
       <h2 class="quick-actions-heading">Quick actions</h2>
       <div class="quick-actions-grid">
@@ -135,6 +138,7 @@ const lastUpdated = new Date().toLocaleDateString('en-BD', { year: 'numeric', mo
       </div>
     </section>
 
+    <!-- Recently searched -->
     <section class="recent-searches" aria-label="Recently searched">
       <h2 class="recent-heading">Recently searched</h2>
       <div class="recent-list" id="recent-list">
@@ -142,6 +146,7 @@ const lastUpdated = new Date().toLocaleDateString('en-BD', { year: 'numeric', mo
       </div>
     </section>
 
+    <!-- Most papers -->
     <section class="top-courses" aria-label="Most papers">
       <h2 class="top-heading">Most papers</h2>
       <div class="top-list">
@@ -158,6 +163,7 @@ const lastUpdated = new Date().toLocaleDateString('en-BD', { year: 'numeric', mo
       </div>
     </section>
 
+    <!-- Newly added -->
     <section class="newly-added" aria-label="Newly added">
       <h2 class="new-heading">Newly added</h2>
       <ul class="new-list">
@@ -172,10 +178,11 @@ const lastUpdated = new Date().toLocaleDateString('en-BD', { year: 'numeric', mo
       </ul>
     </section>
 
+    <!-- Videos -->
     <section class="videos" aria-label="Videos">
       <h2 class="videos-heading">Videos</h2>
       <p class="videos-intro">
-        Learn with video lessons. <strong>Pinned:</strong> from our channel · <strong>Suggestions:</strong> from YouTube.
+        Learn with video lessons. <strong>Pinned:</strong> from our channel &middot; <strong>Suggestions:</strong> from YouTube.
       </p>
       <div class="videos-grid">
         {ownChannelVideos().map((v) => (
@@ -203,6 +210,7 @@ const lastUpdated = new Date().toLocaleDateString('en-BD', { year: 'numeric', mo
       </p>
     </section>
 
+    <!-- Blogs -->
     <section class="blogs" aria-label="Blogs">
       <h2 class="blogs-heading">Blogs</h2>
       <div class="blogs-grid">
@@ -235,6 +243,7 @@ const lastUpdated = new Date().toLocaleDateString('en-BD', { year: 'numeric', mo
       </p>
     </section>
 
+    <!-- Footer meta -->
     <div class="home-footer-meta" aria-label="Site metadata">
       <p class="report-link">
         <a href="mailto:abhq@ub.edu.bd?subject=Report%20a%20question">Report a question</a>
@@ -277,7 +286,6 @@ const lastUpdated = new Date().toLocaleDateString('en-BD', { year: 'numeric', mo
       });
     }
 
-    // Capture searches from the search form on this page
     const form = document.querySelector('.search-form');
     if (form) {
       form.addEventListener('submit', function (e) {
