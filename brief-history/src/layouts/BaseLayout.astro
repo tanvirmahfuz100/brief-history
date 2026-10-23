@@ -30,11 +30,11 @@ const pageTitle = title ? `${title} — ${siteTitle}` : siteTitle;
           <a href="/brief-history/report/">Report</a>
         </nav>
 
-        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
-          <svg viewBox="0 0 20 20" aria-hidden="true">
-            <line x1="3" y1="7" x2="17" y2="7" />
-            <line x1="3" y1="10" x2="17" y2="10" />
-            <line x1="3" y1="13" x2="17" y2="13" />
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg viewBox="0 0 20 20" aria-hidden="true" style="color: var(--color-ink); width: 20px; height: 20px; display: block;">
+            <line x1="3" y1="7" x2="17" y2="7" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            <line x1="3" y1="10" x2="17" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            <line x1="3" y1="13" x2="17" y2="13" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
           </svg>
         </button>
       </div>
@@ -56,5 +56,18 @@ const pageTitle = title ? `${title} — ${siteTitle}` : siteTitle;
         <p>A Brief History of Past Questions &mdash; public, login-free archive.</p>
       </div>
     </footer>
+
+    <script>
+      (function () {
+        var btn = document.querySelector('.menu-toggle');
+        var menu = document.getElementById('mobile-menu');
+        if (!btn || !menu) return;
+        btn.addEventListener('click', function () {
+          var open = menu.classList.contains('open');
+          btn.setAttribute('aria-expanded', String(!open));
+          menu.classList.toggle('open');
+        });
+      })();
+    </script>
   </body>
 </html>

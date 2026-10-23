@@ -114,6 +114,7 @@ header .menu-toggle svg { width: 20px; height: 20px; fill: none; stroke: current
 
 /* Mobile menu */
 .mobile-menu { display: none; border-top: 1px solid var(--color-rule); background: var(--color-surface); padding: 1.5rem; font-family: var(--font-ui); font-size: 14px; }
+.mobile-menu.open { display: block; }
 .mobile-menu a { display: block; padding: 0.75rem 0; text-decoration: none; color: var(--color-ink); }
 .mobile-menu a:hover { color: var(--color-accent); }
 
