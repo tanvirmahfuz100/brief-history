@@ -1,0 +1,1 @@
+../../incoming/pdf-ais-11-mid-p06-06__mathematics-for-business-decision-i__2022-23__1st-mid-term.md

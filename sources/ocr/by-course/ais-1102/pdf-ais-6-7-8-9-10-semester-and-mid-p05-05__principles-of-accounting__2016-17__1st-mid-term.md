@@ -1,0 +1,1 @@
+../../incoming/pdf-ais-6-7-8-9-10-semester-and-mid-p05-05__principles-of-accounting__2016-17__1st-mid-term.md

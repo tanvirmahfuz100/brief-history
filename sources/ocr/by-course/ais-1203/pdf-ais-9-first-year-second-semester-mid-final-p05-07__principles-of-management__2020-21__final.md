@@ -1,0 +1,1 @@
+../../incoming/pdf-ais-9-first-year-second-semester-mid-final-p05-07__principles-of-management__2020-21__final.md

@@ -1,0 +1,127 @@
+Construct a Paasche index for each year using 1994 as the base period 
+(6)
+The data below
+random sample of 9 firms chosen from the "Digest of Earnings Reports" in The Wall
+Street Journal on February 6, 2012:
+0) Find the mean change in earnings per share between 2011 and 2012.
+b) Find the standard deviation of the change and the standard error of the mean:
+09
+c) Were average eamingsper share different in 20L1_and 20122 Test at &= 0.01.
+Firm
+2011 eamings
+1.38
+1.26
+3.64
+3.50
+2.47
+3.21
+1.05
+047
+2012
+Earnings
+2.48
+1.50
+4.59
+3.06
+2.11
+2.80
+1.59
+5.
+(a)
+Differentiate between one tailed test and two tailed test_
+03
+(b)
+In & random sample of 500 persons from town A, 200 are found to be
+of wheat; In a sample of
+400
+town B, 220 are found to be consumers of wheat_
+Do these data reveal a significant difference
+between town A and town B so far as the
+proportion of wheat consumer is concerned? Test at 5% level of
+06
+significance.
+The following data show annual hours missed due to illness for the 24 men and women at the Northern
+Parking Company: At the 0.10 level of significance; is there ay difference attributable to gender? Use
+Mann-Whitney U test
+06
+Men
+31
+44
+25
+30
+70
+63
+54
+42
+36
+22
+55
+50
+Women
+38
+34
+33
+47
+58
+83
+18
+36
+41
+37
+24
+48
+6
+(a)
+A
+cigarette company interested in the effect of gender on the type of cigarettes smoked and has collected
+the
+following data from a random sample of 150 person:
+Cigarette
+Male
+Female
+Total
+30
+25
+55
+06
+B
+15
+40
+55
+10
+30
+40
+Total
+55
+95
+150
+Test whether the types of cigarette aRd sex are independent
+The following table gives monthly sales
+in
+000 Tk
+of a certain firm in three states by its four salesman:
+States
+Salesman
+II
+IV
+A
+5
+8
+B
+8
+5
+09
+10
+7
+Test whether there is any significant difference:
+13
+Between sales by the four salesman
+ii,
+Between sales in the three states
+iii:
+are
+272
+1.98
+092
+consumers
+from

@@ -1,0 +1,1 @@
+../../incoming/pdf-ais-10-first-year-second-semseter-final-questions-p06__microeconomics__2021-22__final.md

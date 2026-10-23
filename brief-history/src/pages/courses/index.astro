@@ -71,7 +71,7 @@ const departments = [...new Set(questions.map(q => q.data.department).filter(Boo
     <nav class="toc" id="course-list">
       {courses.map((c) => (
         <a class="toc-line" href={`/brief-history/courses/${courseSlug(c.code)}/`}>
-          <span class="toc-title">{c.code}</span>
+          <span class="toc-title">{c.code.toUpperCase()}</span>
           <span class="toc-leader" aria-hidden="true"></span>
           <span class="toc-page">{c.title}</span>
         </a>

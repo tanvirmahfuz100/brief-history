@@ -1,0 +1,1 @@
+../../incoming/pdf-ais-10-mid-p04__business-communication-and-report-writing__2021-22__2nd-mid-term.md

@@ -1,0 +1,1 @@
+../../incoming/pdf-ais-10-mid-term-questions-first-year-second-semester-p06__microeconomics__unknown__2nd-mid-term.md

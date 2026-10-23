@@ -1,0 +1,1 @@
+../../incoming/pdf-ais-10-mid-term-questions-first-year-second-semester-p03-04__principles-of-management__2021-22__mid-term.md

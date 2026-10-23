@@ -1,0 +1,3715 @@
+# AIS BBA Curriculum — 2022-23 (11th Batch) — Extracted Catalog
+
+Source: `Syllabus` (128-page PDF, University of Barishal, Department of Accounting & Information Systems).
+Effective from the 11th batch, session 2022-2023. Only the AIS curriculum section is used; the Management Studies program that also appears in Part C is excluded.
+
+## Program facts
+
+- Degree: BBA (Hons.) in Accounting and Information Systems, 4 years / 8 semesters.
+- Total: 136 credits (127 course credits + 6 viva + 3 internship).
+- Each course: 100 marks = 40 continuous assessment (attendance 5, tutorial/assignment 10, two midterms 20, class performance 5) + 60 semester final.
+- Semester final: 3 hours, 60 marks; scripts double-examined, third examiner if >20% difference.
+- Class hours: 45 per course (60 for 4-credit courses); 24-week semester (20 teaching + 1 prep + 3 exam).
+
+## Semester-wise course map
+
+| Semester | Code | Course | Credits |
+|---|---|---|---:|
+| First Year First Semester | 1101 | Introduction to Financial Accounting | 3 |
+| First Year First Semester | 1102 | Introduction to Business | 3 |
+| First Year First Semester | 1103 | Business Communication and Report Writing | 3 |
+| First Year First Semester | 1104 | Mathematics for Business Decisions-I | 3 |
+| First Year First Semester | 1105 | History of the Emergence of Bangladesh | 4 |
+| First Year Second Semester | 1201 | Intermediate Accounting | 3 |
+| First Year Second Semester | 1202 | Microeconomics | 3 |
+| First Year Second Semester | 1203 | Management | 3 |
+| First Year Second Semester | 1204 | Mathematics for Business Decisions-II | 3 |
+| First Year Second Semester | 1205 | Computer Concepts and Application | 2 |
+| First Year Second Semester | 1206 | Lab: Office Application | 2 |
+| Second Year First Semester | 2101 | Advanced Financial Accounting-I | 3 |
+| Second Year First Semester | 2102 | Macroeconomics | 3 |
+| Second Year First Semester | 2103 | Business Statistics-I | 3 |
+| Second Year First Semester | 2104 | Business Laws | 3 |
+| Second Year First Semester | 2105 | Financial Management | 3 |
+| Second Year Second Semester | 2201 | Advanced Financial Accounting-II | 3 |
+| Second Year Second Semester | 2202 | Corporate Laws and Secretarial Practices | 3 |
+| Second Year Second Semester | 2203 | Business Statistics-II | 3 |
+| Second Year Second Semester | 2204 | Marketing | 3 |
+| Second Year Second Semester | 2205 | Income Tax: Laws and Practice | 3 |
+| Second Year Second Semester | 2206 | Lab: Programming and Database Management | 2 |
+| Third Year First Semester | 3101 | Cost Accounting | 3 |
+| Third Year First Semester | 3102 | Corporate Finance | 3 |
+| Third Year First Semester | 3103 | Audit and Assurance | 3 |
+| Third Year First Semester | 3104 | Banking and Insurance | 3 |
+| Third Year First Semester | 3105 | VAT and Cross-Border Taxation | 3 |
+| Third Year First Semester | 3106 | Entrepreneurship and Business Development | 1 |
+| Third Year Second Semester | 3201 | Management Accounting | 3 |
+| Third Year Second Semester | 3202 | Corporate Reporting | 3 |
+| Third Year Second Semester | 3203 | Forensic Accounting | 3 |
+| Third Year Second Semester | 3204 | Organizational Behavior | 3 |
+| Third Year Second Semester | 3205 | Accounting Information Systems | 2 |
+| Third Year Second Semester | 3206 | Lab: Enterprise Resource Planning | 2 |
+| Fourth Year First Semester | 4101 | Advanced Management Accounting | 3 |
+| Fourth Year First Semester | 4102 | Financial Market and Investment Analysis | 3 |
+| Fourth Year First Semester | 4103 | Public Sector and NGO Accounting | 3 |
+| Fourth Year First Semester | 4104 | Supply Chain and Operation Management | 3 |
+| Fourth Year First Semester | 4105 | IT Governance and Information System Audit | 3 |
+| Fourth Year Second Semester | 4201 | Accounting Theory | 3 |
+| Fourth Year Second Semester | 4202 | Business Analysis and Valuation | 3 |
+| Fourth Year Second Semester | 4203 | Research Methodology | 3 |
+| Fourth Year Second Semester | 4204 | Strategic Management | 3 |
+| Fourth Year Second Semester | 4205 | Data Analytics | 2 |
+| Fourth Year Second Semester | 4206 | Lab: Application of Data Analytic Tools | 2 |
+
+## Detailed course outlines
+
+### First Year First Semester
+
+#### 1101 — Introduction to Financial Accounting (3 credits)
+
+**Course objectives.** The objective of this course is to develop students’ understanding of basic concepts of accounting, accounting process, and the application of the conceptual framework in such process in order to develop their abilities to complete the accounting cycle ending with preparation and presentation of financial statements. This course will also try to equip the students with the knowledge and ability to understand and analyze the information communicated through the financial statements.
+
+**Intended learning outcomes.**
+
+Upon completion of the course, students should be able to:
+1. Explain what accounting is and its purpose and nature.
+2. Understand the key sources of regulation of accounting, particularly in Bangladesh.
+3. Explain the key components of IASB conceptual framework and their use.
+4. Identify the recording process and steps of accounting cycle.
+5. Understand the difference between service and merchandising companies, including
+inventory recording process of merchandising concern.
+6. Understand the system design of accounting; and
+7. Prepare statement of financial position, statement of profit or loss and other
+comprehensive income and statement of changes in equity.
+8. Understand why cash book and bank statement differ and how they are reconciled.
+
+**Detailed contents.**
+
+1.
+
+Introduction to Accounting: [ILO 1]
+Definition of Accounting; Uses and Users of Accounting Information; Measurement
+Principles; Assumptions; Elements of Financial Statements; Basic Accounting Equation;
+Transaction analysis; Financial Statements.
+2. Accounting Regulation and Conceptual Framework: [ILO 2, ILO 3]
+The IFRS Foundation; the IASB; Setting of IFRS; Standard Setting Process in Bangladesh;
+the Financial Reporting Council (FRC); the Companies Act 1994; the Securities and
+Exchange Rules 1987; BSEC Directives; the Income Tax Act 2023; the ICAB; ICMAB;
+GAAP; IASB vs FASB.
+IASB Conceptual Framework: Introduction; Objective of General-Purpose Financial
+Reporting; Assumptions and Principles; Qualitative Characteristics of Useful Financial
+Information; Financial Statements and the Reporting Entity; Elements of Financial
+Statements; Recognition and Derecognition; Measurement; Presentation and Disclosure;
+Concepts of Capital and Capital Maintenance.
+
+3.
+
+The Recording Process and Accounting Cycle: [ILO 4]
+Nature of Business: Manufacturer, Merchandizer, and Service Provider.
+Types of Business: Sole Proprietorship, Partnership and companies.
+The Account; Chart of Account; Debit Credit Procedures; Double-Entry Accounting
+System; Recording process: Journal, Ledger, Trail balance, Adjustments; Need for
+Adjustments; Adjusted Trial Balance; Preparation of Financial Statements; Closing Entries;
+Post-Closing Trial Balance; Preparation of Work Sheet and Reversing Entries; Correcting
+Entries.
+4. Accounting for Merchandising Concern: [ILO 5]
+Operating Cycle; Accounting for Merchandizing Operation under Perpetual and Periodic
+Inventory System; Completing Accounting Cycle.
+5. Accounting System Design: [ILO 6]
+Charts of Accounts; Coding of Accounts; Control Accounts; Purposes of Control Accounts;
+Special Journals; Advantages of Special Journals; Cash Receipt Journal; Cash Payment
+Journal; Sales Journals; Purchase Journal; General Ledgers; Subsidiary Ledgers.
+6. Preparation of Financial Statements (IAS 1): [ILO7]
+Statements for a Company according to IAS 1 (Statement of Financial Position, Statement
+of Profit or loss and Other Comprehensive Income, Statement of Changes in Equity,
+Statement of Cash Flows and Notes, Comprising Significant Accounting Policies and
+Other Explanatory Information); Template of a Company‘s Financial Statements;
+Financial Statements Preparation using MS Excel.
+7. Bank Reconciliation Statement: [ILO 8]
+Cash and Bank Transaction, Meaning, Need, Preparation of Reconciliation Statement to
+determine the correct Bank Balance.
+
+**Textbooks / references.** 1. Weygandt, J. J., Kimmel, P. D. and Kieso, D. E. Accounting Principles IFRS Version (John Wiley & Sons, Inc.). 2. Needles, B. E., Powers, M. and Crosson, S. V. Principles of Accounting (Houghton Mifflin Company). Reference Materials: 1. Annual Report of Listed Companies for Understating Financial Statements. 2. MS Excel as a tool for the preparation of Financial Statements.
+
+#### 1102 — Introduction to Business (3 credits)
+
+**Course objectives.** The course is intended to enhance students’ understanding of business, the business environment, the functional areas of an organization, and the role business plays in today’s society. Students will acquire a broad-based knowledge of business and the business Environment.
+
+**Intended learning outcomes.**
+
+Upon successful completion of this course, students will be able to:
+1. Understand the fundamental concepts, theories, and models in carrying out business
+
+and ethical management.
+2. Demonstrate a vocabulary of business terms.
+3. Illustrate the evolution of business from the feudalism to modern capitalism.
+
+4. Distinguish different forms of business and compreh7end the roles of
+differentstakeholders.
+5. Formulate the vision and mission of a business.
+6. Examine the PESTEL factors and gain a basic understanding of competition.
+7. Explore the activities of different functional areas of a business.
+8. Develop an understanding of socially responsible business practices.
+9. Identify the relevance of international business in modern era.
+10. Gain a basic understanding of the nature of entrepreneurship.
+11. Realize the importance of global and regional business associations.
+
+**Detailed contents.**
+
+1. The nature of business: [ILO 1, ILO 2]
+Definition of Business; Vision; Mission; Indicators of A Successful Business; Customer
+Needs; Quality Products and Services; The Challenges and Complexities of Today‘s
+Business; Forms of Business Ownership; MNCs.
+2. The Evolution of Business: [ILO 3]
+Feudalism: Land, Labour and Property Rights; Money, Capital and Commerce;
+Mercantilism: Trade and Enterprise; The Growth of Enterprise; Industrial Revolution:
+First to Fourth IR; The Changing Forms of Business Organization.
+3. The Stakeholders: [ILO 4]
+Stockholders; Board of Directors (BOD); Management; Government; Community.
+4. Business Environment:
+4.1 The Impact of External Forces: [ILO 2, ILO 6]
+Political forces; Economic Forces; Social Forces; Technological Forces; Natural
+Environment and Business; Legal Forces; Competition; Porter‘s Five Forces Model;
+Opportunities and Threats.
+4.2 The Internal Environment: [ILO 2, ILO 7]
+Accounting
+&
+Finance;
+Marketing;
+Human
+Resource
+Management;
+Production/Operation; Management Information Systems; Research & Development;
+Porter‘s Generic Value Chain; Strengths and Weaknesses; An Introduction to SWOT.
+5. Management: [ILO 2, ILO 7]
+Definition of Management; Decision making; Planning; Organizing; Leading;
+Motivating; Controlling.
+6. Marketing: [ILO 2, ILO 7]
+Definition of Marketing; Product; Pricing; Promotion; Place.
+7. Finance: [ILO 2, ILO 7]
+Equity vs. Debt; Financial Markets; Stock Market; Blockchain/ Fintech.
+8. International Business: [ILO 2, ILO 9]
+Introduction and overview of international business; Environmental variables of culture,
+politics, and economics; Entry strategies for new markets and countries; International
+trade and foreign direct investment; Global outsourcing and its role in international
+operations.777
+9. Ethics and Social Responsibility of Business: [ILO 2, ILO 8]
+Ethics; Business ethics; The Need for Business Ethics; Ethical Dilemma; Corporate
+Social Responsibility; Sustainable Development Goals (SDGs); Social Business.
+
+10. Entrepreneurship: [ILO 2, ILO 10]
+Definition of Entrepreneurs and Entrepreneurship; Types of Entrepreneurs; Advantages
+and Disadvantages of Being an entrepreneur; Characteristics of a Successful
+Entrepreneur; Start-ups; Franchising.
+11. Global, Regional and Local Business Associations: [ILO 2, ILO 11]
+Asia-Pacific Economic Cooperation (APEC); Association of Southeast Asian Nations
+(ASEAN); Bangladesh Garments Manufacturers‘ Association (BGMEA); BRICS;
+Federation of Bangladesh Chamber of Commerce and Industries (FBCCI); European
+Union (EU); Organization for Economic Cooperation and Development (OECD);South
+Asian Association for Regional Cooperation (SAARC); World Trade Organization
+(WTO).
+
+**Textbooks / references.** 1. F. L. Fry, C. R. Stoner and R. E. Hattwick, Business: An Integrative Approach, (Irwin McGraw-Hill). 2. G. R. Jones, Introduction to Business: How Companies Create Value for People, (McGraw-Hill). 3. W. G. Nickels, J. M. McHugh and S. McHugh, Understanding Business, (McGraw Hill). Reference Materials: 1. G. Suder, T. Tsai and S. Varma, Doing Business in Asia, (SAGE)
+
+#### 1103 — Business Communication and Report Writing (3 credits)
+
+**Course objectives.** This course attempts to develop the skill of students in exchanging messages with others in order to develop a mutual understanding of business deals. The students, with their professional oral and written communication skills, will be able to build the expertise needed to succeed in today’s technologically-superior workplaces.
+
+**Intended learning outcomes.**
+
+Upon successful completion of this course students will be able to:
+1. Comprehend the significance of business communication in today‘s technology-driven
+workplace.
+2. Understand ethical, legal, cultural, and global issues influencing business
+communication.
+3. Prepare letters, e-mails, memos, and reports persuasively.
+4. Communicate successfully with colleagues and business clients in in-person and
+online meetings.
+5. Deliver oral presentations in a proficient manner.
+6. Prepare for and participate in job interviews.
+
+**Detailed contents.**
+
+1. Introduction to Communication [ILO 1, ILO 2]
+Communication – Communication process/cycle – business communication –objectives
+
+2.
+
+3.
+
+4.
+
+5.
+
+and importance of business communication – communication situations –
+communication barriers – ethical, legal, and cultural considerations in business
+communication – the importance of technology in today‘s communication.
+Types of Communication [ILO 1, ILO 2]
+Downward communication – upward communication – horizontal communication –
+Verbal and Non-verbal communication – the importance of understanding non-verbal
+communication - grapevine – the process of consensus.
+Media of Communication [ILO 3, ILO 4, ILO 5]
+Written communication – oral communication – non-verbal communication – audiovisual communication – technology-driven communication.
+Written Communication [ILO 3]
+Basic issues regarding writing (selection of words, construction of clear sentences and
+paragraphs) – issues related to communicating good, neutral, and bad news – Different
+types of business letters – memorandum – writing emails.
+Report Writing [ILO 3]
+
+Issues related to writing both short and long reports – use of graphics - how to compose
+a report on the computer – how to prepare presentation slides for a report.
+6. Oral Communication [ILO 4, ILO 5]
+Informal talking – listening – interviews – meetings – online meetings – telephone
+conversation – formal speeches – team presentations – presenting reports videoconferencing.
+7. Audio-visual Communication [ILO 1, ILO 3, ILO 4, ILO 5]
+Types of aids – how to make audio-visual communication effective – technologyenabled audio-visual communication.
+8. Formal Business Meetings [ILO 4]
+Invitation for a meeting – preparation for a meeting – memorandum, minutes writing –
+etiquettes – decision-making process – proposal and resolution.
+9. Getting prepared for job interviews [ILO 6]
+Preparation for facing a job interview – preparation for taking a job interview –
+CV/Resume preparation.
+10. Citation and Referencing in Academic Writing [ILO 3]
+Introduction to referencing styles.
+
+**Textbooks / references.** 1. Thill, J. V. and Bovee, C. L.: Excellence in Business Communication, (Irwin McGrawHill). 2. Locker, K. O. and Kaczmarek, S. K.: Business Communication: Building Critical Skills, (McGraw-Hill). 3. Guffey, M. E., Loewy, D. and Almonte, R.: Essentials of Business Communication. (Nelson Education).
+
+#### 1104 — Mathematics for Business Decisions-I (3 credits)
+
+**Course objectives.** This course is designed to develop an understanding of basic concepts and principles of mathematics used in the area of business and economics. Students will be well-equipped with mathematical tools used in the analysis of business and accounting problems;
+
+**Detailed contents.**
+
+1. Theory of Numbers: [ILO 1]
+Introduction to Real number system: Definition and concepts of Rational, Irrational, Integer,
+Decimal, Prime, Composite, etc. numbers and their Basic Properties. Proof of irrationality
+of a number.
+2. Equations and Inequalities: [ILO 4, ILO 5, ILO 6, ILO 7, ILO 13]
+2.1 Definition and concepts of Equations. Concepts of Linear Equation, System of Linear
+Equations and sketching their graphs. Solving System of Linear Equations. Different
+Methods for solving a System of Linear Equations (like- Algebraic Method, Method of
+Substitution, Method of Cross-Multiplication, Method of Determinant, Graphical Method,
+etc.). Concepts of uniqueness and existence of the solutions.
+2.2 Definition and concepts of Quadratic Equation. Finding Solution or Roots of Quadratic
+Equations. Discriminants and the Nature of Roots. Relationship between Roots and
+Coefficients of a Quadratic equation. Mathematical formation of Quadratic and higherorder equations with given roots.
+2.3 Basic Concepts on Nonlinear Equations; System of Nonlinear Equations and their
+Solutions. Curve Sketching of different linear and non-linear equations.
+
+Application of the above concept of equations and system of equations in Business and
+Economics problems.
+2.4 Definition, Concepts and Properties of Inequality; Linear, Nonlinear and Absolute Value
+Inequalities; Solution of Inequalities and their Graphical Representation on real line.
+3. Applied Linear Equations: [ILO 8, ILO 13]
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+Linear equation and its different form of expressions. Budget equation in the form of linear
+equation and the concept of rate of substitution. The Slope and Intercept of a linear equation
+its application to Cost Equation (to discuss the concept of fixed cost,
+variable cost, total cost, average cost, marginal cost, etc.). The revenue, profit function,
+break-even point and condition of shutdown. Forming a Linear Cost Equations (when
+marginal cost and f77ixes cost or two points are given). Application of linear
+function/equation to demand-supply equations (to discuss equilibrium point and shifting).
+Piecewise linear function and its application to Business and Economics.
+Theory of Sets: [ILO 9, ILO 13]
+Definition and concepts of Sets, Types of Sets and their expressions. Venn diagram. Theory
+and Properties of Union, Intersection, Difference, and Complement of sets. De- Morgan‘s
+Laws on Sets. Number of Elements in Sets. Concept of Cross Product.
+Application in Business and Economics Problems.
+Mathematical Induction, Series and Sequences: [ILO 10]
+Definition and concepts of sequence and Series. Sigma/Summation notation. Introduction
+to mathematical induction. Sum of natural numbers. nth term and sum up to n terms of a
+finite series.
+Progression: [ILO 7, ILO 10, ILO 13]
+Arithmetic Progression (AP): Introduction to Arithmetic Progression. Concepts of 1st term
+and common difference. Mathematical formula of nth term and sum to n terms. Mathematical
+Problems, and Application in business and economics problems.
+Geometric Progression (GP): Introduction to Geometric Progression. Concepts of 1st term
+and common ratio. Mathematical formula of nth term and sum to n terms. Proof of annuity
+formulae. Mathematical Problems and Application in business and economics problems.
+Indices and Logarithms: [ILO 2, ILO 3]
+Indices: Definition and Laws of Indices. Computation with Integer, Fraction, Positive and
+Negative indices. Surds and operation with surds. Mathematical Problem relating to Indices
+and Surds.
+Logarithms: Definition and Properties of Logarithm. Common and Natural Logarithms.
+Laws of logarithm. Anti-Logarithm. Mathematical problem with Logarithms.
+Permutations and Combinations: [ILO 12]
+Permutations: Definition and Concepts Counting, Factorial Notation, and Permutation.
+Principles and Theorems of Permutations. Permutation of 0 and 1. Permutations of different
+things, permutation of repeated things, circular permutations, and restricted permutations
+with mathematical problems.
+Combinations: Concept and definition of combinations. Principles and theorems of
+combination. Relationship between permutation and combination. Combination of different
+things, combination with repeated things and restricted combinations. Mathematical
+problems.
+
+**Textbooks / references.** 2. Bowen, E. K. Mathematics with Applications in Management & Economics (R. D. Irwin). 3. Arya, J. C. and Lardner, R. W. Mathematical Analysis for Business and Economics (Prentice Hall). 4. Arora, P.N. and Bogga, P.C. Business Mathematics for Commerce andEconomics (John Wiley& Sons). 5. Sanchetti, D.C. and Kapoor, V.K. Business Mathematics (Sultan Chand and Sons). 6. Barnett, R. A. and Ziegler, M. R. Applied Business Mathematics (Prentice Hall).
+
+#### 1105 — History of the Emergence of Bangladesh (4 credits)
+
+**Course objectives.** The objective of this course is to develop an understanding of physical, ecological and geographical aspects as well as the historical background of Bangladesh. The course aims to equip students with the knowledge of political, administrative and legal environment of Bangladesh and help them know about the society, economy and macroeconomic environment of Bangladesh. Intended Learning Objectives (ILOs): Upon completion of this course, students should be able to: 1. Understand the geography, history and economy of Bangladesh. 2. Socio-political, administrative and legal system of Bangladesh. 3. The Liberation War of Bangladesh 1971 and its backdrop. 4. Relationship of Bangladesh with foreign countries. 1. 2. 3. 4.
+
+**Detailed contents.**
+
+Introduction to Bangladesh: i. Geographical Features ii. Ancient Janapadas iii. Ethnic Composition
+iv. Indigenous Communities v. Religious Process in Bengal vi. General Overview of the Economy,
+Culture, and Heritage.
+History of Bengal up to the Partition of India: i. From Pre-Historic Period to the Guptas ii.
+Sasanka iii. The Palas and the Senas iv. The Conquest of Bakhtiyar v. The Independent Bengal
+Sultanate (1338-1538) vi. The Growth of the Nawabs and the Battle of Palashi vii. Initial Resistances
+to the British Rule viii. The Partition of Bengal in 1905 and the Subsequent Nationalist Movements
+ix. Politics in Bengal 1937–47 x. The Lahore Resolution 1940 xi. United Bengal Scheme xii.
+Partition of India in 1947
+Growth of Opposition, Language Movements & Attempts to Build a Democratic Government:
+i. Pakistan's Early Years; State Formation, Bureaucratic Influence, and Economic, Social, and
+Cultural Discrimination. ii. Foundation of the Awami League 1949 iii. Language Movement of 1948
+and 1952 iv. Election of 1954 and the United Front v. Constitution of 1956.
+Declaration of Military Rule, The Growth of Bengali Nationalism & Quest for Autonomy: i.
+Military Rule in 1958 and Notable Measures of Ayub Khan ii. The Constitution of1962iii. Six Point
+Programme of the Awami League iv. Agartala Conspiracy Case v. 11 Points Movement vi. Mass
+Upsurge of 1969 and Yayah Khan’s Rise to Power vii. the Election of 1970.
+th
+
+5. Liberation War of 1971: i. The 7 March Address of Bangabandhu ii. Non-cooperation Movement
+iii. Quest for a Constitutional Solution and Operation Search Light iv. Declaration of Independence
+and the Mujibnagar Government v. Sporadic and Organized Resistance (MuktiFauj, MuktiBahini,
+
+and Guerilla Warfare) vi. Genocide by the Pakistan Army and their Local Collaborates (Peace
+Committee, Al-Badr, Al-Sham77s, Razakar Bahini, and Pro-Pakistani Political Parties) vii. The Role
+of Muslim World & Super Powers
+6. The Regime of Bangabandhu (1972-1975): i. Bangabandhu’s Homecoming ii. State Formation iii.
+Constitution of 1972 and Subsequent Amendments iv. Economic Reconstruction v. Global
+Recognition of Bangladesh and the Efforts of Bangabandhu vi. The Killing of Bangabandhu and the
+Ideological Transition.
+
+**Textbooks / references.** 1. Muhith, A. M. A. Bangladesh: Emergence of a Nation (University Press Ltd.). 2. Islam, S. (Ed.). History of Bangladesh (Economic, Socio-cultural and Political): 17041971 (The Asiatic Society of Bangladesh). References Materials: 1. Rashid, H. A. The Geography of Bangladesh (University Press Ltd.). 2. Islam, M. Constitutional Law of Bangladesh (Mullick & Brothers). 3. Ministry of Finance, GOB. Bangladesh Economic Review. 4. Planning Commission, GOB. Five-Year Plans of Bangladesh. FIRST YEAR SECOND SEMESTER
+
+### First Year Second Semester
+
+#### 1201 — Intermediate Accounting (3 credits)
+
+**Course objectives.** This course has been designed with an objective to get the students familiar with the accounting treatments and presentation procedures of the items appearing on the asset side of the Balance Sheet/Statement of Financial Position. This will also provide guidelines for the treatments in case of changes in accounting policies, estimates and errors.
+
+**Intended learning outcomes.**
+
+Upon completion of the course, students should be able to:
+1. Explain the concepts of cash and cash equivalents and their reporting in the financial
+statement.
+2. Explain how accounts receivable and notes receivable are determined, valued and
+disposed of.
+3. Understand what costs are included in determining inventories, how cost flow
+assumptions are used, and inventories are valued.
+4. Explain the initial and subsequent measurement of plant assets, different valuation
+models, different depreciation methods, and exchange of plant assets.
+5. Explain the nature and accounting for non-current assets held for sale and
+
+discontinued operations.
+6. Explain the concept of avoidable interest and its capitalization issues.
+7. Explain the initial and subsequent measurement of different types of intangible assets.
+8. Explain how impairment loss is recognized and measured, and how it is reversed.
+9. Understand the concept of lease and the accounting treatment of different leases.
+10. Explain how changes in accounting policies and estimates as well as errors are
+accounted for.
+
+**Detailed contents.**
+
+1. Cash and Receivables: [ILO 1, ILO 2, ILO 3]
+Nature of Cash; Reporting of Cash: Cash Equivalents, Restricted Cash, Bank
+Overdrafts; Cash Control; Differences in Amount between Cash Book and Bank
+Statement; Revenue: IFRS 15; Nature and Classifications of Receivables; Recognition
+of Accounts Receivable Using Gross and Net Method; Valuation of Accounts
+Receivable Using Direct Write-off and Allowance Method; Recognition of Notes
+Receivable Issued and Not Issued at Face Value with Interest-Bearing and NotInterest-Bearing Notes; Valuation of Notes Receivable; Derecognition and Transfer of
+Receivables: Sale of Receivables with and without Guarantee and Secured Borrowing.
+2. Inventories: [ILO 4]
+Definition and Classification of Inventories; Goods and Costs Included in Inventory;
+Cost Flow Assumptions: Specific Identification, Average-Cost, and First-In, First-Out
+(FIFO); Effect of Inventory Errors; Lower-of-Cost-or-Net Realizable Value(LCNRV);
+Methods of Applying LCNRV; Use of an Allowance; Recovery of Inventory Loss; The
+Gross Profit Method of Estimating Inventory; Retail Inventory Method; IAS 2.
+3. Property, Plant and Equipment (PPE): [ILO 5, ILO 6, ILO 6, ILO 9]
+Nature and Characteristics of Property, Plant, and Equipment (PPE); Acquisition of
+PPE; Self-Constructed Assets; Interest Costs During Construction; Qualifying Assets;
+Valuation of Property, Plant, and Equipment; Exchanges of Non-Monetary Assets;
+Costs Subsequent to Acquisition; Disposition of Property, Plant, and Equipment;
+Depreciation; Impairments; Depletion; Revaluations; Non-Current Assets Held for Sale
+and Discontinued Operations; IAS 16, IAS 23, IAS 36 and IFRS 5.
+4. Intangible Assets: [ILO 8, ILO 9]
+Nature and Characteristics of Intangible Assets; Valuation of Purchased and Internally
+Created Intangibles; Amortization of Intangibles; Types of Intangible Assets;
+Impairment of Limited-Life Intangibles; Reversal of Impairment Loss; Impairment of
+Goodwill; Research and Development Costs; Accounting for R&D Activities; Costs
+Similar to R&D Costs; IAS 38, IAS 36.
+5. Accounting for Lease: [ILO 10]
+Nature, Economic Substance, and Advantages of Lease Transactions; Lessee
+Accounting; Measurement of the Lease Liability and Right of Use (ROE) Asset; Lessor
+Accounting; Classification of Leases by the Lessor; Accounting Measurement and
+Presentation; Special Lease Accounting Problems; IFRS 16.
+
+6. Statement of Cash Flows:
+Fundamental principle, Presentation of the Statement of Cash Flows, Reporting cash
+flows from operating, investing and financing activities, Reporting cash flows on a net
+basis, Components of cash and cash equivalents, and other disclosures, IAS 7.
+7. Investment Property:
+Definition, Recognition, Measurement: Fair Value Model, Cost Model; Transfers to or from
+investment property classification, Disposal, Disclosure; IAS 40.
+Recommended Textbooks
+1. Kieso, D. E., Waygandt, J. W. and Warfield, T. D. Intermediate Accounting (IFRS
+Edition) (John Wiley & Sons).
+2. Picker, R., Leo, K., Radford, J., Alfredson, K., Pactor, P. and Wise, V. Australian
+Accounting Standards (John Wiley & Sons Australia, Ltd.).
+3. Deegan, C. Australian Financial Accounting (McGraw-Hill Australia).
+
+#### 1202 — Microeconomics (3 credits)
+
+**Course objectives.** This course provides students with the foundation theories of basic microeconomics including an introduction into the study of economics and analyses of economic agents’ behaviors, particularly that of the individual and the firm. The course begins with a description of the subject area, and continues to introduce the basic concepts and theories that are used as the foundation of microeconomic theory and analysis. This includes discussions and applications of economic principles behind the determination of demand, supply and production functions and on how equilibrium is reached in different markets and the incomes distributed among different factors, the theory of the consumer; theory of producer; market operations; and market structures.
+
+**Intended learning outcomes.**
+
+Upon completion of the course, students should be able to:
+1. Understand the nature of microeconomics and Schools of Economic Thoughts.
+2. Describe the functioning of a market economy through demand and supply and their
+impact on resource allocation.
+3. Explain the impact of government-imposed policies on markets.
+4.
+5.
+6.
+7.
+
+Define elasticity and apply the concepts of price elasticity of demand and others.
+Solve a consumer‘s utility maximization problem.
+Explain the general concepts of production and cost analysis.
+Combine production and cost, short run and long run, and profit and revenues to
+assess the behavior of markets.
+8. Analyze different types of market structures. Find the profit maximization output and
+price in different market structure.
+9. Understand how to apply economic principles to determine pricing of a factors of
+production using marginal productivity theory of distribution.
+
+**Detailed contents.**
+
+1. Basic Concepts and Ideas: [ILO 1]
+
+Definition and Relevance; Positive and Normative Economics; Scarcity; Opportunity
+Cost; Production Possibilities Frontier; Preliminary Introduction to Great Schools of
+Economic Thoughts: Classical, Neo-Classical, Keynesian, Marxist; Difference between
+Microeconomics and Macroeconomics.
+2. Demand, Supply and Equilibrium Analysis: [ILO 2]
+Law of Demand; Ceteris Paribus Assumption; Demand Equation; Shift of Demand
+Curve; Movement along the Demand Curve; Law of Supply; Supply Equation; Shiftof
+Supply Curve; Movement along the Supply Curve; Market Equilibrium.
+3. Market Regulation: [ILO 3]
+Market Regulation: Price Ceiling, Price Floor, Quota, Tax; Consumer Surplus; Producer
+Surplus; Change in Consumer Surplus and Producer Surplus afterRegulation.
+4. Elasticity: [ILO 4]
+Elasticity of Demand: Factors Affecting Elasticity of Demand; Price Elasticity;
+Determinants of Demand Elasticity; Computation and Interpretation of Elasticity of
+Demand; Point Elasticity and Arc Elasticity of Demand; Income Elasticity and Cross
+Price Elasticity of Demand; Elasticity of Supply; Computation and Interpretation of
+Supply Elasticity; Determinants of Elasticity of Supply.
+5. Utility Theory: [ILO 5]
+The Utility Approach: Basic Assumptions of Utility Approach; Marginal, Average and
+Total Utility and their Relationship; Marginal Utility and Price; Law of Diminishing
+Marginal Utility; Law of Equi-Marginal Utility; The Indifference Curve Approach;
+Basic Assumptions of IC Approach; Characteristics of Indifference Curve; Indifference
+Curve and Indifference Map; Budget Line and its Properties; Marginal Rate of
+Substitution and Price Ratio; Price Effect, Income Effect and Substitution Effect; Shape
+of the Demand Curve for Normal, Inferior and Giffen Commodity Types.
+6. Theory of Production and Cost: [ILO 6, ILO 7]
+Factors of Production; Production Function; Law of Diminishing Returns; Isocosts
+and Isoquant; Marginal Rate of Technical Substitution; Cost Ratios and Optimization
+of Production Level; Short-Run Production Function and the Law of Variable
+Proportion; Economies and Diseconomies of Scale (Internal and External); Long-Run
+Production Function and the Law of Returns to Scale; Total Product and Marginal
+Product; Variable and Fixed Costs; Average, Marginal and Total Costs and Shapes of
+Various Cost Curves; Short-Run and Long-Run Cost Curves; Relationship between
+Marginal Cost and Price level.
+7. Market Structure and Determination of Equilibrium Price and Output Levels:
+[ILO 8]
+Definition and Structure of Market; Characteristics of Different Markets; Perfectly
+Competitive Market and Imperfectly Competitive Markets (Monopoly, Duopoly,
+Oligopoly and Monopolistic Markets); Determination of Equilibrium Price and Output
+in Different Markets; Price Discrimination and Distortions; Anti-Trust Laws.
+8. Theory of Distribution: Factors of Production and Factor Pricing: [ILO 9]
+
+Wage, Rent, Interest, Profit-Theories of Factor Pricing: Wage DeterminationAccording
+to Neoclassical Theory.
+
+**Textbooks / references.** 1. Mankiw, N. G. Principles of Microeconomics, (CENGAGE Learning) 2. Krugman, P. and Wells, R. Microeconomics, (Worth Publishers). Reference Materials: 1. Samuelson, P. and Nordhaus, W. Economics (McGraw-Hill/Irwin). 2. Lipsey, R. G. and Courant, P. N. Microeconomics (Prentice Hall). 3. Koutsoyiannis, A. Microecnomics (Palgrave Macmillan). 4. Ahuja, H. L. Business Economics (Sultan Chand & Co.).
+
+#### 1203 — Management (3 credits)
+
+**Course objectives.** This course deals with human behavior in organizations and with managerial practices and methods within organizations that facilitate or hamper effective behavior. The course explores factors shaping individual, group, organizational and cultural dynamics, as they pertain to administration and management in organizations. Intended Learning Objectives (ILOs): Upon completion of this course, students should be able to: 1. Understand the concepts, functions of managementUnderstand the positive role that business management plays in society through an understanding of history of management, contemporary approaches to management andorganizational behavior, an organization‘s environments, and business‘ role in fostering corporate social responsibility and ethics. 2. Analyze the role manager‘s play in the planning and decision making, organizing, leading, and controlling process of management, with specific reflection on the individual and organization interface in understanding its concepts and implications on organizational effectiveness. 3. Develop ideas on human resources management process and the basics of hiring, development, compensation, performance management and labor relations. 4. Understand the nature of the individual–organization relationship; how individual and workplace behavior influences organizational effectiveness; including attitudes, job satisfaction, emotions, personality, values, perception, decision making, and motivational theories. 5. Understand group and interpersonal behavior in organizations; including group and team development and managing conflict; leadership, power and politics, negotiations, adapting to change.
+
+**Detailed contents.**
+
+1. Meaning and Significance of Management: Definition, Nature, Principles and Techniques of
+Management- Administration vs. Management-Skills, Effectiveness and Efficiency of ManagementManagement as Resource and as Profession, Sub-areas of Management: Operations, Finance,
+Marketing, etc., Scopes: Business Organizations: Proprietorships, and Corporations, Government
+Organisations, NGOs, Religious Organizations, etc.-Theories of Management.
+2. Planning: Meaning, importance, steps, setting of strategic plans-Factors to be considered in
+formulation of a sound plan-Types of plans-Need for long-range plans-Setting Vision, Mission,
+Goals, Objectives-Steps in Planning-Planning by Business and Non-business firms in BangladeshPlanning Environment-Managerial Decision Making.
+3. Organizing: Meaning, importance-Organization structure-Organization charts and ManualsDepartmentation
+
+and
+
+its
+
+basis-Delgation-Centralisation
+
+and
+
+Decentralization-Need
+
+for
+
+Decentralization- Condition of Decetralisation-Committee System Objectives and Benefits of
+Committees-Committee types organizing practices in Bangladesh.
+4. Directing and Leading: Nature of directing and leading Features of good directing Elements of
+Consultative Directing and benefits- Leadership, Theories of Leadership - Leadership styles of
+Bangladesh Managers- Managing small groups.
+5. Motivation: Meaning and significant-Tools of Motivation-What managers, employees and worker
+want to get out of the jobs-Result based reward-Measurement of Human motivation-Motivation
+Theories - Applicability of Maslow Model in Bangladesh context. Need based and process based
+motivation theories.
+6. Controlling: Meaning and Significant-Feature of good Control System-Setting Control Standardsreporting and feedback-Budgetary Control System-Budget as Motivation tool-Management by
+Objective (MBO) -Management by Exceptions (MBE) -Behavioral Aspects of control-Management
+Information System (MIS), Production and Operation Control.
+7. Coordination: Meaning Significance Tools of Coordination.
+8. Performance Evaluation of Managers: Evaluation of Manager's Performance - Necessity Methods: Objective methods - Judgmental methods - Judgmental errors - Feedback; ACR, Promotion
+of Managers, Criteria of Good Promotion System, Management Audit.
+9. Management Development: Necessity of Management Development, Training and Development,
+Benefits, On-the-job and Off-the-Job training, Higher Assignments.
+10. Organizational Development (OD) and Managing the Change: Organizational Development,
+Quality Management, Changes in the Environment, Internal and External, Resistance to Change,
+Managing the Change, The Responsibilities of Managers: Economic, Social and Environmental
+Globalization and New Challenges - Managers in the Free Market Economy Context.
+11. Managers and the International Environment: Comparative Management: Farmer Richman
+Moden, Esatphen Model, Management of International Business-Theories about Human Nature: X
+
+Theory, Y Theory and Z Theory.
+12. Management, Management Education and Management Development in Bangladesh:
+Management in SOE, NCBs, Insurance Corporations, Private Sector Enterprises, NGOs, MNCS,
+Small Business; Educational Institutes, Hotels and Hospitals-Management Education in the country:
+Business Administration Programs of the Universities, BBA, MBA Management Development
+Institutes in Bangladesh: BIM, BIBM, IBB, IPM.
+13. Contemporary issues in management - Change management, Knowledge management, Event
+management, Social responsibility and other related issues.
+
+**Textbooks / references.** 1. Management, Ricky W. Griffin, Houghton Mifflin Company, Boston, USA. 2. Management, Robert Kreitner, Houghton Mifflin Company, Boston, USA. 3. Essentials of Management, Koontz, O'Donnel and Weilrich, McGraw Hill Book Company, USA. 4. Management, Herbert G. Hicks and C. Ray Gullett, McGraw-Hill International Book Company, New York, USA.
+
+#### 1204 — Mathematics for Business Decisions-II (3 credits)
+
+**Course objectives.** This course is designed to develop an understanding of concepts, theory and models of mathematics used in the area of business and economics. Students will be well-equipped with mathematical tools used in the analysis of decision-making business problems. Intended Learning Objectives (ILOs): Upon completion of this course, students should be able to: 1. Understand linear Matrices and Determinants concept and apply them in solving related business problems. 2. Understand Differential and Integral Calculus and apply them in solving related business problems. 3. Understand Partial Differentiation and apply them in solving related business problems. 4. Understand Differential Equation and apply them in solving related business problems.
+
+**Detailed contents.**
+
+2. Matrices and Determinants: [ILO 1]
+Introduction to Matrices; Types of Matrices; Arithmetic Operations (Addition, Subtraction
+and Multiplication) on Matrices. Markov Process (chain) and its Business Applications.
+Inverse Matrix; Solution of Simultaneous Linear Equations using Inverse Matrix. Leontief
+
+Input-Output Model and its Application.
+Introduction to Determinants; Properties of Determinants; Operations on Determinants;
+Crammer‘s Rule to Solve a System of Linear Equations. Application Problems in Business
+and Economics.
+3. Differential Calculus: [ILO 2]
+Definition of Differentiation (or Ordinary Differentiation); Concepts and Geometric
+Interpretation of Differentiation. Differentiation using Definition and Basic formulae of
+Differentiation. Differentiation of Algebraic, Exponential, Logarithmic, Trigonometric and
+Transcendental Functions. Differentiation of Composite Functions, Parametric Functions
+and Implicit Functions. Successive Differentiation.
+Increasing and Decreasing of a Function; the Stationary/Critical Points; Maxima and
+Minima of a Function; Conditions and Determination of Maxima and Minima; Global and
+Local Maximum or Minimum of a Function; Point of Inflexion; Application Problems in
+Business and Economics.
+4. Integral Calculus: [ILO 2]
+Introduction to Integration. Basic Rules (formulae) of Integration. Indefinite Integral and
+Indefinite Integral. Calculation of Area bounded by Curves and Figures; Analysis of Total
+Concept by Integration. Application Problems in Business and Economics
+5. Partial Differentiation: [ILO 3]
+Concepts of Partial Differentiation (or multivariate calculus). Partial differentiation of
+function with two independent variables. Maximum and minimum of two variables function
+(non-constrained optimization). Optimization using Lagrange‘s Multiplier (constrained
+optimization) of two variables functions (utility function, cost function, Cobb-Douglas
+production function etc.).
+6. Differential Equation: [ILO 4]
+Introduction and Definition of Differential Equation. Order and Degree of Differential
+Equations. Solution of First Order and First-Degree Differential Equation. Verification of
+Solutions. Differential Equations of the Second Order with Constant Coefficients.
+Application of Differential Equations in the Problems of Business and Economics.
+
+**Textbooks / references.** 1. Bowen, E. K. Mathematics with Applications in Management & Economics (R. D. Irwin). 2. Brown, R. L. Steve Kopp and P.Zima. Mathematics for Finance (McGraw-Hill Ryerson). 3. Sancheti, D.C. and Kapoor, V.K. Business Mathematics (Sultan Chand and Sons).
+
+#### 1205 — Computer Concepts and Application (2 credits)
+
+**Course objectives.** The objective of this course is to introduce the students to the basic concepts of computers and information systems. The students will be exposed to the use of operating system and the widely used office and application software/packages. The course will also cover the fundamental concepts, theories, practices, and management of information systems in organizations.
+
+**Intended learning outcomes.**
+
+Upon completion of this course, students should be able to:
+1. To understand the basic knowledge of a computer system.
+2. Understand the implications of Information Technology (IT) in businesses.
+3. Be able to identify and operate the basic hardware of a computer system.
+4. Be able to identify and operate the basic software of a computer system.
+5. Comprehend the underlying concepts of Computer Communications and Network.
+6. Understand the operational functions of E-Commerce and the impact of Social ECommerce and M-Commerce in business.
+7. Understand the implications of Information Systems (IS) in businesses world.
+
+**Detailed contents.**
+
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+PART A: Theory (50%)
+Introduction: [ILO 1, ILO 2]
+Definition and Uses of Computers; Computer Generation and Classifications; Computer
+Organization and Architecture.
+Fundamentals of Computer Hardware: [ILO 3]
+Input Hardware; Output Hardware; Processing Hardware; Peripheral and Storage Devices;
+Processing Characteristics and Functions, Memory Characteristics and Functions.
+System Software and Application Software: [ILO 4]
+Definition and Types of Software; Introduction to Operating System; Introduction to
+Software Development and Computer Languages; Language Translators: Compiler,
+Interpreter and Assembler; Integrated Development Environment (IDE); Graphical User
+Interface (GUI).
+Computer Network and Internet: [ILO 2, ILO 5]
+Definition and Types of Computer Networks; Uses of Computer Networks; Network
+Topologies; Communication Protocols: TCP/IP, HTTP, FTP; Open System Interconnection
+(OSI) Model; Network Devices, Communication Media; Introduction to Internet; Internet
+Protocol (IP) Address; IPv4 and IPv6; Voice over IP; Domain Name System (DNS); Virtual
+Private Networks; Internet of Things (IoT); Cloud Computing.
+E-commerce: [ILO 2, ILO 6]
+Key Concepts in E-commerce; Digital Markets and Digital Goods in a Global Marketplace;
+Types of E-commerce; E-commerce Business Models; E-commerce Revenue Models; How
+has E-commerce Transformed Marketing: Behavioral Targeting, Social E-commerce and
+Social Network Marketing, Wisdom of Crowds; Role of M- Commerce in Business:
+Location-Based Services and Applications, Other Mobile Commerce Services.
+Information Systems (IS) in Business: [ILO 7]
+Definition and Components of Information Systems (IS); How Information Systems are
+Transforming Business; Strategic Business Objectives of Information Systems;Dimensions
+of Information Systems; A Business Perspective on Information Systems; What Academic
+Disciplines are Used to Study Information Systems: Technical Approach, Behavioral
+Approach, Sociotechnical Systems; Systems for Different Management Groups:
+
+Transaction Processing Systems (TPS), Management Information Systems (MIS),
+Decision Support Systems (DSS), Executive Support Systems (ESS).
+
+**Textbooks / references.** 1. Hutchinson, S. E. and Sawyer, S. C. Computer & Information Systems (Irwin). 2. Laudon, K. C. and Laudon, J. P. Management Information Systems: Managing the Digital Firm (Pearson Education). References Materials: 1. Simkin, M. G., Rose, J. M. and Norman, C. S. Core Concepts of Accounting Information Systems (John Wiley & Sons, Inc.). 2. O‘Brien, J. O. Management Information Systems: Managing Information Technology in the E-Business Enterprise (McGraw-Hill).
+
+#### 1206 — Lab: Office Application (2 credits)
+
+**Course objectives.** The aim is to prepare the students with the essential skill sets to survive and thrive in today’s technologically driven workplaces. 1. 2. 3. 4. Understand fundamentals of Computer Hardware, Software and Operating System. Compose documents using word processing packages. Prepare slides for business presentations. Prepare and analyze data using spreadsheet software. Practical 7. Basic Operations of a Computer System: [ILO 8] Gaining Proficiency in Graphical User Interface (GUI) Operating System e.g., Windows 7/8/10/11, and Linux; PC Hardware Components and Software Components. 8. Word Processing with MS Word: [ILO 9] Tools Ribbon; Settings; Tabs; Editing; Formatting; Colours and Styles; Drawing; Tables; Equation; Header/Footer; Page Number; Spell Check; Table of Content; Layout; Print. 9. Making Presentation with MS PowerPoint: [ILO 10] Slide Presentation; Colours; Style; Theme; Transition; Sound; and Video Linking. 10. Spreadsheet Analysis with MS Excel: [ILO 11] Getting Familiar with the Ribbon; Tools and Features; Use of Function & Formula:Logical, Accounting & Financial, Statistical, Mathematical, Lookup; Graph and Chart; Form; Conditional Formatting; Data Validation; Data Cleaning Techniques; CSV and other File Formats; Pivot Table; Preparation of: Accounting and Financial Statements; Salary Sheet; Bills Statements, Result Sheets etc. Mark Distribution for this Course: Criteria Allocated Marks Result Segments Mid Term / In-course Examination-1 (Theory) Continuous Assessment Mid Term / In-course Examination-2 (Practical in Lab) (40%) Quizzes/Term Paper/Assignments/Class Attendance Semester Final (Theory) Final (60%) Semester Final (Practical in Lab) Total Recommended Textbooks: 1. The Complete Reference MS Office. 2. Smith, G. N. Excel Applications for Accounting Principles (South-Western College Publishing). SECOND YEAR FIRST SEMESTER
+
+**Textbooks / references.** 1. The Complete Reference MS Office. 2. Smith, G. N. Excel Applications for Accounting Principles (South-Western College Publishing). SECOND YEAR FIRST SEMESTER
+
+### Second Year First Semester
+
+#### 2101 — Advanced Financial Accounting-I (3 credits)
+
+**Course objectives.** The objective of this course is to enhance students’ understanding of the recognition, measurement and disclosure issues relating to revenues, expenses, liabilities and equities that are reported in the interim and annual financial statements. This course is also designed to provide the students with the knowledge of additional reporting issues such as earnings per share, events after the reporting period, related party disclosures and accounting for partnership business.
+
+**Intended learning outcomes.**
+
+Upon completion of the course, students should be able to:
+1. Understand the fundamental concepts of revenue and expense recognition and apply
+the revenue recognition process to major revenue generating transactions.
+2. Describe the nature, valuation and reporting of current liabilities, provisions and
+contingencies.
+3. Explain the accounting for issuance and extinguishment of non-current liabilities.
+4. Elucidate the accounting and reporting of different components of equity.
+5. Compute and interpret basic and diluted earnings per share information.
+6. Comprehend the recognition, measurement and disclosure of events after the reporting
+period.
+7. Identify a related party and evaluate the impact of related party transactions on
+different elements of financial statements.
+8. Prescribe the form and minimum contents of interim financial statements.
+9. Prepare partnership accounts.
+
+**Detailed contents.**
+
+1. Current Liabilities, Provisions and Contingencies: [ILO 2]
+Definition of Liability, Criteria for Classification of Liability, Accounting for Major
+Types of Current Liabilities, Definition of Provision, Recognition and Measurement of
+
+Provision, Accounting for Common Types of Provision, Contingent Liabilities and
+Assets, Presentation and Disclosure Related to Current Liabilities, Provisions and
+Contingencies. IAS 37: Provisions, Contingent Liabilities and Contingent Assets.
+2. Owner’s Equity: [ILO 4]
+Concept of Equity in Corporate Entities, Definition of Equity, Components of Equity,
+Issuance of Ordinary and Preference Shares, Reacquisition of Shares or Treasury
+Shares, Purchase and Sale of Treasury Shares, Retiring Treasury Shares, Accumulated
+Other Comprehensive Income, Retained Earnings, Dividend Policy and Types of
+Dividends, Share Dividend and Share Split. Presentation and Analysis of Equity. IFRS
+9: Financial Instruments
+3. Earnings per Share: [ILO 5]
+Meaning and Use of Earnings per Share (EPS) Information, Simple and Complex
+Capital Structure, Determining Weighted Average Number of Common Share
+Outstanding, Computing Basic Earnings per Share, Meaning of Diluted Earnings per
+Share, Effect of Convertible Securities, Options, Warrants and Contingently Issuable
+Shares on Diluted Earnings per Share, Antidilution Effect, Computing Diluted Earnings
+Per Share, Presentation and Disclosure of Earnings per Share. IAS 33:Earnings Per
+Share.
+4. Events after the Reporting Period: [ILO 6]
+Definition of Events after the Reporting Period, Authorization of Financial Statements
+for Issue, Adjusting Events and Non-Adjusting Events, Disclosures Related to Events
+after the Reporting Period, IAS 10: Events after the Reporting Period.
+5. Related Party Transactions: [ILO 7]
+Definition of a Related Party, a Related Party Transaction, Close Family Member,
+Compensation and Key Management Personnel, Purpose of Related Party Disclosures,
+Detail Disclosure Requirement Relating to a Related Party, IAS 24: Related Party
+Disclosures.
+6. Preparation of Interim Financial Statements: [ILO 8]
+Definition and Use of Interim Financial Statements, Minimum Components of Interim
+Financial Statements, Form and Content of Interim Financial Statements, Disclosure
+of Significant Events and Transactions, Interim Reporting Period, Accounting Policies
+and Estimates for Preparation of Interim Financial Statements, IAS 34: Interim
+Financial Reporting.
+7. Accounting for Partnership: [ILO 9]
+Partnership Business and its Characteristics, Form and Contents of Partnership
+Accounts, Accounting for Changes in a Partnership Structure, Admission and
+Retirement of Partners, Valuation of Goodwill, Liquidation of Partnership Business,
+Conversion of Partnership to a Company.
+8. Consignment Accounts:
+Difference between sales and Consignment; Account sales–Accounting treatment in
+Consignor’s books- Valuation of unsold stock, treatment of commission bad debts and
+
+Del Credere Commission- treatment of loss of goods on consignment - ‘Stock
+deficiencies- Insured and uninsured stock losses- Goods on consignment at selling pricetreatment of discount on bill of exchange - Accounting treatment in Consignee’s book.
+9. Joint Venture Accounts:
+Difference between Joint Venture and Consignment - Accounting for Joint Ventures;
+Separate Set of Books and No separate Set of Books.
+10. Single Entry System & Its Conversion to Double Entry
+Introduction, types of single entry system, characteristics, limitation, profit/loss
+determination, conversion to double entry systems
+
+**Textbooks / references.** 1. Kieso, D. E., Weygandt, J. J. and Warfield, T. D. Intermediate Accounting: IFRS Edition. (John Wiley & Sons, Inc.) 2. Modern Accountancy Vol. 1 & 11, Mukherjee, Amitabha & Hanif Reference Materials: 1. Relevant International Accounting Standards and International Financial Reporting Standards 2. Annual Report of Listed Companies for Understanding Financial Statements
+
+#### 2102 — Macroeconomics (3 credits)
+
+**Course objectives.** The objective of this course is to give students a background of basic macro-economic theories, concepts and indicators and their relevance to different policy actions. The course is designed to provide students the tools to analyze how macroeconomic indicators like national income, consumption, savings and investments are determined and how macro policies such asfiscal, financial and trade policies are related to economic management.
+
+**Intended learning outcomes.**
+
+Upon completion of the course, students should be able to:
+1.
+2.
+3.
+4.
+
+5.
+6.
+7.
+8.
+
+Understand the concept of macroeconomics and its relevance to business
+decision making.
+Measure national income (NI) using the income and expenditure approaches.
+Understand consumption function, MPC & APC and their relationship.
+Understand money and analyze Keynesian approach to demand for money,
+develop a model of money supply under Fractional Reserve Banking (FRB)
+system.
+Understand unemployment and analyze the causes of unemployment.
+Understand specific roles and functions of monetary and fiscal policy.
+Know about aggregate demand & aggregate supply and demand shocks &
+supply shocks and how to stabilize demand shock & supply shock.
+Develop IS curve and LM curve using Keynesian cross and Liquidity
+preference theory and analyze the impact of fiscal policy and monetary policy
+on short run equilibrium of the economy.
+
+9.
+10.
+
+Distinguish between open economy and closed economy.
+Analyze policies influencing trade balance and exchange rate (NER & RER)
+
+**Detailed contents.**
+
+1.
+
+Introduction to Macroeconomics: [ILO 1]
+Definition of Macroeconomics; Macroeconomic Variables; Importance and Relevance of
+Macro-Economics for Business Students.
+
+2.
+
+National Income: [ILO 2]
+National Income (NI) Concepts: GNP, NNP, Nominal GDP, Real GDP, GDP Deflator;
+Consumer Price Index; Measuring Income Using Expenditure Approach and Income
+Approach; Intermediate Goods and Value Added;
+
+3.
+
+Theories of Consumption, Savings & Investment: [ILO 3, ILO 6]
+Theories of Consumption; Savings and Investments-Keynesian Development;
+Consumption Function; Autonomous Consumption and Induced Consumption; Marginal
+Propensity to Consume; Average Propensity to Consume; MPC and APC and Their
+Relationship; Savings Function-Paradox of Savings; Investment: Autonomous and
+Induced; Interest Rate and Equilibrium in the Financial Market; The Effect of Fiscal Policy
+on Interest Rate and Investment.
+
+4.
+
+Theory of Money: [ILO 4]
+Definition of Money; Function of Money; Quantity Theories of Money; Money Demand;
+Keynesian Approach to Demand for Money: Transaction, Precautionary and Speculative
+Demand for Money; Money Supply; Fractional Reserve Banking System; A Model of
+Money Supply; Neutrality of Money; Digital Currency.
+
+5.
+
+Monetary Policy and Inflation: [ILO 4, ILO 6]
+Definition Monetary Policy and Fiscal Policy; Importance of Monetary Policy as an
+Instrument of Economic Management; Causes and Types of inflation; The Instruments of
+Monetary Policy; Monetary Policy During Inflation, Deflation, Stagflation and Different
+Phases of Business Cycle.
+
+6.
+
+The Open Economy: [ILO 6, ILO 9, ILO 10]
+International Flow of Capital and Goods; Trade Balance; Saving and Investment in a Small
+Economy; Capital Mobility and the World Interest Rate; How Policies Influence Trade
+Balance; Fiscal Policy at Home and Abroad; Nominal and Real Exchange Rate;The
+Determinants of Real Exchange Rate; The Determinants of the Nominal Exchange Rate.
+
+7.
+
+Unemployment: [ILO 5]
+Definition of Unemployment; Structural Unemployment and Frictional Unemployment;
+Natural Rate of Unemployment; Full Employment.
+
+8.
+
+Business Cycle Theory: [ILO 7]
+Introduction to economic fluctuations; Time Horizons in Macroeconomics; Short Run and
+Long Run; The Model of Aggregate Demand and Aggregate Supply; The Difference in
+Aggregate Supply Curve in the Short Run and in the Long Run; Shocks to Aggregate
+
+Supply and Demand; Stabilization Policy.
+9.
+
+Goods Market, Money Market, and IS-LM Model: [ILO 6, ILO7, ILO 8]
+Keynesian Cross Model; Fiscal Policy; Government Purchase Multiplier and Tax
+Multiplier; Deriving IS Curve; Fiscal Policy and Shift of IS Curve; Interpretation of IS
+Curve; Money Market and LM Curve; Deriving LM Curve; The Theory of Liquidity
+Preference; The Use of Monetary Policy; The Shift of LM Curve; Fluctuations with the ISLM Model; The Interaction Between Monetary and Fiscal Policy.
+
+Recommended Textbook:
+1. Mankiw, N. G. Macroeconomics, (Worth Publishers).
+References Materials:
+1. Samuelson, P. and Nordhaus, W. Economics (McGraw-Hill/Irwin).
+2. Dornbusch, R., Fischer, S. and Startz, R. Macroeconomics (McGraw-Hill/Irwin).
+3. Blanchard, O. Macroeconomics (Prentice Hall).
+4. Shapiro, E. Macroeconomic Analysis (Thomson Learning).
+
+#### 2103 — Business Statistics-I (3 credits)
+
+**Course objectives.** This course is intended to provide students with an understanding of the data, basic terminology of statistics, and methods of statistical tools, techniques for descriptive analysis in business, and economic data. It also covers the concepts of probability, sampling techniques, correlation, simple, and multiple regression analysis to forecast the future. At the end of the course, students will be acquainted with the theoretical and practical concepts, tools and techniques of basic statistics that will develop their ability to deal with quantitative issues in business and economics, analyze and interpret them and forms the basis of decision-making in business.
+
+**Intended learning outcomes.**
+
+At the completion of this course, the students should be able to:
+1. Get an appropriate understanding of basic Statistics and its applications in Business
+and Economics.
+2. Develop the knowledge about different key terms of Statistics and the way of
+presenting data in a tabular and graphical form.
+3. Learn different methods to center all the observations of a data set.
+4. Understand different techniques of finding the state of getting dispersed or spread of a
+dataset.
+5. Get into the idea about the asymmetry and skewness of a distribution.
+6. Find out the way to quantify the strength of relationship of two or more variables.
+7. Estimate the significance of some explanatory variable on the dependent variable.
+8. Learn the concepts of Probability and Bayesian approaches to solve business
+problems.
+9. Build an idea relating to survey design and analysis of survey data in the area of
+business, and economics.
+
+**Detailed contents.**
+
+1. Introduction to Statistics: [ILO 1]
+Concepts of Business Statistics; Scope, Importance and Limitations of Statistics;
+Application of Statistics in Business and Economics; Types of Statistics: Descriptive
+and Inferential Statistics.
+2. Collection, Organization and Presentation of Statistical Data: [ILO 2]
+Concepts of Population and Sample; Variable and its Types; Meaning of Data; Typesof
+Data; Sources of Data; Methods for Data Collection; Questionnaire Design; Requisites
+of a Good Questionnaire; Variable; Classification of Data; Types of Classification;
+Tabulation and its Rules; Data array; Stem and leaf Plot; Advantages ofPresenting a
+Data in a Tabular Form; Types of Tabulation; Frequency Distribution; Construction of
+a Frequency Distribution; Graphical Presentation of Qualitative and Quantitative Data;
+Types of Diagrams (Bar Diagram, Pie Diagram, Pareto Diagram) ; Types of Graphs
+(Histogram, Frequency Polygon, Frequency Curve, Ogive, Cumulative Frequency
+Curves, Relative Cumulative Frequency Curves).
+3. Measures of Central Tendency: [ILO 3]
+Definition of Central Tendency; Characteristics of a Good Measure of Central
+Tendency; Different Measures of Central Tendency with its Properties, Merits and
+Demerits (Arithmetic, Median, Mode, Geometric Mean, Harmonic Mean);
+Relationships among Different Measures of Central Tendency; Weighted Mean;
+Quadratic Mean; Other Measures of Location (Quartiles, Deciles, and Percentiles).
+4. Measures of Dispersion: [ILO 4]
+Concepts of Dispersion and its Significance; Characteristics of a Good Measure of
+Dispersion; Types of Dispersion; Absolute Measures of Dispersion: Range, Quartile
+Deviation, Mean Deviation, Standard Deviation; Chebyshev‘s Theorem; Relative
+Measures of Dispersion: Coefficient of Range, Coefficient of Quartile Deviation,
+Coefficient of Mean Deviation, Coefficient of Variation.
+5. Measures of Skewness and Kurtosis: [ILO 5]
+Moments: Moments from Ungrouped and Grouped Data; Relation between Central and
+Raw Moments; Skewness and its Types; Different Measures of Skewness;
+Absolute Measures of Skewness; Relative Measures of Skewness; Coefficient of
+Skewness Based on Moments; Kurtosis and its Types; Different Measures of Kurtosis.
+6. Correlation Analysis: [ILO 6]
+Meaning and Significance of Correlation; Different Types of Correlation: Simple
+Correlation Coefficient; Multiple Correlation Coefficient; Partial Correlation
+Coefficient; Methods for Studying Correlation (Scatter Diagram Method, Karl
+Pearson‘s Correlation Coefficient, Rank Correlation Coefficient), Coefficient of
+Correlation, Properties of Coefficient of Correlation; Coefficient of Determination.
+7. Regression Analysis: [ILO 7]
+
+Meaning of Simple Linear Regression Model; Regression lines and Equation;
+Assumptions of Simple Linear Regression; Methods for Estimating Simple Linear
+Regression Model or Parameters; The Method of Least Squares; Coefficient of
+Determination; Inferences about Parameters of the Model; Using the Model for
+Estimation and Prediction; Relationship between Correlation Coefficient and
+Regression Coefficient; Properties of Regression Coefficient; Meaning of Multiple
+Linear Regression Model; Assumptions of Simple Linear Regression; Inferences about
+Parameters of the Model; Checking the Usefulness of the Model.
+8. Probability Theory: [ILO 8]
+Probability and its different Approaches; Various Terms in Probability (Random
+Experiment, Event, Mutually Exclusive Events, Equally likely Events, Dependent and
+Independent Events, With and Without Replacement); Additive and multiplicative Laws
+of Probability; Joint Probability; Marginal Probability; Conditional Probability; Bayes‘s
+Theorem and its Application.
+9. Sampling and Socio-Economic Surveys: [ILO 9]
+Concepts of Census and Sample Survey; Advantages of Sampling over Census;
+Limitation of Sample Survey; Steps in Conducting Socio-economic Survey; Sampling
+and Non-sampling Error; Methods of Random Selection: Simple Random Sampling,
+Stratified Random Sampling, Systematic Sampling, Multistage Sampling, Quasi
+Random Sampling, Simple Cluster Sampling, Multistage Cluster Sampling, Methods of
+Random Selection: Quota Sampling, Purposive Sampling, Convenience Sampling,
+Snowball Sampling; Steps in Conducting Socio-economic Survey; Sampling and Nonsampling Error.
+
+**Textbooks / references.** 1. Levin, R. I. and Rubin, D. S. Statistics for Management (Prentice Hall). 2. Gupta, S. P. and Gupta, M. P. Business Statistics (Sultan Chand & Sons). References Materials: 1. Mansfield, E. Statistics for Business and Economics (W. W. Norton & Company). 2. Mason, R. and Lind, D. Statistical Techniques in Business and Economics (McGrawHill). 3. Gupta, S. P. Statistical Methods (Sultan Chand & Sons).
+
+#### 2104 — Business Laws (3 credits)
+
+**Course objectives.** The objective of this course is that students become familiar with the different aspects and provisions of business and commercial laws of Bangladesh and can apply these in different real business situations.
+
+**Intended learning outcomes.**
+
+Upon completing of the course, the students will be able to:
+
+1. Understand Contract Law and its application in real business situations.
+2. Understand the different provisions of Sale of Goods Act 1930 and its application in
+real business situations.
+3. Understand the different provisions of Negotiable Instrument Act and its application in
+real business situations
+4. Understand the Arbitration Provisions as per the law.
+5. Understand the different provisions of Trademark and completion Acts and their
+application in real business situations.
+6. Understand the different provisions of Partnership Act 1932 and Labour Act 2006
+their application in real business situations.
+7. Understand the different provisions of Bank Company Act 1991, Insurance Act 2010
+and Financial Institutions Act 1993 and their application in real business situations.
+8. Understand the different provisions of The Securities and Exchange Commission
+Ordinance, 1969, The Securities and Exchange Rules, 1987 The Exchanges
+Demutualisation Act, 2013 and their application in real business situations.
+
+**Detailed contents.**
+
+1. The Contract Act, 1872: [ILO 1]
+Definition of Contract; Essentials of Contract; Communication, Acceptance and
+Revocation of Proposals and Contracts; Voidable Contracts and Void Agreements;
+Consignment Contracts; Contracts which must be performed; Time and Place of
+Performance; Contracts which need not be performed; Breach of Contract; Indemnity
+and Guarantee; Bailment; Bailment of Pledges; Agency: Appointment and Authority
+of Agents, Sub-Agents, Revocation of Authority, Agent‘s Duty to Principal, Principal‘s
+Duty to Agent.
+2. The Sale of Goods Act, 1930: [ILO 2]
+Formation of the Contract; Effects of the Contract; Performance of the Contract; Rights
+of Unpaid Seller against the Goods; Suits for Breach of the Contract.
+3. The Negotiable Instruments Act, 1881: [ILO 3]
+
+4.
+
+5.
+6.
+
+7.
+
+Promissory Notes, Bills of Exchange and Cheques; Negotiations; Payment and Interest;
+Discharge from Liability on Notes, Bills and Cheques; Notice of Dishonour; Special
+Provisions Relating to Cheques; Special Provisions Relating to Bills of Exchange;
+Penalties in Case of Dishonour of Certain Cheques for Insufficiency of Funds in the
+Accounts.
+The Arbitration Act, 2001: [ILO 4]
+Arbitration Agreement; Subject Matter of Arbitration; Different Methods of Arbitration;
+Arbitration Tribunal; Arbitral Proceedings; Arbitral Award; Appeals.
+The Trademarks Act, 2009: [ILO 5]
+Registration Procedures and Duration; Effects of Registration; Use of Trademark.
+The Competition Act, 2012: [ILO 5]
+Definitions; Formation of Bangladesh Competition Commission; Anti-Competition
+Contract; Grievances; Enquiry and Order; Re-Consideration, Penalty and Appeal;
+Financial Aspects of the Commission.
+The Partnership Act, 1932: [ILO 6]
+The Nature of Partnership; Relations of Partners to One Another; Relations of Partners
+to Third Parties; Incoming and Outgoing Partners; Dissolution of a Firm; Registration
+
+of Firms.
+8. The Bangladesh Labor Act, 2006: [ILO 6]
+Employment of Young Persons; Health, Hygiene, Welfare; Safety; Working Hours,
+Leave and Holidays; Wages Board; Trade Union and Industrial Relations; Dispute
+Resolution; Labor Court; Labor Appellate Tribunal; Workers‘ Profit Participation;
+Provident Fund; Offence and Penalty.
+9. The Bank Company Act, 1991: [ILO 7]
+Business of and Licensing of Bank Companies; Paid up Capital and Reserves;
+Appointment and Removal of Directors and Chief Executive Officer; Illegal Bank
+Transactions by Companies etc.; Acquisition of the Undertaking of Banking
+Companies; Suspension of Business and Winding up of Bank Companies; Restriction
+on Loans and Advances; Issuance of Policy Directions; Remission of Loans; Operation
+and Management; Inspection and Investigation.
+10. The Insurance Act, 2010: [ILO 7]
+Evolution of Insurance Laws in Bangladesh; Statutory Definitions; Classification of
+Business and Policies; Registration and Renewals; Determination of Premium Rates;
+Capital and Deposits; Margin of Safety; Insurable Interests; Investment of Assets;
+Solvency Margin; Loans and Management; Investigation and Power of Regulatory
+Authority; Assignment and Transfer of Policies; Licensing of Agents; Survey and
+Surveyors.
+11. The Financial Institutions Act, 1993: [ILO 7]
+Licensing of Financial Institutions; Minimum Capital, Reserve Fund and Liquid Assets;
+Restriction on Credit Facilities; Investment.
+12. The Securities and Exchange Commission Ordinance, 1969: [ILO 8]
+Issue of Capital; Registration and Regulation of Stock Exchanges; Regulation ofIssuers
+Prohibitions and Restrictions; Enquiries, Penalties, Orders and Appeals; Miscellaneous.
+13. The Securities and Exchange Rules, 1987: [ILO 8]
+Qualification, etc., of Members of Stock Exchange; Maintenance of Accounts and
+Audit; Maintenance of Books of Account, etc. by Members; Listing of a Security;
+Submission of Annual Report by Issuers; Risk-based Capital Adequacy Requirements.
+14. The Exchanges Demutualisation Act, 2013: [ILO 8]
+Process of Converting a Mutualized Exchange into a Demutualized One; Issuance of
+TREC (Trading Right Entitlement Certificate); Operations and Management of a
+Demutualized Exchange.
+
+**Textbooks / references.** 1. Khan, A. A. Labour and Industrial Law. 2. Sen, A. K. and Mitra, J. K. Commercial & Industrial Law (World Press). 3. Arbitration Act, 2001 4. Bankruptcy Act, 1997 5. Bangladesh Labor Act, 2006 6. The Bank Companies Act, 1991 7. Contract Act, 1872 8. Financial Institutions Act 1993 9. Insurance Act, 2010 10. Negotiable Instruments Act, 1881 11. Partnership Act, 1932 12. Sale of Goods Act, 1930 13. Stamp Act, 1899 14. Securities and Exchange Commission Ordinance, 1969 15. Securities and Exchange Rules, 1987 16. Trademarks Act, 2009 17. Exchanges Demutualisation Act, 2013 18. http://bdlaws.minlaw.gov.bd/
+
+#### 2105 — Financial Management (3 credits)
+
+**Course objectives.** The basic objective of this course is to provide students with a sound theoretical knowledge on principles and practices of business finance where a student will get proper idea aboutfinancial management in an organizational perspective.
+
+**Intended learning outcomes.**
+
+Upon successful completion of this course, students will be able to:
+1. Describe the financial environment within which organization operate, role of financial
+management within an organization and critically evaluate the financial objectives of
+financial manager.
+2. Describe the role and function of the main financial institutions and markets that facilitate
+financing.
+3. Explain the basic concept of time value of money and its impact on the financial manager‘s
+decision process.
+4. Explain the cost of different financing sources a company may use while financing their
+capital requirements.
+5. Describe the concepts of security valuation based on different valuation approaches/models.
+6. Discuss and assess the financial risk factors affecting organizational return and tools used
+for measuring risk and return effectively.
+7. Assess the factors affecting investment decisions and opportunities presented to an
+organization.
+8. Explain the process of appraising the viability of capital projects through applying
+investment appraisal techniques and explain the process of appraising the viability of capital
+projects.
+9. Explain alternative sources of finance and investment opportunities and their suitability in
+particular circumstances.
+
+**Detailed contents.**
+
+1. Introduction: [ILO 1, ILO 2]
+Goals and Functions of Business Finance; The Financial Manager; Objectives of Finance;
+The Financial Strategy Process for Corporation; Impact of Financial Markets and Other
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+External Factors on a Business‘s Financial Strategy; Functions of Business Finance;
+Functions of the financial officers; Goal of Finance: Profit Maximization vs. Shareholders‘
+Wealth maximization; Growth in Share Price; Ethics in Business Finance; The Agency
+Problems. Ways to minimize agency cost: Profit Percentage, Share Ownerships and Share
+Options.
+Time Value of Money: [ILO 3]
+Time Value of Money; Timelines; Future Value and Compounding; Present Value and
+Discounting; Opportunity Cost Rate; Fair/Equilibrium Value; Net Present Value (NPV);
+Future and Present Values of an Annuity; Perpetuities—Amortized Loan and Amortization
+Schedule; Market Value, Economic Value, Internal Rate of Return (IRR) of an Investment.
+Concepts of Return and Risk: [ILO 6]
+Uncertainty, Risk and Return; Risk-free and Risk-adjusted Return; Bond Returns; Return
+from a Stock Investment; Types of Risks: Business Risk and Financial Risk, Total Risk and
+Specific Risk, Diversifiable Risk and Systematic Risk, Single-Asset Risk and Portfolio
+Risk; Risk Measurement: Variance, Standard Deviation and Coefficient of Variation;
+Decision Making Methods Under Risk and Uncertainty; Sensitivity Analysis; Simulation;
+Expected Value and Attitude to Risk.
+Introduction to Security Valuation: [ILO 5]
+Valuation of Bond and Debenture; Valuation of Preferred Stock; Valuation of Common
+Stock: Dividend Discount Model (DDM), Capital Assets Pricing Model (CAPM), Gordon
+Model (GM), Free Cash Flow to Equity (FCE)
+Cost of Capital: [ILO 4]
+Capital Structure and its Costs; Comparison; Calculating and interpreting the Costs of
+Different Financing Methods; Cost of Debt; Cost of Irredeemable Debentures; Cost of
+Redeemable Debentures; Cost of Bank Loans and Overdrafts; Cost of Preferred Stock; Cost
+of Common Equity; Cost of Retained Earnings; CAPM Approach; Bond: Yield- plus-Risk
+Premium Approach, Dividend-Yield-plus-Growth-Rate; Discounted Cash Flow (DCF)
+Approach; Cost of Newly Issued Common Stock or External Equity; Weighted Average
+Cost of Capital (WACC); Rationale for WACC; Marginal Cost of Capital (MCC); MCC
+Schedule, Break Points; Factors affecting the Cost of Capital, Different Uses of Cost of
+Capital.
+Capital Budgeting and Investment Appraisal: [ILO 7, ILO 8]
+Overview of Capital Budgeting; Methods of Evaluation of Mutually Exclusive Projects and
+Independent Projects; Investment Appraisal Techniques: Different tools/Methods Used:
+Non-Discounted Approach: Payback Period (PB) and Discounted Approach: Discounted
+Payback Period (DPBP): Net Present Value (NPV), Internal Rate of Return (IRR),
+Modified Internal Rate of Return (MIRR), Profitability Index (PI); Merits and Demerits,
+Ranking of Different Investment Appraisal Techniques.
+Sources of Financing: [ILO 9]
+Financing for Small and Medium sized entities; Short-term Financing; Intermediate-term
+Financing; Long-term Financing; Lease Financing: Operating Lease, Capital Lease;
+Factors affecting a Company‘s Choice of Finance; Concepts of Warranties, Covenants,
+Guarantees; Financing Problems of Small Firms; Notion of Venture Capital; Business Plan;
+the Process of Venture Capital Financing; Methods of Venture Financing; Problemsand
+Sources of Financing Small and Medium Enterprises, and Micro Industries; Role of Banks
+and Non-Banking Institutions for Development of SMEs in Bangladesh.
+
+**Textbooks / references.** 1. Weston, J. F. and Brigham, E. F. Essentials of Managerial Finance (Thomson SouthWestern). 2. Brigham, E. F. and Houston, J. F. Fundamentals of Financial Management (Thomson South-Western). 3. Van Horne, J. C. and Wachowicz Jr., J. M. Fundamentals of Financial Management (Prentice Hall). 4. Van Horne, J. C. Financial Management and Policy (Prentice Hall). lOMoAR cPSD| 21806932 SECOND YEAR SECOND SEMESTER
+
+### Second Year Second Semester
+
+#### 2201 — Advanced Financial Accounting-II (3 credits)
+
+**Course objectives.** The objectives of this course are to make the students acquainted with the accounting aspects of Business Combination, investment in Association and Joint Ventures, Financial Instruments, Company Liquidation, Segment Reporting and Related Party Disclosure. This course will provide students sound and in-depth technical and conceptual knowledge to prepare the various financial statements like separate financial statements, consolidated financial statements of the company and liquidator’s Statements in case of company liquidation.
+
+**Intended learning outcomes.**
+
+Upon completion of the course, students should be able to:
+1. Explain the basic principles regarding the business combination-related issues.
+2. Understand the key regulations regarding the preparation of separate and consolidated
+Financial Statements.
+3. Understand the basic principles regarding recognition, measurement and de-recognition of
+financial instruments.
+4. Identify the accounting issues regarding the recognition and de-recognition of Financial
+Assets and Liabilities.
+5. Understand the issues discussed in the Bankruptcy Act, 1997 and its implications on
+preparing the liquidator‘s statement for liquidation; and
+6. Recognize the importance of segment reporting and disclosure requirements.
+
+**Detailed contents.**
+
+1. Financial Instruments: [ILO 3, ILO 4]
+Meaning of ‗Financial Instrument‘; Classification of Financial Assets; Classification of
+Financial Instruments as Liability or Equity; Compound Financial Instrument; Recognition
+and Derecognition of Financial Assets and Liabilities; Measurement of Financial Assets
+and Liabilities; Considerations on Fair Value Measurement; Impairment of Financial
+Assets; Reclassification of Financial Assets; Accounting treatment for gain or loss on
+Financial Assets and Liabilities; Ethical and Judgement Issues; Presentation and
+Disclosure Requirements as per IAS 32 and IFRS 7, (IAS 32, IFRS 7, IFRS 9 & IFRS13)
+2. Liquidation and Bankruptcy: [ILO 5]
+Individual; Partnership Firms and Company; Bankruptcy Act 1997; Winding up in
+Insolvency and by the Court; Voluntary Winding Up; Powers of the Liquidators;
+Liquidator‘s Accounts, Proof of Debts; Priority of Payment of Debts; Accounting for
+Liquidation and Bankruptcy.
+3. Branch and Departmental Accounts:
+Benefits of Branches, Branches, Pricing of goods sent to Branches by Head Office,
+keeps Branch books within its own accounting system Stock and Debtors Systems,
+Wholesale Branch System, Branch keeping separate records, Incorporation of Trial Balance
+
+lOMoAR cPSD| 21806932
+
+into Head Office book and preparation of Final Accounts.
+4. Hire Purchase and Installment Accounting:
+Hire purchase: Definition, Accounting treatment in the books of buyer and seller, Treatment
+of Repossession. Installment: Hire purchase vs. Installment, Determination of Installments,
+Accounting treatment for installment both in purchaser and seller books
+5. Royalty Accounts:
+Royalty, Minimum Rent and Short working defined, Entries in Books of Accounts, Royalty
+Receivable and Payable
+6. Non-Current Liabilities: [ILO 3]
+Nature and Types of Non-Current Liabilities, Types and Issuance of Bonds, Valuation and
+Accounting for Bonds Payable, Cost of Issuing Bonds, Accounting for Long-term Notes Payable
+and Mortgage Payable, Extinguishment of Non-Current Liabilities, Presentation, Disclosure and
+Analysis of Non-Current Liabilities. IFRS 9: Financial Instruments
+7. The Effects of Changes in Foreign Exchange Rates:
+Definitions, foreign currency transactions, Translation from the functional currency to the
+presentation currency, Disposal of a foreign operation, Tax effects of exchange differences,
+Convenience translations, Disclosures, IAS 21.
+
+**Textbooks / references.** 1. Beams, F. A., Anthony, J. H., Bettinghaus, B. and Smith, S. Advanced Accounting. (Pearson). 2. Picker, R., Leo, K., Radford, J., Alfredson, K., Pactor, P. and Wise, V. Australian Accounting Standards (John Wiley & Sons Australia, Ltd.). 3. Tan, P. and Lee, P. Advanced Financial Accounting: An IAS and IFRS Approach. (McGraw-Hill). 4. Christensen, T., Cottrell, D. and Budd, C. Advanced Financial Accounting. (McGrawHill) 5. ICAB Manual, Financial Accounting and Reporting, Professional Level, ICAB. References Materials: 1. Bankruptcy Act, 1997.
+
+#### 2202 — Corporate Laws and Secretarial Practices (3 credits)
+
+**Course objectives.** This course aims to develop a sound understanding of the company’s law of the country, including the corporate governance aspects relating to shareholders, the board of directors, management, and other stakeholders of organizations. Besides, this course intends to explain the essential aspects of secretarial practice within organizations so that it helps the students to identify and evaluate the good governance practice and discharge regulatory compliances as a company secretary. This course focuses to develop working knowledge among the students regarding the company act, governance regulations and the secretarial practices. lOMoAR cPSD| 21806932
+
+**Intended learning outcomes.**
+
+Upon completion of this course, students will be able to:
+1. Get a background of the company law in the country and aware of the principal
+documentations to establish a company.
+2. Aware of with the company registration.
+3. Understand the management, and administration of company, including required
+books of records.
+4. Know about the winding-up process of company.
+5. Understand the concept of corporate governance and its framework.
+6. Aware of corporate governance mechanisms.
+7. Be informed about the corporate governance reforms.
+8. Understand corporate ethics.
+9. Understand the role of company secretary.
+10. Know about various meetings and process of the meeting in organization.
+11. Know about the provisions for appointment of statutory auditor and corporate
+governance auditor; and
+12. Aware of various corporate reporting issues as a part of corporate governance.
+
+**Detailed contents.**
+
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+Corporate Laws and Governance (Weight 80%)
+Overview, Constitution and Incorporation: [ILO 1]
+Background and Evolution of Company Law in Bangladesh; Statutory Definitions under
+the Companies Act 1994; Memorandum of Association (MoA); Articles of Association
+(AoA); Companies Limited by Guarantee.
+Share Capital and Registration: [ILO 2]
+Distribution of Share Capital; Reduction of Share Capital; Variation of Shareholders‘
+Rights; Registration of Unlimited Company as Limited; Reserve Capital of Limited
+Company; Unlimited Liability of Directors.
+Management, Administration and Books of Records: [ILO 3]
+Meeting and Proceedings: Annual General Meeting, Statutory Meeting, Extraordinary
+General Meeting, Board Meeting; Provision for Vote; Appointment of Directors;Duties
+of Directors; Disqualification of Directors; Removal of Directors; Disqualification;
+Vacation of Office of Director; Loan to Director; Director not to holdthe Office of
+Profit; Conflicts of Interest; Penalties; Offences Return of Allotment; Balance Sheet;
+Profit and Loss Accounts; Authentication of Balance Sheet and Profit and Loss
+Accounts; Right of Members to Copies of Account and Report.
+Winding Up: [ILO 4]
+Mode of Winding Up; Winding Up by Court; Voluntary Winding Up; Winding Up by
+Creditors.
+Corporate Governance (CG) Concept and Conceptual Framework: [ILO 5]
+Definition of CG; Importance of CG; Theoretical Frameworks: Agency Theory,
+Stewardship Theory, Transaction Cost Economics, Stakeholder Theory, Resource
+Dependence Theory, Theory of Managerial Hegemony; CG Systems: Insider System,
+Outsider System; CG Elements: Internal Mechanisms, External Mechanisms.
+Corporate Governance Mechanisms: [ILO 6]
+Formation of Board of Directors; Size of the Board of Directors; Role of the Board of
+
+lOMoAR cPSD| 21806932
+
+Directors; Types of BoDs; Women Representation in the Board of Directors; Power &
+Duties of Directors; Proceedings of Directors; Splitting the Role of Chairman and Chief
+Executive Officer; Board Committees: Audit Committee, Nomination
+Committee, Remuneration Committee; Training and Orientation of Board Members;
+Performance Evaluation of BOD; Internal Control: Definition of Internal Control,
+Components of Internal Control Systems; Limitations of Internal Control System;
+Assessing the Role of Internal Audit; Ownership Structure. External Mechanisms:
+Monitoring by Blockholders and Analysts, External Auditors; Competition and
+Takeovers; Regulation and Enforcement.
+7. Corporate Governance Reforms: [ILO 7]
+―Shareholder Led‖ (―Principles Based‖) or ―Regulator Led‖ (―Rules Based‖)
+Approach to CG; Global Best Practices of CG: OECD Principles, SAFA Best Practices,
+UNCTAD Disclosure Requirements; CG Reforms in Bangladesh; VoluntaryCode of
+BEI; CG Guidelines of the BSEC: Contents and Implementation Status of CG
+Guidelines.
+8. Corporate Ethics: [ILO 8]
+Corporate Ethics vs. Corporate Responsibility; Promoting and Reinforcing Corporate
+Ethical Culture; Ethical Norms; Ethical Behavior and Internal Governance
+Mechanisms; Ethical Leadership from BOD; Code of Ethics; Whistle Blowing Policies
+and Procedures to Support Ethical Behavior; Ethical Audit.
+Secretarial Practices (Weight 20%)
+1. The Role and Authority of Company Secretary: [ILO 9]
+Need for the Importance of Company Secretary; Qualifications of a Company Secretary;
+Independence of Company Secretary; Appointment of Company Secretary; General
+Provisions; Developing Corporate Governance Policies and Best Practices; Legal &
+Organizational support of the Board of Directors; Protecting Shareholder Rights;
+Disclosures and Transparency.
+2. The Meeting Processes: [ILO 10]
+Convening of Meeting (Annual General Meeting, Statutory Meeting, Extraordinary
+General Meeting, Board Meeting); Frequency of Meeting; Quorum; Attendance at
+Meetings; Chairman; Passing of Resolution by Circulation; Minutes; Preservation of
+Minutes and Other Records; Share Transfer and Transmission; AGM/EGM; Meeting
+through Tele/Video Conferencing
+3. Appointment of Statutory Auditor: [ILO 11]
+Appointment, Removal, Remuneration of the Statutory Auditor as per Companies Act
+1994; Scope of Audit; Duties and Rights of Auditors.
+4. Appointment of CG Auditor: [ILO 11]
+Appointment of Corporate Governance Auditor as per CG Code.
+5. Corporate Reporting: [ILO 12]
+Director‘s Report as per Companies Act, 1994; Submission of return to RJSC&F;
+Disclosure on Price Sensitive Information (PSI); Disclosure on the Appointment or
+Reappointment of Directors; Declaration or Certification by the CEO and the CFO to
+
+lOMoAR cPSD| 21806932
+
+the Board on Financial Statements for the Year Ended; IPO Issue in accordance with
+Bangladesh Securities and Exchange Commission (Public Issue) Rules, 2015. BSEC
+Notification on 20 June, 2018.
+
+**Textbooks / references.** 1. Mallin, C. A. Corporate Governance. (Oxford University Press). 2. Du Plessis, J. J. Hargovan, A. and Harris, J., Principles of Contemporary Corporate Governance. (Cambridge University Press). 3. Solomon, J. Corporate Governance and Accountability. (John Wiley & Sons Ltd.) 4. Chowdhury, D. Incentives, Control, and Development: Governance in Private and Public Sectors with Special Reference to Bangladesh (The University Press Ltd.). 5. Chowdhury, D. Knowledge and Competitiveness in Elite Institutions in Bangladesh: Implications for Governance, Dhaka University. Reference Materials: 1. The Companies Act, 1994 (Act No. 14 of 1994). 2. The Code of Corporate Governance. Bangladesh Securities and Exchange Commission. 3. Bangladesh Secretarial Standards. Issued by the Institute of Chartered Secretaries of Bangladesh (ICSB).
+
+#### 2203 — Business Statistics-II (3 credits)
+
+**Course objectives.** The objective of this course is to develop the understanding of different statistical methods which are widely used for drawing inferences, or making broad generalizations, about a totality of observations on the basis of knowledge about a part of that totality. Beginning from an elementary level, this course introduces the idea of random variables, some probability distributions, estimations of parameter, confidence intervals and hypothesis testing. With these foundations students will also be introduced to the concepts of analysis of variance, index numbers and time series analysis to improve the level of forecasting future. At the completion of this course, the students should be able to develop a general understanding of probability and hypothesis testing approaches that will sharpen the skills of taking business and managerial decisions.
+
+**Intended learning outcomes.**
+
+At the completion of this course, the students should be able to:
+1.
+2.
+3.
+4.
+
+5.
+
+Understand the basic ideas of random variables and also different Probability
+Distributions which are widely used in taking various business decisions.
+Know the importance of central limit theorem to the study of Sampling distributions.
+Get into the idea of Estimation and Confidence intervals to represent the data set.
+Develop an understanding of the formulation of Testing Hypothesis in the area of
+business and will be able to find the answer to a question by hypothesis testing for large
+and small samples.
+Learn Analysis of Variance to find out the differences between more than two groups
+of data and test their statistical significance.
+
+lOMoAR cPSD| 21806932
+
+6.
+7.
+
+8.
+9.
+
+Comprehend the concepts of time series analysis that will develop the understanding
+of underlying causes of trends or systemic patterns over time.
+Apply the knowledge of how Index Number measures the changes in a variable or group
+of related variables with reference to time, geographical location, and other
+characteristics.
+Acquire ideas of different process control.
+Obtain information on how nonparametric tests can be used without considering the
+underlying assumptions on the shape of the probability distribution of the population.
+
+**Detailed contents.**
+
+1. Random Variables and Probability Distribution: [ILO 1]
+Definition of Random Variable and its Types; Probability Distributions of a Random
+Variable; Discrete and Continuous Probability Distribution; Binomial Distribution; Poisson
+Distribution; Normal distribution; Standard Normal Distribution; Standard Normal Variate;
+Important Properties of these Distributions; Fittings of Binomial and Poisson Distribution,
+and Application of Numerical Problems.
+2. Sampling Distribution: [ILO 2]
+Concept of Sampling Distribution ; Central Limit Theorem and its Application in Business;
+Sampling Distribution of Samples are Drawn with and without Replacement; Sampling
+Distribution of Difference between Two Sample Means (Samples are drawn with and
+without Replacement); Sampling Distribution of Sample Proportion (Samples are drawn
+with and without Replacement); Sampling Distribution of difference between Two Sample
+Proportions (Samples are drawn with and without Replacement); Applicationof Numerical
+Problems.
+3. Estimation and Confidence Intervals: [ILO 3]
+Estimation and its Types; Meaning of Point and Interval Estimation; Confidence Interval;
+Properties of a Good Estimator; Estimation Methods; Confidence Interval Estimation for
+the Mean ( for Known, Unknown , Large, and small value of n ); Confidence Interval
+Estimation for the Difference between Two Population Means ( for Known, Unknown ,
+Large, and small value of n ); Confidence Interval Estimation for Population Proportion
+P; Confidence Interval Estimation of the Difference between Two Population Proportions ;
+Sample Size Determination for Mean and Proportion, Application of Numerical Problems.
+4. Large-Sample Inferences about Population Parameters: [ILO 4]
+Hypothesis Testing and its Types; Null Hypothesis; Alternative Hypothesis; Different Steps
+involved in Hypothesis Testing; One-Tailed Test; Two Two-TailedTailed Test; Type I
+Error; Type II Error; Level of Significance; Power of a Test; Meaning of P-value;
+Different Steps for Calculating the p-value of a Test Statistic for Testing a Null Hypothesis;
+Decision to Reject Using P-Value; Standard Normal Test; Tests for Population Mean and
+Proportion; Tests of Equality of Two Population Means and Two Populations Proportions
+in Case of Large Samples (Z-test); Application of Numerical Problems.
+5. Small-Sample Inferences about Population Parameters: [ILO 4]
+Comparison Between z and t distribution; Student t-Test; Tests of Hypothesis of Population
+Mean in Case of Small Samples (t-Test); Test of Equality of Two Means in Case of
+Independent and Dependent Samples; Test of Zero Correlation Coefficient; and;
+Application of Numerical Problems.
+6. Analysis of Variance: [ILO 5]
+Meaning of Analysis of Variances; Precision of a Design; Efficiency of a Design;
+
+lOMoAR cPSD| 21806932
+
+Completely Randomized Design (CRD); One-Way Classification; Test of Significance of
+Two Treatment Means in a CRD; Advantages and Disadvantages of Completely
+Randomized Design (CRD); Randomized Block Design (RBD): Two-Way Classification;
+Test of Significance of Two Treatment Means in RBD; Relative Efficiency of RBD to CRD;
+Analysis of LSD; Test of Significance of Two Treatment Means in LSD; Relative Efficiency
+of LSD to RBD, Application of Numerical Problems.
+7. Index Number: [ILO 7]
+Definition and Importance of Index Number; Price, Quantity and Value index; Factors
+affecting Index Number, Problems Involved in the Construction of an Index Number; Uses
+of Index Numbers; Methods for Constructing Unweighted Index Numbers; Methods for
+Constructing Weighted Index Numbers; Tests for Consistency of Index Numbers; Cost of
+Living Index Numbers; Different Steps Involved in the Construction of Cost of Living Index
+Numbers; Methods of Constructing Cost of Living Index Numbers; Uses of Cost of Living
+Index Numbers; Chain Base Index Numbers: Link Relatives, Important Properties of Index
+Numbers; Application of Numerical Problems.
+8. Business Forecasting and Time Series Analysis: [ILO 6]
+Concepts and significance of Time Series Analysis; Uses of Time Series Analysis;
+Components of Time Series: Secular trend (Long-term Movement), Seasonal Variation,
+Cyclical Variation, Irregular Variation; Mathematical Models of Time Series Analysis;
+Different Methods for Measuring Trend: Graphical Method, The Least Square Method,
+Methods for Measuring Seasonal Variations: Method of Simple Averages, Ratio to Trend
+Method, Ratio to Moving Average Method, Application of Numerical Problems.
+9. Nonparametric Tests: [ILO 9]
+Meaning of Nonparametric Test; Advantages of Nonparametric Test; Chi- Square Test,
+Applications and Condition of applying Chi- Square Test; Tests of Goodness of Fit;
+Contingency Table; Determination of Expected Cell Frequencies of a Contingency Table;
+Test of Independence; One Sample Sign Test; The Mann-Whitney U Test for Independent
+Samples; Test of Randomness; Application of Numerical Problems.
+10. Statistical Quality Control: [ILO 8]
+Concept and Characteristics of Quality control; Causes of Variation; Process Control;
+Control Charts: x chart, R-chart, Pie-chart, C-chart.
+
+**Textbooks / references.** 1. Levin, R. I. and Rubin, D. S. Statistics for Management (Prentice Hall). 2. Gupta, M. P. and Gupta, S. P. Business Statistics (Sultan Chand & Sons). References Materials: 1. McClave, J. T., P. G. Benson and T. Sincich. Statistics for Business and Economics (Prentice Hall). 2. D. A. Lind, W. G. Marchar and S.A. Wathen. Basic Statistics for Business and Economics (McGraw- Hill). 3. S. P. Gupta. Statistical Methods (Sultan Chand & Sons). lOMoAR cPSD| 21806932
+
+#### 2204 — Marketing (3 credits)
+
+**Course objectives.** This course introduces students to the fundamental building blocks of marketing, stressing on the underlying principles of the ―marketing concept‖ and integrating concepts in relation to consumer needs, market information, product development, pricing, distribution, selling, advertising, and promotions.
+
+**Intended learning outcomes.**
+
+Upon completion of this course, students will be able to:
+1. Understand the core concepts of marketing, marketing process, and marketing
+management.
+2. Develop strategic marketing and business planning.
+3. Analyze market opportunities by scanning the marketing environment and consumer
+buying behavior.
+4. Develop and apply marketing strategies.
+5. Plan and design marketing mix and programs including product, price, and
+promotions.
+6. Create a competitive advantage and understand the global marketplace.
+7. Learn sustainable and social marketing and ethics.
+
+**Detailed contents.**
+
+1. Understanding Marketing: [ILO 1, ILO 2]
+1.1. Assessing Marketing’s Critical Role in Organizational Performance: What is
+marketing; core concepts; the marketing process, marketing management; marketing
+orientations; and demarketing.
+1.2. Building Customer Satisfaction through Quality, Service & Value: define customer
+value & satisfaction; customer relationship management (CRM); delivering customer
+value & satisfaction; attracting & retaining customers.
+1.3. Winning Markets through Market-oriented Strategic Planning: Corporate and
+division planning; business strategic planning.
+2. Analyzing Marketing Opportunities: [ILO 1, ILO 3]
+2.1 Scanning the Marketing Environment: Analyzing needs & trends in the
+microenvironment; identifying & responding to the major macro-environmental forces.
+2.2 Analyzing Consumer Markets and Buying Behavior: A model of consumer
+behavior; major factors influencing buying behavior; the buying process; identifying
+market segments and selecting market targets; market targeting.
+3. Developing Marketing Strategies: [ILO 1, ILO 2, ILO 4]
+3.1 Differentiating and Positioning the Market Offering: Tools for competitive
+differentiation; developing a positioning strategy; communicating the company‘s
+position.
+3.2 Developing New Products: Process the of new product development, challenges, and
+way forwards.
+3.3 Managing Life Cycle Strategies: the product life cycle; marketing strategies
+
+lOMoAR cPSD| 21806932
+
+throughout the PLC.
+4. Planning Marketing Programs: [ILO 1, ILO 2, ILO 5]
+4.1 Managing Product Lines, Brands & Packaging: What is a product; levels of a
+product; product classifications; product line decisions; product mix decisions; brand
+decisions; packaging & labelling decisions.
+4.2 Managing Service Business and Product Support Services: Nature of and
+classification of services; characteristics of services and their marketing implications;
+marketing strategies for service firms; managing product support services.
+4.3 Designing Pricing Strategies and Programs: Selecting the pricing objective;
+determining demand; estimating costs; analyzing company competitors‘, prices, and
+offers; selecting a pricing method; selecting the final price; price discounts and
+allowances; promotional pricing; product mix pricing; initiating & responding to price
+changes.
+4.4 Selecting & Managing Marketing Channels: What are marketing channels; channel
+functions; channel levels; channel design decisions; channel management decisions.
+Managing Retailing, Wholesaling, and Market Logistics: Retailing; wholesaling;
+marketing logistics.
+4.5 Designing and Managing Integrated Marketing Communications: Identify thetarget
+audience; determine the communication objective; design the message; selectthe
+communication channel; establish the total promotional budget; decide on the
+promotion mix.
+4.6 Managing Advertising, Sales Promotion, and Public Relations: Developing and
+managing an advertising program; the purpose of sales promotion; major decisions in
+sales promotion; major decisions in marketing PR.
+4.7 Managing the Sales Force: Designing the sales force; managing the sales force;
+principles of personal selling
+4.8 Managing Direct & Online Marketing: Growth and benefits of direct marketing;
+major channels for direct marketing; marketing in the 21st century.
+5. Extending Marketing [ILO 1, ILO 6, ILO 7]
+5.1 Creating Competitive Advantage: Competitor analysis, competitive strategies, and
+balancing customer and competitor orientations.
+5.2 The Global Marketplace: Global marketing today, global marketing environment,
+going global, global marketing program, global marketing organization.
+5.3 Sustainable and Social Marketing and Ethics: Sustainable marketing, social
+marketing, social criticism of marketing, ethical issues in marketing.
+
+**Textbooks / references.** 1. Kotler, P. and Armstrong, G. Principles of Marketing. (Pearson Education Ltd.) 2. Kotler, P. and Keller, K. L. Marketing Management: Analysis, Planning, Implementation and Control. (Pearson Education Ltd.) 3. ICAB Study Manual: Business Strategy. Professional Stage Application Level, ICAB lOMoAR cPSD| 21806932
+
+#### 2205 — Income Tax: Laws and Practice (3 credits)
+
+**Course objectives.** The objective of this course is to provide a sound understanding of principles and practices of the income tax law in Bangladesh. This course will provide students with a comprehensive knowledge of tax from a managerial perspective, with an emphasis on the identification of tax problems and potential tax opportunities. This course will also be helpful in assessing total income and tax liability of individual, corporate and other types of the assesses.
+
+**Intended learning outcomes.**
+
+Upon completing of the course, the students will be able to:
+1. Understand the concepts in issues related to the tax structure in Bangladesh.
+2. Identify the base for income tax and the income tax authority.
+3. Compute head wise income after considering allowable deductions.
+4. Know about set-off and carry forward of losses including exemptions, allowances andadvance
+payment of tax.
+5. Know about the provisions for submission of return.
+6. Determine the assessable income and tax liability of individual assessee, partnershipfirm and
+body corporate, including tax refund and recovery.
+7.
+Understand the tax appeal procedures, penalty, and prosecution.
+
+**Detailed contents.**
+
+1. Introduction to Bangladesh Income Tax: [ILO 1]
+Definition of Tax; Characteristics and Purposes of Tax; Canons of Taxation; Tax Base and
+classification of Taxes; Tax burden and shifting of taxes; Concept of Income; Capital or Revenue;
+Tax and Income Tax; Different Rates of Income Tax for Different Assessees; Tax structure in
+Bangladesh; Role of Income tax for economic growth of Bangladesh; Scope of Bangladesh Income
+Tax Law; Schemes of Bangladesh Income Tax Law.
+2. Basics of Income Tax: [ILO 2]
+Definition and Characteristics of Income; Sources of Income; Determination of Assessment Year
+and Income Year and implications on tax liability determination; Different Classes of Assessees;
+Residential Status of an Assessee; Taxation Implication of Resident and Non-resident; Charge of
+Surcharge; Additional tax and minimum tax; Classification of Income based on Locality and
+Assessment; Non- assessable/Tax exempted Income; Tax Credit Income; Tax Holiday schemes;
+Tax rebate on CSR related expenditures.
+3. Income Tax Authority: Administrative and Judicial [ILO 2]
+Income Tax Authorities: Administrative and Judicial; Appointment; Subordination; Power and
+Functions; Alternative Dispute Resolution (ADR).
+4. Computation of Income: [ILO 3]
+Computation of Income under Statutory Heads: Salaries; Interest on Securities; Income from
+House Property; Agricultural Income; Income from Business or Profession; Capital Gains; and
+Income from Other Sources; Computation of Income under Other Heads: Share of Income from
+Firms; Income of Spouse or Minor Childrenand Foreign Income.
+5. Set-off and Carry-Forward of Losses: [ILO 4]
+Provisions on Set-off of Losses in the Year of First Incurrence and its Procedure; Carry-forward
+and Set-off of Losses under specific Heads: Business Loss; Loss in Speculation Business; Loss
+under the Head Capital Gains; Loss under the Head Agricultural Income; Carry-forward of Loss of
+Firm and Partner; Carry-forward of Loss of Succeeded Business or Profession; Carry-forward of
+
+lOMoAR cPSD| 21806932
+
+Loss of Unabsorbed Depreciation; Carry-forward of Loss of Tax Holiday Units.
+6. Payment of Tax before Assessment: [ILO 4]
+Tax Deduction at Source (TDS); Advance Income Tax (AIT) and Tax Payment on the Basis of
+Return; TDS vs. Collection of Tax at Sources; Incomes subject to TDS and Formalities and
+Consequences; TDS as Final Discharge of Tax Liability u/s 82C; Requirement and Procedures of
+AIT and Consequence on Failure to Pay AIT.
+7. Return of Income and Statements: [ILO 5]
+Requirement to File Return of Income; Form of Return of Income; Due Date of Submission of
+Return of Income; Documents to be Submitted along with the Return of Income; Return of
+Withholding Tax; Obligation to Furnish Annual Information Return; Certificate in Place of
+Return; Filling of Revised Return; Statement of Assets and Liabilities and Lifestyle; Production of
+Accounts and other Documents.
+8. Assessments: [ILO 6]
+Definition of Assessment; Provisional Assessment; Assessment on Correct Return; Universal Self;
+Assessment & Audit thereafter; Spot Assessment; Assessment after Hearing; Assessment on the
+Basis of Report of a Chartered Accountant; Best Judgment Assessment; Presumptive Tax
+Assessment on Owners of Road and Water Transports; Various Specialized Assessments; Income
+Escaping Assessment; Limitation for Assessment.
+9. Assessment of Individuals: [ILO 6]
+Definition of Individual; Computation of Total Income of an Individual Assessee; Procedure of
+Assessment; Assessment Order and Tax Clearance Certificate.
+10. Assessment of Companies: [ILO 6]
+Definition of Company and Types of Companies; Computation of Total Income and Tax Payable;
+Tax Rebate on Higher Productivity; Higher Dividend; CSR (Corporate Social Responsibility) and
+others; Procedure of Assessment; Assessment of Banks andother Financial Institutions; Liability of
+Directors for Unrecoverable Tax of Private Companies; Liability of Liquidators for Tax of Private
+Companies under Liquidation; Liability to Tax in case of Shipping and Air Transport Business of
+Non-residents.
+11. Default and Imposition of Penalty, Offences and Prosecution: [ILO 7]
+Penalty for various Defaults; Punishment for various Offences; Trial by Special Judge.
+
+**Textbooks / references.** 1. Chowdhury, D. Advanced Issues in Taxation: Theory & Practices, (Grantha Kutir),Dhaka. 2. The Income Tax Ordinance 1984 and the Income Tax Rules 1984 (updated). Reference Materials: 1. Finance Act (Latest) 2. ICAB Manual
+
+#### 2206 — Lab: Programming and Database Management (2 credits)
+
+_No detailed outline printed in the source._
+
+### Third Year First Semester
+
+#### 3101 — Cost Accounting (3 credits)
+
+**Course objectives.** The objectives of this course are to introduce cost accounting as a separate branch of accounting and to enrich students with the knowledge of measurement, analysis, accumulation and control of various elements of cost. The course is also designed to enhance students’ ability to prepare cost statements and use them for preparing the financial statements of manufacturing entities.
+
+**Intended learning outcomes.**
+
+Upon successful completion of this course, students will be able to:
+1. Understand cost accounting, its relations with other branches of accounting and its
+relevance for business.
+2. Explain costing, its types, methods and techniques.
+3. Illustrate the preparation of cost statements and its significance for financial
+statements.
+4. Demonstrate various issues relating to costing and control of materials.
+5. Learn alternative inventory valuation methods.
+6. Understand issues of labor wages and other benefits, different wage plans and develop
+effective wage plan for an organization.
+7. Identify manufacturing overhead, allocation bases and application of overhead.
+8. Learn allocation of support department costs under different methods.
+
+lOMoAR cPSD| 21806932
+
+9. Explain the nature of job costing and batch costing.
+10. Identify the situations in which process-costing systems are appropriate.
+11. Understand the basic concepts of process costing and compute unit costs.
+12. Illustrate service costing for various service-oriented organizations.
+13. Learn the basic features of an integrated accounting system.
+
+**Detailed contents.**
+
+1. Introduction to Cost Accounting: [ILO 1]
+Definition and Objectives of Cost Accounting; Importance of Cost Accounting; Cost
+Accounting vs. Financial Accounting; Evolution of Cost Accounting; Methods and
+Techniques of Cost Accounting; Characteristics of an Ideal Cost Accounting System;
+Installation of a Cost Accounting System; Modern Trends in Cost Accounting.
+2. Cost Concepts & Classification: [ILO 2, ILO 3]
+Costs and Cost Terminology; Concepts of Asset, Cost, Expense, and Loss; Classification
+of Costs; Factory Cost Flow;
+3. Costing and Control of Materials: [ILO 4, ILO 5]
+Nature and Types of Materials; Materials Control; Materials Procurement and Related
+Issues; Economic Order Quantity (EOQ) (Reorder Quantity), Reorder Level, Safety or
+Minimum Stock Level, Maximum Stock Level; Issue of Materials to Production Process,
+Materials Returned to the Storeroom, Materials Returned to Supplier; Materials Costing;
+Costing Materials Issued: First-in-First-out (FIFO), Last-in-First-out (LIFO), Simple
+Average, Weighted Average, Periodic Simple Average, Periodic Weighted Average,
+Moving Simple Average, Moving Weighted Average, Standard Price, Inflated Price,
+Replacement Price or Market Price; Lower of Cost or Net Realizable Value (NRV);
+Inventory Control Techniques: Pareto or ABC Analysis, Just-In-Time (JIT) Method;
+Accounting for Material Losses – Scrap, Spoilage, Defectives, Waste (or Wastage).
+4. Costing and Control of Labor: [ILO 6]
+Direct Labor and Indirect Labor; Organization for Labor Control; Wage Systems; Incentive
+Wage Plans: Time rate, piece rate; Job Evaluation and Merit Rating; Time and Motion study;
+Labor turnover; Treatment of Labor Cost-Related Items: Overtime, Overtime Premium, Idle
+Time, Fringe Benefits, Shift Premium, Holiday and Vacation Pay, Learner‘s or
+Apprentices‘ Wages, Attendance Bonuses, Leave with Pay, Employer‘s Contribution to
+Insurance; CasualWorkers, Out-Workers, Outside Workers.
+5. Costing and Control of Manufacturing Overhead: [ILO 7]
+Factory Overhead – Fixed and Variable; Accounting for Factory; Collection and
+Codification of Factory Overheads; Allocation and Apportionment of Factory Overheads;
+Absorption of Factory Overheads; Overhead Rates: Actual vs Predetermined (Standard);
+Under or Overabsorption of Overhead.
+6. Preparation of Cost Statements: [ILO 3]
+Statement of Cost of Goods Manufactured and Sold; Preparation of Income Statement for a
+Manufacturing Firm; A Framework for CostAccounting and Cost Management.
+7. Cost Allocation: Departments: [ILO 8]
+Production Departments and Departments; Allocating Costs of a Support Department;
+Allocating Costs of Multiple Support Departments Support; Allocating Common Costs;
+Methods of Allocation: Direct Method, Step or Sequential Method, Reciprocal Method;
+Departmental Overhead Rates.
+
+lOMoAR cPSD| 21806932
+
+8. Job-order Costing and Batch Costing: [ILO 9]
+Nature of Job Costing; Job Cost Sheet and Job Ledger; Recording Costs on Jobs: Materials
+Costs, Labor Costs, Direct Expenses, Overhead; Recording Completed Jobs; Batch Costing;
+Economic Batch Quantity.
+9. Process Costing: [ILO 10, ILO 11]
+Nature of Process Costing; Job Order Costing vs Process Costing; Physical Flow; Flow of
+Costs; Elements of Process Costs (Material, Labor, Factory Overhead, and Transferred-in
+Costs); Methods of Determining and Accounting for Cost Flows (Weighted Average vs.
+FIFO); Equivalent Units of Production; Cost of Production Report; Journal Entries Using
+Process Costing; Hybrid Costing System.
+6. Service Costing: [ILO 12]
+Nature of Service Costing; Basic Principles; Accounting Records; Costing of Service
+Concerns: Transport, Canteen, Hotel, Powerhouse, Hospital or Clinic, Educational
+Institutes.
+7. Integrated Accounting System: [ILO 13]
+Definition; Features; Advantages of Integration; Journal Entries; WIP Account; Finished
+Goods Account; Cost of Goods Sold Account; Cost of Sales Account; Preparation of
+Financial Statements; Reconciliation of Cost Accounting and Financial Accounting
+Records.
+
+**Textbooks / references.** 1. Datar, S. M. and Rajan, M. V. Horngren's Cost Accounting: A Managerial Emphasis, (Pearson). 2. Jawahar Lal, Srivastava, S. and Singh, S. Cost Accounting, (McGraw Hill) India. 3. Khan, M. Y. and Jain, P. K. Management Accounting, (McGraw Hill) India. Reference Materials: 1. Lanen, W., Anderson, S. and Maher, M. Fundamentals of Cost Accounting, (McGraw Hill). 2. Hilton, R. W. and Platt, D. Managerial Accounting, (McGraw Hill India).
+
+#### 3102 — Corporate Finance (3 credits)
+
+**Course objectives.** This course is designed to introduce the fundamental concepts of corporate finance decision making with reference to investment, financing and dividend decision. The course is a blend of theory in corporate finance and practice related to specialized tools for solving real world financial problems at both the individual and corporate level. The course will elaborate on the techniques of capital investment decision and financial decision making under uncertainty, corporate capital structure, valuation of the levered firm, dividend and other payouts decision, working capital management along with the introduction of international corporate finance.
+
+**Intended learning outcomes.**
+
+Upon completion of the course, students should be able to:
+
+lOMoAR cPSD| 21806932
+
+1. Understand the scope of corporate finance, major decision areas that confront corporate
+finance manager, possible goals of the firm, problems arising from agency relationship,
+and regulations affecting the functions of corporate finance manager including corporate
+governance.
+3. Demonstrate the procedures for determining relevant cash flows for capital investment
+decisions and explain how risk of a potential investment can be addressed by using
+different techniques.
+4. Discuss the impact of leverage on firm‘s value, risk and return, and understand the
+implication of Modigliani-Miller theory of capital structure in a world with and without
+tax.
+5. Describe how the costs associated with financial distress affect capital structure
+decisions and explore the questions raised by the agency cost/tax shield trade-off model
+of corporate leverage.
+6. Apply APV, FTE and WACC methods for valuation and capital budgeting of levered
+firm.
+7. Discuss the fundamentals of dividend, the arguments for dividend relevance or
+irrelevance, different types of dividend policy and the factors affecting a firm‘s dividend
+or retention policy.
+8. Explain the importance and approaches of current asset and current liability
+management for the attainment of corporate goals.
+9. Understand the risks of foreign investment, the types of exchange rate exposure, factors
+affecting exchange rate movement and the fundamental corporate financefunctions in
+an international setting.
+
+**Detailed contents.**
+
+1. Introduction to Corporate Finance: [ILO 1]
+Definition of Corporate Finance, Corporate Finance Decisions, Legal Forms of Business
+Organization, The Goals of Corporate Finance Manager, The Agency Problem and
+Control of the Corporation, Regulation and Corporate Governance, Financial Markets
+and the Corporation, Financial Statements Analysis, Financial Planning Models,
+Determinants of Growth, Caveats of Financial Planning Models.
+2. Capital Investment Decisions and Risk Analysis: [ILO 2]
+Capital Investment Evaluation Methods, Incremental or Relevant Cash Flows,
+Estimating Investment and Operating Cash Flows, Special Cases of Discounted Cash
+Flow Analysis, Capital Rationing, Inflation and Capital Investment Decisions, Capital
+Investment Decisions Under Risk, Sensitivity Analysis, Scenario Analysis and BreakEven Analysis, Real Options, Decision Trees.
+3. Capital Structure Decisions: [ILO 3, ILO 4]
+Financing Decision and Firm Value, Efficient Capital Markets, Different Types of
+Market Efficiency, Operating Leverage, Financial Leverage and Total Leverage, Impact
+of Leverage on Firm Value and Risk, Modigliani and Miller (MM) Theory of Capital
+Structure: Proposition I and II, Capital Structure and Cost of Capital, Limits to the Use
+of Debt, Financial Distress Costs, Agency Cost of Debt, Integration of Tax Effect and
+Financial Distress Costs, Debt Signaling Hypothesis, Agency Cost of Equity, The
+Pecking-Order Theory, How Firms Establish Capital Structure.
+4. Valuation and Capital Budgeting for the Levered Firm: [ILO 5]
+Adjusted Present Value Approach, Flow to Equity Approach, Weighted Average Cost
+
+lOMoAR cPSD| 21806932
+
+of Capital Approach, A Comparison of APV, FTE and WACC Approach, Estimation of
+the Discount Rate for Valuation, Beta and Leverage.
+5. Dividend and Other Payouts Decisions: [ILO 6]
+Different Types of Payouts, Standard Method of Cash Dividend Payment, Dividend
+Relevance Theory, Walter and Gordon Model, Modigliani and Miller (MM) Dividend
+Policy Irrelevance Theory, Repurchase of Stock, Taxes, Dividend and Stock
+Repurchases, Factors Affecting Dividend Policy, Different Types of Dividend Policy,
+Dividend Signaling Hypothesis, Information Content of Dividend, Clientele Effect,
+Stock Dividends and Stock Splits.
+6. Working Capital Management: [ILO 7]
+Concepts of Working Capital, Importance of Working Capital Management, Factors
+Determining Working Capital, Hedging, Aggressive and Conservative Approach to
+Working Capital Financing, Estimating Working Capital Requirements, Cash and
+Marketable Securities Management, Receivable Management and Credit Policy,
+Inventory Management, Short-term Financing Management.
+7. International Corporate Finance: [ILO 8]
+Domestic versus Foreign Investment, Foreign Exchange Markets, Transactions and
+Participants, Different Types of Exchange Rates, International Monetary System,
+Trading in Foreign Exchange, Factors Influencing Exchange Rates, Purchasing Power
+Parity, Interest Rate Parity, The International Fisher Effect, International Capital
+Budgeting, Capital Structure and Working Capital Management, Political Risk.
+
+**Textbooks / references.** 1. Ross, S. A., Westerfield, R. W., Jaffe, J. and Jordan, B. D. Corporate Finance. (McGraw-Hill Publication). Reference Materials: 1. Brealey, R. A., Myers, S. C. and Allen, F. Principles of Corporate Finance. (McGrawHill Education). 2. Berk, J., DeMarzo, P. and Harford, J. Fundamentals of Corporate Finance. (Pearson).
+
+#### 3103 — Audit and Assurance (3 credits)
+
+**Course objectives.** The objective of this course is to introduce the concept of auditing and assurance as a demand driven discipline necessitated by the economic imperative and guided by social justification. The course focuses on the regulatory and professional framework of audit engagement, including ethical consideration and the professional liabilities. Besides, an attempt has been made to establish the logical order for audit of historical financial information as a whole and issuance of the audit report.
+
+**Intended learning outcomes.**
+
+Upon completion of the course, the students will be able to:
+1. Comprehend the nature of auditing and assurance services, their types, importance and
+distinguish audit services from other assurance and non-assurance services.
+2. Understand the regulatory framework of statutory audit in Bangladesh.
+
+lOMoAR cPSD| 21806932
+
+3. Know the standard setting bodies and the professional standards for auditing
+engagement.
+4. Get an overview of the audit of historical financial information, including the audit
+expectation gap.
+5. Understand the basic process for audit of historical financial information.
+6. Understand the processes involved in accepting and managing audit engagement.
+7. Understand the audit planning in detail through understanding the entity‘s environment
+and its internal control system, determining materiality and assessing the risk.
+8. Know various types of audit tests and perform audit tests and evaluate audit evidence.
+9. Understand audit report and various situations for appropriate audit report.
+10. Understand the importance of ethical behavior to a profession and identify issues
+relating to professional ethics and safeguard thereon; and
+11. Know about the professional liabilities as an auditor.
+
+**Detailed contents.**
+
+1. Audit and Assurance Engagement: [ILO 1]
+Concept of Audit and Assurance Engagements; Assurance Process; Levels of
+Assurance; Importance of Assurance Services; Limitations of Assurance; Framework
+for Assurance Engagement; Purposes and Characteristics of Different Assurance
+Engagements; Auditing and Its Characteristics; Concept of Reasonable Assurance;
+Scope of Auditing; Objectives of Audit; Economic Demand for Auditing; Reduction
+of Information Risk; Historical Background of Audit; Types of Audit - Operational
+Audit, Financial Statements Audit, Compliance Audit, Interim and Final Audit, Cost
+Audit, Management Audit, Social Audit, Performance Audit, Value-for-Money Audit,
+3E Audit, Due Diligence Audit, Forensic Audit, System Audit, Continuous Audit,
+Internal Audit, External Audit, Government Audit, Tax Audit.
+2. Regulatory Framework of Statutory Audit in Bangladesh: [ILO 2]
+Legal Provisions of Audit as per the Companies Act 1994 (Section 210 to Section 220);
+Legal Provisions for Keeping Books of Records as per the Companies Act 1994 (Section
+181, 183-187, 189); Securities and Exchange Rules, 1987, Bank Companies
+Act, 1991; Insurance Act, 2010; Income Tax Ordinance, 1984.
+3. Professional Bodies and Professional Standards: [ILO 3]
+Regulatory Body vs Standard Setting Body; Regulatory Body - Financial Reporting
+Council (FRC), Bangladesh Securities and Exchange Commission (BSEC), Bangladesh
+Bank (BB), Insurance Development and Regulatory Authority (IDRA); Standard
+Setting Body - International Federation of Accountants (IFAC), International
+Accounting Standard Board (IASB), Financial Accounting Standard
+Board (FASB); Professional Body – the Institute of Chartered Accountants of
+Bangladesh (ICAB), the Institute of Cost and Management Accountants of Bangladesh
+(ICMAB), the Institute of Chartered Secretariat of Bangladesh (ICSB); Auditing
+Profession in Bangladesh; Need for Professional Standards; International Auditing and
+Assurance Standards Board (IAASB) - International Standards on Auditing (ISA),
+International Standards on Assurance Engagements (ISAE), International Standards on
+Review Engagements (ISRE), International Standards on Related Services (ISRS),
+International Standards on Quality Control (ISQC), International Auditing Practice
+Notes (IAPN); Adoption of Auditing Standards in Bangladesh.
+4. Overview of Audit of Historical Financial Information: [ILO 4]
+
+lOMoAR cPSD| 21806932
+
+Objective of Financial Statements Audit (ISA 200); Management‘s Responsibilities;
+Auditor‘s Responsibilities; Professional Skepticism; Professional Judgement;
+Management Assertions; Setting Audit Objectives – Transaction and Balance Related
+Audit Objectives; Expectation Gap in Audit Service; Audit Limitations.
+5. Process for Audit of Historical Financial Information: [ILO 5, ILO 6, ILO 7, ILO
+8, ILO 9]
+a. Accepting the Audit Engagement/Pre-engagement Procedures [ILO 6]
+Client Intimation; Evaluation of Management‘s Integrity; Identification of Unusual
+Issues; Professional Clearance; Form 23B; Evaluation of Independence; Due Care;
+Agreeing the Terms of Engagement Letter (ISA 210); Ensure Quality Control for an
+Audit (ISA 220).
+b. Audit Planning [ILO 7]
+Planning an Audit of Financial Statements (ISA 300) – Set Overall Audit Strategy,
+Benefits of Audit Plan, Develop an Audit Plan, Audit Planning Checklist; Identifying
+and Assessing the Risk of Material Misstatements through Understanding the Entity and
+Its Environment (ISA 315); Understanding Client‘s Internal Control Systems, COSO
+Components of Internal Control; Impact of IT Infrastructure on Internal Control;
+Walkthrough Test and Assessing the Control Risk; Preliminary Analytical Procedure;
+Materiality – Materiality for Financial Statements as a Whole, PerformanceMateriality
+(ISA 320); Risk-based Audit Approach; Audit Risk – Audit Risk Model, Assessing
+Acceptable Audit Risk; Considering Fraud Risk (ISA 240); Audit Planning
+Memorandum and Audit Program.
+c. Perform Audit Test [ILO 8]
+Control Test; Substantive Test – Substantive Test of Transactions, Substantive
+Analytical Procedures, Tests of Details of Balances; Evidence (ISA 500);
+Persuasiveness of Audit Evidence - Sufficiency and Appropriateness of Audit Evidence;
+Evidence Mix; Analytical Procedures (ISA 520); Audit Sampling (ISA530); Written
+Representations (ISA 580); Documentation and Working Papers (ISA 230).
+d. Competing the Audit and Issue an Audit Report [ILO 9]
+Complete the Field Work; Evaluate the Findings; Consider Subsequent Events (ISA
+560); Communicating with those Charged with Governance and Management (ISA
+265); Form the Final Audit Opinion and Issue the Audit Report (ISA 700, ISA 701) –
+Components of an Audit Report, Key Audit Matters; Auditor‘s Decision Process for
+Audit Reports – Materiality; True and Fair View/Fairly Presented; Audit Opinion Clean Opinion/Unqualified Opinion; Modifications to the Opinion - Qualified Opinion,
+Adverse Opinion, Disclaimer of Opinion (ISA 705); Emphasis of Matter Paragraph and
+Other Matter Paragraphs in the Audit Report (ISA 706); Going Concern Issue (ISA
+570).
+6. Professional Ethics: [ILO 10]
+Definition of ethics; Role of ethical codes and its importance for profession; Difference
+between rule-based and principle-based ethical code; IFAC Code of Ethics;Fundamental
+principles of Ethics - Integrity, Objectivity, Professional Competence and Due Care,
+Confidentiality and Independence; Resolving Ethical Conflicts; Conflict of Interest;
+Confidentiality and Its Importance; Safeguards to Confidentiality; Disclosure of
+Confidential Information; Independence and Its Requirements in an Assurance
+Engagement; Threats to the Fundamental Ethical Principles and the Independence of
+Assurance Providers: Self-Interest threat, Self-Review Threat, Management Threat,
+
+lOMoAR cPSD| 21806932
+
+Advocacy Threat, Familiarity Threat, Intimidation Threat; Safeguards to Eliminate or
+Reduce Threats.
+7. Liabilities of Auditors: [ILO 11]
+Nature of Liabilities of Professional Accountants; Business Failure; Audit Failure;
+Audit Risk; Liability of an Auditor under the Companies Act; Liabilities under Income
+Tax Ordinance; Contractual Liability; Civil Liability – Liability for Negligence,
+Liability for Misfeasance; Criminal Liability; Liability to Clients; Liability to Third
+Parties; Liability of an Auditor for Libel; Professional Response to Legal Liability;
+Notable Legal Cases.
+
+**Textbooks / references.** 1. Arens, A. A., Elder, R. J., Beasley, M. and Hogan, C. E. Auditing and Assurance Services: An Integrated Approach. (Prentice-Hall). 2. Hayes, R., Dassen, R., Schilder, A. and Wallage, P. Principles of Auditing, (PrenticeHall). 3. Woolf, E. Auditing Today, (Prentice-Hall). Reference Materials: 1. The Bangladesh Chartered Accountants Order, 1973 and Bylaws. 2. Companies Act 1994, Securities and Exchange Rules 1987, Bangladesh Banks Circulars etc. 3. Assurance –Study Manual- CA Certificate Level: Institute of Chartered Accountants of Bangladesh. 4. Audit and Assurance –Study Manual- CA Professional Level: Institute of Chartered Accountants of Bangladesh. 5. Handbook of Bangladesh Standards on Auditing, Assurance, and Ethics Pronouncements (Volume-1). 6. Handbook of Bangladesh Standards on Auditing, Assurance, and Ethics Pronouncements (Volume-2): Bangladesh Standards on Auditing.
+
+#### 3104 — Banking and Insurance (3 credits)
+
+**Course objectives.** The objectives of this course are to give an overview about the business environment of banking financial institutions and insurance companies in Bangladesh. This will provide students with anoverview about the financial reporting environment of Banking and Insurance Companies in Bangladesh. It will make the students familiar with the compliance requirements and reporting framework to prepare the financial statements of Banking financial institutions and Insurance Companies.
+
+**Intended learning outcomes.**
+
+Upon completion of the course, students should be able to:
+1. Understand the history, nature and classification of banking financial institutions.
+2. Describe the theories and functions of central bank and commercial banks in
+Bangladesh.
+3. Prepare and present the financial statements of banking financial institutions.
+
+lOMoAR cPSD| 21806932
+
+4. Explain the general concepts of insurance and the development of insurance business
+in Bangladesh.
+5. Understand the various principles and provisions that govern the life insurance.
+6. Identify and familiar with the nature and policies of fire/ marine and others insurance.
+7. Know how to compute insurance claims and prepare financial statements of insurance
+companies.
+
+**Detailed contents.**
+
+PART A: Banking Financial Institution
+1. Evolution of Banking Financial Institutions: [ILO 1]
+Introduction to Banking- Origin, Growth and Development of Banking, Historical
+Development of Banking Systems, Banking History of Bangladesh and its Present
+Status.
+2. Classification of Banks: [ILO 1]
+Central Bank-Commercial Banks-Investment or Industrial Banks-Exchange Banks- Cooperative Banks-Land Mortgage Banks-Savings Banks- Merchant Banks- Specialized
+Banks-Mixed banking-Group banking-Chain banking-Unit banking-Branch bankingOff shore and onshore banking.
+3. Central Bank: [ILO 2]
+Characteristics of a Central Bank; Nature and Functions of Central Bank; Necessity of
+Central Bank; Central Banking Theory, Comparison between Central Bank and
+Commercial Bank, the Clearing House System.
+4. Commercial Bank: [ILO 2]
+Theories of Commercial Banking; Functions of Commercial Banks and the Services
+Rendered by Commercial Banks; Certain Sound Commercial Banking Principles;
+Employment of Fund by Commercial Banks; the Process of Multiple Credit Expansion;
+Risks and Objectives of Risk Management; Elements of Sound Risk Management
+Systems; Risk Management Guidelines for Banks; Regulations of Banks By Bangladesh
+Bank (BB) and the Bangladesh Securities and Exchange Commission (BSEC);
+Classified Loans and Loan Loss Provisions; Operation and Management; Inspection and
+Investigation; Accounts and Audit; Submission of Return and Reports; Corporate
+Governance Guidelines and Practices in Banks; Green Banking; SME Banking;
+Corporate Social Responsibility; Enterprise Risk Management; BASEL III; Risk-Based
+Capital Adequacy; Stress Testing.
+5. Preparation and Presentation of Bank’s Financial Statements: [ILO 3]
+Reporting framework of bank-Regulations of voluntary reporting and mandatory
+reporting-Various provisions of Bank Companies Act 1991, Preparation of Financial
+Statements of Banking Companies as per BB‘s Guidelines; Presentation and Disclosure
+in the Financial Statements of Islamic Banks; Ideas on IAS 39/IFRS 9 in preparation of
+Bank‘s Financial Statements.
+PART B: Insurance
+6. Insurance Company in Bangladesh: [ILO 4]
+Concept of Insurance; Development of Insurance Company in Bangladesh and present
+status; Role and Functions of Insurance; Principles of Insurance; Classification of
+Insurance Business and Policies; Insurance Development and Regulatory Authority
+(IDRA); Accounts, Audit, Actuary Report and Statements (IFRS 4, IAS 19 and IAS 26);
+Actuary and Actuary Valuation; Commissions, Rebates and Management Expenses;
+
+lOMoAR cPSD| 21806932
+
+Distribution of Dividend; Bonus and Profit; Registers; Submission of Returns; ReInsurance Business in Bangladesh; Role of Insurance Academy. Shariah based
+insurance companies, Shariah board.
+7. Life Insurance: [ILO 5]
+Life Assurance Contract; Types of Policies; Certain Aspects of Life Assurance; Actuary
+Valuation; Premium, Valuation and Surplus Calculation; Surrender Value; Settlement
+of Claims; Life fund; Present Status of Life Insurance Business in Bangladesh; Methods
+of Spreading Insurance in Rural Areas; Loan Against Life Policy, Policy Lapsation,
+Policy Renewal.
+8. Fire Insurance: [ILO 6]
+Material Loss Insurance; Consequential Loss Insurance; Settlement of Claims; Extent
+of Loss by Fire in Bangladesh, Moral Hazard, Management Problems of Fire Insurance.
+9. Marine Insurance: [ILO 6]
+Marine Insurance Contract; Types of Policies; Maritime Perils; Marine Losses,
+Settlement of Claims; Act of God.
+10. Other Insurance: [ILO 6]
+Health Insurance; Postal Life Insurance; Crop Insurance; Cattle Insurance; Civil
+Aviation Insurance; Export Credit Guarantee Insurance; Group Insurance; Bank Deposit
+Insurance; Fidelity Insurance etc.
+11. Financial Statements of Insurance Companies: [ILO 7]
+Computation of Insurance Claims; Preparation of Financial Statement of Insurance
+Companies as Per Guidelines of the IDRA, Insurance Act 2010,
+12. Accounting for Islamic Insurance Companies:
+Presentation and Disclosure in the financial statements of Islamic Insurance Companies, Disclosure of Bases for
+Determining and Allocation Surplus or Deficit in Islamic Insurance Companies, Investment funds, provisions
+and Reserves in Islamic Insurance Companies.
+
+Part C: Other Financial Institutions:
+12. Non-Banking Financial Institutions:
+Introduction, Origin, Growth and Development of NBFI, Historical Development of NBFI and its
+Present Status. Types of NBFI, Accounting for lease finance, Islamic financing, Preparation of
+Financial Statements of Banking Companies, Bangladesh Bank guideline for NBFI, SED and other
+relevant regulatory authorities and applicable laws.
+
+**Textbooks / references.** 2. Chowdhury, A.H. Elements of Insurance 3. Mishra, M. N. Insurance: Principles & Practices, (S. Chand Ltd.) 4. Sethi, T. T. Money, Banking and International Trade, (S. Chand Ltd.) 5. Shekhar, K. C. Banking Theory and Practice, (VIKAS) 6. Crosse, H. D. and Hempt, G. H. Management Policies for Commercial Banks
+
+#### 3105 — VAT and Cross-Border Taxation (3 credits)
+
+**Course objectives.** lOMoAR cPSD| 21806932 The objective of the first part of this course is to give an idea about concepts and principles of VAT, Custom Duty, and income tax of international transactions. It will also contribute to the understanding of the nature of public finance and its sources along with the areas of public income and expenditure with the practical exposure (Budget) and evaluating a good taxation policy.
+
+**Intended learning outcomes.**
+
+Upon completing this course, students will be able to:
+1. Understand VAT and SD calculation.
+2. Maintaining Books of Accounts for VAT and SD.
+3. Understand international income taxation.
+4. Understand transfer pricing and its implication.
+5. Understand international trade process.
+6. Understand Customs Duty assessment.
+7. Evaluate a fiscal policy of the government.
+
+**Detailed contents.**
+
+1. Value Added Tax (VAT) and Supplementary Duty: [ILO 1]
+History of VAT ; Statutory Definitions as per the VAT Act; Evolution and Economic
+Rationality of VAT; VAT Registration; Imposition of VAT; Application of Tax Rate;
+VAT Base ; Method and Time of Payment of VAT; Truncated Value (Truncated Rate of
+VAT, VAT on certain services on Estimated Value Addition); VAT Deducted at
+Sources; VAT Authorities; Turnover Tax (Concept of Turnover Tax; Enlistment for
+Turnover Tax; Payment of Turnover Tax; Books and Documents to be Maintained for
+Turnover Tax; Penalty for False Declaration for Turnover Tax; Differences between
+VAT and Turnover Tax); Input Tax; Supplementary Duty; Consequences of Noncompliance; VAT Administration; Appointment; Delegation of Authorities and Powers;
+Appeal; Revisions and Recovery of Claims.
+2. VAT Accounting: [ILO 2]
+Books and Documents Required to be Maintained for VAT accounting; VAT 4.3 –
+Input Output Coefficient, VAT 6.1 Purchase Book, VAT 6.2- Sales Book, VAT 6.2.1
+–Purchase and Sales Book, VAT 6.3 – Sales Invoice, VAT 6.4 – Invoice for Contract
+Manufacturing, VAT 6.5 – Invoice for Transfer of Goods; VAT 6.6 –VDS Certificate ,
+VAT 6.7 – Credit Note, VAT 6.8 Debit Note, VAT 9.1 - VAT Return, VAT recordingin
+the Financial Accounting System.
+3. Income Tax on Cross Border Transactions: [ILO 3]
+Section 144 of Income Tax Ordinance 1984, TDS of Non-residents (Section 56 of ITO
+1984), Economic Double Taxation, Juridical Double Taxation, Double Tax Avoidance
+Agreement (DTTA), UN DTTA Model Vs. EU DTTA Model, Relief in respect of
+Income Arising outside Bangladesh; Methods of Avoiding Double Taxation. Section
+102. Liability to tax in case of shipping business of non-residents; Section 103A.
+Liability to tax in case of air transport business of non-residents; Section 104.
+Avoidance of tax through transactions with non-residents; Section 107. Tax clearance
+
+lOMoAR cPSD| 21806932
+
+certificate required for persons leaving Bangladesh; Permanent Establishments (PE),
+Liaison Office Vs. PE; EU BEPS Provision, Hybrid Mismatch, Thin Capitalization.
+4. Transfer Pricing Rules: [ILO 4]
+CUP Method, Resale Method, Cost Plus Method, Profit Split Method, TNMM Method;
+Section 107B: Determination of income from international transaction having regard to
+arm‘s length price; Section 107C- Computation of arm‘s length price. Section 107DReference to Transfer Pricing Officer. Section 107E. Maintenance and keeping of
+information, documents and records; Section 107EE. Statement of international
+transactions to be submitted; 107F. Report from an accountant to be furnished. Section
+107G - Penalty for failure to keep, maintain or furnish information, documents or
+records to the Deputy Commissioner of Taxes. Section 107H. Penalty for failure to
+comply with the notice or requisition under section 107C. Section 107HH- Penalty for
+failure to comply with the provision of section 107EE; Section 107I- Penalty for failure
+to furnish report under section 107F.
+5. International Trade and Tax: [ILO 5]
+Process of International Trade; Absolute Advantage and Competitive Advantage,
+Gaining from Trading; Importance of Import and Export, International Trade Barriers,
+Qualitative and Quantitative barriers of international trade; WTO rules. HS Code;
+Import Export Documentations – Pro-forma Invoice, LC, Bill of Lading, Airway Bill,
+Bill of Entry.
+6. Customs Duty: [ILO 6]
+Goods Dutiable; Goods Prohibited; Various Duties under the Customs Act; Rates of
+Duties; Tax Points and Valuation Bases for Customs Duty; Duty-Drawback and
+Exemptions; Pre-Shipment Inspection Agencies; Assessment; Penalties and Offences;
+Schedules.
+7. Evaluation of Fiscal Policy: [ILO 7]
+Market and its function in allocation of resources; Two fundamental principles of
+Welfare Economics; Market Failure; Positive and Negative Externalities; Public Goods,
+Free riding; Taxation Principles and Its Incidence; Factors determining the distribution
+of tax burdens; Tax incidence in factor markets ; General equilibrium tax incidence;
+Taxation and Economic Efficiency; Effects of taxes borne by consumers; Effects of
+taxes borne by producers; Effects of taxes on labor supply. Tax Inefficiencies and Their
+Implications for Optimal Taxation; Taxation and economic efficiency; Optimal
+commodity taxation; Optimal income taxes; Budget, Balanced Budget, Deficit Budget,
+Surplus Budget.
+
+References Materials:
+1. Rosen, H. S. and Gayer, T. Public Finance, (McGraw-Hill), Boston.
+2. Musgrave, R. A. and Musgrave, P. B. Public Finance in Theory and Practice
+(McGraw-Hill Book Company).
+3. Chowdhury, D. Advanced Issues in Taxation: Theory and Practices, (Grantha Kutir),
+Dhaka.
+4. Customs Act 1969.
+5. Value Added Tax and Supplementary Duty Act 2012
+6. Excise and Salt Act 1944.
+7. Land Development Tax Ordinance 1976
+8. Income Tax Ordinance 1984
+
+lOMoAR cPSD| 21806932
+
+9. Stamp Act 1899
+10. Latest Finance Act.
+
+#### 3106 — Entrepreneurship and Business Development (1 credits)
+
+**Course objectives.** The Entrepreneurship course is a dynamic course designed to inspire and engage learners in the fundamental aspects of an entrepreneurial mindset and the unlimited opportunities it can provide. This course will empower learners through entrepreneurial thinking and immerse them in entrepreneurial experiences that will enable them to be creative and innovative. Furthermore, the course will expose learners on the application of entrepreneurship skills. Thus, creating and managing viable enterprises. Intended Learning Objectives (ILOs): On successful completion of this course students will be in position: ➢ To equip them with skills that will enable them launch new enterprises ➢ To acquaint students with behaviors that ensure business survival and success ➢ To give them knowledge that will induce in them an entrepreneurial culture and help them look at the bigger picture. ➢ To equip students with innovative and creative skills in the business environment Course Outcomes: On successful completion of this course students should at least be able to: • Acquire a basic understanding of the entrepreneurial skills • Develop critical thinking entrepreneurial skills that will enable them to identify and evaluate entrepreneurial opportunities, manage risks, and learn from the results. • Analyze the process that enables entrepreneurs with limited resources to transform a simple idea into a sustainable success. • Establish goals, identify resources, and determine the steps required to start and manage a business. • Demonstrate and interact with local entrepreneurs and business owners within their own communities. • Develop business models for their business • Develop a business plan for starting up a business • Apply the knowledge to a real-world perspective through cases and examples derived from real entrepreneurial skills and actions hence developing their ability to apply theory to practice.
+
+**Detailed contents.**
+
+1.0 Introduction To Entrepreneurship Development
+Introduction, Nature and importance of Entrepreneurship, Historical development of Entrepreneurship,
+Personal characteristic of Entrepreneurship, Function of Entrepreneurship, Distinction between an
+Entrepreneur and a Manager, Role of Entrepreneurship in economic development, Summary/Case study
+analysis/Application of knowledge
+2.0 Emerging Issues In Entrepreneurship
+Entrepreneurship myths, Theories of Entrepreneurship, Culture of Entrepreneurship, Gender and
+Entrepreneurship, Summary /Case study analysis/Application of knowledge
+3.0 Forms Of Entrepreneurship
+Small Business Entrepreneurship, Types of Business Ownership, Classification of family business,
+Partnership business, Cooperatives, Limited company, Franchise, Types of franchise methods, Corporate
+Entrepreneurship, Case study analysis/Application of knowledge
+
+lOMoAR cPSD| 21806932
+
+4.0 Micro & Small Scale Enterprises
+Classification of Business firms, The role of SME in Economic development, Advantages and
+disadvantages of SME, Challenges facing the development of SME in developing countries, The role of
+government in the development of SMEs in your respective countries, Case study analysis/Application of
+knowledge
+5.0 Creating & Starting The Venture/Creativity And Innovation
+Definition of creativity and innovation, Some of new ideas, Methods of generating ideas, Purposeful
+innovation, Sources of innovative opportunity, The bright idea, Principles of innovation, Case study
+analysis/Application of knowledge
+6.0 Environmental Analysis/Entrepreneurial Environment
+Introduction to environmental analysis, Internal environmental analysis, External environmental analysis,
+Challenges in industrial analysis, Case study analysis/Application of knowledge
+7.0 Feasibility Studies/Analysis
+Meaning of a feasibility study/analysis, Preparing concept statement, Dimensions of feasibility studies,
+Who carries out a feasibility study?, When is it valuable?, When to conduct a feasibility analysis, Forms of
+feasibility analysis, Case study analysis/Application of knowledge
+8.0 Business Model Canvas
+Meaning of a business model canvas, Rational for business model canvas, Nine elements of a business
+model canvas, Why a good value proposition is central to a successful business model canvas, Case study
+analysis/Application of knowledge
+9.0 Financing New Ventures
+Introduction, Financing means and some of finance, Venture capital, Case study analysis/Application of
+knowledge
+10.0 The Business Plan
+Introduction, Essentials of a good Business Plan, Scope and value of the Business plan, Elements of a
+business plan, Business plan format, Case study analysis/Application of knowledge
+11.0 Industry Tour and Business Development:
+• A week industry tour and developing a business based on the industry experience.
+
+**Textbooks / references.** 1. Alex. O, (2014) Value Proposition Design Inc., Hoboken, New Jersey. ISBN: 10 987654321. 2. Nielsen, C., & Lund, M. (2015), The Concept of Business Model Scalability 3. Eric Ries (2011) The learn startup (How todays Entrepreneurs use Continuous Innovation to Create Radically Successful Business), Crown Publishing Group. ISBN: 978-0-307-88791-7 4. Lundy, Mark (2012) LNK methodology: A participatory guide to business models that link smallholders to markets. ISBN 978-958-694-114-3 6. Gupta , C.B and Srinivasan, N.P (1996), Entrepreneurial Development. Sultan, Chand and Sons Publishers. 7. Kao John J (1989), Entrepreneurship, Creativity and Organization. Prentice Hall International. 8. Clifford Pinchot III (1985), Intrapreneur. Harper & Row, Publishers, New York lOMoAR cPSD| 21806932 THIRD YEAR SECOND SEMESTER
+
+### Third Year Second Semester
+
+#### 3201 — Management Accounting (3 credits)
+
+**Course objectives.** Management Accounting is concerned with providing necessary information to internal users i.e., managers for making effective organizational decisions. This course describes both theory and practice so that students understand how managers produce and use information in operational and strategic decision making. This course will further provide students with the elementary idea about management accounting tools and techniques.
+
+**Intended learning outcomes.**
+
+Upon successful completion of this course, students will be able to:
+1. Describe what managers do and why they need accounting information.
+2. Explain the importance of cost behavior and their relationship with managerial
+decision making.
+3. Explain the relationship among cost, volume and profit in a single product and multiproduct cases.
+4. Understand the sensitivity of profit in changing circumstances and in a taxed business
+environment.
+5. Explain how some costs transfer from one period to another with costing systems.
+6. Describe ABC as a better cost management approach and understand how the
+limitations of conventional cost allocation can be eliminated through proper resource
+allocation.
+7. Give elementary idea about budgets and budgetary control.
+8. Explain the need for flexible budgeting technique for performance analysis.
+9. Develop an understanding of standard cost and its application in business.
+10. Give ideas about price, quantity and efficiency variances and their interpretations for
+managerial performance.
+11. Understand the difference between joint products and by-products and their cost
+allocation methods.
+12. Explain the concept of decentralization and responsibility centers.
+
+**Detailed contents.**
+
+1. Management Accounting, Business Organizations and Professional Ethics: [ILO
+1]
+Definition of Management Accounting; Scope and Functions of Management
+Accounting; Evolution of Management Accounting; Financial Accounting vs.
+Management Accounting; Cost Accounting vs. Management Accounting; Expanding
+Role of Management Accountants; the Management Accounting Profession; Code of
+Ethics for Management Accountants.
+2. Cost Behavior: [ILO 2]
+Cost Behavior; Analysis and Measurement of Cost Behavior: Variable, Fixed, Mixed;
+Methods of Segregating Mixed Costs into Fixed and Variable Costs (High-Low
+Method; Inspection of Accounts/Accounts Classification Method; Engineering Method;
+Scatter graph Method, Ordinary Least Squares or Regression Method); Contribution
+
+lOMoAR cPSD| 21806932
+
+Format of Income Statement.
+3. Cost-Volume-Profit Analysis: [ILO 2, ILO 3, ILO 4]
+Assumption and Uses of Cost-Volume-Profit (CVP) Analysis; Graphical Approach to
+CVP Analysis; Breakeven Analysis; Computations of Breakeven Point: Equation
+Method, Formula Method and Graphical Method; Target Net Operating Income with
+and without taxes; Sensitivity Analysis; Margin of Safety; Degree of Operating
+Leverage (DOL); CVP Analysis Under Multi-Product Situations; Limitations of CVP
+Analysis.
+4. Variable Costing and Absorption Costing: [ILO 2, ILO 5]
+Variable Costing and Absorption Costing: Nature and Comparison; Product Cost and
+Income Statement Under Different Costing System; Reconciliation of Absorption
+Costing Income with Variable Costing Income; Transfer of Fixed Manufacturing
+Overhead from one Period to Another; Over/Under-Production Compared to Standard;
+Uses and Limitations of Absorption Costing and Variable Costing.
+5. Activity-Based Costing and Activity-Based Management: [ILO 6]
+Traditional Costing System and its Application and Limitation; Definition of ActivityBased Costing (ABC); Steps of ABC; Treatment of Cost under Traditional and ABC
+System; Comparison of Traditional and ABC Product Costs; Designing an ABCSystem;
+Benefits and Criticisms of ABC; Meaning of Activity-Based Management (ABM.
+6. Introduction to Budgets and Preparation of the Master Budget: [ILO 2, ILO 7]
+Budget and Budgeting; Purpose of Budgeting; Types of Budgets and their Relations;
+Budget as a Planning and Control Tool; Budgeting Process; Preparation of Functional
+Budgets; Cash Budget; Master Budget; Budgeted Income Statement; Budgeted
+Balance Sheet; Behavioral Aspects of Budgeting.
+7. Flexible Budgets and Performance Analysis: [ILO 2, ILO 8]
+Limitations of a Static Budget and the Need for a Flexible Budget; The Preparation of
+Flexible Budget; Flexible Budget and Performance Report.
+8. Standard Costing and Variance Analysis: [ILO 9, ILO 10]:
+Meaning and Purposes of Standard Cost; Need for the Setting up of Standard;
+Consideration in Establishing Standard; Types of Standards; Calculation of Variances:
+Material Price and Usage Variances, Labor Rate and Efficiency Variances, Overhead
+Volume and Spending Variances; Interpretations of Different Variances; Recording
+Journal Entries Under the Standard Costing System; Performance Report.
+9. Cost Allocation: Joint Products and By-Products: [ILO 11]
+Basic Concepts: Joint Products and By-Products, Common Costs and Joint Costs, Split
+Off Point and Separable Costs; Allocation of Joint Costs; Assignment of Costs to Joint
+Products: Market or Sales Value Method, Quantitative or Physical Unit Method,
+Average Unit Cost Method, Weighted Average Cost Method; Irrelevance of Joint Costs
+for Decision Making; Accounting for By-Products: Production Method and Sales
+Method; Journal Entries for By-Products.
+10. An Introduction to Responsibility Accounting: [ILO 12]
+Meaning and Objectives of Responsibility Accounting; Financial Control and its
+Relationship with Operations Control; Centralization vs. Decentralization; Advantages
+and Disadvantages of Decentralization; Decentralization and Responsibility Centers:
+Cost Center, Profit Center and Investment Center.
+11. Total Quality Management:
+
+lOMoAR cPSD| 21806932
+
+Concepts, History and Evolution, Benefits, Implementing TQM, TQM practices in
+different countries.
+
+**Textbooks / references.** 1. Datar, S. M. and Rajan, M. V. Horngren's Cost Accounting: A Managerial Emphasis, (Pearson). 2. Horngren, C. T., Sundem, G. L., Burgstahler, D. and Schatzberg, J. O. Introduction to Management Accounting, (Pearson). 3. Garrison, R. H., Noreen, E. and Brewer, P. C. Managerial Accounting, (McGraw Hill India). Reference Materials: 1. Lanen, W., Anderson, S. and Maher, M. Fundamentals of Cost Accounting, (McGraw Hill). 2. Bhimani, A., Horngren, C. T., Datar, S. M. and Rajan, M. V. Management & Cost Accounting, (Pearson). 3. Khan, M. Y. and Jain, P. K. Management Accounting, (McGraw Hill) India.
+
+#### 3202 — Corporate Reporting (3 credits)
+
+**Course objectives.** This course is to provide an overview of corporate disclosure by focusing in selected topics that are currently deemed of particular interest to corporate reporting. This course will focus on three main themes. First, we will debate International financial reporting standards (IFRS), in particular there, origins and consequences. Second, we will discuss the response of the accounting profession to the financial crisis. Third, we will debate the consequences of disclosure, both economic and social. Our focus will be on what exactly those consequences are, and how these consequences can be influenced via impression management. Overall, this course develops student’s understanding of the salient aspects of corporate disclosure both finance and nonfinancial, based on current theoretical and empirical academic research.
+
+**Detailed contents.**
+
+Part 1: Financial Reporting (75% weight):
+1. Reporting Framework and Ethics:
+The IASB Conceptual Framework, The Regulatory framework, Convergence process, inherent limitations
+of financial statements, Ethical and professional issues.
+2. Presentation of Financial Statements:
+Statements for a Company according to IAS 1 (Statement of Financial Position, Statement of Profit or loss
+and Other Comprehensive Income, Statement of Changes in Equity, Statement of Cash Flows and Notes,
+Comprising Significant Accounting Policies and Other Explanatory Information).
+3. Reporting Financial Performance:
+Revenue from Contracts with Customers (IFRS 15), Earning Per Share (IAS 33), Related Party Disclosure
+(IAS 24), The effect of changes in foreign exchange rates (IAS 21).
+4. Reporting of Assets:
+
+lOMoAR cPSD| 21806932
+
+Inventory (IAS 2), Property, Plant & Equipment (IAS 16), Impairment of Assets (IAS 36), Intangibles (IAS
+38), Non-current Assets Held for Sale and Discontinued Operations (IFRS 5).
+5. Financial Instruments:
+Meaning of ‗Financial Instrument‘; Classification of Financial Assets; Classification of Financial
+Instruments as Liability or Equity; Compound Financial Instrument; Recognition and Derecognition of
+Financial Assets and Liabilities; Measurement of Financial Assets and Liabilities; Considerations on
+Fair Value Measurement; Impairment of Financial Assets; Reclassification of Financial Assets;
+Accounting treatment for gain or loss on Financial Assets and Liabilities; Ethical and Judgement
+Issues; Presentation and Disclosure Requirements as per IAS 32 and IFRS 7, (IAS 32, IFRS 7, IFRS 9
+& IFRS13)
+6. Accounting for Interests in Subsidiaries: [ILO 1, ILO 2]
+6.1 Group Accounts–Basic Principles: Context for Group Accounts; Single Entity Concept; Control and
+Ownership; Nature of Business Combinations; Identifying the Acquirer; Measuring the Cost of a Business
+Combination; Allocating the Cost of Business Combination; Goodwill Calculation; non-controlling
+Interest; Application of IAS 27 for preparation of separate Financial Statements; Disclosure Requirements.
+(IAS 27, IFRS 3, IFRS 10 & IFRS 12).
+6.2 Group Accounts–Consolidated Statement of Financial Position: Goodwill Calculation; Preparation
+of Consolidated Statement of Financial Position; Issues related to Mid-year Acquisitions; Adjustments of
+Intra-Group Balances; Treatments for Unrealized Intra-Group Profit; Fair Value Adjustments; Other
+Adjustments related for Consolidation.
+6.3 Group Accounts–Consolidated Statement of Financial Performance and Statement of Changes in
+Equity: Preparation of Consolidated Financial Performance; Adjustments for Intra-Group Transactions and
+Unrealized Profit; Issuesrelated to Midyear Acquisitions; Issues related to Dividend; Other Consolidation
+Adjustments; Preparation of Consolidated Statement of Changes in Equity.
+6.4 Group Cash Flow Statement: Basic Principle, cash flows to the minority interest, Associates,
+Acquisition and disposal of subsidiaries, Acquisition and disposal of associates.
+7. Accounting for an Entity’s Interests in Other Entities: [ILO 1, ILO 2]
+Meaning of Associate; Criteria for determining significant influence; Use of equity method for investment
+in Associates; Exemptions for applying the Equity Method; Discontinuing the use of the equity method;
+Accounting for impairment losses; Preparation of Statement of Profit or Loss and other Comprehensive
+Income under equity method; Accounting treatments for Associate‘s losses; Accounting treatment for
+different transactions between a group and its associate; Disclosure requirements as per IFRS 12.
+Introduction to Joint arrangement; Meaning of Joint Control; Types of Joint Arrangement; Structure of
+Joint Arrangement; Accounting for acquisitions and sales on interests in joint operations; Impairment loss
+in case of application of Equity method in Joint Venture; Preparation of Financial Statements of partiesto a
+Joint Arrangement (IFRS 11); Disclosure requirements as per IFRS 12. (IAS 28, IFRS 10, IFRS 11 & IFRS
+12)
+8. Operating Segments: [ILO 6]
+Meaning of Segment reporting; Importance of Segment Reporting; Managerial approach to identify and
+report Operating Segments, Disclosure Requirements; IFRS 8.
+9. Accounting Policies, Changes and Errors: [ILO 11]
+Accounting Changes; Changes in Accounting Policy; Retrospective Accounting Change Approach;
+Changes in Accounting Estimates; Prospective Reporting; Accounting Errors; Error Analysis; Non-
+
+lOMoAR cPSD| 21806932
+
+Counterbalancing Errors; Counterbalancing Errors, IAS 8.
+10. Income Taxes:
+Definitions, Current tax, Deferred Taxes, Tax Bases, Recognition and Measurement of Deferred Taxes,
+Presentation, and Disclosures, IAS 12.
+11. Employee Benefits and Retirement Benefit Plans:
+Basic principle, Short-term employee benefits, Profit-sharing and bonus payments, Types of postemployment benefit plans, contribution plans, benefits plans, termination benefits, IAS 19. Benefit plans
+and disclosure, IAS 26.
+12. Others:
+IFRS 1: First-time Adoption of International Financial Reporting Standards, Government Grants (IAS 20),
+Financial Reporting in Hyperinflationary Economies (IAS 29), Agriculture (IAS 41), IFRS 6: Exploration
+for and Evaluation of Mineral Resources, IFRS 2: Share-based Payment, IFRS 14: Regulatory Deferral
+Accounts, IFRS 17: Insurance Contracts,
+Part 2: Non-Financial Reporting (25% weight):
+Origin, History and Nature of Non-Financial Reporting,
+Types of Non-Financial Reporting (Corporate Social Responsibility Reporting, The Triple Bottom Line
+Report, XBRL, Sustainability Reporting, GRI, Integrated Reporting),
+Regulatory Framework: Non-financial reporting standard, GRI guideline, . IFRS S1: General Requirements
+for Disclosure of Sustainability-related Financial Information, IFRS S2: Climate-related Disclosures
+Books Recommended:
+1. Hawking, D. F. 1997. Corporate Financial Reporting & Analysis, 4th Ed., McGraw-Hill Book,
+USA. International Accounting Standards IASC Committee, London, UK.
+2. International Accounting & Reporting Issues United Nations, New York.
+3. Brownlee, et al. 2001. Corporate Financial Reporting: Text & Cases. 4th Ed., McGraw-Hill Book,
+USA.
+
+#### 3203 — Forensic Accounting (3 credits)
+
+**Course objectives.** This course is intended to develop skills concerned with prevention, detection, and correction of financial frauds occurring in corporate transactions. Upon completion of this course, the students will learn skills in forensic accounting, fraud examination, quantitative methods relating to detection of accounting fraud, certain areas of criminal law, evidence law and investigative skills to collect, analyze, and evaluate evidential matter and to interpret and communicate findings regarding forensic audit. Students will also learn to analyze possible consequences of fraud, determine damages, valuation of assets and liabilities, and evaluate effects of cyber-crime on an organization.
+
+**Intended learning outcomes.**
+
+Upon successful completion of this course, students will be able to:
+1. Understand the criminal law, legal system, potential red flags of white-collar crime,
+financial statement fraud.
+2. Understand different types of accounting crime.
+3. Understand fraud investigation planning and implementation process.
+
+lOMoAR cPSD| 21806932
+
+4. Understand evidence and evidence gathering process in a legal framework.
+5. Understand money laundering process, laws, detection and prevention technique.
+6. Understand cyber-crime and its prevention technique in organizations.
+
+**Detailed contents.**
+
+1. Introduction to Fraud and Forensic Accounting: [ILO 1]
+Introduction to Crime; Actus Reus and Mens Rea; Legal System of a Country;
+Taxonomy of Crime; Conceptual Framework of the Fraud Deterrence cycle; Definition
+of Forensic Accounting; Historical Perspective of Forensic Accounting; Difference
+between Forensic Accounting and External Auditing; Emergence of Forensic
+Accounting; Controversy surrounding the Accountant‘s role in fraud detection and
+handling; How to become Forensic Accountants; Forensic Accountant‘s investigative
+role, Different dimensions of Forensic Accounting; Required knowledge, skills and
+abilities of Forensic Accountant.
+2. Potential Red Flags and Fraud Detection Techniques: [ILO 1]
+Fraud; Types of Frauds; Occupational Fraud; Fraud Detection; Assessing the risks of
+frauds; Interpreting potential red flags; Fraud Triangles; The social consequences of
+economic crime; Identifying and evaluating risk factors; Identifying TechniquesAnalytical Procedures, Observation and Inspection; Financial Statements Fraud
+Detection Techniques.
+3. Financial Statement Fraud: Revenues and Receivables: [ILO 2]
+Revenue Recognition Principle; Improper Revenue Detection techniques; Improper
+Revenue Recognition Detection Techniques; Related part Transactions; Detection of
+Receivables Misappropriations.
+4. Financial Statement Fraud: Assets, Liabilities and Expenses: [ILO 2]
+Types of Assets Misstatements; Detection Techniques of Misappropriated Assets;
+Understatement of Liabilities and Expenses; Employee Fraud; Off-Balance Sheet
+transactions; Disbursement Schemes; Expenses Reimbursement Schemes; Payroll
+Schemes.
+5. Teaming with Forensic Accounting Investigators: [ILO 3]
+Scope of Internal Audit; Role of Internal Audit to detect Complex Corporate Fraud;
+Forensic Accounting Investigators‘ cooperation with internal auditors; Forensic
+Accounting Investigators‘ cooperation with external auditors.
+6. Investigative Techniques: [ILO 3]
+Case initiation and evaluation; Solvability Factors; Goal setting and planning;
+Investigation; Timing of Investigation; Understanding the Entity; Document Review;
+Development and Implementation of the investigative strategy; Prioritize of allegations;
+interviewing the Financially sophisticated Witness and employees; Documenting the
+interview.
+7. Analyzing the Financial Statements: [ILO 3]
+Horizontal Analysis; Vertical Analysis; Ratio Analysis; Reasonableness Test; Data
+Mining through Computer Aided Investigation Techniques; Other Analytical Tools;
+Identifying the signs of Earnings Management. Benfold Law Technique.
+8. Analysis Tools for Investigators: [ILO 3]
+Importance of Analysis; Associational Analysis; Temporal Analysis; Inferential
+Analysis; Investigative Inference Analysis; Constructing an Investigative Inference
+
+lOMoAR cPSD| 21806932
+
+Chart; Applying Chart for the investigative process.
+9. Data Mining: Computer-Aided Forensic Accounting Investigation: [ILO 3]
+Meaning of Data Mining; Effective Data Mining procedures; Data Cleaning;
+Eliminating Duplicate Information; Effective Use of Data Analysis Results; Data
+Sorting.
+10. Evidence: [ILO 4]
+The Evidence Act, 1872; Meaning of Evidence; Fact in Issue, Characteristics of
+Evidence - Relevance, Admissibility, Reliable; Types of Evidence – Documentary
+Evidence, Real Evidence, Testimony, Circumstantial Evidence, Hearsay as Evidence;
+Beyond Reasonable Doubt Standard; Document collection and organization; Critical
+Steps of Gathering Evidence; Management of evidence; Burden of Proof.
+11. Money Laundering: [ILO 5]
+Money Laundering Prevention Act, 2012; Meaning of Money Laundering; Laundering
+Process — Placement, layering, Integration; Reporting Entity; Predicate Offence;
+Relationship between Fraud and Money Laundering, Varying the Impacts of Money
+Laundering on Companies, Impact of Money Laundering on Financial Statements, AntiMoney Laundering and Forensic Accounting Investigation; Offence of Money
+Laundering and Punishment; Investigation and Trial; Bangladesh Financial Intelligence
+Unit (BFIU) and its functions.
+12. Cyber-crimes: [ILO 6]
+Definition of cyber-crime; Profiling the cyber-criminals; The auditor‘s role in computer
+forensics; Management of cyber-crime: Criminality of cyber-crimes; cyber- crime
+statutes; Guidelines for cyber-crime management.
+
+**Textbooks / references.** 1. Manning, G. A. Financial Investigation and Forensic Accounting, (Routledge). 2. Singleton, T. W. and Singleton, A. J., Forensic Auditing and Forensic Accounting. (John Wiley and Sons, Inc.) Reference Materials: 1. Money Laundering Prevention Act, 2012. 2. The Evidence Act, 1872. 3. Crain, M. A., Hopwood, W. S., Pacini, C. and Young, G. R. Essentials of Forensic Accounting. NJ: JW. 4. Thomas, W.G., Skalak, S. L. and Clayton, M. M., A Guide to Forensic Accounting Investigation, (John Wiley & Sons, Inc.) 5. Pedneault, S., Rudewicz, F., Sheetz, M. and Silverstone, H. Forensic Accounting and Fraud Investigation, (John Wiley & Sons). 6. Crumbley, D. L., Heitger, L. E. and Smith, G. S. Forensic & Investigative Accounting, Chicago: USA. 7. Crumbley, D. L. Case Studies in Forensic Accounting and Fraud Auditing. Chicago, CCH, USA. 8. Joseph, T. W. Principles of Fraud Examination, New Jersey: (John Wiley & Sons). lOMoAR cPSD| 21806932
+
+#### 3204 — Organizational Behavior (3 credits)
+
+**Course objectives.** This course focuses on the need for exposing students of accounting to the arts and science of behaving with people with whom they will interact in organizations as owners, managers, loan grantor, raw material suppliers, and providers of utilities, sellers or buyers. Students will be required to study human psychology, human motives and courses for which people behave in the way they do. They will learn the art of handling people for getting things done.
+
+**Intended learning outcomes.**
+
+Upon successful completion of this course, students will be able to:
+1. Understand organizational environment
+2. Perceive human traits
+3. Analyze human behaviors
+4. Solve behavioral issues in organizations
+1. Introduction:
+Meaning of Behavior: Significance of Studying Behavior, Scope of the Subject, Its relation with
+Economics, Philosophy and Business.
+2. Human Psychology & Industrial Psychology:
+Aristotle, Adam Smith, Rabindranath Tagore, Burtrand Ressell
+a) Agency Relationship: Separation of ownership and control, Kenneth Arrow’s Signature
+theory and uncertainties.
+b) Perception and attitudes Determination and change, Committees, schemes Model.
+c)History of Industrial Psychology: Role of Psychologists in selection, training, placement,
+transfer, performance appraisal, role of experts in development of the subject as a discipline of
+Knowledge.
+d) Job Attitudes, Motivation Concepts and Applications, Emotion and Modes
+e)Frustration: significance causes remedies.
+f) Group Dynamics: Group formation, Group norms, Benefits of Group Membership types,
+Hawthorn study, Work Group names in USA, UK Japan, India and Bangladesh.
+g) Work and Work Environment:Job satisfaction, productivity, group solidarity Impact of
+Environment on Workers performance-Job satisfaction, productivity, group solidarity and
+cohesiveness Impact of repetitive work, rest, recreational facilities how to eliminate boredom,
+length of work period.
+h) Personality and Values: Determinants, Personality traits, Introvert, extrovert.
+i) Leadership: Theory V, Theory Y and Theory Z. Maslow, Herzberg, leadership pattern in
+sectaries & organizations in Bangladesh, leader born or made, source of power.
+j) Conflict and Negotiation, power and politics
+k) Effectiveness: Management effectiveness successful vs. effective leader, employee
+commitments, employee turnover.
+l) Culture: Cultural variables effective performance and behavior, aestheticism, values
+independence. Arts, humanity, self-control and development.
+m) Morale: Law and high morale, productivity, measurement and diagnosis.
+n) Counseling: Types, Meaning, significance, Directive vs. non- directive counseling.
+o) Engineering psychology: Human hector analysis for equipment design, layout, systems study,
+input and output factors.
+Recommended Textbooks:
+
+lOMoAR cPSD| 21806932
+
+1. Keith Davis – Human Behavior at Work.
+2. Robbines, Judge, and Sanghi – Essentials of Organizational Behavior
+
+**Textbooks / references.** lOMoAR cPSD| 21806932 1. Keith Davis – Human Behavior at Work. 2. Robbines, Judge, and Sanghi – Essentials of Organizational Behavior
+
+#### 3205 — Accounting Information Systems (2 credits)
+
+**Course objectives.** The main objective of this course is to teach students the essentials of an effective information system, which facilitates processing of accounting data and preparation of financial information. The course will discuss a whole range of AIS topics which include basic definitions, details of data processing, flowcharting and database management. After successful completion of the course, the students will be able to work in a team situation,where they will be able to design accounting information systems; to understand the primary information flows within business environment; and to understand various transactions cycles and basic accounting records in computer-based system. This will further enhance a basic understanding of ethical issues related to the use of information technology and the implications of computer technology on the internal control structure.
+
+**Intended learning outcomes.**
+
+Upon successful completion of this course, students are expected to:
+1. Know about computerized Accounting Information Systems.
+2. Be able to identify business processes and transaction cycles.
+3. Successfully perform documentation at the organization.
+4. Understand the concepts of Internal Control and IC Framework.
+5. Comprehend the importance and implication of IT Governance.
+6. Know the basics of Information System Audit.
+7. Be able to attempt designing and implementing an AIS from scratch.
+
+**Detailed contents.**
+
+1.
+
+2.
+
+3.
+
+4.
+
+PART A: Theory (50%)
+The Information System: [ILO 1]
+An Accountant‘s Perspective; the Information Environment; the Framework of AIS and
+the Various Sub Systems; Organizational Structure; the Role of the Accountant;
+Accounting Information Systems; AIS and MIS; Accounting as a System; Users of
+Accounting Information System; Management Structure Information Technology and
+Corporate Strategy; the AIS and Corporate Strategy; How AIS can Add Value to an
+Organization; Models of Decision Making; Human Aspect of the AIS; Transaction
+Processing; Computer Hardware and Software in AIS; Computerized Accounting
+Systems; Tools to Implement Accounting System.
+Introduction to Transaction Processing: [ILO 2]
+An Overview of Transaction Processing; Transaction Cycles: Expenditure Cycle;
+Accounting Record Keeping; Audit Trail; Chart of Accounts; Different Methods
+Coding; Documentation Techniques; Computer Based Accounting Systems.
+Documenting AIS: [ILO 3]
+Importance of Documentation; Document Flow Charts; Guidelines for Drawing DFC;
+System Flow Chart & DFD; System FC & Guidelines; Program FC; Decision Table;
+Case Tool.
+Ethics, Fraud, and Internal Control: [ILO 4, ILO 8]
+Ethical Issues in Business; Fraud and Accountants; Internal Control Concepts and
+Procedures; COSO Framework; Assessing and Managing Risk Related to AIS;
+
+lOMoAR cPSD| 21806932
+
+Computer Fraud and Security; Auditing; Computer-Based Information Systems.
+5. Revenue and Expenditure Cycles: [ILO 2]
+Overview of the Manual Revenue System and Study of CBAS; Study of the Sales and
+Purchases Sub Systems of an Organization; Overview of Purchases and Cash
+Disbursements; Computer Based Purchases and Cash Disbursements; Payroll
+Activities; Computerized Payroll System; Threats, Exposures and Control Procedures
+in the Revenue and Expenditure Cycles.
+6. General Ledger, Financial Reporting, and Management Reporting Systems: [ILO
+2]
+Data Coding Systems; Financial Reporting Systems; Management Reporting Systems;
+Threats; Exposures and Control Procedures in the Revenue and Expenditure Cycles.
+7. Strategic Decisions: [ILO 5]
+DSS; AIS and AI/ES: AIS in Corporate Planning; Decision Support System (DSS);
+Artificial Intelligence (AI) and Expert Systems Operation and Evaluation.
+8. Systems Organizations, Development, and Management: [ILO 7]
+Approaches to System Development; AIS Development Strategies; System
+Development Life Cycle (SDLC).
+9. Designing and Implementing Systems: [ILO 7]
+System Acquisition Methodology; Investigation and Feasibility Study; Requirements
+Analysis and Initial Design; System Design; Selection; Acquisition and Development;
+Systems Implementation; System Maintenance and Program Changes; Project
+Management: Planning, Control Methods, and Standards.
+10. Controls and Standards: [ILO 4]
+Control Environment; System Acquisition Process and Controls; Risk Assessment
+Processes and Activities; Information System Processing Operations and Controls;
+Monitoring Processes and Activities; Controls Over Personal Systems.
+11. Information Security: [ILO 5, ILO 8]
+Importance of Security; Security of Computer Hardware and Software; Data Security;
+Network and Web Security; Malicious Software; Hackers and Cyber Vandalism;
+Computer Crime and Cyber Terrorism.
+
+**Textbooks / references.** 1. Romney, M. B. and Steinbart, P. J. Accounting Information Systems (Prentice Hall). 2. Wilkinson, J. W., Cerullo, M. J., Raval, V. and Wong-On-Wing, B. Accounting Information Systems (John Wiley & Sons). 3. Moscove, S., Simkin, M. and Bagranoff, N. Core Concepts of Accounting Information Systems (John Wiley & Sons, Inc.). 4. Gelinas, Jr. U. J. and Dull, R. B. Accounting Information Systems (Thomson SouthWestern). 5. Hall, J. A. Accounting Information Systems (South-Western Cengage Learning). 6. Rahman, M. and Halladay, M. Accounting Information Systems: Principles: Applications and Future Directions (Prentice Hall Inc.). 7. Laudon, K. C. and Laudon, J. P. Management Information Systems: Managing the Digital Firm (Prentice Hall) lOMoAR cPSD| 21806932
+
+#### 3206 — Lab: Enterprise Resource Planning (2 credits)
+
+**Course objectives.** The main objective of this course is to teach students the essentials of information technology and the implications of computer technologyon the internal control structure.
+
+**Intended learning outcomes.**
+
+Upon successful completion of this course, students are expected to:
+1. Be able to understand the real-world design and implementation of an AIS.
+2. Ensure the security of the AIS and protect against fraud.
+3. Be able to operate basic features of Accounting Packages/ERP Systems.
+
+**Detailed contents.**
+
+Practical
+1. Historical Development of Accounting Packages & ERP Systems: [ILO 1]
+2. Introduction to Modern Accounting Packages: [ILO 9]
+•
+
+Practical Demonstration of Contemporary Accounting and Business Software.
+Suggested Packages: Tally Prime, QuickBooks, Xero etc.
+
+•
+•
+•
+•
+•
+•
+•
+
+Features of an Accounting Package
+Making Chart of Accounts; General Ledger; Payables: Vendors, Purchase,
+Payments; Receivables: Customers, Sales Receivables.
+Maintaining Payroll
+Inventory Management
+Point of Sales (POS)
+Reporting
+Miscellaneous
+
+3. Project:
+i.
+ii.
+
+Accounting Information System / ERP design and development (use of ERD,
+DFD, Designing an AIS)
+Project based on practical demonstrations of contemporary accounting and
+business package.
+
+Mark Distribution for this Course:
+Criteria
+Mid Term / In-course Examination-1
+(Theory)
+Mid Term / In-course Examination-2
+(Practical in Lab)
+Quizzes/Term Paper/Assignments/Class
+Attendance
+Semester Final (Theory)
+
+Allocated
+Mark
+
+Result Segments
+Continuous
+Assessment (40%)
+
+Final (60%)
+
+lOMoAR cPSD| 21806932
+
+Semester Final (Practical in Lab)
+Total
+
+**Textbooks / references.** 1. Gelinas, Jr. U. J. and Dull, R. B. Accounting Information Systems (Thomson SouthWestern). 2. Hall, J. A. Accounting Information Systems (South-Western Cengage Learning). 3. Rahman, M. and Halladay, M. Accounting Information Systems: Principles: Applications and Future Directions (Prentice Hall Inc.). 4. Laudon, K. C. and Laudon, J. P. Management Information Systems: Managing the Digital Firm (Prentice Hall) FOURTH YEAR FIRST SEMESTER
+
+### Fourth Year First Semester
+
+#### 4101 — Advanced Management Accounting (3 credits)
+
+**Course objectives.** The objective of this course is to enable students understand the advanced issues of management accounting. Particularly, students are expected to learn management accounting tools and techniques that would be relevant in complex business situations. Managers face the challenges of fourth industrial revolution. They need to learn how to tackle those challenges while making pricing, performance evaluation, cost management and other managerial decisions. This course is designed to fulfil this need.
+
+**Intended learning outcomes.**
+
+Upon successful completion of this course, students will be able to:
+1. Get acquainted with the traditions and innovations in management accounting.
+2. Understand the concept of relevance and identify the factors that affect pricing decisions.
+3. Use relevant information in various operational decision-making situations.
+4. Understand what constitutes a segment in a firm and evaluate the performance of different
+segments.
+5. Explain transfer prices and understand the relevance of transfer prices in managerial or
+divisional performance.
+6. Evaluate the performance of individual, group or an entity through different accountingbased measures (ROI, RI, EVA, ROS etc).
+7. Describe the components of cost of quality and prepare a quality cost report.
+8. Control cost in the context of variety of constraints – time and efficiency.
+9. Know usage of data analytics in prediction and value creation.
+10. Understand emerging issues related to digital technologies, governance and sustainability.
+
+**Detailed contents.**
+
+1. Traditions and Innovations in Management Accounting: [ILO 1]
+An Overview of Conventional Management Accounting; Relevance Lost; Relevance
+Regained; Management Accounting in Post-Modern Era Business; Cost Management;
+Management Accounting Innovations.
+
+lOMoAR cPSD| 21806932
+
+2. Relevant Information for Decision Making with a Focus on Pricing Decisions:
+
+[ILO 2]
+The Concept of Relevance; Decision Model; Major Factors that Affect Pricing Decisions;
+The Concept of Pricing: Perfect and Imperfect Competition; Market-Based Approach:
+Target Costing for Target Pricing; Cost-Plus Pricing; Non-Cost Factors in Pricing
+Decisions; Antitrust Laws and Pricing Decisions.
+3. Relevant Information for Decision Making with a Focus on Operational Decisions:
+[ILO 3]
+Opportunity, Outlay and Differential Costs; Avoidable and Unavoidable Costs; Insourcing
+Versus Outsourcing; Make or Buy Decisions; Dropping or Continuing with a Segment;
+Optimal Use of Limited Resources; Special Sales Order; Keep or Replace a
+Machine/Equipment; Irrelevant or Misspecified Costs; Decisions and Performance
+Evaluation.
+4. Responsibility Accounting and Segment Reporting: [ILO 4]
+Decentralization and Corporate Segments; Traceable vs Common Fixed Costs; Segment
+Margin; Segmented Income Statements; Levels of Segmented Income Statements;
+Segmented Financial Information in External Reports.
+5. Management Control Systems, Transfer Pricing, and Multinational Considerations:
+[ILO 5]
+Management Control Systems: Nature and Type; Evaluating Management Control Systems;
+Decentralization and Transfer Pricing; Criteria for Evaluating Transfer Prices; Calculating
+Transfer Prices; Market-Based Transfer Prices; Cost-Based Transfer Prices; Negotiated
+Transfer Prices; Dual Transfer Pricing; General guideline for determining a minimum
+transfer price; Goal Congruence and Sub-optimality; How Multinationals Use Transfer
+Pricing to Minimize Their Taxes; OECD Guidelines on Transfer Pricing.
+6. Performance Measurement, Compensation, and Multi-National Considerations:
+[ILO6]
+Financial and Nonfinancial Performance Measures; Accounting-Based Measures for
+Business; Approaches to Measuring Performance; Return on Investment (ROI) and DuPont
+Method; Residual Income (RI) Method; Economic Value Added (EVA) Method; Return on
+Sales (ROS); Balanced Scorecard; Choosing the Details of the Performance; Target Levels
+of Performance and Feedback; Performance Measurement in Multinational Companies;
+Role of Management Accountant in Designing a Reward System.
+7. The Management and Control of Quality: [ILO 7]
+Definition of Quality; Costs of Quality: Prevention Costs, Appraisal Costs, Internal Failure
+Costs and External Failure Costs; Measuring and Controlling Quality Cost; Distribution of
+Quality Costs; Quality Cost Reports; Uses of Quality Cost Information; International
+Aspects of Quality: The ISO Standards.
+
+8. Accounting, Time and Efficiency: [ILO 8]
+
+Just-In-Time Systems; Enterprise Resource Planning (ERP) Systems; Backflush Costing;
+Managing Goods for Sale in Retail Organizations; Challenges in Estimating Stock-Related
+Costs and their Effects; Just-In-Time Purchasing; Stock Costs and their Management in
+Manufacturing Organizations; Theory of Constraints; Balanced Scorecards and Time-Based
+Measures.
+9. Data Analytic Thinking and Prediction: [ILO 9]
+Data Science Basics and Management Accounting; Outcome Prediction; Value Creation;
+Data Science Framework - Defining the Problem and the Relevant Data, Data Algorithms
+
+lOMoAR cPSD| 21806932
+
+and Models, Refining the Decision Tree, Validating and Choosing Models, Evaluating Data
+Science Models.
+10. Balanced Scorecard:
+Concepts, Origin of BSC, Implementation of BSC.
+11. Emerging Issues: Digital Technologies, Governance and Sustainability: [ILO 10]
+Digital technologies and accounting; The digitally advanced enterprise control loop;
+Enterprise governance; Environmental management accounting; Management
+accountingchanges highlight managerial context.
+
+**Textbooks / references.** 1. Datar, S. M. and Rajan, M. V. Horngren's Cost Accounting: A Managerial Emphasis, (Pearson). 2. Horngren, C. T., Sundem, G. L., Burgstahler, D. and Schatzberg, J. O. Introduction to Management Accounting, (Pearson). 3. Bhimani, A., Horngren, C. T., Datar, S. M. and Rajan, M. V. Management & Cost Accounting, (Pearson). Reference Materials: 1. Garrison, R. H., Noreen, E. and Brewer, P. C. Managerial Accounting, (McGraw Hill India). 2. Blocher, E., Juras, P. and Steven Smith. Cost Management: A Strategic Emphasis, (McGraw Hill).
+
+#### 4102 — Financial Market and Investment Analysis (3 credits)
+
+**Course objectives.** The primary objective of this course is to develop a concrete understanding of the financial systems of Bangladesh and various investment analysis techniques. The course will provide a detailed discussion of the structure of the financial markets, the operation of the financial institutions, and the types of instruments traded in the financial markets. This course will also focus on the valuation and use of the major investment vehicles and strategies available in capital markets today. In particular, the course will consider how investors form and evaluate portfolios with instruments such as stocks, bonds and mutual funds. Although the ultimate objective will be to develop a conceptual and theoretical background upon which the students can expand their knowledge of the field of financial markets and investment, the topical treatment will be rather practically oriented.
+
+**Intended learning outcomes.**
+
+Upon completion of the course, students should be able to:
+1. Describe the structure of financial systems, the types of financial markets, the types of
+securities traded within financial markets, and the role of financial institutions.
+2. Explain the design features, functions, trading mechanism, regulation and governance
+of key securities markets.
+3. Understand the major elements of the investment environment, and apply the theory of
+portfolio management in constructing and evaluating efficient portfolios of securities.
+4. Compare different asset pricing models to explain the relationship between risk and
+expected asset returns.
+5. Conduct macroeconomic, industry and company analysis for valuation of stock and
+formation of equity portfolio.
+6. Discuss the fundamentals of bond analysis and bond portfolio management strategies.
+
+lOMoAR cPSD| 21806932
+
+7. Explain the characteristics, trading mechanism and valuation process of different types
+of derivative securities traded in the derivative market.
+
+**Detailed contents.**
+
+PART A: Financial Market (40%)
+
+1. Overview of the Financial System: [ILO 1]
+
+Components of Financial System of Bangladesh, Financial Markets: Types, Structure and
+Functions, Internationalization of Financial Markets, Financial Intermediaries or
+Institutions: Types, Importance, and Functions, Securities Traded in Financial Markets,
+Regulators of the Financial System.
+2. The Money Market: [ILO 2]
+Definition of Money Market, Purpose of the Money Market, Participants of the Money
+Market, Regulator of the Money Market, Central Bank: Structure, Governance and
+Functions, Monetary Policy and Its Implications, Commercial Bank: Operations,Regulation,
+Management and Performance, Bank‘s Sources and Uses of Funds, Digital Banking, Islamic
+Banking, Non- Banking Financial Institutions (NBFI), Insurance Company, Types of
+Money Market Securities, Valuation of Money Market Securities, Globalization of Money
+Markets.
+3. The Capital Market: [ILO 2]
+Definition of Capital Market, Functions of the Capital Market, Participants of the Capital
+Market, Primary Market and Process for Issuing New Securities, Private Placement of
+Securities, Secondary Market and Trading Mechanism, Capital Market Instruments: Stock,
+Bond, Debenture, and Mutual Fund, Types and Characteristics of Stocks, Stock Market
+Transactions: Types of Order, Margin Trading and Short Selling, Stock Market Indexes,
+Regulation of Stock Trading, Over-the-Counter Markets, Alternative Trading Board, SME
+Platform, Bond Market, Types and Features of Bonds, Capital Market Intermediaries:
+Investment Banks, Issue Manager, Underwriter, Broker-Dealer, Pension Fund, Professional
+Fund Manager and Venture Capital Firms, Financial Innovation and FinTech, Regulators
+of the Stock Market: Bangladesh Securities and Exchange Commission (BSEC), Dhaka
+StockExchange (DSE), Chittagong Stock Exchange (CSE), Central
+Depository Bangladesh Limited (CDBL), Central Counterparty Bangladesh Limited
+(CCBL).
+4. Commodity Exchange, Mortgage Market, Asset-Backed Securities Market, Foreign
+Exchange Market, Derivative Security Market, Micro-Finance Institutions [ILO 2]
+PART B: Investment Analysis (60%)
+1. The Investment Environment: [ILO 3]
+Definition of Investment, Measures of Return and Risk, Determinants of Required Rate of
+Return, Relationship between Risk and Return, Real Assets and Financial Assets, Financial
+Markets and the Economy, Investment Management Process, Investment Policy Statement,
+Investments in a Global Market.
+2. An Introduction to Portfolio Theory and Practice: [ILO 3]
+Definition and Measurement of Risk and Return, Probability Distribution, Expected Return
+and Variance of Return, Risk Aversion, Mean Variance Portfolio Theory, Measuring
+Portfolio‘s Expected Return and Risk, Portfolios of One Risky Asset and a Risk-Free Asset,
+Diversification and Portfolio Risk, Portfolios of Two Risky Assets, Asset Allocation with
+
+lOMoAR cPSD| 21806932
+
+3.
+
+4.
+
+5.
+
+6.
+
+Stocks, Bonds and Bills, The Markowitz Portfolio Optimization Model, Minimum Variance
+Portfolio, The Efficient Frontier and Investor Utility, Techniques for Calculating the
+Efficient Frontier, Evaluation of Portfolio Performance, Composite Portfolio Performance
+Measures, Performance Attribution Analysis, Factors Affecting the Use of Performance
+Measures.
+Asset Pricing Models: [ILO 4]
+An Overview of Capital Market Theory, The Capital Asset Pricing Model (CAPM),
+Assumptions of CAPM, Systematic and Unsystematic Risk, Deriving the Capital Market
+Line (CML) and Security Market Line (SML), Empirical Tests of CAPM, Theory and
+Practice of Market Portfolio, Arbitrage Pricing Theory (APT), Multifactor Models of Risk
+and Return, The Fama-French (FF) Three-Factor Model, The Efficient Market Hypothesis
+(EMH), Alternative Forms of the EMH, Implications of the EMH, Empirical Tests of the
+EMH.
+Stock Analysis and Equity Portfolio Management: [ILO 5]
+Global and Domestic Macroeconomic Analysis, Business Cycle and Industry Analysis,
+Company Analysis and Stock Valuation, Fundamental Analysis, Technical Analysis, Active
+Equity Portfolio Management Strategies, Passive Equity Portfolio Management Strategies,
+Value versus Growth Investing Strategies, Style Analysis, Asset Allocation Strategies,
+Performance Evaluation of Portfolio Managers.
+Bond Analysis and Portfolio Management: [ILO 6]
+Bond Fundamentals: Bond Characteristics, Types of Bond, Bond Pricing, Bond Price
+Volatility, Bond Yields and Bond Ratings, Determinants of Bond Interest Rate, The Yield
+Curve and Future Interest Rates, Theories of the Term Structure of Interest Rates, Managing
+Interest Rate Risk, Bond Portfolio Management Strategies: Passive Management Strategies,
+Active Management Strategies, Core-Plus Management Strategies, Matched-Funding
+Management Strategies, Contingent and Structured Management Strategies.
+Derivative Security Analysis: [ILO 7]
+An Overview of Derivative Markets and Securities, The Option Contract, Call Option and
+Put Option, Payoff Structures, Values of Option at Expiration, Option Trading Strategies,
+The Put-Call Parity Relationship, Fundamentals of Option Valuation, Binomial Option
+Pricing Model, Black-Scholes Option Valuation Model, Forward and Future Contracts:
+Basic Concepts, Trading Mechanics, Hedging Strategies, Pricing and Valuation, Foreign
+Exchange Futures, Stock-Index Futures, Interest Rate Futures, Commodity Futures, Swaps,
+Warrants and Convertible Securities, Other Embedded Derivatives.
+
+**Textbooks / references.** 1. Madura, J. Financial Markets & Institutions. (Cengage Learning). 2. Mishkin, F. S. and Eakins, S. G. Financial Markets and Institutions. (Pearson). 3. Reilly, F. K., Brown, K. C. and Leeds, S. J. Investment Analysis & Portfolio Management. (Cengage Learning). 4. Bodie, Z., Kane, A. and Marcus, A. Investments. (McGraw Hill). lOMoAR cPSD| 21806932
+
+#### 4103 — Public Sector and NGO Accounting (3 credits)
+
+**Course objectives.** The objective of this course is to provide students with a fundamental understanding of the government accounting system of Bangladesh as well as the public financial management. This course will help the students to develop the knowledge of the subject matters and students will be able to understand the legal sanction of the government accounting and its process including the government’s financial management system.
+
+**Intended learning outcomes.**
+
+Upon completion of the course, the students will be able to:
+1. Understand the constitutional and legal framework of government accounting practice
+in Bangladesh.
+2. Know about the role of central bank in treasury and cash management.
+3. Aware of the budget and accounting classification system of the government.
+4. Understand the integrated financial management information system.
+5. Know about the roles of the Controller General of Accounts in preparing the Financial
+Statements of Government.
+6. Prepare the different elements of Financial Statements under government accounting
+system.
+7. Know about the roles of the office of the Controller and Auditor General of
+Bangladesh.
+8. Understand how to mobilize financial resources;
+9. Know how to manage and execute government financial expenditure;
+10. Define and understand the objective of public financial management and
+11. Know about economic planning process by the Government of Bangladesh.
+12. Know about the harmonization efforts of government accounting system through
+implementation of IPSASs.
+
+**Detailed contents.**
+
+1. Constitutional and Legal Framework of Government Accounting Practice in
+Bangladesh: [ILO 1]
+Historical evolution of public sector accounting in Bangladesh, Relationship Between
+Central and Local Government, Relevant Constitutional Provisions (Section 84(1 & 2));
+General Financial Rules; Treasury Rules and Subsidiary Rules, Forms and Manners of
+government accounting – Account Code & other divisional account codes.
+2. Role of Central Bank in Treasury and Cash Management: [ILO 2]
+Relationships among Bangladesh Bank, Sonali Bank, and Accounts Offices; Role of the
+Central Bank in Treasury Functions and Cash Management; Cash management,
+Forecasting and Reporting.
+3. Budget and Accounting Classification System (BACS): [ILO 3]
+Features of Chart of Accounts (COA); Introduction to BACS; Structure of the
+Classification Chart in BACS; 13-digit Classification Structure & its Limitation; New
+Classification Structure; Benefits of New Classification; Levels of Classification and
+their significance; Application of BACS; Volume-1,2,3 & 4 of Account Code.
+
+lOMoAR cPSD| 21806932
+
+4. Integrated Financial Management Information System (IFMIS): [ILO 4]
+Information to IFMIS; Features of a standard IFMIS; iBAS++ as an IFMIS (Budget
+Preparation Module, Budget Execution Module, Accounting Module, General Ledger),
+Integration of data/information using iBAS++ from Accounts Offices, Integration among
+the Bangladesh Bank, Sonali Bank, Economic Relations Division (ERD), NBR, National
+Savings Directorate; Flow of Accounting Data among the Government Offices.
+5. Controller General of Accounts: [ILO 5]
+Objectives and Activities of CGA Office; Organogram of CGA Office; Introduction to
+Finance Accounts and Appropriation Accounts.
+6. Preparation of Annual Accounts: [ILO 6]
+Basis of Accounting; Preparation of Consolidated Fund; Classification of Consolidated
+Fund; Public Account of the Republic; Classification of Public Account of the Republic;
+Forms and Manner of keeping Public Accounts; Appropriation Accounts; Appropriation
+Accounts by Civil Department; Defense Services, Bangladesh Post Office and Bangladesh
+Railway; New Appropriation Account Format from the 2017-18; Preparation of Finance
+Account.
+7. Implementation of IPSAS in Bangladesh: [ILO 12]
+International Public Sector Accounting Standards Board (IPSASB); Brief History of
+IPSASB; IPSASB Activities; Introduction to IPSASs; Benefits and criticisms; Need for
+Harmonization around the World; Introduction to Cash Basis IPSAS; Introduction to
+Accrual Basis IPASAs; Implementation Status of IPSAS in Bangladesh; Major Challenges
+of IPSASs in Bangladesh.
+8. Supreme Audit Institution (SAI) of Bangladesh: [ILO 7]
+Institutional Models of Supreme Audit Institutions; Comptroller and Auditor General
+(C&AG) of Bangladesh; Authorities and Responsibilities of C&AG; Audits of SAI;
+International Public Sector Accounting Standards (IPSAS); International Organization of
+Supreme Audit Institutions (INTOSAI); International Standards of Supreme Audit
+Institutions (ISSAIS); Asian Association of Supreme Audit Institutions (ASOSAI); Public
+Expenditure and Financial Accountability (PEFA); Public Access to the Information of
+PFM.
+9. Management and Execution of Public Expenditure: [ILO 9]
+Legal Framework of Public Procurement- Salient features of the PPA 2006 and the PPR
+2008; Budgeting and Accounting Classification System (BACS); Integrated Budgetary
+and Accounting System (iBAS++); Supplementary Rules (SR); Management of Public
+Procurement- Key risks in public procurement and mitigation; Procurement Management
+under Public Private Partnership (PPP); Public Procurement Reform Project II (PPRPII); Digitizing Implementation Monitoring and Public Procurement Project (DIMAPPP).
+11. Accounting for NGOs: Nature and Accounting Procedures of NGOs.
+Recommended Textbooks and Reference Materials:
+1. Handbooks of International Public Sector pronouncements – International Federation
+of Accountants, International Federation of Accountants.
+2. Bangladesh Government, Ministry of Finance: Introduction to Government
+Accounting.
+
+lOMoAR cPSD| 21806932
+
+3. GoB., Public Financial Management (PFM) Reform Strategy 2016-2021. Ministry of
+Finance: Government of the People‘s Republic of Bangladesh.
+4. Cangiano, M., Curristine, T. and Lazare, M., Public Financial Management and Its
+Emerging Architecture. Washington: International Monetary Fund.
+5. ADB., Public Financial Management Systems—Bangladesh Key elements from
+financial Management Perspective. Asian Development Bank.
+
+**Textbooks / references.** 1. Handbooks of International Public Sector pronouncements – International Federation of Accountants, International Federation of Accountants. 2. Bangladesh Government, Ministry of Finance: Introduction to Government Accounting. lOMoAR cPSD| 21806932 3. GoB., Public Financial Management (PFM) Reform Strategy 2016-2021. Ministry of Finance: Government of the People‘s Republic of Bangladesh. 4. Cangiano, M., Curristine, T. and Lazare, M., Public Financial Management and Its Emerging Architecture. Washington: International Monetary Fund. 5. ADB., Public Financial Management Systems—Bangladesh Key elements from financial Management Perspective. Asian Development Bank.
+
+#### 4104 — Supply Chain and Operation Management (3 credits)
+
+**Course objectives.** This is an introductory course on the concepts, principles, and techniques for managing supply chains and operations both in manufacturing and service organizations. The terminology, fundamental concepts, and functions related to the field of supply chain and operations management will be discussed.
+
+**Intended learning outcomes.**
+
+Upon completion of this course, students should be able to:
+1. Understand the basic terminology, concepts, and principles of supply chain and operations
+management.
+2. Develop an idea on operations and supply chain strategies.
+3. Analyze process choices and take layout decisions in business processes.
+4. Understand how to manage quality and capacity.
+5. Learn about supply management and logistics.
+6. Conduct forecasting and sales and operations planning.
+7. Manage inventory and production in relation to the supply chain.
+8. Understand supply chain information systems.
+9. Understand JIT/Lean production.
+10. To learn about the quantitative techniques.
+
+**Detailed contents.**
+
+1. Operations and Supply Chain Management: [ILO 1]
+Operations Management; Supply Chain Management; Important Trends such as Agility;
+Information Technologies; people.
+2. Operations and Supply Chain Strategies: [ILO 2]
+Elements of the Business; Strategy; Operations and Supply Chain Strategies; Customer
+Value; Performance Dimensions; Order Winners and Order Qualifiers; Stages of
+Alignment with the Business Strategy; Core Competencies in Operations and Supply
+Chain.
+3. Process Choice and Layout Decisions in Manufacturing and Services: [ILO 3]
+Manufacturing Processes; Product Customization within the Supply Chain; Service
+Processes; Layout decision models.
+4. Business Processes: [ILO 3]
+Business Processes; Mapping Business Process; Managing and Improving Business
+Processes; Business Process Challenges and the SCOR Model.
+5. Managing Quality and Capacity: [ILO 4]
+Quality defined – total cost of quality – Total Quality Management (TQM) – Six Sigma
+– statistical quality control – managing quality across the supply chain –capacity –
+
+lOMoAR cPSD| 21806932
+
+measures of capacity – factors affecting capacity – supply chain considerations –
+capacity strategies – methods of evaluating capacity alternatives – process capacity (The
+Theory of Constraints, Waiting Line Theory and Little‘s Law).
+6. Supply Management and Logistics: [ILO 5]
+Why supply management is critical? – the strategic sourcing process – the procure to
+pay cycle – sustainable supply – supply chain disruptions – why logistics is critical? –
+logistics decision areas – logistics strategy – logistics decision models.
+7. Forecasting: [ILO 6]
+Forecast types – laws of forecasting – selecting a forecasting model – qualitative
+forecasting methods – time series forecasting models – causal forecasting models –
+measures of forecast accuracy – Collaborative Planning, Forecasting, and
+Replenishment (CPFR).
+8. Sales and Operations Planning: [ILO 6]
+Sales and Operations Planning (S&OP) in the planning cycle – major approaches to
+S&OP – organizing for and implementing S&OP – services considerations – linking
+S&OP throughout the supply chain – applying optimization modeling to S&OP.
+9. Managing Inventory and Production: [ILO 7]
+The role of inventory – inventory types – inventory drivers – independent versus
+dependent demand inventory - periodic review systems – restocking levels - continuous
+review systems – The Economic Order Quantity (EOQ) – reorder points and safety stock
+– quantity discounts – single-period inventory system – the Bullwhip effect – inventory
+positioning – transportation, packaging, and material handling considerations – master
+scheduling – Material Requirements Planning (MRP) – production activity control and
+vendor order management system – job sequencing – monitoring and tracking
+technologies – synchronizing planning and control across the supply chain – distribution
+requirements planning.
+10. Supply Chain Information Systems: [ILO 8]
+Understanding supply chain information needs – supply chain information systems –
+BPM tools – cloud computing – Internet of Things (IoT)
+11. JIT/Lean Production: [ILO 9]
+The lean perspective on waste and inventory – recent developments in lean thinking –
+Kanban systems – controlling inventory levels using Kanban – synchronizing the supply
+chain using Kanban – using MRP and Kanban together.
+12. Quantitative Techniques in SCM: [ILO 10]
+Linear Programming model formulation; Optimization using graphical method;
+Simplex method; Dual Simplex Method; Transportation Problem; PERT and CPM;
+Decision Tree Analysis.
+
+**Textbooks / references.** 1. Bozarth, C. and Handfield, R. Introduction to Operations and Supply Chain Management. (Pearson). 2. Monczka, R. M., Monczka, R. B., Giunipero, L. C. and Patterson, J. L. Purchasing and Supply Chain Management. (South-Western Cengage Learning). 3. Crandall, R. E., Crandall, W. R. and Chen, C. C. Principles of Supply Chain Management. (CRC Press). lOMoAR cPSD| 21806932
+
+#### 4105 — IT Governance and Information System Audit (3 credits)
+
+**Course objectives.** The objective of this course is to make students understand and apply the control mechanisms used by organizations in an IT environment and how to conduct audits of the information system. Students will learn practical aspects of the IT audit process, risk assessment and IT Governance, Frameworks, Standards, and Regulations. The students will also have the opportunity to conduct risk assessments, create audit programs, and test controls, and analyze test results for concluding audit reports. The course will also explore how to use CAATs - Computer Assisted Audit Techniques (e.g., ACL) for conducting audits.
+
+**Intended learning outcomes.**
+
+Upon completion of this course, students will be able to:
+1. Understand the IT environment and the fundamentals of IT audit and the various legal,
+ethical, and social issues and policies regarding the Information System.
+2. Understand and apply the IT audit standards and guidelines developed by ISACA.
+3. Understand the IT governance, management, and control frameworks and related
+standards, guidelines, and practices along with features of information systems, the
+impact of information systems, different strategic models, and challenges of information
+systems.
+4. Identify the threats against and defenses needed for the performance and security of
+business information systems as well as the societal impact and ethical implications of
+information technology. Learn about the enterprise‘s security policies, standards,
+procedures, and controls to ensure the confidentiality, integrity, and availability of
+information assets.
+5. Demonstrate the knowledge necessary to audit information systems in accordance
+with IS audit standards to assist the organization with protecting and controlling
+information systems.
+6. Understand the traditional, prototyping, and end-user approaches to the development
+of information systems and discuss the processes and managerial issues in the
+implementation of new business applications of information technology.
+
+**Detailed contents.**
+
+1. IT Audit Fundamentals: [ILO 1]
+1.1 Information Technology Environment and IT Audit
+IT environment; ERP; Cloud Computing; Blockchain; Fintech technologies; Artificial
+Intelligence Technologies; DSS; Definition of IT Audit, Objectives and Need for Audit;
+IT Audit Functions; Internal IT Audit; External IT audit; Role of IT Auditors; IT Auditor
+Profile - Experience and Skill, Career Opportunities.
+1.2
+Internal and External IT Audit
+Building an Effective Internal IT Audit Function; Benefits of Internal IT Auditing:
+Internal IT Audit Challenges; External IT Audit Process.
+1.3 Legal, Ethical, and Social Issues in Information Systems
+IT Crimes and Cyberattacks; Security Legislation; Privacy Legislation; Information Security;
+IT policies; Standards and Procedures; Relevant Laws, Regulations, and Industry Standards
+affecting the Organization; Impact of Ethical and Social Issues in Information Systems; National
+
+lOMoAR cPSD| 21806932
+
+IT Policy 2009; Information and Communication Technology Act, 2006, SOX 2002.
+2. IS Auditing Standards and Guidelines: [ILO 1, ILO 2]
+ISACA Code of Professional Ethics; ISACA IS Auditing Standards Framework; ISACA
+IS Auditing Guidelines; ISACA IS Auditing Procedures; Relationship among Standards;
+Guidelines and Procedures; Information Technology Assurance Framework (ITAF™).
+3. IT Governance and Strategy: [ILO 1, ILO 2, ILO 3]
+IT Governance—Alignment of IT with Business Objectives; Governance Frameworks –
+COSO, ITIL, COBIT, ISO 27001, ISO/IEC 27002; Joint Framework; IT Performance
+Metrics; IT Balanced Scorecard; Regulatory Compliance and Internal Controls; IT Strategy;
+IT Steering Committee; Communication; Operational Planning.
+4. Risk Management and Internal Controls: [ILO 1, ILO 4]
+4.1 Risk Management
+Risk Management Basics; Qualitative and Quantitative Risk Analysis; Enterprise Risk
+Management; Risk Assessment; IT Risk Assessment; Guidelines; IT Risk Management
+Life Cycle.
+4.2
+Application Systems: Risks and Controls
+Application System Risks; End-User Development Application Risks; Risks to Systems
+Exchanging Electronic Business Information; Web Application Risks; Application
+Controls – Input-processing-output; IT Auditor‘s Involvement.
+4.3
+Change Control Management
+Importance of a Change Control System; Change Control Management Process; Change
+Control Management Procedures; Configuration Management; OrganizationalChange
+Management.
+5. The Information System Audit Process, Tools, and Techniques: [ILO 1, ILO 5]
+5.1 IT Audit Process
+Audit Universe; COBIT; Risk Assessment; Audit Plan; Design Audit Procedure; Test
+Controls; Substantive Tests; Document Results; Communications; Auditing Entitylevel Controls; Auditing Operating Systems, Storage, and Applications; Auditing Cloud
+Computing and Outsourced Operations; Auditing Company Projects; Auditing Data
+Center and Disaster Recovery Plan; Communicating Audit Results, Other IT Audits.
+5.2
+Tools and Techniques used in IT Audit
+Audit Productivity Tools; System Documentation Techniques; Flowcharting; CAAT CAAT for Sampling, CAAT for Application Review, CAAT for Auditing Application
+Control, CAAT for Operational Review; Computer Forensic Tools.
+6. System Development and Implementation: [ILO 1, ILO 6]
+6.1 System Development Lifecycle
+System Development Life Cycle; Planning; System Analysis and Requirements; System
+Design; Development; Testing; Implementation; Additional Risks and Associated
+Controls Related to the SDLC Phases; Approaches to System Development; IT
+Auditor‘s Involvement in System Development, and Implementation.
+6.2
+Systems Acquisition, Service Management, and Outsourcing
+Systems Acquisition Strategy; Systems Acquisition Process; Service Management;
+Outsourcing IT System; IT Audit Involvement.
+
+**Textbooks / references.** 1. Otero, A. R. Information Technology Control and Audit, (CRC Press, Taylor & lOMoAR cPSD| 21806932 Francis Group). 2. Davis, C., Schiller, M. and Wheeler, K. IT Auditing Using Controls to Protect Information Assets. New York, NY: (McGraw-Hill). 3. Gantz, S. D. The Basics of IT Audit: Purposes, Processes, and Practical Information, (Elsevier Inc.) Reference Materials: 1. CISA Review Manual: Information Systems Audit and Control Association 2. ICAB Study Manual, IT Governance. 3. O'Brien, J. A., Marakas, G. M. and Behl, R. Management Information Systems, (Tata McGrawHill Education Private Limited). 4. Laudon, K. C. and Laudon, J. P. Management Information Systems - Managing the Digital Firm (PHI Learning Private Limited), New Delhi. 5. National IT Policy, 2009. 6. Information and Communication Technology Act, 2006. 7. Hall, J. A. Accounting Information Systems, (South-Western CENGAGE Learning) 1. Romney, M. B. and Steinbart, P. J. Accounting Information Systems, (Pearson Education, Inc.) FOURTH YEAR SECOND SEMESTER
+
+### Fourth Year Second Semester
+
+#### 4201 — Accounting Theory (3 credits)
+
+**Course objectives.** The objective of this course is to provide students with the opportunity to obtain a sound knowledge of alternative theories of accounting. The course begins by examining the nature of theories and alternative forms of logic. The conceptual framework and key contemporary and historical accounting issues are examined, highlighting the role of theory in understanding current accounting standards, accounting practice and the use of accounting information by the diverse stakeholders in reporting entities. Moreover, the issues of corporate narratives are discussed in this course. Finally, a critical approach to understand social structures and the role accounting information played there are also covered in this course.
+
+**Intended learning outcomes.**
+
+After successful completion of this course, students will:
+1. Understand the concept of accounting theory and the alternative approaches of
+theory development;
+2. Understand how knowledge of different accounting theories increases our ability to
+understand and evaluate various alternative financial accounting practices;
+3. Understand the meaning of regulation together with the arguments for and against
+accounting regulations;
+4. Be aware of the theories of accounting regulations;
+5. Realize the differences of nations‘ accounting practices prior to the standardization
+efforts of International Accounting Standards Board (IASB);
+6. Be able to differentiate between the harmonization and standardization and be
+aware of the benefits and challenges of uniform accounting standards;
+
+lOMoAR cPSD| 21806932
+
+7. Conceive the importance of globalization in accounting practices and the role of
+IASB therein;
+8. Be aware of the alternative measurement bases and there advantages and
+disadvantages;
+9. Understand fair value accounting and the challenges of implementing fair value
+accounting;
+10. Realize the importance of conceptual framework of accounting in the practice of
+financial accounting;
+11. Recognize the key assumptions of Positive Accounting Theory (PAT) and
+understand alternative hypotheses of PAT;
+12. Understand creative accounting and identify the determinant factors of creative
+accounting;
+13. Understand sustainability accounting and recognize the underlying reasons of
+corporate narratives on sustainability issues;
+14. Identify the market efficiency and explain capital markets‘ reactions to accounting
+disclosures;
+15. Understand governance related notable theories and their application in ensuring
+accountability.
+16. Understand human behavioral related theories in decision making and their
+application in organizations and society.
+17. Understand the nature of critical accounting and recognize alternative social
+theories used in critical accounting research.
+1. Introduction to Accounting Theory: [ILO 1, ILO 2]
+Definition of Theory; Importance for Accounting Students to Study Accounting
+Theory; An Overview of Theories of Accounting: Pragmatic Theories, Normative
+Theories, Positive Theories; Theory Development Process; Alternative Theoretical
+Paradigms- Positivism, Interpretivism, Critical.
+2. Accounting Regulation: [ILO 3, ILO 4]
+Definition of Accounting Regulation; Regulatory Environment in Accounting;
+Arguments Against Accounting Regulation- Free Market Perspective: Private Agency,
+Market for Manager, Market for Corporate Takeover, Market for Lemon;
+Arguments for Accounting Regulation; Theories of Regulation: Public Interest Theory,
+Regulatory Captures Theory, Private Interest Theory; How Theories of Regulation
+Apply to Accounting Practice; Accounting Regulation as an Output of a Political
+Process.
+3.
+
+International Accounting: [ILO 5, ILO 6, ILO 7]
+Differences in Accounting across the Nations; Harmonization and Standardization of
+Accounting; Pros and Cons of Accounting Standardization; Globalization and the Role
+of IASB in Accounting Standardization; The Obstacles of Accounting Standardization.
+
+4.
+
+Measurement Issues: Accounting for the Effects of Changing Prices and Market
+Conditions: [ILO 8, ILO 9]
+The Meaning of Measurement; Pros and Cons of Commonly Used Measurement
+Bases; Factors to Consider When Choosing Between Alternative Measurement Bases;
+Explanation and Evaluation of Various Normative Theories for Accountingfor
+
+lOMoAR cPSD| 21806932
+
+Changing Prices; Fair Value Accounting- the advantages and disadvantages ofthis
+form of measurement with a consideration of the procyclicality aspects of Fair Value
+Accounting.
+5.
+
+Normative Theories of Accounting: The Case of Conceptual Framework Project: [ILO
+10]
+The meaning of, and the benefits and criticisms of, conceptual frameworks of
+accounting; Discussion of the pros and cons of the current IASB Conceptual Framework
+versus prior frameworks; The meaning of ‗accountability‘ and its relevance and
+relationship to conceptual frameworks of accounting; The ‗decision- usefulness‘ and
+‗stewardship‘ functions of financial reporting and the influences of these functions on
+current efforts to select among competing measurement approaches.
+
+6.
+
+Positive Accounting Theory: [ILO 11, ILO 12]
+Positive Accounting Theory defined: origins and development; An overview of agency
+theory and its relevance to Positive Accounting Theory; Efficiency or opportunistic
+perspectives relating to accounting method selection; The use of accounting-based
+bonus schemes to motivate managers (Bonus Plan Hypothesis); The role of accountingbased contracts in controlling conflicts of interest between managers and creditors
+(Debt Covenant Hypothesis); An overview of the meaning of political costs and the
+implications for accounting choice (Political Cost Hypothesis); Criticisms of Positive
+Accounting Theory; Relevance of Positive Accounting Theoryto current efforts of the
+IASB and FASB to determine ‗best‘ approaches to measurement.
+Transaction Cost Theory; Market and Hierarchy Theory of Oliver Williamson; Keneth
+Arrow‘s General Impossibility Theorem, Agency Conflict Type I, Agency Conflict
+Type II, Ostrom‘s Common Pool Resource Governance theory, Coase Theorem: Private
+Negotiation and Governance Outside Court System.
+
+7.
+
+Sustainable Accounting/Corporate Narratives and System Oriented Theories: [ILO 13]
+Defining Sustainable Accounting; Issues of Sustainable Accounting; Regulatory Efforts in
+Sustainability Accounting; System Theories to Understand Sustainable Accounting;
+Social Contract and The Corporate Disclosures on Sustainability; Legitimacy Theory:
+legitimacy, legitimacy gap and the legitimation process; Impression Management
+Approaches and Its Relation with Corporate Legitimacy and Corporate Disclosures;
+Stakeholder Theory: Managerial vs Normative Branch; Media Agenda Setting TheoryRelationship between Media, Corporate Legitimacy and Corporate Disclosures;
+Institutional Theory: Old Institutional Economics and New Institutional SociologyIsomorphism and Decoupling; Integrated Reporting & ESG Reporting.
+
+8.
+
+Accounting and Capital Markets: [ILO 14]
+Fama‘s Efficient Market Hypothesis and Tests of Market Efficiency with respect to
+Accounting Information; Effects of Earnings Announcements on the Level and
+Variability of Stock Prices; Association between Accounting Performance Measures
+and Stock Returns; The implication for capital markets research when we relax key
+assumptions about market efficiency. Criticism of Efficient Market Hypothesis of
+Robert Schiller (Irrational Exuberance)
+9. Accounting and Behavioral Theories: [ILO 16]
+Full Rationality Assumption, Criticism of Full Rationality Assumption, Bounded
+
+lOMoAR cPSD| 21806932
+
+Rationality, Criticism of Expected Utility Theory, Kahneman and Tversky‘s Decision
+Making Under Risk, Prospect Theory, Assumptions of Prospect Theory – Utility
+Derived from Reference Point, Loss Aversion, Diminishing Sensitivity to Gains and
+Losses, and Probability Weighting; Thaler‘s Mental Accounting Theory.
+10. Critical Perspectives of Accounting: [ILO 17]
+Defining Critical Accounting; The Possible Impact of Critical Accounting Researchon
+Social Practice; Role of State and Society in Accounting Practice; Social Theories Used
+in Critical Accounting- Ideas of Marx, Foucault, Bourdieu, Gramsci, Latour etc.
+Recommended Textbooks:
+1. Deegan, C. Financial Accounting Theory (McGraw-Hill).
+2. Scott, W. R. Financial Accounting Theory (Pearson).
+Reference Materials:
+1. Chowdhury, D. Applied Accounting Theory: Private and Public Sector (Grantha
+Kutir), Dhaka.
+
+**Textbooks / references.** 1. Deegan, C. Financial Accounting Theory (McGraw-Hill). 2. Scott, W. R. Financial Accounting Theory (Pearson). Reference Materials: 1. Chowdhury, D. Applied Accounting Theory: Private and Public Sector (Grantha Kutir), Dhaka.
+
+#### 4202 — Business Analysis and Valuation (3 credits)
+
+**Course objectives.** The objective of the course is to provide hands-on experience in business analysis using financial and non-financial information. This course is aimed at all students who expect at some point in their careers to use financial statements to evaluate the performance, prospects, and value of a business. This course will be particularly valuable to students who are seekinga career in consulting, corporate finance, investment banking, hedge funds, or private equity.
+
+**Intended learning outcomes.**
+
+Upon Successful completion of this course, students will be able to:
+1. Gain a complete knowledge to develop their ability to basic concepts of financial
+statement analysis for investment and credit decisions and solving the business
+problems by analysis and interpretation of accounting information, supplied mainly
+through financial statements.
+2. Get a clear idea about a set of accounting information items which constitutes a logical
+framework that can be applied to predict both earnings level and growth in earnings,
+and together with other accounting fundamentals, can used to predict fundamental value
+of shares.
+3. Understand the role of accounting rate of return (ARR) in the security valuation process.
+4. Demonstrate the underlying interdependency between cash accounting and accrual
+accounting in judging the quality of accrual earnings and the culture of earnings
+management by firms.
+5. Build a career in consulting, corporate finance, investment banking, hedge funds, or
+private equity.
+6. Explore the role of leverages—both financial leverage and operating leverage—on
+profitability and its relation to macroeconomic and monetary policies.
+
+**Detailed contents.**
+
+lOMoAR cPSD| 21806932
+
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+Introduction to Financial Statements: [ILO 1, ILO 2]
+Financial Statements and their Users; Objectives of Financial Statement Analysis; From
+Business Activities to Financial Statements; Parts of The Financial Statements; Additional
+Information Accompanying Financial Statements; Measurement in the Financial
+Statements; Influences of the Accounting System on Information Quality; Financial
+Statement Analysis in an Efficient Capital Market; Limitations of Financial Accounting
+Data for Financial Statement Analysis.
+Financial Statement Analysis: [ILO 1, ILO 2]
+2.1 Horizontal and Vertical Analyses: Comparative Financial Statement Analysis: YearTo-Year Change Analysis, Index Number Trend Analysis, Common-Size Financial
+Statement Analysis.
+2.2 Ratio Analysis: Common Sets of Financial Measures and Ratios: Liquidity Measures
+and Ratios, Profitability Measures and Ratios, Activity Measures and Ratios, Solvency
+Measures and Ratios, Overall Measures and Ratios: Earnings Per Share, Price to
+Earnings Ratio, Price to Book Ratio, Dividend-Payout Ratio, Sustainable Growth
+Rate.
+2.3 Profitability Analysis: The Analysis of Return on Common Equity, First-Level
+Breakdown: Distinguishing Financial and Operating Activities and the Effect of
+Leverage, Second-Level Breakdown: Drivers of Operating Profitability, Third-Level
+Breakdown: Profit Margin Drivers, Turnover Drivers, Borrowing Cost Drivers.
+2.4 Case Analysis on ‗Financial Statement Analysis‘
+Use of Financial Statements in Valuation: [ILO 1, ILO 3]
+3.1 Multiple Analysis: Method of Comparable and Screening of Multiples
+3.2 Fundamental Analysis: The Process of Fundamental Analysis, Financial Statement
+Analysis, and Pro-Forma Analysis.
+3.3 Redefining Financial Statements for Valuation: Defining Net Operating Assets, Net
+Financial Obligations and Common Stock Equity; Operating Income and Net
+Financial Expenses; Return on Common Equity and its Decomposition between
+Profitability of Net Operating Assets and Net Borrowing Costs.
+3.4 The Architecture of Fundamental Analysis: The Valuation Model, the Terminal Value
+Calculation, Capital Asset Pricing Model (CAPM) and the Choice of Discount Rate.
+3.5 Case Analysis on ‗Financial Statements Used in Valuation‘.
+Cash Accounting, Accrual Accounting and Equity Valuation: [ILO 4]
+4.1 Cash Flows, Earnings and Accrual Accounting; Reconciling Earnings with Free Cash
+Flows; Operating Accruals and Financial Accruals; and Accruals and Earnings
+Management.
+4.2 Valuation Models: Modigliani-Miller (MM) Approach to Valuation and the Role of
+Leverage; Dividend Discount Model, Earnings Capitalization Model, Residual
+Earnings Model; and Free Cash Flow Model.
+4.3 Accrual Accounting and Price-to-Book Ratio; Relation between Price-to-Book (P/B)
+Ratio and Price-Earnings (P/E) Multiple.
+4.4 Residual Earnings Model of Equity Valuation: Concept of Residual Earnings, Features
+of Residual Earnings Model; Discounting Residual Earnings, Drivers of Residual
+Earnings; Using Hierarchical Financial Ratios to Forecast Drivers of Residual
+Earnings; and Drivers of Growth in Residual Earnings.
+4.5 Case Analysis on ‗Cash Accounting, Accrual Accounting and Equity Valuation‘
+The Analysis of Growth and Sustainable Earnings: [ILO 1, ILO 2]
+
+lOMoAR cPSD| 21806932
+
+6.
+
+7.
+
+8.
+
+Equity Valuation and Growth in Earnings; Concept of Sustainable Earnings; Core
+Operating Profitability; Core Borrowing Costs; Growth in Core Profitability; and how P/B
+Ratios and Trailing P/E Ratios Articulate; Case Analysis on ‗Growth and sustainable
+earnings.
+The Analysis of Credit Risk, Return and Valuation: [ILO 1, ILO 2]
+Financial Statement Analysis for Credit Evaluation, Financing Risk; Distinguishing
+Between Financial Leverage and Operating Leverage; Relation between Return and
+Leverages; Leverages and Taxes; Monetary Policies, Interest Rates, Leverages and its
+Effects on Residual Earnings; Leverages and Residual Earnings Model; Liquidity Planning
+and Financial Strategy; Bankruptcy Model; Case Analysis on ‗Credit Risk, Return and
+Valuation‘.
+Corporate Restructuring: [ILO 6]
+Mergers and Acquisitions and Corporate Restructuring; Key Players in Mergers and
+Acquisitions, Merger and Acquisition Strategy Development, Developing Takeover
+Strategies and the Impact on Corporate Governance; Selecting a Potential Target Company
+for Acquisition, Mergers and Acquisitions and Financial Analysis, Alternative Approaches
+to Valuation; Negotiations, Deal Structuring, Financing, and Regulatory Considerations.
+Comprehensive Case Analysis: [ILO 5]
+Business Valuation; Business Forecasting, Economic Analysis of Business, Industry
+Analysis, Market forecast, Impact of Information Technology, Impact of Share market on
+Business.
+
+**Textbooks / references.** 1. Penman, S. H. Financial Statement Analysis and Security Valuation (McGrawHill Irwin). 2. Bernstein, L. A. and Wild, J.J. Financial Statement Analysis: Theory, Application, and Interpretation (McGraw-Hill Irwin). Reference Materials: 1. Stanko, B. and Zeller, T. Understanding Annual Reports: A User’s Guide (John Wiley & Sons, Inc.). 2. Palepu, K. G. and Healy, P.M. Business Analysis & Valuation Using Financial Statements (South-Western Cengage Learning).
+
+#### 4203 — Research Methodology (3 credits)
+
+**Course objectives.** This course is designed to build the foundation of scientific thinking and to understand the framework of the research process. It helps the students to understand the research design, process and techniques to conduct qualitative and quantitative business research and also develop their own ideas and project. After completion of this course, the students will be enriched with all relevant knowledge of research methodology in qualitative and quantitative area of business research. This course will guide the students in writing their research reports in their academic and career advancement. lOMoAR cPSD| 21806932
+
+**Intended learning outcomes.**
+
+Upon successful completion of this course students are expected to:
+1. Build the foundation of scientific thinking and understand the framework of the
+research and its process;
+2. Develop an understanding of research design and techniques;
+3. Differentiate between symptoms and problems and development of problem statement;
+4. Learn the importance of doing Literature Review;
+5. Understanding the importance of theory in research and development of hypothesis;
+6. Get into the detail process of qualitative and quantitative research;
+7. Understanding the sampling methods and determination of sample size;
+8. Learn about data collection techniques under Qualitative Research;
+9. Know the measurement and scaling techniques of Attributes;
+10. Understanding the Secondary Data Analysis Techniques;
+11. Learn about the Qualitative and Quantitative Data Analysis Techniques and the details
+of hypothesis testing;
+12. Equip the students for scholarly writing and evaluate the report.
+
+**Detailed contents.**
+
+1. Introduction to Research: [ILO 1]
+Definition of Research; The Nature of Research; Importance of Research; Main Distinguishing
+Characteristics of Research; Types of Research; Research Method and Research Methodology;
+Approaches of Research; Business Research in the 21st Century.
+2. Overview of Research Process: [ILO 2]
+The Steps of Scientific Business Research Methods; Symptoms and Problems Identification;
+Defining the Research Objectives; Planning the Research Design; Planning Sampling; Data
+Types and Collection Procedures; Analysing the Data; Drawing Conclusion; Preparing the
+Report; Pilot Studies; Ethical Issues in Research; General Rights and Obligations of the
+Concerned Parties.
+3. Problem Definition-The Foundation of Research: [ILO 3]
+Identification of Symptoms and Problems; Understanding the Problem-Definition Process;
+Development of Problem Statement; Determining the Unit of Analysis; Determine the Relevant
+Variables; Clarity in Research Questions and Hypotheses; Preparation of Research Proposal.
+4. Critically Reviewing the Literature: [ILO 4]
+Meaning of Literature Review; Functions of Literature Review; Steps for Literature Review;
+Sources of Literature; Concept of Plagiarism; Importance of Referencing; Different styles of
+Referencing.
+5. Theoretical Framework and Hypothesis Development: [ILO 5]
+Definition of Theory; Goals of Theory; Research Concepts, Constructs, Propositions and
+Variables; Understanding Theory through Theory Building and Theory Verifying; Values of
+Theories; Importance of Development of Theoretical Framework in Research; Types of
+Variables and Labels of variables; Types of Hypotheses; Development of Hypotheses.
+6. Qualitative and Quantitative Research: [ILO 6]
+Definition of Qualitative and Quantitative Research; Differences between Qualitative and
+Quantitative Research; Types of Qualitative Research; The Major Categories of Qualitative
+Research; Common Techniques Used in Qualitative Research.
+7. Sampling Designs and Sampling Procedures: [ILO 7]
+Meaning of Sampling; Population Vs Sampling; Importance of Sampling in Research;
+Introduction to Sampling Process; Probability Sampling Techniques; Non-Probability Sampling
+Techniques; Sampling Errors; Factors for Choosing Appropriate Sampling Techniques;
+Determination of Sampling size; Factors Contributing the Determination of Sampling Size.
+
+lOMoAR cPSD| 21806932
+
+8. Primary Data Collection Methods: [ILO 8]
+a) Observation Method
+Concept of Observations; Usefulness of Observation in Research; Scopes of Observation in
+Research; Key Dimensions that Characterize the Type of Observations; The Nature of
+Observation Studies; Benefits and Limitations of Observations; Ethical issues in Observation;
+Techniques for Measuring the Physiological Reactions.
+b) Interview Method
+Concept of Interview; Importance of Interview; Advantages and Disadvantages of Interview;
+Types of Interviews; Meaning of Focus Group Discussion; Advantages and Disadvantages of
+FGD; Qualities of Moderators of FGDs; Basic Consideration for Questionnaire Design;
+Guidelines for Constructing Questionnaires; Types of Questionnaires; Question Sequence
+Techniques; Layout of Questionnaires; Use of Software in Designing Questionnaires; Pretesting
+of Questionnaires;.
+c) Survey Method
+Introduction to Survey Research, Advantages and Disadvantages of Survey; Methods of Survey
+Research; Paper Questionnaires and Electronic Questionnaires; Types of Paper Questionnaires;
+Types of Electronic Questionnaires; Errors in Survey Research; Response Rates of Survey and
+Methods of Increasing Response Rate; Factors Guiding the Appropriate Survey Design;
+Pretesting.
+9. Measurement and Scaling Concept: [ILO 9]
+Importance of Measurement of Properties of Phenomena; Introduction to Concepts, Scales,
+Variables and Constructs terminology; Level of scale measurement; Mathematical and statistical
+analysis of Scales; Index Measures; Importance of Measuring Attitudes; Techniques for
+Measuring Attitudes; Ranking Vs Rating; Criteria for Good Measurement.
+10. Secondary Data: [ILO 10]
+Meaning of Secondary Data; Sources of Secondary Data; Advantages and Disadvantages of
+Secondary Data; Data Mining, Techniques of Analysing Secondary Data.
+11. Analysing Qualitative Data: [ILO 11]
+Preparing Data for Analysis; Approaches to Qualitative Analysis; Types of Qualitative Analysis
+Processes; Analytical Aids; Deductively Based Analytical Procedures; Inductively Based
+Analytical Procedures; Using CAQDAS for Qualitative Analysis; Content Analysis.
+12. Analysing Quantitative Data: [ILO 11]
+Overview of Data Analysis; Different stages of Data Analysis; Descriptive Analysis of Data;
+Univariate Analysis of Data; Bivariate Analysis of Data; Multivariate Analysis of Data;
+Hypothesis testing Procedures; Parametric Vs Non-Parametric Tests; Correlation and
+Regression Analysis; Post Regression Diagnostic analysis; Testing the Goodness of Measures.
+12. Preparation of Research Report: [ILO 12]
+Purposes of Report Preparation; Characteristics of a well-written Report; Contents of Report;
+Effective use of Graphic Aids in Report; Referencing.
+
+**Textbooks / references.** 1. Zikmund, W. G. Business Research Methods (Thomson/South-Western). 2. Sekaran, U. and Bougie, R. Methods for Business: A Skill Building Approach (John Wiley & Sons). 3. Sanders, M., Lewis, P. and Thornhill, A. Research Methods for Business Students (Pearson). 4. Kothari, C. R. Research Methodology: Methods and Techniques (New Age Publications). 5. Gosh, B. N. Scientific Method and Social Research (APT Books). 6. Ranjit, K. Research Methodology (SAGE) lOMoAR cPSD| 21806932 References Materials: 1. Kerlinger, F. N. and Lee, H. B. Foundations of Behavioral Research (Cengage Learning). 2. Emory, C. W. and Cooper, D. R. Business Research Methods (IRWIN). 3. Malhotra, N. K. Marketing Research (Prentice Hall).
+
+#### 4204 — Strategic Management (3 credits)
+
+**Course objectives.** This course is designed to provide an overview of the principal aspects of strategic management. The objective is to offer students strategy insights so that they can become strategic thinkers. Students will be able to contemplate strategic dilemmas and apply strategic planning, implementation, and evaluation tools.
+
+**Intended learning outcomes.**
+
+Upon completion of this course, students should be able to:
+1. Understand the basic terms and concepts of strategic management.
+2. Develop vision and mission statements for different types of organizations.
+3. Conduct an industry analysis and identify the opportunities and threats.
+4. Conduct competitive analysis.
+5. Conduct internal analysis and identify the strengths and weaknesses.
+6. Formulate alternative strategies and choose the desired ones for implementation.
+7. Understand how to develop new products/services in a blue ocean.
+8. Implement and evaluate strategies.
+9. Prepare and present a strategic case analysis.
+
+**Detailed contents.**
+
+1. Introduction to Strategy and Strategic Management: [ILO 1]
+Strategic management – stages of strategic management – Ohmae‘s strategic thinking
+- competitive advantage – strategists – vision and mission – external opportunities and
+threats – internal strengths and weaknesses – long-term objectives – strategies –
+deliberate and emergent strategies [Mintzberg] – Mintzberg‘s five types of strategies
+positioning vs. resource-based views of strategic advantage - annual objectives –
+policies – strategic management model – benefits of strategic management – guidelines
+for effective strategic management – business ethics and strategic management – the
+role of stakeholders – stakeholder mapping: power and interest - global competition.
+2. The Business Vision and Mission: [ILO 2]
+Vision- mission – the importance of vision and mission statements – elements of a
+mission - the process of developing a mission statement –characteristics of a mission
+statement – components of a mission statement – writing and evaluating mission
+statements.
+3. External Analysis: [ILO 3, ILO 4]
+The business environment – the importance of management understanding the business
+environment – political forces – economic forces – social, cultural, and demographic
+forces – technological forces – ecological factors – legal forces – competitive forces –
+Porter‘s five forces model – industry life cycles and their strategic implications –
+
+lOMoAR cPSD| 21806932
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+industry segments and strategic groups – product life cycle - the international business
+context – Ohmae‘s five Cs – Porter‘s competitive advantage of nations – international
+trade life cycle - limits to global business – External Factor Evaluation matrix – the
+Competitive Profile Matrix.
+Internal Analysis: [ILO 5]
+Analyzing a business‘ strategic capability – critical success factors and core
+competencies – critical success factors and competitive advantage – The internal
+assessment: management, marketing, finance/accounting, production/operations,
+research and development, management information systems – benchmarking
+competencies – transforming resources: the value chain – outsourcing value activities
+– supply chain management – Internal Factor Evaluation matrix.
+Types of Strategies [ILO 6]
+Integration strategies – intensive strategies – diversification strategies – defensive
+strategies – Porter‘s generic strategies: cost leadership, differentiation, and focus –
+Bowman‘s strategic clock - means of achieving strategies: joint venture/partnering and
+merger/acquisition.
+Strategic Analysis and Choice [ILO 6]
+The strategy formulation framework (the input stage, the matching stage, and the
+decision stage) – the matching stage: SWOT matrix, SPACE matrix, BCG matrix, IE
+matrix, and GSM – the decision stage (QSPM) – the cultural aspects of strategy choice
+– the politics of strategy choice.
+Blue Ocean Strategy: [ILO 7]
+New market space – the continuing creation of blue oceans – the impact of creating blue
+oceans – the rising imperative of creating blue ocean – value innovation – red ocean vs.
+blue ocean strategy – formulating and executing blue ocean strategy – the eight
+principles of blue ocean strategy.
+Strategy Implementation and Evaluation [ILO 8]
+The nature of strategy implementation – resource allocation – managing conflicts –
+restructuring and reengineering – linking performance and pay to strategies – managing
+natural environment – creating a strategy supportive culture – production/operations
+concerns and HRM concerns – marketing issues – finance/accounting issues – research
+and development issues – management information systems issues – the strategy
+evaluation framework – the balanced scorecard – characteristics of an effective
+evaluation system – contingency planning.
+Case Analysis: [ILO 9]
+Strategic management case – guidelines for preparing case analysis – written case
+analysis and oral presentation.
+
+**Textbooks / references.** 1. David, F. R. Strategic Management: Concepts and Cases. (Prentice-Hall). 2. Kim, W. C. and Mauborgne, R. Blue Ocean Strategy: How to Create Uncontested Market Space and Make Competition Irrelevant. (Harvard Business Review Press). 3. Business Strategy Study Manual, CA Professional Level. ICAB & ICAEW. lOMoAR cPSD| 21806932
+
+#### 4205 — Data Analytics (2 credits)
+
+**Course objectives.** This course aims to train students to extract patterns in vast amounts of data and discover actionable insights. It emphasizes on the current issues, methodologies, practice, and emerging trends in business data analytics. Students will learn state-of-art techniques and critical skills to address existing business problems in today’s information-rich environments. Upon completing this course, students will build their analytical capabilities to use data for innovative business solutions.
+
+**Intended learning outcomes.**
+
+Upon successful completion of this course students are expected to:
+1. Recognize the need for Data Analytics to support business management.
+2. Apply the concepts and techniques of business data analytics in business practice.
+3. Apply information technologies for data analytics.
+4. Identify appropriate tools and techniques for data analytics in order to create
+innovative business intelligence solutions.
+5. Create an analytical data store by extracting relevant data from a transactional
+database.
+
+**Detailed contents.**
+
+1. Analytics Overview: [ILO 1]
+Descriptive analytics, Predictive Analytics and Prescriptive analysis.
+2. Data Mining concepts [ILO 1, ILO 2]
+Data Mining definitions, Characteristics and Benefits, How Data Mining works, Data
+Mining versus Statistics, Data Mining Applications, Data Mining Process Model
+(CRISP-DM).
+3. Data Mining Methods [ILO 2, ILO 4]
+Classification, Accuracy of Classifying Model, Classification Techniques, Decision Tree
+analysis, Decision Tree algorithm, Cluster analysis, K-MEANS Clustering algorithm,
+Association rule analysis, Apriori algorithm.
+4. Regression Modelling for Inferential Statistics [ILO 2]
+Linear Regression Model, Multiple Regression Model, Logistic Regression Model,
+Time Series Analysis.
+5. Social Media Analytics [ILO 3]
+Social Network analysis, Social Network analysis metrices, Social Media analytics,
+Measuring the Social Media Impact.
+6. Text Analytics and Text Mining [ILO 3]
+Overview of Text Analytics and Text Mining, Text Mining Terminology, Natural
+Language Processing (NLP), NLP Applications, Text Mining Applications.
+
+lOMoAR cPSD| 21806932
+
+Marks Distribution for this Course:
+Criteria
+Mid Term / In-course Examination-1
+(Theory)
+Mid Term / In-course Examination-2
+(Practical in Lab)
+Quizzes/Term Paper/Assignments/Class
+Attendance
+Semester Final (Theory)
+Semester Final (Practical in Lab)
+Total
+
+Allocated
+Marks
+
+Continuous
+Assessment (40%)
+
+Final Assessment
+(60%)
+
+**Textbooks / references.** 1. Sharda, R., Delen, D. and Turban, E. Business Intelligence, Analytics, and Data Science: A Managerial Perspective, (Pearson). 2. Olson, D. and Shi, Y. Introduction to Business Data Mining, (McGraw-Hill). Reference Materials: 1. Evans, J. R. Business Analytics. (Pearson). 2. Berry, M. J. A. and Linoff, G. S. Data Mining Techniques: For Marketing, Sales, and Customer Relationship Management. (John Willey & Sons) 3. Shmueli, G., Patel, N. R. and Bruce, P. C. Data Mining for Business Intelligence: Concepts, Techniques, and Applications in Microsoft Office Excel with XLMiner.(John Willey & Sons).
+
+#### 4206 — Lab: Application of Data Analytic Tools (2 credits)
+
+_No detailed outline printed in the source._

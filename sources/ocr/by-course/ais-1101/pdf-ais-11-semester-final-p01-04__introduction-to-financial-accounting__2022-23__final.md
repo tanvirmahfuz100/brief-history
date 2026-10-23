@@ -1,0 +1,1 @@
+../../incoming/pdf-ais-11-semester-final-p01-04__introduction-to-financial-accounting__2022-23__final.md

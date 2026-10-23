@@ -1,0 +1,1 @@
+../../incoming/pdf-ais-9-first-year-second-semester-mid-final-p11-11__principles-of-accounting__2016-2017__2nd-midterm.md

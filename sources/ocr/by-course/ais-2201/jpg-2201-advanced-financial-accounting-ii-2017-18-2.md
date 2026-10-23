@@ -1,0 +1,1 @@
+../../incoming/jpg-2201-advanced-financial-accounting-ii-2017-18-2.md

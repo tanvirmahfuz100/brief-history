@@ -1,0 +1,111 @@
+University of Barishal
+Department of Accounting & Information Systems
+18 year
+Semester Final Examination- 2021. Session: 2020-21
+Course Code: AIS 1205. Course Name: Introduction to Computer and Information Technology
+Time: 2 Hours and 30 Minutes
+Full Marks: 45
+(Answer any four of the following questions)
+1.
+(a)
+Define Computer? Explain the basic characteristics of computer
+(6)
+Draw the basic computer organization and
+the functions of each part 
+(c)
+Mention the functions of following input-output devices:
+i_
+Bar Code Reader  ii. Light Pen
+[Marks
+=
+4+4+3.25-11.25]
+2
+What is the radix of number system? Classify the number
+in terms of base and
+uses with
+example.
+(6)
+Convert the following numbers to desired base:
+1)
+74138-216
+i) DAF916-210
+iii) 101101.10012=28
+(c)
+Perform the following computer arithmetic' $:
+Subtract 71810 from 28410 using complement method
+ii) Evaluate the binary sum of 11001,10110,01011
+[Marks
+=
+4+4+3.25-11.25]
+3
+(a)
+What are the characteristics of super computer and micro computer?
+(b)
+Point out the performance and processing functions of computer:
+(c)
+At present, computer has become an indispensable part of our life. But this computer
+has evolved from a large-sized simple calculating machine to a smaller but much more
+powerful  machine
+discuss the emergence of computer from its inception
+to
+present condition briefly.
+[Marks
+=
+2.25+4+5-11.25]
+(a)
+What are the basic components of Central Processing Unit (CPU)? Describe the roles of
+each of the components in the functioning of a computer system.
+Differentiate among RAM, ROM, PROM and EPROM
+What are registers? Name some of the commonly used registers, and briefly describe
+the function of each:
+Distinguish between an input and output device. Can a device be used as both an input
+and output device? If
+explain why, if yes, give an example of such a device.
+[Marks =
+3+3+2.25+3-11.25]
+5_
+(a)
+"Hardware and software of a computer system are like two sides of a coin:
+How do
+you judge the statement?
+55
+(b)
+It is said that an  assembly language is "one-for-one
+but
+a
+high-level  language is
+ct_
+'many-for-one'
+Explain what this means.
+(c)
+Define operating system. Discuss the responsibilities of operating system:
+(d)
+What is Integrated Development Environment (IDE)? Point out the function of IDE.
+[Marks =3+3+3+2.25-11.25]
+6
+(a)
+Distinguish
+between
+workbook
+and
+sheets.
+Write
+down
+the   steps
+of  creating
+a
+workbook
+(b)
+Describe the commands of Home Tab Groups of Microsoft Word (MS)
+(c)
+What is power point? How can you insert pictures in power
+from files?
+(d)
+Compare and contrast between system software and application system.
+[Marks =3+3+2.25+3-11.25]
+2"d
+explain
+system
+Now,
+no,
+point

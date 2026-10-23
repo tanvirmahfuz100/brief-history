@@ -60,7 +60,7 @@ const sessions = [...grouped.entries()].sort((a, b) => a[0].localeCompare(b[0]))
           <section class="session-block" id={`session-${slug(session)}`}>
             <h3 class="session-label">{session}</h3>
             {[...exams.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([exam, items]) => (
-              <div class="course">
+              <div class="course-exam">
                 <h4>{exam}</h4>
                 <ul>
                   {items.map((q) => (

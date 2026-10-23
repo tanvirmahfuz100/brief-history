@@ -1,0 +1,1 @@
+../../incoming/pdf-ais-9-first-year-second-semester-mid-final-p12-12__business-communication-and-report-writing__2016-17__2nd-midterm.md

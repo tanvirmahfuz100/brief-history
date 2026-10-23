@@ -101,7 +101,7 @@ if (deptFilter) {
           <a class="toc-line" href={`/brief-history/courses/${courseSlug(q.data.course_code)}/${q.id}/`}>
             <span class="toc-title">{q.data.course}</span>
             <span class="toc-leader" aria-hidden="true"></span>
-            <span class="toc-page">{q.data.course_code} &middot; {q.data.session}</span>
+            <span class="toc-page">{q.data.course_code.toUpperCase()} &middot; {q.data.session}</span>
           </a>
         );
       })}

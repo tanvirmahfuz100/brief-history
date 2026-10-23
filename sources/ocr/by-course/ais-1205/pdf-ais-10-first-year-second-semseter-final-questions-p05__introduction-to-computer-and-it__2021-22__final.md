@@ -1,0 +1,1 @@
+../../incoming/pdf-ais-10-first-year-second-semseter-final-questions-p05__introduction-to-computer-and-it__2021-22__final.md

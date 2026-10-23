@@ -1,0 +1,1 @@
+../../incoming/pdf-ais-11-mid-p02-02__introduction-to-financial-accounting__2022-23__2nd-mid-term.md

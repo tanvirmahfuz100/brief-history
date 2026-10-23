@@ -1,0 +1,1 @@
+../../incoming/pdf-ais-6-7-8-9-10-semester-and-mid-p10-10__introduction-to-business__2016-17__2nd-mid-term.md

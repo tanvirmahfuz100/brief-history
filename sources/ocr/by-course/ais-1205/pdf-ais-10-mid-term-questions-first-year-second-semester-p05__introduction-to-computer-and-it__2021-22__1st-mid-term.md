@@ -1,0 +1,1 @@
+../../incoming/pdf-ais-10-mid-term-questions-first-year-second-semester-p05__introduction-to-computer-and-it__2021-22__1st-mid-term.md

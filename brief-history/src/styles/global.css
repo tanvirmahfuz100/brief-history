@@ -241,6 +241,20 @@ details p { font-family: var(--font-reading); font-size: 15px; color: var(--colo
 .cross-refs .marginal-note { font-family: var(--font-display); font-size: 13px; color: var(--color-ink-muted); padding-left: 1.25rem; border-left: 3px solid var(--color-accent); margin-bottom: 0.75rem; font-weight: 600; }
 .cross-refs .note-label { font-weight: 800; color: var(--color-accent); text-transform: uppercase; font-size: 11px; letter-spacing: 0.05em; }
 
+/* Session block on course page */
+.session-block { margin-bottom: 2rem; }
+.session-label { font-family: var(--font-display); font-size: 16px; color: var(--color-accent); font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.75rem; }
+
+.course-exam { margin-bottom: 1.5rem; }
+.course-exam h4 { font-family: var(--font-display); font-size: 16px; color: var(--color-ink); margin-bottom: 0.75rem; font-weight: 800; }
+
+/* Browse TOC lines */
+.toc-line { display: block; border-bottom: 1px solid var(--color-rule); padding: 1rem 0; text-decoration: none; color: var(--color-ink); font-family: var(--font-display); font-size: 16px; font-weight: 700; transition: all 0.2s; }
+.toc-line:hover { color: var(--color-accent); border-color: var(--color-accent); padding-left: 0.5rem; }
+.toc-title { font-weight: 800; }
+.toc-leader { display: none; }
+.toc-page { color: var(--color-ink-muted); font-weight: 500; }
+
 /* Semesters (home page) — card grid like Nat Geo */
 .semesters { margin-top: 3rem; }
 .semester-heading { font-family: var(--font-display); font-size: 22px; color: var(--color-ink); margin-bottom: 1.5rem; font-weight: 800; letter-spacing: -0.01em; }

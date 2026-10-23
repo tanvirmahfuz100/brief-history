@@ -1,0 +1,107 @@
+(iii) In this case which method do you think to be appropriate?
+Particulars of 3 machines used in & factory are as under (Six-week period: 160 hours working)
+06
+Particulars
+Machine 1
+Machine 2
+Machine 3
+Cost of Machine (Tk;
+20,000
+30,000
+40,000
+Number Of workers
+10
+Direct wages(Tk )
+600
+1600
+2400
+Power(Tk.)
+90
+180
+300
+Light points
+8
+12
+Area occupied
+Sq:meters)
+200
+500
+800
+The expenses incurred during the period as follows:
+Particulars
+Taka
+Power
+570
+Lighting
+96
+Rent and rates
+900
+Depreciation
+2,700
+Repairs
+3,600
+Indirect wages
+920
+Canteen expenses
+102
+Miscellaneous expenses
+600
+Compute the machine hour rate for each machine.
+(a)
+Differentiate between bin card and stores ledger.
+03
+(b)
+List four types of industries that are likely to use operating costing method, and for each suggest
+04
+the cost unit that would be adopted.
+Ahnaf runs
+a bus service in the city and has two buses. He furnishes the
+following data and
+08
+wants yoU to calculate the cost per running kilometer.
+Particulars
+Bus M (Tk)
+Bus N (Tk ,
+Cost of vehicle
+1,50,000
+90,000
+Road license fees pel year
+4,000
+4,000
+Supervision and salaries (yearly
+9.600
+6,000
+Driver' s wages per hour
+18
+18
+Cost of fuel per liter
+7
+Repairs and maintenance per kilometer
+8
+Tyre cost per kilometer
+3.5
+3,80
+Garage rent per year
+8,400
+5,200
+mnsurance
+Jum (yearly)
+4,000
+2,500
+Kilometers run per liter
+24
+20
+Kilometers run during the year
+50,000
+20,000
+Estimated life of the vehicles (kilometers;
+2,00,000
+,40,000
+interest@ 10% p.a.
+on cost of vehicle. Each bus runs 20 kilometers
+hour
+per
+on an
+average.
+premil
+Charge

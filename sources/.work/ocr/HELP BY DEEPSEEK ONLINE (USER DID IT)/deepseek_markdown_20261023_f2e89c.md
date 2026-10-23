@@ -1,0 +1,51 @@
+<!-- Suggested by DeepSeek -->
+
+You are provided with the following selected information for the fiscal years 2009-2012.
+                                         2009        2010        2011        2012
+Inventory (ending)                       $13,000     $11,?       $14,700     $12,0??
+Accounts payable (ending)                ?0,000
+Sales revenue                                        239,000     237,000     235,000
+Purchases of merchandise                              inv.        inventory on account
+Cash payments to suppliers                           146,000     145,00?     129,000
+                                                     135,000     161,000     127,000
+
+Instructions
+(a) Calculate cost of goods sold for each of the 2010, 2011, and 2012 fiscal years.
+(b) Calculate the gross profit for each of the 2010, 2011, and 2012 fiscal years.
+(c) Calculate the ending balance of accounts payable for each of the 2010, 2011, and 2012 fiscal years.
+
+6. a) On November 1, the accounts payable ledger of Dunder Mifflin Company showed the following balances: S. Carell $4,000, D. Schrute $2,100, R. Wilson $800, and W. Rann $1,300. The November transactions involving the payment of cash were as follows.
+   Nov. 1 Purchased merchandise, check no. 11, $950.
+   3 Purchased store equipment, check no. 12, $1,400.
+   5 Paid W. Rann balance due of $1,300, less 1% discount, check no. 13, $1,287.
+   11 Purchased merchandise, check no. 14, $1,700.
+   15 Paid R. Wilson balance due of $800, less 3% discount, check no. 15, $776.
+   16 K. Scott, the owner, withdrew $400 cash for own use, check no. 16.
+   19 Paid D. Schrute in full for invoice no. 1245, $2,100 less 2% discount, check no. 17, $2,058.
+   25 Paid premium due on one-year insurance policy, check no. 18, $2,400.
+   30 Paid S. Carell in full for invoice no. 837, $2,900, check no. 19.
+   Instructions
+   (a) Journalize the transactions above in a four-column cash payments journal with columns for Other Accounts Dr., Accounts Payable Dr., Inventory Cr., and Cash Cr. Foot and cross foot the journal.
+   (b) Insert the beginning balances in the Accounts Payable control and subsidiary accounts, and post the November transactions.
+
+   b) Robatyn Genetics Company of Lancaster, Wisconsin, spreads herbicides and applies liquid fertilizer for local farmers. On May 31, 2012, the company's Cash account per its general ledger showed the following balance.
+      CASH                                                                          NO. 101
+      Date       Explanation    Ref.    Debit         Credit        Balance
+      May 31     Balance                                            9,287
+
+      The bank statement from Lancaster State Bank on that date showed the following balance.
+      LANCASTER STATE BANK
+      Checks and Debits      Deposits and Credits      Daily Balance
+      XXX                    XXX                       5/31   13,012
+
+      A comparison of the details on the bank statement with the details in the cash account revealed the following facts.
+      1. The statement included a debit memo of $35 for the printing of additional company checks.
+      2. Cash sales of $1,720 on May 12 were deposited in the bank. The cash receipts journal entry and the deposit slip were incorrectly made for $1,820. The bank credited Robatyn Genetics Company for the correct amount.
+      3. Outstanding checks at May 31 totaled $1,225, and deposits in transit were $2,100.
+      4. On May 18, the company issued check no. 1181 for $911 to J. Greenburg on account. The check, which cleared the bank in May, was incorrectly journalized and posted by Robatyn Genetics Company for $119.
+      5. A $4,600 note receivable was collected by the bank for Robatyn Genetics Company on May 31 plus $80 interest. The bank charged a collection fee of $25. No interest has been accrued on the note.
+      6. Included with the canceled checks was a check issued by Powers Company to Jerry Saltz for $900 that was incorrectly charged to Robatyn Genetics Company by the bank.
+      7. On May 31, the bank statement showed an NSF charge of $1,295 for a check issued by Simon de Pury, a customer, to Robatyn Genetics Company on account.
+      Instructions
+      (a) Prepare the bank reconciliation at May 31, 2012.
+      (b) Prepare the necessary adjusting entries for Robatyn Genetics Company at May 31, 2012.

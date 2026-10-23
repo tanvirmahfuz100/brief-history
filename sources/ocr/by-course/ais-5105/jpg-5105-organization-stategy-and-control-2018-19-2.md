@@ -1,0 +1,1 @@
+../../incoming/jpg-5105-organization-stategy-and-control-2018-19-2.md

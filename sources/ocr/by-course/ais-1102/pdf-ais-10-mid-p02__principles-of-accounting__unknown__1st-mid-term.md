@@ -1,0 +1,1 @@
+../../incoming/pdf-ais-10-mid-p02__principles-of-accounting__unknown__1st-mid-term.md
