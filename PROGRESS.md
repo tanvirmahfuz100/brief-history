@@ -21,20 +21,25 @@ Design spec: `brief-history/docs/superpowers/specs/2026-10-23-brief-history-webs
 6. `[x]` GitHub Pages deployment workflow — `.github/workflows/gh-pages.yml` at repo root (GitHub Actions only reads workflows from root; `brief-history/` subdirectory path would not run).
 7. `[x]` Validation — build passes (162 pages: 1 home + 1 courses index + 27 course pages + 133 paper pages), CSS bundled at `/brief-history/_astro/*.css`, route coverage complete.
 8. `[x]` Client-side progress tracker — `localStorage`-backed bookmark + "Mastered" toggle on paper pages (`src/pages/courses/[course]/[paper].astro`), SVG ribbon bookmark + tactile mastery checkbox + hand-drawn highlighter + fleuron accents in `src/styles/global.css`; optional `references` field added to the questions schema for "Compare with" marginal cross-reference notes (`src/content.config.ts`).
+9. `[x]` Archive-style redesign — replaced newsprint/book aesthetic with clean archive UI matching the root Next.js frontend: warm bg `#FAF7F2`, dark ink `#1C1A17`, accent `#8A5A2B`, Inter + Source Serif 4, header with nav (Browse/Tools/Report), footer, skip link, search form with course count, browse page with filters (search/course/exam/session/department), course pages with SVG logos, paper pages with metadata/provenance/back-links. Build passes: 156 pages.
+10. `[x]` SVG course logos — 45 course logo SVGs (`brief-history/public/logos/NNNN.svg`) for all courses 1101–4206, color-coded by year level (red=1st, blue=2nd, green=3rd, purple=4th), following the pattern from `sources/WHAT USER DREAMS FOR/Logo/1101.svg`. Displayed on course pages.
+11. `[x]` Hamburger menu fix — SVG hamburger lines now have `stroke="currentColor" stroke-width="2" stroke-linecap="round"` so the icon renders; added inline color style for currentColor inheritance; added client-side JS to toggle `.open` class on mobile menu; CSS `.mobile-menu.open { display: block; }`. Build passes.
 
 ## Notes
 - Course codes are stored normalized (lowercase); page headings render in normalized form (e.g. `ais 2104`). Original casing is lost at the content-collection level.
 - Syllabus coverage is partial: only first-year courses 1101–1206 have outlines; higher courses show "Syllabus not available yet" — expected per spec.
 - Personal files at the repo root are ignored by `.gitignore` and are not part of this project.
-- GEMINI_SUGGESTIONS.md (sources/WHAT USER DREAMS FOR/) drives the post-MVP direction: Sapiens-style editorial accents (SVG ribbon bookmark, tactile checkboxes, hand-drawn highlighter, fleuron dividers), client-side progress tracking, cross-reference tagging, analytics, PDF export, and WhatsApp reporting.
+- GEMINI_SUGGESTIONS.md (sources/WHAT USER DREAMS FOR/) drives the post-MVP direction: client-side progress tracking, cross-reference tagging, analytics, PDF export, WhatsApp reporting, plus home-page enhancements (semester buttons Volume I–VIII, videos row, blogs row, counter line, most-viewed/newly-added rows, report link, last-updated date).
+- Archive design is now live at `http://localhost:4321/brief-history/` (dev server verified 200 OK on home, browse, course, and paper pages).
 
-## Design — newsprint/book aesthetic
-- Redesigned `src/styles/global.css` to a printed-book look: warm newsprint paper (`#efe6d0`) on a desk background (`#b9ad92`), SVG paper-grain, soft black ink with text-shadow, Georgia serif throughout, justified/hyphenated text, double-rule headings, dotted-leader TOCs, running headers, page numbers, colophon, ornamental dividers, halftone dots, print styles, and `prefers-reduced-motion` support.
-- `src/layouts/BaseLayout.astro` wraps content in `.page` + colophon; removed sticky header/nav in favor of in-page navigation (TOC links + back links).
-- `src/pages/index.astro` — title page + Table of Contents + Preface + Index/search.
+## Design — archive layout
+- Redesigned `src/styles/global.css` to archive design: warm bg `#FAF7F2`, white surface, dark ink `#1C1A17`, amber accent `#8A5A2B`, Inter (UI) + Source Serif 4 (reading), high-contrast, easy to search/scan.
+- `src/layouts/BaseLayout.astro` wraps content in header (brand + nav + mobile hamburger toggle), main with skip link, footer; skip-to-content link.
+- `src/pages/index.astro` — home page: title, subtitle, search form, browse link, paper/course count.
 - `src/pages/courses/index.astro` — Index page with search + dotted-leader course list.
-- `src/pages/courses/[course]/index.astro` — chapter-style course page with running header, session TOC, syllabus, paper entries.
-- `src/pages/courses/[course]/[paper].astro` — paper page with running header, provenance, confidence notice, rendered Markdown questions.
+- `src/pages/browse/index.astro` — Browse page with filter bar (search/course/exam/session/department) + course list with counts.
+- `src/pages/courses/[course]/index.astro` — course page with SVG logo, syllabus topics, papers grouped by session/exam.
+- `src/pages/courses/[course]/[paper].astro` — paper page with metadata, provenance, instructions, choice, confidence notice, rendered Markdown content, cross-references, back links.
 
 ---
 
