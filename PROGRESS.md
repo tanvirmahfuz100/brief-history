@@ -24,23 +24,32 @@ Design spec: `brief-history/docs/superpowers/specs/2026-10-23-brief-history-webs
 9. `[x]` Archive-style redesign — replaced newsprint/book aesthetic with clean archive UI matching the root Next.js frontend: warm bg `#FAF7F2`, dark ink `#1C1A17`, accent `#8A5A2B`, Inter + Source Serif 4, header with nav (Browse/Tools/Report), footer, skip link, search form with course count, browse page with filters (search/course/exam/session/department), course pages with SVG logos, paper pages with metadata/provenance/back-links. Build passes: 156 pages.
 10. `[x]` SVG course logos — 45 course logo SVGs (`brief-history/public/logos/NNNN.svg`) for all courses 1101–4206, color-coded by year level (red=1st, blue=2nd, green=3rd, purple=4th), following the pattern from `sources/WHAT USER DREAMS FOR/Logo/1101.svg`. Displayed on course pages.
 11. `[x]` Hamburger menu fix — SVG hamburger lines now have `stroke="currentColor" stroke-width="2" stroke-linecap="round"` so the icon renders; added inline color style for currentColor inheritance; added client-side JS to toggle `.open` class on mobile menu; CSS `.mobile-menu.open { display: block; }`. Build passes.
-12. `[x]` Home page enhancements — semester buttons Volume I–VIII grouped by year (4 headings × 2 semesters each) with SVG progress rings from localStorage read progress; quick actions (Surprise me random question + Browse all); recently searched list (localStorage, max 5); most papers courses (top 5 by paper count); newly added papers (5 most recent); report link (mailto); last updated date; videos section (own channel pinned + YouTube suggestions + most watched chips); blogs section (pinned + latest 3 with tags + see all). Build passes: 156 pages.
+12. `[x]` Nat Geo inspired redesign — black header (`#0A0A0A`) with yellow accent border (`#FFD200`), white text, bold Inter typography; hero section on home page; card grid layouts for semesters/videos/blogs; semester progress rings from localStorage; consistent styling across course, browse, and paper pages. Build passes: 156 pages.
 
 ## Notes
 - Course codes are stored normalized (lowercase); page headings render in normalized form (e.g. `ais 2104`). Original casing is lost at the content-collection level.
 - Syllabus coverage is partial: only first-year courses 1101–1206 have outlines; higher courses show "Syllabus not available yet" — expected per spec.
 - Personal files at the repo root are ignored by `.gitignore` and are not part of this project.
 - GEMINI_SUGGESTIONS.md (sources/WHAT USER DREAMS FOR/) drives the post-MVP direction: client-side progress tracking, cross-reference tagging, analytics, PDF export, WhatsApp reporting, plus home-page enhancements (semester buttons Volume I–VIII, videos row, blogs row, counter line, most-viewed/newly-added rows, report link, last-updated date).
-- Archive design is now live at `http://localhost:4321/brief-history/` (dev server verified 200 OK on home, browse, course, and paper pages).
+- Dev server verified live at `http://localhost:4321/brief-history/` (200 OK on home, browse, course, paper pages).
 
-## Design — archive layout
-- Redesigned `src/styles/global.css` to archive design: warm bg `#FAF7F2`, white surface, dark ink `#1C1A17`, amber accent `#8A5A2B`, Inter (UI) + Source Serif 4 (reading), high-contrast, easy to search/scan.
-- `src/layouts/BaseLayout.astro` wraps content in header (brand + nav + mobile hamburger toggle), main with skip link, footer; skip-to-content link.
-- `src/pages/index.astro` — home page: title, subtitle, search form, browse link, paper/course count.
-- `src/pages/courses/index.astro` — Index page with search + dotted-leader course list.
+## Design — Nat Geo inspired
+- Redesigned `src/styles/global.css` to Nat Geo style: black header (`#0A0A0A`) with yellow accent border (`#FFD200`), white text, bold Inter typography throughout, yellow as primary accent color, high-contrast easy-to-scan layout.
+- `src/layouts/BaseLayout.astro` — black header with brand (logo + "Brief History" where "Brief History" is yellow), nav (Browse/Tools/Report), mobile hamburger toggle, skip-to-content link, black footer.
+- `src/pages/index.astro` — home page: large hero title (56px), subtitle, prominent search form with yellow submit button, paper/course/semester counter, browse link.
+- `src/pages/courses/index.astro` — Index page with bold title, filter bar, dotted-leader course list (TOC style).
 - `src/pages/browse/index.astro` — Browse page with filter bar (search/course/exam/session/department) + course list with counts.
-- `src/pages/courses/[course]/index.astro` — course page with SVG logo, syllabus topics, papers grouped by session/exam.
-- `src/pages/courses/[course]/[paper].astro` — paper page with metadata, provenance, instructions, choice, confidence notice, rendered Markdown content, cross-references, back links.
+- `src/pages/courses/[course]/index.astro` — course page with SVG logo, syllabus topics, papers grouped by session/exam, bold headings.
+- `src/pages/courses/[course]/[paper].astro` — paper page with bold title, metadata, provenance, content, cross-references, back links.
+- Semesters on home page: Volume I–VIII grouped by year (4 headings × 2 semesters), card grid layout, SVG progress rings from localStorage read progress.
+- Quick actions: Surprise me (random question) + Browse all buttons.
+- Recently searched: localStorage-backed chips (max 5).
+- Most papers: top 5 courses by paper count as chips.
+- Newly added: 5 most recent papers.
+- Videos: own channel pinned first, then YouTube suggestions, most watched chips.
+- Blogs: pinned post first, then latest 3 with tags, see all link.
+- Report link (mailto) + last updated date in home footer meta.
+- Build passes: 156 pages.
 
 ---
 
