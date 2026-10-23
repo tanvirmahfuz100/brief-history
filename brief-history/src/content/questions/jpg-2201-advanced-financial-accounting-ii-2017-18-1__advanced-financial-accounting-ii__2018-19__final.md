@@ -4,8 +4,8 @@ source_file: ["2201 Advanced Financial Accounting - II/2017-18 1.jpg", "2201 Adv
 pages: [1, 2, 3]
 university: University of Barishal
 department: Department of Accounting & Information Systems
-course: Advanced Financial Accounting- II
-course_code: AIS-2201
+course: Advanced Financial Accounting-II
+course_code: ais 2201
 year_semester: ""
 exam: Final Examination
 session: 2018-19

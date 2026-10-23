@@ -5,7 +5,7 @@ pages: [4]
 university: University of Barishal
 department: Department of Accounting & Information Systems
 course: Business Communication and Report Writing
-course_code: AIS 1103
+course_code: ais 1103
 year_semester: unknown
 exam: 1st Mid-term Examination
 session: unknown

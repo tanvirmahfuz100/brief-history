@@ -5,7 +5,7 @@ pages: [28]
 university: University of Barishal
 department: Department of Accounting & Information Systems
 course: Unknown Course
-course_code: ""
+course_code: unknown
 year_semester: 1st Year 1st Semester
 exam: unknown
 session: unknown

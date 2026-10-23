@@ -4,8 +4,8 @@ source_file: "AIS-10 First Year Second Semseter Final Questions.pdf"
 pages: [3, 4]
 university: University of Barishal
 department: Department of Accounting and Information Systems
-course: Principles of Management
-course_code: AIS 1203
+course: Management
+course_code: ais 1203
 year_semester: 1st Year 2nd Semester
 exam: Semester Final
 session: 2021-22

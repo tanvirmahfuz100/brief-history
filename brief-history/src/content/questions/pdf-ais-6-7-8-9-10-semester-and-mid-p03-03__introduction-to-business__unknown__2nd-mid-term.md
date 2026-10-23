@@ -5,7 +5,7 @@ pages: [3]
 university: University of Barisal
 department: Department of Accounting & Information Systems
 course: Introduction to Business
-course_code: AIS1101
+course_code: ais 1102
 year_semester: 1st Semester
 exam: 2nd Midterm
 session: unknown

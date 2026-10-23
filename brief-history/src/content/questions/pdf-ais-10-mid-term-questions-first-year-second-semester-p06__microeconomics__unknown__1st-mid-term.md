@@ -5,7 +5,7 @@ pages: [6]
 university: University of Barishal
 department: Department of Accounting and Information Systems
 course: Microeconomics
-course_code: AIS 1202
+course_code: ais 1202
 year_semester: 1st Year 2nd Semester
 exam: 1st Mid Examination
 session: unknown

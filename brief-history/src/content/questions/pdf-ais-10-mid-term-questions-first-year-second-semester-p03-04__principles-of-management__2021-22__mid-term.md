@@ -4,8 +4,8 @@ source_file: "AIS-10 (Mid-term Questions, First Year Second Semester).pdf"
 pages: [3, 4]
 university: University of Barishal
 department: Department of Accounting & Information Systems
-course: Principles of Management
-course_code: AIS 1203
+course: Management
+course_code: ais 1203
 year_semester: 1st Year 2nd Semester
 exam: Mid-term
 session: 2021-2022

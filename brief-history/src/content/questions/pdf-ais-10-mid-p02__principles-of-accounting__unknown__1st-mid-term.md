@@ -4,8 +4,8 @@ source_file: "AIS-10 Mid.pdf"
 pages: [2]
 university: University of Barishal
 department: Department of Accounting and Information Systems
-course: Principles of Accounting
-course_code: AIS 1102
+course: Introduction to Financial Accounting
+course_code: ais 1101
 year_semester: 1st Year 1st Semester
 exam: 1st Mid-term
 session: unknown

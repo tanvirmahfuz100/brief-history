@@ -4,8 +4,8 @@ source_file: "AIS-9 (Semester Final).pdf"
 pages: [4, 5, 6]
 university: University of Barisal
 department: Department of Accounting & Information Systems
-course: Principles of Accounting
-course_code: AIS 1102
+course: Introduction to Financial Accounting
+course_code: ais 1101
 year_semester: 1st Year 1st Semester
 exam: Final
 session: 2020-21

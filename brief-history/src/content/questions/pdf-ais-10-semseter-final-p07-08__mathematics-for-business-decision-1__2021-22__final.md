@@ -4,8 +4,8 @@ source_file: "AIS-10 (Semester Final).pdf"
 pages: [7, 8]
 university: University of Barishal
 department: Department of Accounting & Information Systems
-course: Mathematics for business decision-1
-course_code: AIS 1104
+course: Mathematics for Business Decisions-I
+course_code: ais 1104
 year_semester: 1st Year 1st Semester
 exam: Semester Final
 session: 2021-2022

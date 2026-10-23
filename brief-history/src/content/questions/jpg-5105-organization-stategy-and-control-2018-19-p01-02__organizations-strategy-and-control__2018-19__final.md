@@ -5,7 +5,7 @@ pages: [1, 2]
 university: University of Barishal
 department: Dept. of Accounting and Information systems
 course: Organizations, Strategy and Control
-course_code: AIS-5105
+course_code: ais 5105
 year_semester: MBA 1st Semester
 exam: Final
 session: 2018-19

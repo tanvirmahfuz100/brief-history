@@ -4,8 +4,8 @@ source_file: "AIS-11 Mid.pdf"
 pages: [5]
 university: University of Barishal
 department: Department of Accounting and Information Systems
-course: Bangladesh Studies
-course_code: "1105"
+course: History of the Emergence of Bangladesh
+course_code: ais 1105
 year_semester: unknown
 exam: Midterm-1, Examination, 2023
 session: unknown

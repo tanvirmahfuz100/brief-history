@@ -5,7 +5,7 @@ pages: [1]
 university: University of Barishal
 department: Department of Accounting & Information Systems
 course: Introduction to Business
-course_code: AIS 1101
+course_code: ais 1102
 year_semester: 1st Year 1st Semester
 exam: Semester Final
 session: 2021-2022

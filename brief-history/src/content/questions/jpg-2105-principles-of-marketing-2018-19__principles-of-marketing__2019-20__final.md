@@ -4,8 +4,8 @@ source_file: "2105 Principles of Marketing/2018-19.jpg"
 pages: [1]
 university: University of Barishal
 department: Department of Accounting & Information Systems
-course: Principles of Marketing
-course_code: AIS-2105
+course: Marketing
+course_code: ais 2204
 year_semester: 2nd Year 1st Semester
 exam: Final Examination
 session: 2019-20

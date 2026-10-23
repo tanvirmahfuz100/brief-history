@@ -5,7 +5,7 @@ pages: [1]
 university: University of Barishal
 department: Department of Accounting & Information Systems
 course: Cost Accounting
-course_code: 3101
+course_code: ais 3101
 year_semester: unknown
 exam: Final Examination
 session: 2017-18

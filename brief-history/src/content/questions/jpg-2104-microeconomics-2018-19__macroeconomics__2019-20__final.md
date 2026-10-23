@@ -5,7 +5,7 @@ pages: [1]
 university: University of Barishal
 department: Department of Accounting & Information Systems
 course: Macroeconomics
-course_code: AIS 2104
+course_code: ais 2102
 year_semester: 2nd Year 1st Semester
 exam: Final Examination
 session: 2019-20

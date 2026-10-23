@@ -4,8 +4,8 @@ source_file: "AIS-11 Mid.pdf"
 pages: [6]
 university: University of Barishal
 department: Department of Accounting & Information Systems
-course: Mathematics for Business Decision-I
-course_code: AIS-1104
+course: Mathematics for Business Decisions-I
+course_code: ais 1104
 year_semester: unknown
 exam: 1st Mid-term Examination
 session: 2022-23

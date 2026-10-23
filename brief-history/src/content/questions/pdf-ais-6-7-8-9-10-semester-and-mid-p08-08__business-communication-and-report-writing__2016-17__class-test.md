@@ -4,8 +4,8 @@ source_file: "pdf-ais-6-7-8-9-10-semester-and-mid"
 pages: [8]
 university: University of Barisal
 department: Department of Accounting & Information Systems
-course: Business Communication & Report Writing
-course_code: ""
+course: Business Communication and Report Writing
+course_code: ais 1103
 year_semester: unknown
 exam: Class Test
 session: 2016-17

@@ -4,8 +4,8 @@ source_file: "AIS-9 (First Year Second Semester Mid-Final).pdf"
 pages: [5, 6, 7]
 university: University of Barishal
 department: Department of Accounting & Information Systems
-course: Principles of Management
-course_code: AIS 1203
+course: Management
+course_code: ais 1203
 year_semester: 1st Year 2nd Semester
 exam: Semester Final
 session: 2020-2021

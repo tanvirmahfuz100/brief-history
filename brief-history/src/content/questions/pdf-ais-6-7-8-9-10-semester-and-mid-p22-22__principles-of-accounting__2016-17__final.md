@@ -4,8 +4,8 @@ source_file: "AIS-6-7-8-9-10 Semester and Mid.pdf"
 pages: [22]
 university: University of Barishal
 department: Department of Accounting & Information Systems
-course: Principles of Accounting
-course_code: ""
+course: Introduction to Financial Accounting
+course_code: ais 1101
 year_semester: unknown
 exam: Final Examination
 session: 2016-17

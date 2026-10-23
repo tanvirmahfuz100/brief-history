@@ -4,8 +4,8 @@ source_file: "pdf-ais-6-7-8-9-10-semester-and-mid"
 pages: [3]
 university: University of Barisal
 department: Department of Accounting and Information Systems
-course: Principles of Accounting
-course_code: AIS 1102
+course: Introduction to Financial Accounting
+course_code: ais 1101
 year_semester: unknown
 exam: Second Midterm
 session: unknown

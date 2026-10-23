@@ -5,7 +5,7 @@ pages: [1, 2, 3, 4]
 university: University of Barishal
 department: Department of Accounting & Information Systems
 course: Introduction to Financial Accounting
-course_code: AIS 1101
+course_code: ais 1101
 year_semester: 1st Year 1st Semester
 exam: Semester Final Examination
 session: 2022-23

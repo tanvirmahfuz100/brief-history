@@ -5,7 +5,7 @@ pages: [1]
 university: University of Barishal
 department: Department of Accounting & Information Systems
 course: Advanced Financial Accounting-II
-course_code: AIS-2201
+course_code: ais 2201
 year_semester: unknown
 exam: Final
 session: 2018-19

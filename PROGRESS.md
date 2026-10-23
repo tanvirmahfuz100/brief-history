@@ -14,7 +14,7 @@ Design spec: `brief-history/docs/superpowers/specs/2026-10-23-brief-history-webs
 ## Slices
 
 1. `[x]` Repository/app foundation — Astro static site, `base: '/brief-history'`, `@` → `src/` alias, content collections, `getStaticPaths` routes for all 133 papers (162 pages).
-2. `[x]` Content import & validation — OCR papers normalized in `src/content/questions/`; schema coerces messy front matter and collapses empty/unknown course codes to `unknown`.
+2. `[x]` Content import & validation — OCR papers normalized in `src/content/questions/`; schema coerces messy front matter and collapses empty/unknown course codes to `unknown`. Course codes and titles aligned to the AIS BBA Curriculum 2022-23 (11th Batch) syllabus (`sources/syllabus_catalog.md`): conflicts resolved in favor of the syllabus (e.g. Macroeconomics `ais 2104` → `ais 2102`, Introduction to Business `ais 1101` → `ais 1102`, Bangladesh Studies → `ais 1105` History of the Emergence of Bangladesh). All codes normalized to lowercase `ais NNNN` format.
 3. `[x]` Syllabus content — `src/content/syllabi/` with 11 syllabi (1101–1206) parsed from `sources/syllabus_catalog.md`; rendered on course pages where available, empty state otherwise.
 4. `[x]` Responsive editorial UI — `src/styles/global.css` bundled via shared `src/layouts/BaseLayout.astro` (skip link, nav, breadcrumbs, footer); hardcoded `/brief-history/styles.css` links removed.
 5. `[x]` Client-side filtering — search input on the course directory filtering by course code, title, and department.

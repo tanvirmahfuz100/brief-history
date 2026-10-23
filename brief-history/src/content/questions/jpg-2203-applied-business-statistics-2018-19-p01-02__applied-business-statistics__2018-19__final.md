@@ -4,8 +4,8 @@ source_file: "2203 Applied Business Statistics/2018-19-1.jpg & 2018-19-2.jpg"
 pages: [1, 2]
 university: University of Barishal
 department: Department of Accounting & Information Systems
-course: Applied Business Statistics
-course_code: AIS 2203
+course: Business Statistics-II
+course_code: ais 2203
 year_semester: 2nd Year 2nd Semester
 exam: Final
 session: 2018-19

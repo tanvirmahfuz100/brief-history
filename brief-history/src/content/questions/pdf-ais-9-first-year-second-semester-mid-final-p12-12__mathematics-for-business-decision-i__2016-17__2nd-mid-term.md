@@ -4,8 +4,8 @@ source_file: "AIS-9 (First Year Second Semester Mid-Final).pdf"
 pages: [12]
 university: University of Barishal
 department: Department of Accounting & Information Systems
-course: Mathematics for Business Decision I
-course_code: ""
+course: Mathematics for Business Decisions-I
+course_code: ais 1104
 year_semester: 1st Year 1st Semester
 exam: 2nd Mid-term Examination
 session: 2016-17

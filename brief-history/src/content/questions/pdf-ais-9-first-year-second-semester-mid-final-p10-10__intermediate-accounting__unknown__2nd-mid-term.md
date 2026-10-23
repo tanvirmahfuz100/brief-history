@@ -5,7 +5,7 @@ pages: [10]
 university: University of Barishal
 department: Department of Accounting and Information Systems
 course: Intermediate Accounting
-course_code: AIS 1201
+course_code: ais 1201
 year_semester: 1st Year 2nd Semester
 exam: Second Mid-term Examination
 session: unknown

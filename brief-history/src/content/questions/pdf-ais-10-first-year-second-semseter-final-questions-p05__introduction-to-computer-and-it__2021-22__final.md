@@ -4,8 +4,8 @@ source_file: "AIS-10 First Year Second Semseter Final Questions.pdf"
 pages: [5]
 university: University of Barishal
 department: Department of Accounting & Information Systems
-course: Introduction to Computer & IT
-course_code: AIS 1205
+course: Computer Concepts and Application
+course_code: ais 1205
 year_semester: 1st Year 2nd Semester
 exam: Semester Final
 session: 2021-22

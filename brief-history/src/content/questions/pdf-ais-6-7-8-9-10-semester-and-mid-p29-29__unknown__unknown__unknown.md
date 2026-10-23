@@ -5,7 +5,7 @@ pages: [29]
 university: unknown
 department: unknown
 course: unknown
-course_code: ""
+course_code: unknown
 year_semester: unknown
 exam: unknown
 session: unknown

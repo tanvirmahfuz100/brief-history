@@ -5,7 +5,7 @@ pages: [3]
 university: University of Barisal
 department: Department of Accounting & Information Systems
 course: Business Communication and Report Writing
-course_code: AIS 1103
+course_code: ais 1103
 year_semester: 1st Year 1st Semester
 exam: Final
 session: 2020-21

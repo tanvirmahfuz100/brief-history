@@ -5,7 +5,7 @@ pages: [5]
 university: unknown
 department: unknown
 course: Business Communication and Report Writing
-course_code: ""
+course_code: ais 1103
 year_semester: unknown
 exam: unknown
 session: unknown

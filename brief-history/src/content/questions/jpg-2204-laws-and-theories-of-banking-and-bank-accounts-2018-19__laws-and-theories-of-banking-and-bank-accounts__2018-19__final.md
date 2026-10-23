@@ -5,7 +5,7 @@ pages: [1]
 university: University of Barishal
 department: Department of Accounting & Information Systems
 course: Laws and Theories of Banking and Bank Accounts
-course_code: AIS 2204
+course_code: ais 2204
 year_semester: BBA 2nd year 2nd Semester
 exam: Final Examination
 session: 2018-19

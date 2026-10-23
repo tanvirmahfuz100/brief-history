@@ -4,8 +4,8 @@ source_file: "2202 Corporate Laws and Governance/2018-19.jpg"
 pages: [1]
 university: University of Barishal
 department: Department of Accounting & Information Systems
-course: Corporate Laws and Governance
-course_code: AIS 2202
+course: Corporate Laws and Secretarial Practices
+course_code: ais 2202
 year_semester: 2nd Year 2nd Semester
 exam: Final
 session: 2018-19

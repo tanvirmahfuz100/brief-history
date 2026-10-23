@@ -4,8 +4,8 @@ source_file: "3104 Organization Behaviour/2017-18.jpg"
 pages: [1]
 university: University of Barishal
 department: Department of Accounting & Information Systems
-course: Organizations Behavior
-course_code: AIS 3104
+course: Organizational Behavior
+course_code: ais 3204
 year_semester: 3rd Year 2nd Semester
 exam: Final
 session: 2019-20

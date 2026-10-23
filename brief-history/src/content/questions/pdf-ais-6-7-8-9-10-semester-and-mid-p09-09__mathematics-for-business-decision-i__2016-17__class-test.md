@@ -4,8 +4,8 @@ source_file: "pdf-ais-6-7-8-9-10-semester-and-mid"
 pages: [9]
 university: University of Barisal
 department: Department of Accounting & Information Systems
-course: Mathematics for Business Decision-1
-course_code: ""
+course: Mathematics for Business Decisions-I
+course_code: ais 1104
 year_semester: unknown
 exam: First Class Test
 session: 2016-2017

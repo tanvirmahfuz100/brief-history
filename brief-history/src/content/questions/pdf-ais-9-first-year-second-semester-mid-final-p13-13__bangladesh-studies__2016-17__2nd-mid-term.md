@@ -4,8 +4,8 @@ source_file: "AIS-9 (First Year Second Semester Mid-Final).pdf"
 pages: [13]
 university: University of Barishal
 department: Department of Accounting & Information System
-course: Bangladesh Studies
-course_code: AIS-1105
+course: History of the Emergence of Bangladesh
+course_code: ais 1105
 year_semester: 1st Year 1st Semester
 exam: 2nd Mid-term Examination
 session: 2016-17
