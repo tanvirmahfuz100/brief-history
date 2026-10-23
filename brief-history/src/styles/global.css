@@ -263,6 +263,13 @@ details p { font-family: var(--font-reading); font-size: 15px; color: var(--colo
 .semester-label { font-size: 15px; font-weight: 600; margin: 0; }
 .semester-count { font-size: 13px; color: var(--color-ink-muted); margin-top: 0.25rem; }
 
+.year-group { margin-bottom: 1.5rem; }
+.year-heading { font-family: var(--font-ui); font-size: 13px; color: var(--color-ink-muted); text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 0.5rem 0; padding-left: 0.25rem; border-left: 3px solid var(--color-accent); }
+
+.progress-ring { transform: rotate(-90deg); }
+.progress-ring-bg { fill: none; stroke: var(--color-rule); stroke-width: 2; }
+.progress-ring-fill { fill: none; stroke: var(--color-accent); stroke-width: 2; stroke-linecap: round; transition: stroke-dashoffset 0.5s ease; }
+
 /* Quick actions (home page) */
 .quick-actions { margin-top: 3rem; }
 .quick-actions-heading { font-family: var(--font-ui); font-size: 15px; color: var(--color-ink-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; }

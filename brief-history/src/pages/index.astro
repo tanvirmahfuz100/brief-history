@@ -22,8 +22,17 @@ const SEMESTER_GROUPS = [
 const semesterVolumes = SEMESTER_GROUPS.map((g) => {
   const papers = questions.filter((q) => g.codes.includes(q.data.course_code.match(/\d+/)?.[0] ?? ''));
   const courses = [...new Set(papers.map((q) => q.data.course_code))].length;
-  return { ...g, paperCount: papers.length, courseCount: courses };
+  const paperIds = papers.map((q) => q.id);
+  return { ...g, paperCount: papers.length, courseCount: courses, paperIds };
 });
+
+// Group volumes by year (4 years × 2 semesters each)
+const yearGroups = [
+  { label: '1st Year', volumes: semesterVolumes.filter(v => v.volume === 'I' || v.volume === 'II') },
+  { label: '2nd Year', volumes: semesterVolumes.filter(v => v.volume === 'III' || v.volume === 'IV') },
+  { label: '3rd Year', volumes: semesterVolumes.filter(v => v.volume === 'V' || v.volume === 'VI') },
+  { label: '4th Year', volumes: semesterVolumes.filter(v => v.volume === 'VII' || v.volume === 'VIII') },
+];
 
 const totalVolPapers = semesterVolumes.reduce((sum, v) => sum + v.paperCount, 0);
 const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
@@ -62,19 +71,31 @@ const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
 
     <section class="semesters" aria-label="Semesters">
       <h2 class="semester-heading">Semesters</h2>
-      <div class="semester-grid">
-        {semesterVolumes.map((v) => (
-          <a
-            href={`/brief-history/browse/?course=${v.codes.map(c => `ais ${c}`).join('|')}`}
-            class="semester-btn"
-            aria-label={`Volume ${v.volume}: ${v.label} — ${v.paperCount} papers across ${v.courseCount} courses`}
-          >
-            <span class="semester-volume">Volume {v.volume}</span>
-            <span class="semester-label">{v.label}</span>
-            <span class="semester-count">{v.paperCount} papers</span>
-          </a>
-        ))}
-      </div>
+      {yearGroups.map((year) => (
+        <div class="year-group">
+          <h3 class="year-heading">{year.label}</h3>
+          <div class="semester-grid">
+            {year.volumes.map((v) => (
+              <a
+                href={`/brief-history/browse/?course=${v.codes.map(c => `ais ${c}`).join('|')}`}
+                class="semester-btn"
+                data-volume={v.volume}
+                data-total={v.paperCount}
+                data-paper-ids={JSON.stringify(v.paperIds)}
+                aria-label={`Volume ${v.volume}: ${v.label} — ${v.paperCount} papers across ${v.courseCount} courses`}
+              >
+                <span class="semester-volume">Volume {v.volume}</span>
+                <span class="semester-label">{v.label}</span>
+                <span class="semester-count">{v.paperCount} papers</span>
+                <svg class="progress-ring" width="28" height="28" viewBox="0 0 28 28" aria-hidden="true">
+                  <circle class="progress-ring-bg" cx="14" cy="14" r="11" />
+                  <circle class="progress-ring-fill" cx="14" cy="14" r="11" style="stroke-dasharray: 69.1; stroke-dashoffset: 69.1;" />
+                </svg>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
     </section>
 
     <section class="quick-actions" aria-label="Quick actions">
@@ -152,5 +173,33 @@ const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
     }
 
     render();
+
+    // Progress rings on semester buttons from localStorage
+    (function () {
+      const READ_PREFIX = 'abhq:read:';
+      const buttons = document.querySelectorAll('.semester-btn');
+      if (!buttons.length) return;
+
+      buttons.forEach((btn) => {
+        const ring = btn.querySelector('.progress-ring-fill');
+        if (!ring) return;
+        const circumference = 2 * Math.PI * 11;
+        let paperIds = [];
+        try {
+          paperIds = JSON.parse(btn.getAttribute('data-paper-ids') || '[]');
+        } catch { paperIds = []; }
+        let readCount = 0;
+        paperIds.forEach((id) => {
+          try {
+            if (localStorage.getItem(READ_PREFIX + id) === '1') readCount += 1;
+          } catch {}
+        });
+        const pct = paperIds.length ? readCount / paperIds.length : 0;
+        const offset = circumference * (1 - pct);
+        ring.style.strokeDashoffset = offset;
+        ring.setAttribute('data-pct', Math.round(pct * 100) + '%');
+      });
+    })();
+
   })();
 </script>
