@@ -1,5 +1,5 @@
 /**
- * Shared slug utilities for the brief-history site.
+ * Brief History Website — shared slug utilities.
  *
  * All internal routes are derived from these slugs so that links, content
  * collection metadata, and `getStaticPaths` stay in sync. Empty, null, or

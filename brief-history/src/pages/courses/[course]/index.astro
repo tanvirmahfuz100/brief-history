@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getCollection, render } from 'astro:content';
-import { courseSlug } from '@/lib/slug';
+import { courseSlug, slug } from '@/lib/slug';
 
 export async function getStaticPaths() {
   const questions = await getCollection('questions');
@@ -34,66 +34,82 @@ const sessions = [...grouped.entries()].sort((a, b) => a[0].localeCompare(b[0]))
 ---
 
 <BaseLayout title={code}>
-  <nav class="breadcrumbs" aria-label="Breadcrumb">
-    <a href="/brief-history/">Home</a> › <a href="/brief-history/courses/">Courses</a> › <span>{code}</span>
-  </nav>
+  <div class="running-header">
+    <span class="rh-left">A Brief History of Past Questions</span>
+    <span class="rh-right">{code}</span>
+  </div>
 
-  <section class="course-head">
-    <h1>{code}</h1>
-    <p class="muted">{questions.length} paper{questions.length === 1 ? '' : 's'} across {sessions.length} session{sessions.length === 1 ? '' : 's'}</p>
+  <section class="section-block">
+    <h2 class="section-title">{code}</h2>
+    <hr class="double-rule" />
+    <p class="section-sub">{questions.length} paper{questions.length === 1 ? '' : 's'} across {sessions.length} session{sessions.length === 1 ? '' : 's'}</p>
+
+    {sessions.length > 1 && (
+      <nav class="toc" aria-label="Sessions">
+        {sessions.map(([session]) => (
+          <a class="toc-line" href={`#session-${slug(session)}`}>
+            <span class="toc-title">{session}</span>
+            <span class="toc-leader" aria-hidden="true"></span>
+            <span class="toc-page">{grouped.get(session).size} exam{grouped.get(session).size === 1 ? '' : 's'}</span>
+          </a>
+        ))}
+      </nav>
+    )}
+
+    {syllabus ? (
+      <section id="syllabus" class="syllabus" aria-label="Syllabus">
+        <h3>Syllabus</h3>
+        <p class="muted">{syllabus.data.code} — {syllabus.data.title} · {syllabus.data.credits} credits · {syllabus.data.semester}</p>
+        <SyllabusContent />
+      </section>
+    ) : (
+      <p class="empty-state">Syllabus not available yet.</p>
+    )}
   </section>
 
-      <section id="syllabus" class="syllabus" aria-label="Syllabus">
-        {syllabus ? (
-          <>
-            <h2>Syllabus</h2>
-            <p class="muted">{syllabus.data.code} — {syllabus.data.title} · {syllabus.data.credits} credits · {syllabus.data.semester}</p>
-            <SyllabusContent />
-          </>
-        ) : (
-          <>
-            <h2>Syllabus</h2>
-            <p class="empty-state">Syllabus not available yet.</p>
-          </>
-        )}
-      </section>
+  <div class="ornament" aria-hidden="true">* * *</div>
 
   <section id="papers" class="papers" aria-label="Past papers">
-    <h2>Past papers</h2>
+    <h2 class="section-title">Past papers</h2>
+    <hr class="double-rule" />
+
     {sessions.map(([session, exams]) => (
-      <section class="session-block">
+      <section class="session-block" id={`session-${slug(session)}`}>
+        <div class="running-header">
+          <span class="rh-left">{code}</span>
+          <span class="rh-right">{session}</span>
+        </div>
         <h3 class="session-label">{session}</h3>
         {[...exams.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([exam, items]) => (
-          <div class="exam-block">
-            <h4 class="exam-label">{exam}</h4>
-            <ul class="paper-list">
-              {items.map(q => {
+          <div class="course">
+            <h4>{exam}</h4>
+            <nav class="toc" aria-label={exam}>
+              {items.map((q) => {
                 const hasNotes = Boolean(q.data.notes);
                 const confidence = q.data.ocr_confidence ? q.data.ocr_confidence : null;
                 return (
-                  <li class="paper-card">
-                    <a class="paper-title" href={`/brief-history/courses/${courseSlug(code)}/${q.id}/`}>
-                      {q.data.course}
-                    </a>
-                    <p class="paper-meta">
-                      <span>{q.data.session}</span> · <span>{q.data.exam}</span>
-                      {q.data.full_marks ? <> · <span>Full marks: {q.data.full_marks}</span></> : null}
-                      {q.data.time ? <> · <span>Time: {q.data.time}</span></> : null}
-                    </p>
-                    <p class="paper-source">
-                      Source: {q.data.source_file || 'unknown'} · Pages: {q.data.pages.length ? q.data.pages.join(', ') : 'unknown'}
-                    </p>
-                    {confidence ? <p class="paper-confidence">OCR confidence: {confidence}</p> : null}
-                    {hasNotes ? <p class="paper-notes" role="note">Transcription note: {q.data.notes}</p> : null}
-                  </li>
+                  <a class="toc-line" href={`/brief-history/courses/${courseSlug(code)}/${q.id}/`}>
+                    <span class="toc-title">{q.data.course}</span>
+                    <span class="toc-leader" aria-hidden="true"></span>
+                    <span class="toc-page">
+                      {q.data.year_semester}{q.data.full_marks ? ` · ${q.data.full_marks} marks` : ''}
+                      {confidence ? ` · OCR ${confidence}` : ''}
+                      {hasNotes ? ` · note` : ''}
+                    </span>
+                  </a>
                 );
               })}
-            </ul>
+              {syllabus ? null : null}
+            </nav>
           </div>
         ))}
+        <div class="page-number">— {slug(session)} —</div>
       </section>
     ))}
   </section>
 
-  <p class="back-links"><a href="/brief-history/courses/">← Back to courses</a></p>
+  <p class="back-links">
+    <a href="/brief-history/courses/">← Contents</a>
+    <a href="/brief-history/">← Title page</a>
+  </p>
 </BaseLayout>

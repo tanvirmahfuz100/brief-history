@@ -14,49 +14,58 @@ const courses = [...byCourse.values()].sort((a, b) => a.code.localeCompare(b.cod
 const total = courses.length;
 ---
 
-<BaseLayout title="Courses">
-  <h1>Courses</h1>
-  <label class="filter-label" for="course-filter">Filter courses</label>
-  <input
-    type="search"
-    id="course-filter"
-    placeholder="Filter by course code, title, or department"
-    aria-controls="course-list"
-    aria-label="Filter courses by code, title, or department"
-  />
-  <p id="filter-count" class="muted" role="status" aria-live="polite">{total} courses</p>
-  <p id="filter-empty" class="empty-state" hidden>No courses match your filter.</p>
-  <ul id="course-list" class="course-list">
-    {courses.map(c => (
-      <li>
-        <article class="course-card">
-          <a class="course-title" href={`/brief-history/courses/${courseSlug(c.code)}/`}>{c.code}</a>
-          <p class="course-meta">
-            <span>{c.title}</span> · <span>{c.department}</span> · <span>{c.count} paper{c.count === 1 ? '' : 's'}</span>
-          </p>
-        </article>
-      </li>
-    ))}
-  </ul>
-  <a href="/brief-history/">Home</a>
+<BaseLayout title="Index">
+  <div class="running-header">
+    <span class="rh-left">A Brief History of Past Questions</span>
+    <span class="rh-right">Index</span>
+  </div>
+
+  <section class="index-block" aria-labelledby="index-heading">
+    <h2 id="index-heading">Index</h2>
+    <hr class="double-rule" />
+    <label class="index-label" for="course-filter">Look up in the Index</label>
+    <input
+      class="index-input"
+      id="course-filter"
+      type="search"
+      placeholder="Course, topic or year&hellip;"
+      aria-describedby="index-help"
+    />
+    <p id="index-help" class="no-results" aria-live="polite"></p>
+
+    <nav class="toc" id="course-list">
+      {courses.map((c) => (
+        <a class="toc-line" href={`/brief-history/courses/${courseSlug(c.code)}/`}>
+          <span class="toc-title">{c.code}</span>
+          <span class="toc-leader" aria-hidden="true"></span>
+          <span class="toc-page">{c.title}</span>
+        </a>
+      ))}
+    </nav>
+  </section>
+
+  <p class="muted" style="margin-top:0;">{total} course{total === 1 ? '' : 's'} listed</p>
+
+  <div class="back-links">
+    <a href="/brief-history/">← Title page</a>
+  </div>
 
   <script>
     const input = document.getElementById('course-filter');
-    const list = document.getElementById('course-list');
-    const count = document.getElementById('filter-count');
-    const empty = document.getElementById('filter-empty');
-    const items = list.querySelectorAll('li');
-    const total = items.length;
+    const empty = document.getElementById('index-help');
+    const lines = document.querySelectorAll('#course-list .toc-line');
+    const totalCount = lines.length;
     input.addEventListener('input', () => {
       const q = input.value.toLowerCase();
       let shown = 0;
-      items.forEach((li) => {
+      lines.forEach((li) => {
         const match = li.textContent.toLowerCase().includes(q);
         li.hidden = !match;
         if (match) shown += 1;
       });
-      count.textContent = shown === total ? `${total} courses` : `${shown} of ${total} courses`;
-      empty.hidden = shown !== 0;
+      empty.hidden = shown !== 0 || q === '';
+      empty.textContent = q && shown === 0 ? 'No courses match “' + input.value + '”.' : '';
+      empty.classList.toggle('visible', q !== '' && shown === 0);
     });
   </script>
 </BaseLayout>

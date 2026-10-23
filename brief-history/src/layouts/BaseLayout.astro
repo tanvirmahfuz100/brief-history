@@ -18,19 +18,14 @@ const pageTitle = title ? `${title} — ${siteTitle}` : siteTitle;
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
-      <nav class="site-nav" aria-label="Main navigation">
-        <a class="brand" href="/brief-history/">{siteTitle}</a>
-        <a href="/brief-history/courses/">Courses</a>
-      </nav>
-    </header>
+    <div class="page">
+      <main id="main">
+        <slot />
+      </main>
 
-    <main id="main" class="page">
-      <slot />
-    </main>
-
-    <footer class="site-footer">
-      <p>A Project of Theory of Readability</p>
-    </footer>
+      <footer class="colophon">
+        Set in Georgia. Printed on screen. · A Project of Theory of Readability
+      </footer>
+    </div>
   </body>
 </html>
