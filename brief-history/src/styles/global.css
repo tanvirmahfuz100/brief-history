@@ -410,3 +410,53 @@ details p { font-family: var(--font-reading); font-size: 15px; color: var(--colo
   margin-right: 0.5rem;
   margin-top: 0.25rem;
 }
+
+/* Blogs (home page) */
+.blogs { margin-top: 3rem; }
+.blogs-heading { font-family: var(--font-ui); font-size: 15px; color: var(--color-ink-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; }
+.blogs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; margin-bottom: 1rem; }
+.blog-card {
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.blog-card.pinned { border-color: var(--color-accent); background: rgba(138, 90, 43, 0.03); }
+.blog-badge {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  align-self: flex-start;
+}
+.blog-badge.pinned { background: var(--color-accent); color: #ffffff; }
+.blog-title { font-family: var(--font-ui); font-size: 16px; font-weight: 600; color: var(--color-ink); margin: 0; line-height: 1.4; }
+.blog-excerpt { font-family: var(--font-ui); font-size: 13px; color: var(--color-ink-muted); margin: 0; line-height: 1.5; }
+.blog-meta { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: auto; }
+.blog-date { font-size: 11px; color: var(--color-ink-muted); }
+.blog-tag {
+  font-size: 11px;
+  color: var(--color-accent);
+  background: rgba(138, 90, 43, 0.05);
+  border: 1px solid var(--color-rule);
+  border-radius: 3px;
+  padding: 0.1rem 0.4rem;
+}
+.blog-link {
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-accent);
+  text-decoration: none;
+  align-self: flex-start;
+  margin-top: 0.25rem;
+}
+.blog-link:hover { text-decoration: underline; }
+.blogs-see-all { font-family: var(--font-ui); font-size: 13px; color: var(--color-ink-muted); margin-top: 0.5rem; }
+.blogs-see-all a { color: var(--color-accent); text-decoration: none; }
+.blogs-see-all a:hover { text-decoration: underline; }

@@ -3,6 +3,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { courseSlug } from '@/lib/slug';
 import { VIDEOS, mostWatched, ownChannelVideos, youtubeSuggestions } from '@/data/videos';
+import { BLOGS, pinnedBlogs, latestBlogs } from '@/data/blogs';
 
 const questions = await getCollection('questions');
 const courseCount = [...new Set(questions.map(q => q.data.course_code))].length;
@@ -199,6 +200,38 @@ const lastUpdated = new Date().toLocaleDateString('en-BD', { year: 'numeric', mo
         {mostWatched(3).map((v) => (
           <span class="most-chip">{v.courseTitle} &middot; {v.views.toLocaleString()} views</span>
         ))}
+      </p>
+    </section>
+
+    <section class="blogs" aria-label="Blogs">
+      <h2 class="blogs-heading">Blogs</h2>
+      <div class="blogs-grid">
+        {pinnedBlogs().map((b) => (
+          <article class="blog-card pinned" aria-label={b.title}>
+            <span class="blog-badge pinned">Pinned</span>
+            <h3 class="blog-title">{b.title}</h3>
+            <p class="blog-excerpt">{b.excerpt}</p>
+            <div class="blog-meta">
+              <span class="blog-date">{new Date(b.date).toLocaleDateString('en-BD', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+              {b.tags.map((t) => <span class="blog-tag">{t}</span>)}
+            </div>
+            <a href={b.url} class="blog-link">Read &rarr;</a>
+          </article>
+        ))}
+        {latestBlogs().filter(b => !b.pinned).map((b) => (
+          <article class="blog-card" aria-label={b.title}>
+            <h3 class="blog-title">{b.title}</h3>
+            <p class="blog-excerpt">{b.excerpt}</p>
+            <div class="blog-meta">
+              <span class="blog-date">{new Date(b.date).toLocaleDateString('en-BD', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+              {b.tags.map((t) => <span class="blog-tag">{t}</span>)}
+            </div>
+            <a href={b.url} class="blog-link">Read &rarr;</a>
+          </article>
+        ))}
+      </div>
+      <p class="blogs-see-all">
+        <a href="/brief-history/blog/">See all posts &rarr;</a>
       </p>
     </section>
 
