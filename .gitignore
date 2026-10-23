@@ -1,21 +1,58 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Project-specific (brief-history Astro site + personal notes)
+# Never commit the Astro build output
+brief-history/dist/
 # Personal working notes / scratch files (not part of the website project)
 AGENT.md
 OUR_GOAL.md
 HELP_ME_CROSSCHECK.md
 DEEPSEEK-SUGGESTED.txt
-
 # Personal reference material
 WHAT USER DREAMS FOR/
 *.pdf
 *.zip
-
 # OS / editor
-.DS_Store
 .idea/
-
-# Node
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+# Agent Manager state
+.kilo/

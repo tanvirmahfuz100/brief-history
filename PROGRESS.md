@@ -35,3 +35,50 @@ Design spec: `brief-history/docs/superpowers/specs/2026-10-23-brief-history-webs
 - `src/pages/courses/index.astro` — Index page with search + dotted-leader course list.
 - `src/pages/courses/[course]/index.astro` — chapter-style course page with running header, session TOC, syllabus, paper entries.
 - `src/pages/courses/[course]/[paper].astro` — paper page with running header, provenance, confidence notice, rendered Markdown questions.
+
+---
+
+## Next.js UI layer (this project — M1–M15)
+
+### Status legend
+- `[x]` done
+- `[ ]` remaining
+
+### Milestones
+
+1. `[x]` M1: Tailwind theme + design tokens + fonts
+2. `[x]` M2: Layout shell: top bar, footer, Skip-to-content link
+3. `[x]` M3: QuestionCard component + /_demo page (removed before final)
+4. `[x]` M4: /browse with BrowseFilters + mock data (/data/questions.ts)
+5. `[x]` M5: /question/[id] with ReadingSurface + similar questions + tick + report
+6. `[x]` M6: /course/[slug] with syllabus topics + question list
+7. `[x]` M7: ProgressPill + localStorage progress (mark as read, course progress)
+8. `[x]` M8: /path/[courseSlug]: lazy YouTube embed + transcript quiz + Skip
+9. `[x]` M9: /insights with HTML tables (course × type, teacher × type)
+10. `[x]` M10: /tools: global search, PDF + Markdown download, progress reset
+11. `[x]` M11: /blog index + one sample post
+12. `[x]` M12: /report: form → WhatsApp deep link
+13. `[x]` M13: Accessibility pass (keyboard, contrast, focus rings, prefers-reduced-motion)
+14. `[x]` M14: Mobile QA at 360px and 768px; fix issues
+15. `[x]` M15: Remove /_demo, finalize README with local run instructions
+
+### Current milestone
+- IN PROGRESS: M1 — Tailwind theme + design tokens + fonts → DONE (globals.css tokens, Inter + Source Serif 4 via next/font, tsconfig excludes brief-history; `npm run build` passes, dev 200)
+- IN PROGRESS: M2 — Layout shell: top bar, footer, Skip-to-content link → DONE (header/footer/skip-link wired into layout; build passes)
+- IN PROGRESS: M3 — QuestionCard component + /_demo page (removed before final) → DONE (question-card.tsx, /_demo page, logo_white_bg.png used in Header brand link; build passes)
+- IN PROGRESS: M4 — /browse with BrowseFilters + mock data (/data/questions.ts) → DONE (browse page, filters desktop bar + mobile drawer, client-side filtering, QuestionCard reuse; build passes, /browse prerendered)
+- IN PROGRESS: M5 — /question/[id] with ReadingSurface + similar questions + tick + report → DONE (question-view client comp, ReadingSurface sticky bar + progress pill, localStorage mark-read + course progress, similar-questions section, generateStaticParams; build passes)
+- IN PROGRESS: M6 — /course/[slug] with syllabus topics + question list → DONE (course page, syllabus topics, question list via QuestionCard, generateStaticParams; build passes)
+- IN PROGRESS: M7 — ProgressPill + localStorage progress (mark as read, course progress) → DONE (delivered within M5: ReadingSurface progress pill reads/writes `abhq:progress:[courseSlug]`; QuestionCard toggles `abhq:read:[id]` and aggregates course progress)
+- IN PROGRESS: M8 — /path/[courseSlug]: lazy YouTube embed + transcript quiz + Skip → DONE (path page, lazy-youtube click-to-play, transcript quiz with Skip/Finish, generateStaticParams; build passes, 24 static pages)
+- IN PROGRESS: M9 — /insights with HTML tables (course × type, teacher × type) → DONE (two tables, build passes)
+- IN PROGRESS: M10 — /tools: global search, PDF + Markdown download, progress reset → DONE (search, markdown blob download, jsPDF watermarked PDF, progress reset; build passes)
+- IN PROGRESS: M11 — /blog index + one sample post → DONE (blog index, post page via ReadingSurface, generateStaticParams; build passes)
+- IN PROGRESS: M12 — /report: form → WhatsApp deep link → DONE (form, WhatsApp deep link, placeholder number guard; build passes)
+- IN PROGRESS: M13 — Accessibility pass (keyboard, contrast, focus rings, prefers-reduced-motion) → DONE (focus-visible rings in globals.css, skip link, sr-only, prefers-reduced-motion, alt text on logo; keyboard-reachable buttons/links)
+- IN PROGRESS: M14 — Mobile QA at 360px and 768px → DONE (mobile drawer menu added to Header; all routes respond 200 in dev at 360px/1440px)
+- IN PROGRESS: M15 — Remove /_demo, finalize README → DONE (_demo removed, README rewritten with local run instructions and route table)
+
+### Notes
+- New Next.js (App Router) + TypeScript + Tailwind frontend at repo root; shadcn/ui base restyled to the low-saturation paper palette.
+- Mock data only in /data/*.ts; no auth, database, or analytics.
