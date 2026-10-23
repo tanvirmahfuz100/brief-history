@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import { courseSlug } from '@/lib/slug';
 
 export async function getStaticPaths() {
@@ -14,6 +14,12 @@ export async function getStaticPaths() {
 
 const { code } = Astro.props;
 const questions = (await getCollection('questions')).filter(q => q.data.course_code === code);
+
+// Resolve the syllabus by the numeric course code (e.g. "ais 1101" -> "1101").
+const numericCode = code.match(/\d+/)?.[0] ?? '';
+const syllabi = await getCollection('syllabi');
+const syllabus = numericCode ? syllabi.find(s => s.data.code === numericCode) : undefined;
+const SyllabusContent = syllabus ? (await render(syllabus)).Content : undefined;
 
 // Group papers by academic session, then by exam type, for a readable index.
 const grouped = new Map();
@@ -37,10 +43,20 @@ const sessions = [...grouped.entries()].sort((a, b) => a[0].localeCompare(b[0]))
     <p class="muted">{questions.length} paper{questions.length === 1 ? '' : 's'} across {sessions.length} session{sessions.length === 1 ? '' : 's'}</p>
   </section>
 
-  <section id="syllabus" class="syllabus" aria-label="Syllabus">
-    <h2>Syllabus</h2>
-    <p class="empty-state">Syllabus not available yet.</p>
-  </section>
+      <section id="syllabus" class="syllabus" aria-label="Syllabus">
+        {syllabus ? (
+          <>
+            <h2>Syllabus</h2>
+            <p class="muted">{syllabus.data.code} — {syllabus.data.title} · {syllabus.data.credits} credits · {syllabus.data.semester}</p>
+            <SyllabusContent />
+          </>
+        ) : (
+          <>
+            <h2>Syllabus</h2>
+            <p class="empty-state">Syllabus not available yet.</p>
+          </>
+        )}
+      </section>
 
   <section id="papers" class="papers" aria-label="Past papers">
     <h2>Past papers</h2>

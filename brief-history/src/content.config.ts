@@ -46,4 +46,14 @@ const questions = defineCollection({
   }),
 });
 
-export const collections = { questions };
+const syllabi = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/syllabi' }),
+  schema: z.object({
+    code: z.string(),
+    title: z.string(),
+    credits: z.number(),
+    semester: z.string().optional().default(''),
+  }),
+});
+
+export const collections = { questions, syllabi };
