@@ -1,0 +1,21 @@
+# Personal working notes / scratch files (not part of the website project)
+AGENT.md
+OUR_GOAL.md
+HELP_ME_CROSSCHECK.md
+DEEPSEEK-SUGGESTED.txt
+
+# Personal reference material
+WHAT USER DREAMS FOR/
+*.pdf
+*.zip
+
+# OS / editor
+.DS_Store
+.idea/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
