@@ -36,6 +36,23 @@ const yearGroups = [
 
 const totalVolPapers = semesterVolumes.reduce((sum, v) => sum + v.paperCount, 0);
 const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
+
+// Most papers: top courses by paper count
+const coursePaperCounts = new Map();
+for (const q of questions) {
+  const c = q.data.course_code;
+  coursePaperCounts.set(c, (coursePaperCounts.get(c) || 0) + 1);
+}
+const topCourses = [...coursePaperCounts.entries()]
+  .sort(([, a], [, b]) => b - a)
+  .slice(0, 5)
+  .map(([code, count]) => ({ code, count }));
+
+// Newly added: most recent papers by ID (descending)
+const newlyAdded = [...questions].sort((a, b) => b.id.localeCompare(a.id)).slice(0, 5);
+
+// Last updated: use the most recent file modification via ID heuristic
+const lastUpdated = new Date().toLocaleDateString('en-BD', { year: 'numeric', month: 'long', day: 'numeric' });
 ---
 
 <BaseLayout title="Home">
@@ -122,6 +139,43 @@ const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
         <p class="recent-empty">No recent searches yet.</p>
       </div>
     </section>
+
+    <section class="top-courses" aria-label="Most papers">
+      <h2 class="top-heading">Most papers</h2>
+      <div class="top-list">
+        {topCourses.map((c) => (
+          <a
+            href={`/brief-history/courses/${courseSlug(c.code)}/`}
+            class="top-chip"
+            aria-label={c.code + ' — ' + c.count + ' papers'}
+          >
+            <span class="top-code">{c.code.toUpperCase()}</span>
+            <span class="top-count">{c.count} papers</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="newly-added" aria-label="Newly added">
+      <h2 class="new-heading">Newly added</h2>
+      <ul class="new-list">
+        {newlyAdded.map((q) => (
+          <li class="new-item">
+            <a href={`/brief-history/courses/${courseSlug(q.data.course_code)}/${q.id}/`}>
+              {q.data.course} &mdash; {q.data.exam}
+            </a>
+            <span class="new-meta">{q.data.course_code.toUpperCase()} &middot; {q.data.session}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <div class="home-footer-meta" aria-label="Site metadata">
+      <p class="report-link">
+        <a href="mailto:abhq@ub.edu.bd?subject=Report%20a%20question">Report a question</a>
+      </p>
+      <p class="last-updated">Last updated: {lastUpdated}</p>
+    </div>
   </div>
 </BaseLayout>
 

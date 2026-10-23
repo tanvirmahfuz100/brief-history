@@ -321,3 +321,42 @@ details p { font-family: var(--font-reading); font-size: 15px; color: var(--colo
   text-decoration: none;
 }
 .recent-empty { font-family: var(--font-ui); font-size: 13px; color: var(--color-ink-muted); }
+
+/* Top courses (home page) */
+.top-courses { margin-top: 3rem; }
+.top-heading { font-family: var(--font-ui); font-size: 15px; color: var(--color-ink-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; }
+.top-list { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.top-chip {
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  padding: 0.4rem 0.75rem;
+  text-decoration: none;
+  color: var(--color-ink);
+  font-family: var(--font-ui);
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.top-chip:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+  text-decoration: none;
+}
+.top-code { font-weight: 700; color: var(--color-accent); }
+.top-count { font-size: 12px; color: var(--color-ink-muted); }
+
+/* Newly added (home page) */
+.newly-added { margin-top: 3rem; }
+.new-heading { font-family: var(--font-ui); font-size: 15px; color: var(--color-ink-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; }
+.new-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.5rem; }
+.new-item { font-family: var(--font-ui); font-size: 14px; color: var(--color-ink); }
+.new-item a { text-decoration: none; color: var(--color-accent); font-weight: 600; }
+.new-item a:hover { text-decoration: underline; }
+.new-meta { font-size: 12px; color: var(--color-ink-muted); margin-left: 0.5rem; }
+
+/* Home footer meta */
+.home-footer-meta { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--color-rule); font-family: var(--font-ui); font-size: 12px; color: var(--color-ink-muted); display: flex; flex-direction: column; gap: 0.5rem; }
+.home-footer-meta a { color: var(--color-accent); text-decoration: underline; text-underline-offset: 3px; }
+.home-footer-meta a:hover { text-decoration: none; }
