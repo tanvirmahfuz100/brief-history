@@ -31,7 +31,7 @@ Design spec: `brief-history/docs/superpowers/specs/2026-10-23-brief-history-webs
 - Syllabus coverage is partial: only first-year courses 1101–1206 have outlines; higher courses show "Syllabus not available yet" — expected per spec.
 - Personal files at the repo root are ignored by `.gitignore` and are not part of this project.
 - GEMINI_SUGGESTIONS.md (sources/WHAT USER DREAMS FOR/) drives the post-MVP direction: client-side progress tracking, cross-reference tagging, analytics, PDF export, WhatsApp reporting, plus home-page enhancements (semester buttons Volume I–VIII, videos row, blogs row, counter line, most-viewed/newly-added rows, report link, last-updated date).
-- Dev server verified live at `http://localhost:4321/brief-history/` (200 OK on home, browse, course, paper pages).
+- Dev server verified live at `http://localhost:4321/brief-history/` (200 OK on home, browse, course, paper pages). CSS imports correctly via `import '../styles/global.css'` in BaseLayout.
 
 ## Design — Nat Geo inspired
 - Redesigned `src/styles/global.css` to Nat Geo style: black header (`#0A0A0A`) with yellow accent border (`#FFD200`), white text, bold Inter typography throughout, yellow as primary accent color, high-contrast easy-to-scan layout.
