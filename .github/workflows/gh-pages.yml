@@ -2,7 +2,7 @@ name: Deploy Brief History to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [brief-history]
   workflow_dispatch:
 
 permissions:
