@@ -31,7 +31,16 @@ const provenance = [
     <span class="rh-right">{q.data.session}</span>
   </div>
 
-  <article class="paper">
+  <article class="paper" data-paper-id={q.id}>
+    <div class="ribbon-bookmark hidden" aria-hidden="true">
+      <svg viewBox="0 0 90 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M82 8 L64 8 L45 26 L26 8 L8 8 L8 42 L45 74 L82 42 Z" fill="#6b4a1f" />
+        <path d="M45 26 L26 8 L8 8 L8 42 L45 74" fill="none" stroke="#3a342b" stroke-width="1.5" stroke-linejoin="round" />
+        <path d="M45 74 L82 42 L82 8 L64 8 L45 26" fill="none" stroke="#3a342b" stroke-width="1.5" stroke-linejoin="round" />
+        <path d="M20 26 Q 30 12, 45 26 T 70 12 Q 80 26, 45 26" fill="none" stroke="#3a342b" stroke-width="1.5" stroke-linecap="round" />
+      </svg>
+    </div>
+
     <header class="paper-head">
       <h1>{q.data.course}</h1>
       <p class="paper-meta">
@@ -58,18 +67,99 @@ const provenance = [
           {hasNotes ? <p>Transcription note: {q.data.notes}</p> : null}
         </aside>
       ) : null}
+
+      <div class="progress-tracker">
+        <button class="bookmark-btn" type="button" aria-label="Bookmark this paper" title="Bookmark this paper">
+          <span class="lbl">Bookmark</span>
+        </button>
+        <button class="mastery-btn" type="button" aria-label="Mark this paper mastered" title="Mark this paper mastered">
+          <span class="mastery-checkbox" aria-hidden="true">
+            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M5 9 L4 8 L2 10 L5 13 L12 6 L11 5 Z" fill="white"/></svg>
+          </span>
+          <span class="lbl">Mastered</span>
+        </button>
+        <span class="badge" id="prog-badge">—</span>
+      </div>
     </header>
 
     <section class="paper-body">
       <Content />
     </section>
-  </article>
 
-  <div class="page-number">— {q.data.session} —</div>
+    {q.data.references && q.data.references.length ? (
+      <section class="cross-refs" aria-label="Cross references">
+        {q.data.references.map((ref) => (
+          <p class="marginal-note">
+            <span class="note-label">Compare with:</span>{' '}
+            {ref.note ?? ref.question ?? ref.paper}
+          </p>
+        ))}
+      </section>
+    ) : null}
+
+    <div class="page-number">— {q.data.session} —</div>
+  </article>
 
   <p class="back-links">
     <a href={`/brief-history/courses/${courseSlug(q.data.course_code)}/`}>← Back to {q.data.course_code}</a>
     <a href="/brief-history/courses/">← Contents</a>
     <a href="/brief-history/">← Title page</a>
   </p>
+
+  <script>
+    (function () {
+      const KEY = 'brief-history:progress';
+      const article = document.querySelector('article.paper');
+      if (!article) return;
+      const paperId = article.getAttribute('data-paper-id');
+      const bookmarkBtn = document.querySelector('.bookmark-btn');
+      const masteryBtn = document.querySelector('.mastery-btn');
+      const ribbon = document.querySelector('.ribbon-bookmark');
+      const badge = document.getElementById('prog-badge');
+      function read() {
+        try { return JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { return {}; }
+      }
+      function write(state) {
+        try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) { /* storage unavailable */ }
+      }
+      function render() {
+        const state = read();
+        const bookmarks = state.bookmarks || {};
+        const mastered = state.mastered || {};
+        const bm = !!bookmarks[paperId];
+        const ms = !!mastered[paperId];
+        if (bookmarkBtn) {
+          bookmarkBtn.classList.toggle('bookmarked', bm);
+          bookmarkBtn.setAttribute('aria-pressed', bm ? 'true' : 'false');
+        }
+        if (masteryBtn) {
+          masteryBtn.classList.toggle('mastered', ms);
+          masteryBtn.setAttribute('aria-pressed', ms ? 'true' : 'false');
+        }
+        const cb = masteryBtn ? masteryBtn.querySelector('.mastery-checkbox') : null;
+        if (cb) cb.classList.toggle('checked', ms);
+        if (ribbon) ribbon.classList.toggle('hidden', !bm);
+        const parts = [];
+        if (bm) parts.push('Bookmarked');
+        if (ms) parts.push('Mastered');
+        if (badge) badge.textContent = parts.length ? parts.join(' · ') : 'Not tracked';
+      }
+      function toggle(kind) {
+        const state = read();
+        const key = kind === 'bookmark' ? 'bookmarks' : 'mastered';
+        if (!state[key]) state[key] = {};
+        const map = state[key];
+        map[paperId] = !map[paperId];
+        if (kind === 'mastered' && map[paperId]) {
+          if (!state.masteredAt) state.masteredAt = {};
+          state.masteredAt[paperId] = new Date().toISOString();
+        }
+        write(state);
+        render();
+      }
+      if (bookmarkBtn) bookmarkBtn.addEventListener('click', () => toggle('bookmark'));
+      if (masteryBtn) masteryBtn.addEventListener('click', () => toggle('mastered'));
+      render();
+    })();
+  </script>
 </BaseLayout>

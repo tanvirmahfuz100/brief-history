@@ -20,11 +20,13 @@ Design spec: `brief-history/docs/superpowers/specs/2026-10-23-brief-history-webs
 5. `[x]` Client-side filtering — search input on the course directory filtering by course code, title, and department.
 6. `[x]` GitHub Pages deployment workflow — `.github/workflows/gh-pages.yml` at repo root (GitHub Actions only reads workflows from root; `brief-history/` subdirectory path would not run).
 7. `[x]` Validation — build passes (162 pages: 1 home + 1 courses index + 27 course pages + 133 paper pages), CSS bundled at `/brief-history/_astro/*.css`, route coverage complete.
+8. `[x]` Client-side progress tracker — `localStorage`-backed bookmark + "Mastered" toggle on paper pages (`src/pages/courses/[course]/[paper].astro`), SVG ribbon bookmark + tactile mastery checkbox + hand-drawn highlighter + fleuron accents in `src/styles/global.css`; optional `references` field added to the questions schema for "Compare with" marginal cross-reference notes (`src/content.config.ts`).
 
 ## Notes
 - Course codes are stored normalized (lowercase); page headings render in normalized form (e.g. `ais 2104`). Original casing is lost at the content-collection level.
 - Syllabus coverage is partial: only first-year courses 1101–1206 have outlines; higher courses show "Syllabus not available yet" — expected per spec.
 - Personal files at the repo root are ignored by `.gitignore` and are not part of this project.
+- GEMINI_SUGGESTIONS.md (sources/WHAT USER DREAMS FOR/) drives the post-MVP direction: Sapiens-style editorial accents (SVG ribbon bookmark, tactile checkboxes, hand-drawn highlighter, fleuron dividers), client-side progress tracking, cross-reference tagging, analytics, PDF export, and WhatsApp reporting.
 
 ## Design — newsprint/book aesthetic
 - Redesigned `src/styles/global.css` to a printed-book look: warm newsprint paper (`#efe6d0`) on a desk background (`#b9ad92`), SVG paper-grain, soft black ink with text-shadow, Georgia serif throughout, justified/hyphenated text, double-rule headings, dotted-leader TOCs, running headers, page numbers, colophon, ornamental dividers, halftone dots, print styles, and `prefers-reduced-motion` support.

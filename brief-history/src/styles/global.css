@@ -167,7 +167,7 @@ ol.questions li::before { content: counter(q, decimal) "."; position: absolute; 
 .empty-state { font-style: italic; color: var(--ink-soft); font-size: 0.9rem; border-top: 0.5px solid var(--ink-faint); padding-top: 0.5rem; margin-top: 1rem; }
 
 /* paper page specifics */
-.paper { max-width: var(--col-width); margin: 0 auto 3rem; }
+.paper { position: relative; max-width: var(--col-width); margin: 0 auto 3rem; }
 .paper-head { text-align: center; margin-bottom: 2rem; }
 .paper-head h1 { font-size: clamp(1.3rem, 3.5vw, 1.8rem); line-height: 1.25; max-width: 30ch; margin: 0 auto 0.6rem; }
 .paper-meta { font-size: 0.92rem; color: var(--ink-soft); margin: 0 auto 0.6rem; max-width: 34ch; line-height: 1.5; }
@@ -218,3 +218,138 @@ ol.questions li::before { content: counter(q, decimal) "."; position: absolute; 
 
 /* helpers */
 .muted { color: var(--ink-soft); font-size: 0.9rem; }
+
+/* ---- Progress tracker (localStorage bookmarks + mastery) ---- */
+.progress-tracker {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1.4rem 0 0.4rem;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  border-top: 0.5px solid var(--ink-faint);
+  padding-top: 0.6rem;
+}
+.progress-tracker .badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-variant-numeric: tabular-nums;
+}
+.progress-tracker .bookmark-btn,
+.progress-tracker .mastery-btn {
+  background: transparent;
+  border: 1px solid var(--ink-faint);
+  border-radius: 2px;
+  padding: 0.25rem 0.5rem;
+  font-family: var(--font-serif);
+  font-size: 0.85rem;
+  color: var(--ink);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  line-height: 1;
+}
+.progress-tracker .bookmark-btn:hover,
+.progress-tracker .mastery-btn:hover { border-color: var(--accent); color: var(--accent); }
+.progress-tracker .bookmark-btn.bookmarked,
+.progress-tracker .mastery-btn.mastered {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(107, 74, 31, 0.05);
+}
+.progress-tracker .bookmark-btn::before,
+.progress-tracker .mastery-btn::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  background: currentColor;
+}
+
+/* Ribbon bookmark (SVG, hangs from top right) */
+.ribbon-bookmark {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 90px;
+  height: 90px;
+  pointer-events: none;
+  z-index: 5;
+  opacity: 0.85;
+  transform: rotate(3deg);
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.25));
+}
+.ribbon-bookmark.hidden { display: none; }
+
+/* Tactile mastery checkbox (inline SVG) */
+.mastery-checkbox {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1.5px solid var(--ink);
+  border-radius: 3px;
+  background: var(--paper);
+  transition: border-color 180ms ease, background 180ms ease;
+  cursor: pointer;
+}
+.mastery-checkbox.checked {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.mastery-checkbox svg { display: none; width: 100%; height: 100%; fill: #fff; }
+.mastery-checkbox.checked svg { display: block; }
+
+/* Hand-drawn highlighter accent */
+.highlight-yellow {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 20' preserveAspectRatio='none'><path d='M0 10 Q 25 2, 50 12 T 100 8 L 100 18 Q 75 14, 50 19 T 0 16 Z' fill='rgba(255, 224, 102, 0.45)'/></svg>");
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+  background-position: center;
+  padding: 0 4px;
+  box-decoration-break: clone;
+}
+
+/* Marginal cross-reference note */
+.marginal-note {
+  position: relative;
+  padding-left: 1.6rem;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--ink-soft);
+  border-left: 0.5px solid var(--ink-faint);
+  margin: 1rem 0;
+}
+.marginal-note::before {
+  content: "";
+  position: absolute;
+  left: -0.55rem;
+  top: 0.15rem;
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-right: 8px solid var(--accent);
+}
+.marginal-note .note-label {
+  font-style: normal;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+}
+
+/* Ornamental fleuron divider */
+.fleuron {
+  text-align: center;
+  letter-spacing: 0.9em;
+  color: var(--accent);
+  font-size: 1.1rem;
+  margin: 2.6rem 0;
+  opacity: 0.75;
+  user-select: none;
+}

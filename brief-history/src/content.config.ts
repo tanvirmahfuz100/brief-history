@@ -43,6 +43,21 @@ const questions = defineCollection({
     choice: z.string().optional().default(''),
     ocr_confidence: z.string().optional().default(''),
     notes: z.string().optional().default(''),
+    /**
+     * Cross-references to the same or closely related question in another
+     * paper. Used for the "Compare with" marginal note on paper pages.
+     * Each entry: { paper: paper id/slug, question: question label, note: marginal note text }.
+     */
+    references: z
+      .array(
+        z.object({
+          paper: z.string(),
+          question: z.string().optional(),
+          note: z.string().optional(),
+        })
+      )
+      .optional()
+      .default([]),
   }),
 });
 
