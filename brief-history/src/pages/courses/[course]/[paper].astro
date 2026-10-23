@@ -1,0 +1,93 @@
+---
+import { getCollection, render } from 'astro:content';
+import { courseSlug } from '@/lib/slug';
+
+export async function getStaticPaths() {
+  const questions = await getCollection('questions');
+  return questions.map(q => ({
+    params: { course: courseSlug(q.data.course_code), paper: q.id },
+    props: { q },
+  }));
+}
+
+const { q } = Astro.props;
+const { Content } = await render(q);
+
+const hasNotes = Boolean(q.data.notes);
+const confidence = q.data.ocr_confidence || null;
+const provenance = [
+  q.data.source_file ? `Source file: ${q.data.source_file}` : null,
+  q.data.source_id ? `Source id: ${q.data.source_id}` : null,
+  q.data.pages.length ? `Pages: ${q.data.pages.join(', ')}` : null,
+  q.data.university ? `University: ${q.data.university}` : null,
+  q.data.department ? `Department: ${q.data.department}` : null,
+].filter(Boolean);
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{q.data.course} — A Brief History of Past Questions</title>
+    <meta name="description" content={`${q.data.course} — ${q.data.session} ${q.data.exam}. ${q.data.full_marks ? `Full marks: ${q.data.full_marks}.` : ''}`} />
+    <link rel="stylesheet" href="/brief-history/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="site-nav">
+        <a class="brand" href="/brief-history/">A Brief History of Past Questions</a>
+        <a href="/brief-history/courses/">Courses</a>
+      </nav>
+    </header>
+
+    <main id="main" class="page">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="/brief-history/">Home</a> › <a href="/brief-history/courses/">Courses</a> › <a href={`/brief-history/courses/${courseSlug(q.data.course_code)}/`}>{q.data.course_code}</a> › <span>{q.data.course}</span>
+      </nav>
+
+      <article class="paper">
+        <header class="paper-head">
+          <h1>{q.data.course}</h1>
+          <p class="paper-meta">
+            <span>{q.data.course_code}</span> · <span>{q.data.session}</span> · <span>{q.data.exam}</span>
+            {q.data.year_semester ? <> · <span>{q.data.year_semester}</span></> : null}
+            {q.data.full_marks ? <> · <span>Full marks: {q.data.full_marks}</span></> : null}
+            {q.data.time ? <> · <span>Time: {q.data.time}</span></> : null}
+          </p>
+
+          <dl class="provenance" aria-label="Provenance">
+            {provenance.map(p => (
+              <>
+                <dt>{p.split(': ')[0]}</dt><dd>{p.split(': ')[1]}</dd>
+              </>
+            ))}
+          </dl>
+
+          {q.data.instructions ? <details class="instructions"><summary>Instructions</summary><p>{q.data.instructions}</p></details> : null}
+          {q.data.choice ? <details class="instructions"><summary>Choice</summary><p>{q.data.choice}</p></details> : null}
+
+          {confidence || hasNotes ? (
+            <aside class="confidence-notice" role="note">
+              {confidence ? <p>OCR confidence: {confidence}</p> : null}
+              {hasNotes ? <p>Transcription note: {q.data.notes}</p> : null}
+            </aside>
+          ) : null}
+        </header>
+
+        <section class="paper-body">
+          <Content />
+        </section>
+      </article>
+
+      <p class="back-links">
+        <a href={`/brief-history/courses/${courseSlug(q.data.course_code)}/`}>← Back to {q.data.course_code}</a>
+        <a href="/brief-history/courses/">← All courses</a>
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <p>A Project of Theory of Readability</p>
+    </footer>
+  </body>
+</html>

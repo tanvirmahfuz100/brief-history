@@ -1,0 +1,14 @@
+---
+import { getCollection } from 'astro:content';
+const questions = await getCollection('questions');
+const courses = [...new Set(questions.map(q => q.data.course_code))].sort();
+---
+<html lang="en">
+  <head><meta charset="utf-8" /><title>A Brief History of Past Questions</title></head>
+  <body>
+    <h1>A Brief History of Past Questions</h1>
+    <p>A Project of Theory of Readability</p>
+    <p>{questions.length} papers across {courses.length} courses.</p>
+    <a href="/brief-history/courses/">Browse courses</a>
+  </body>
+</html>
