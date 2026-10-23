@@ -3,6 +3,8 @@ export interface Props {
   title?: string;
 }
 
+import '../styles/global.css';
+
 const { title } = Astro.props;
 const siteTitle = 'A Brief History of Past Questions';
 const pageTitle = title ? `${title} — ${siteTitle}` : siteTitle;
