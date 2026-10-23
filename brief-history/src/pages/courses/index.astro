@@ -1,20 +1,62 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { courseSlug } from '@/lib/slug';
+
 const questions = await getCollection('questions');
 const byCourse = new Map();
 for (const q of questions) {
   const key = q.data.course_code;
-  if (!byCourse.has(key)) byCourse.set(key, { code: key, title: q.data.course, count: 0 });
+  if (!byCourse.has(key)) byCourse.set(key, { code: key, title: q.data.course, department: q.data.department, count: 0 });
   byCourse.get(key).count++;
 }
-const courses = [...byCourse.values()].sort((a,b)=>a.code.localeCompare(b.code));
+const courses = [...byCourse.values()].sort((a, b) => a.code.localeCompare(b.code));
+const total = courses.length;
 ---
 
 <BaseLayout title="Courses">
   <h1>Courses</h1>
-  <ul>
-    {courses.map(c => <li>{c.code} — {c.title} ({c.count})</li>)}
+  <label class="filter-label" for="course-filter">Filter courses</label>
+  <input
+    type="search"
+    id="course-filter"
+    placeholder="Filter by course code, title, or department"
+    aria-controls="course-list"
+    aria-label="Filter courses by code, title, or department"
+  />
+  <p id="filter-count" class="muted" role="status" aria-live="polite">{total} courses</p>
+  <p id="filter-empty" class="empty-state" hidden>No courses match your filter.</p>
+  <ul id="course-list" class="course-list">
+    {courses.map(c => (
+      <li>
+        <article class="course-card">
+          <a class="course-title" href={`/brief-history/courses/${courseSlug(c.code)}/`}>{c.code}</a>
+          <p class="course-meta">
+            <span>{c.title}</span> · <span>{c.department}</span> · <span>{c.count} paper{c.count === 1 ? '' : 's'}</span>
+          </p>
+        </article>
+      </li>
+    ))}
   </ul>
   <a href="/brief-history/">Home</a>
+
+  <script>
+    const input = document.getElementById('course-filter');
+    const list = document.getElementById('course-list');
+    const count = document.getElementById('filter-count');
+    const empty = document.getElementById('filter-empty');
+    const items = list.querySelectorAll('li');
+    const total = items.length;
+    input.addEventListener('input', () => {
+      const q = input.value.toLowerCase();
+      let shown = 0;
+      items.forEach((li) => {
+        const match = li.textContent.toLowerCase().includes(q);
+        li.hidden = !match;
+        if (match) shown += 1;
+      });
+      count.textContent = shown === total ? `${total} courses` : `${shown} of ${total} courses`;
+      empty.hidden = shown !== 0;
+    });
+  </script>
 </BaseLayout>

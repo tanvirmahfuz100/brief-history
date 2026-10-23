@@ -245,6 +245,56 @@ details summary {
 }
 .site-footer p { margin: 0 0 0.5rem; }
 
+.filter-label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  margin: 0 0 0.25rem;
+  font-weight: 600;
+}
+#course-filter {
+  width: 100%;
+  max-width: var(--max-width);
+  padding: 0.6rem 0.9rem;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  color: var(--color-ink);
+  margin-bottom: 1rem;
+}
+#course-filter:focus { border-color: var(--color-accent); outline: none; }
+
+.course-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.75rem; }
+.course-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 0.85rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.course-card a.course-title {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-ink);
+  text-decoration: none;
+  margin: 0;
+}
+.course-card a.course-title:hover { color: var(--color-accent); text-decoration: underline; }
+.course-meta {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  margin: 0;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.course-meta span { white-space: nowrap; }
+
 @media (max-width: 480px) {
   .page { padding: 1rem 0.75rem 2rem; }
   h1 { font-size: 1.5rem; }
