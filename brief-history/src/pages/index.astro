@@ -1,10 +1,32 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { courseSlug } from '@/lib/slug';
 
 const questions = await getCollection('questions');
 const courseCount = [...new Set(questions.map(q => q.data.course_code))].length;
 const paperCount = questions.length;
+
+// Semester volumes: Volume I-VIII mapped to year/semester
+const SEMESTER_GROUPS = [
+  { volume: 'I', label: '1st Year 1st Sem', codes: ['1101', '1102', '1103', '1104', '1105'] },
+  { volume: 'II', label: '1st Year 2nd Sem', codes: ['1201', '1202', '1203', '1204', '1205', '1206'] },
+  { volume: 'III', label: '2nd Year 1st Sem', codes: ['2101', '2102', '2103', '2104', '2105'] },
+  { volume: 'IV', label: '2nd Year 2nd Sem', codes: ['2201', '2202', '2203', '2204', '2205', '2206'] },
+  { volume: 'V', label: '3rd Year 1st Sem', codes: ['3101', '3102', '3103', '3104', '3105', '3106'] },
+  { volume: 'VI', label: '3rd Year 2nd Sem', codes: ['3201', '3202', '3203', '3204', '3205', '3206'] },
+  { volume: 'VII', label: '4th Year 1st Sem', codes: ['4101', '4102', '4103', '4104', '4105'] },
+  { volume: 'VIII', label: '4th Year 2nd Sem', codes: ['4201', '4202', '4203', '4204', '4205', '4206'] },
+];
+
+const semesterVolumes = SEMESTER_GROUPS.map((g) => {
+  const papers = questions.filter((q) => g.codes.includes(q.data.course_code.match(/\d+/)?.[0] ?? ''));
+  const courses = [...new Set(papers.map((q) => q.data.course_code))].length;
+  return { ...g, paperCount: papers.length, courseCount: courses };
+});
+
+const totalVolPapers = semesterVolumes.reduce((sum, v) => sum + v.paperCount, 0);
+const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
 ---
 
 <BaseLayout title="Home">
@@ -35,7 +57,100 @@ const paperCount = questions.length;
     </p>
 
     <p class="count-line">
-      <strong>{paperCount}</strong> papers across <strong>{courseCount}</strong> courses.
+      <strong>{paperCount}</strong> papers across <strong>{courseCount}</strong> courses &middot; <strong>{semesterVolumes.length}</strong> semesters
     </p>
+
+    <section class="semesters" aria-label="Semesters">
+      <h2 class="semester-heading">Semesters</h2>
+      <div class="semester-grid">
+        {semesterVolumes.map((v) => (
+          <a
+            href={`/brief-history/browse/?course=${v.codes.map(c => `ais ${c}`).join('|')}`}
+            class="semester-btn"
+            aria-label={`Volume ${v.volume}: ${v.label} — ${v.paperCount} papers across ${v.courseCount} courses`}
+          >
+            <span class="semester-volume">Volume {v.volume}</span>
+            <span class="semester-label">{v.label}</span>
+            <span class="semester-count">{v.paperCount} papers</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="quick-actions" aria-label="Quick actions">
+      <h2 class="quick-actions-heading">Quick actions</h2>
+      <div class="quick-actions-grid">
+        <a
+          href={`/brief-history/courses/${courseSlug(randomQuestion.data.course_code)}/${randomQuestion.id}/`}
+          class="quick-btn random-btn"
+          aria-label="Surprise me — random past question"
+        >
+          <span class="quick-icon">?</span>
+          <span>Surprise me</span>
+        </a>
+        <a href="/brief-history/browse/" class="quick-btn browse-btn">
+          <span class="quick-icon">&rarr;</span>
+          <span>Browse all</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="recent-searches" aria-label="Recently searched">
+      <h2 class="recent-heading">Recently searched</h2>
+      <div class="recent-list" id="recent-list">
+        <p class="recent-empty">No recent searches yet.</p>
+      </div>
+    </section>
   </div>
 </BaseLayout>
+
+<script>
+  (function () {
+    const STORAGE_KEY = 'abhq:recent-searches';
+    const MAX_RECENT = 5;
+    const listEl = document.getElementById('recent-list');
+    const emptyEl = listEl.querySelector('.recent-empty');
+
+    function load() {
+      try {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+      } catch { return []; }
+    }
+
+    function save(arr) {
+      try { localStorage.setItem(STORAGE_KEY, JSON.stringify(arr.slice(0, MAX_RECENT))); } catch {}
+    }
+
+    function render() {
+      const recent = load();
+      listEl.innerHTML = '';
+      if (recent.length === 0) {
+        listEl.appendChild(emptyEl);
+        return;
+      }
+      recent.forEach((term) => {
+        const a = document.createElement('a');
+        a.href = '/brief-history/browse/?search=' + encodeURIComponent(term);
+        a.className = 'recent-chip';
+        a.textContent = term;
+        listEl.appendChild(a);
+      });
+    }
+
+    // Capture searches from the search form on this page
+    const form = document.querySelector('.search-form');
+    if (form) {
+      form.addEventListener('submit', function (e) {
+        const input = form.querySelector('input[name="search"]');
+        const term = input ? input.value.trim() : '';
+        if (!term) return;
+        const recent = load().filter((t) => t !== term);
+        recent.unshift(term);
+        save(recent);
+        render();
+      });
+    }
+
+    render();
+  })();
+</script>
