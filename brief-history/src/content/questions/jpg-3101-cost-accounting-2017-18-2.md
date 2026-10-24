@@ -2,23 +2,20 @@
 source_id: jpg-3101-cost-accounting-2017-18-2
 source_file: "3101 Cost Accounting/2017-18-2 image"
 pages: [1]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Cost Accounting
-course_code: ais 3101
-year_semester: unknown
-exam: Final Examination
-session: 2017-18
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Cost Accounting"
+course_code: "ais 3101"
+year_semester: "BBA 3rd Year 1st Semester"
+exam: "Final"
+session: "2017-18"
 time: ""
-full_marks: null
+full_marks: ""
 instructions: ""
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Split scan contains a continuation page."
 ---
-# Cost Accounting — Final Examination (2017-18)
 <!-- page 1 -->
 3. **(b)** RMK Company buys 1,000 boxes of item G-220 every 2 months. Order costs are Tk. 450 per order; carrying costs are Tk. 1 per unit and vary directly with inventory investment. Current purchase price is Tk. 6 each. Determine ordering and carrying costs under current policy, economic order quantity and related costs, and the order-size decision if a 6% discount is offered for orders of 6,000 units. [05]
 4. **a)** In most incentive wage plans, does production above standard reduce labor cost per unit of output? Discuss. [02]

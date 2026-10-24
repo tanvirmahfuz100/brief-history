@@ -2,25 +2,20 @@
 source_id: pdf-ais-9-first-year-second-semester-mid-final
 source_file: "AIS-9 (First Year Second Semester Mid-Final).pdf"
 pages: [10]
-university: University of Barishal
-department: Department of Accounting and Information Systems
-course: Intermediate Accounting
-course_code: ais 1201
-year_semester: 1st Year 2nd Semester
-exam: Second Mid-term Examination
-session: unknown
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Intermediate Accounting"
+course_code: "ais 1201"
+year_semester: "BBA 1st Year 2nd Semester"
+exam: "2nd Midterm"
+session: "unknown"
 time: "60 Minutes"
 full_marks: 10
 instructions: "Attempt all the questions. Workings are integral part of any solution."
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Page 10. DeepSeek transcription was truncated; this is Intermediate Accounting (AIS 1201), not Introduction to Business. Q3 item 5 (Donovan Inc.) partially cut off at bottom."
 ---
-
-# Intermediate Accounting — Second Mid-term Examination
-
 <!-- page 10 -->
 
 University of Barishal, Faculty of Business Studies

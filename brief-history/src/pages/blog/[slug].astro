@@ -1,0 +1,37 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { POSTS, postBySlug } from '@/data/posts';
+
+export function getStaticPaths() {
+  return POSTS.map((post) => ({ params: { slug: post.slug }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const current = postBySlug(post.slug) ?? post;
+---
+
+<BaseLayout title={current.title}>
+  <div class="container section post-body">
+    <nav class="browse-nav" aria-label="Breadcrumb">
+      <a href="/brief-history/">Home</a>
+      <span aria-hidden="true">/</span>
+      <a href="/brief-history/blog/">Blog</a>
+      <span aria-hidden="true">/</span>
+      <span>{current.title}</span>
+    </nav>
+
+    <article>
+      <header class="post-header">
+        <p class="blog-date">{new Date(current.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
+        <h1 class="paper-title">{current.title}</h1>
+        <p class="page-lede">{current.excerpt}</p>
+      </header>
+      <div class="post-content" set:html={current.body} />
+    </article>
+
+    <nav class="back-links" aria-label="Back links">
+      <a href="/brief-history/blog/">← All notes</a>
+      <a href="/brief-history/">Home</a>
+    </nav>
+  </div>
+</BaseLayout>

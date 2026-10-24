@@ -2,25 +2,20 @@
 source_id: pdf-ais-6-7-8-9-10-semester-and-mid
 source_file: "pdf-ais-6-7-8-9-10-semester-and-mid"
 pages: [2]
-university: University of Barisal
-department: Department of Accounting & Information Systems
-course: History of the Emergence of Bangladesh
-course_code: ais 1105
-year_semester: unknown
-exam: Final
-session: 2017-18
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "History of the Emergence of Bangladesh"
+course_code: "ais 1105"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "2017-18"
 time: "3 hours"
 full_marks: 60
 instructions: "Answer any four set of questions. Each part of the questions must be written sequentially."
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "The year/semester is not printed on this paper. Question 5 carries a fourth, unlabeled 04-mark item after part (c); the printed sub-marks for Q5 therefore total 19. Handwritten ticks/circles and the annotation near Q3(c) are omitted."
 ---
-
-# Bangladesh Studies — Final Examination (2017-18)
-
 > Answer any four set of questions. Each part of the questions must be written sequentially.
 
 <!-- page 2 -->

@@ -2,25 +2,20 @@
 source_id: pdf-ais-6-7-8-9-10-semester-and-mid
 source_file: "pdf-ais-6-7-8-9-10-semester-and-mid"
 pages: [5]
-university: University of Barisal
-department: Department of Accounting and Information Systems
-course: Introduction to Financial Accounting
-course_code: ais 1101
-year_semester: BBA 1st Year 1st Semester
-exam: 1st Mid Term
-session: 2016-2017
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Financial Accounting"
+course_code: "ais 1101"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "1st Midterm"
+session: "2016-17"
 time: "1 hour"
 full_marks: 10
 instructions: "Answer all the questions. Answer must be brief, relevant and neat."
 choice: "All questions"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "The printed marks for Q1 are not visible. The visible sub-marks (Q2 [2], Q3 [2], Q4 [5.5]) total 9.5. Handwritten answers 'True'/'False' and ticks are omitted."
 ---
-
-# Principles of Accounting — 1st Mid Term (2016-2017)
-
 > Answer all the questions.
 > Answer must be brief, relevant and neat.
 

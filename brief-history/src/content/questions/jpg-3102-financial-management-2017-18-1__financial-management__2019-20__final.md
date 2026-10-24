@@ -2,25 +2,20 @@
 source_id: jpg-3102-financial-management-2017-18-1
 source_file: ["3102 Financial Management/2017-18 1.jpg", "3102 Financial Management/2017-18 2.jpg"]
 pages: [1, 2]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Financial Management
-course_code: ais 2105
-year_semester: ""
-exam: Final Examination
-session: 2019-20
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Financial Management"
+course_code: "ais 2105"
+year_semester: "BBA 2nd Year 1st Semester"
+exam: "Final"
+session: "2019-20"
 time: "3 Hours"
 full_marks: 60
 instructions: "[The figures in the right margin indicate marks. Answer any 4 (Four) of the following questions. Different parts of the question must be answered sequentially.]"
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Folder dated 2017-18 but printed session is 2019-20 (Admission 2017-18). Q4(b) income statement has an unlabelled 400 line (profit after tax). A handwritten annotation '1,40,000 (100,000+...)' appears in the right margin of Q3(b) and is excluded."
 ---
-
-# Financial Management — Final Examination (2019-20)
-
 <!-- page 1 -->
 > [The figures in the right margin indicate marks. Answer any 4 (Four) of the following questions. Different parts of the question must be answered sequentially.]
 

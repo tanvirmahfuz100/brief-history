@@ -2,25 +2,20 @@
 source_id: pdf-ais-9-first-year-second-semester-mid-final
 source_file: "AIS-9 (First Year Second Semester Mid-Final).pdf"
 pages: [11]
-university: University of Barishal
-department: Department of Accounting and Information Systems
-course: Introduction to Financial Accounting
-course_code: ais 1101
-year_semester: 1st Year 1st Semester
-exam: 2nd Midterm Examination
-session: 2016-2017
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Financial Accounting"
+course_code: "ais 1101"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "2nd Midterm"
+session: "2016-17"
 time: "01 hour"
 full_marks: 10
 instructions: "Answer all the questions."
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Single paper on page 11. Transcribed from DeepSeek help response. Mr. Eko Fashion Center trial balance."
 ---
-
-# Principles of Accounting — 2nd Midterm Examination (2016-2017)
-
 <!-- page 11 -->
 
 University of Barishal

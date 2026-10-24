@@ -2,25 +2,20 @@
 source_id: pdf-ais-6-7-8-9-10-semester-and-mid
 source_file: "pdf-ais-6-7-8-9-10-semester-and-mid"
 pages: [1]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Introduction to Business
-course_code: ais 1102
-year_semester: 1st Year 1st Semester
-exam: Semester Final
-session: 2017-18
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Business"
+course_code: "ais 1102"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "2017-18"
 time: "3 Hours"
 full_marks: 60
 instructions: "Answer any 4 (Four) of the following questions. Figures in the right margin indicate full marks. Different parts of each question must be answered sequentially."
 choice: "4 of 6"
-examiner_marks: "TR (handwritten at top right)"
-faculty_source: ""
 ocr_confidence: medium
 notes: "Question 2 sub-marks sum to 13, not 15; the mark for 2(e) is partly obscured by a pen stroke and is transcribed as 2. Handwritten marks/ticks and the number at top ('20AIS015'/'TR-27') are not reproduced in the body."
 ---
-
-# Introduction to Business — Semester Final (2017-18)
-
 > Answer any 4 (Four) of the following questions. Figures in the right margin indicate full marks.
 > Different parts of each question must be answered sequentially.
 

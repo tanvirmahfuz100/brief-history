@@ -2,25 +2,20 @@
 source_id: pdf-ais-9-first-year-second-semester-mid-final
 source_file: "AIS-9 (First Year Second Semester Mid-Final).pdf"
 pages: [14]
-university: University of Barishal
-department: Department of Accounting and Information Systems
-course: Introduction to Business
-course_code: ais 1102
-year_semester: BBA 1st Year, 1st Semester
-exam: Final Examination
-session: 2016-17
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Business"
+course_code: "ais 1102"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "2016-17"
 time: "3 Hours"
 full_marks: 60
 instructions: "* Answer any Four of the following questions.\n* Start answering each question from a fresh sheet.\n* Different parts of the same question must be answered sequentially.\n* Answer must be brief, relevant and neat."
 choice: "4 of ?"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Single paper on page 14. Transcribed from DeepSeek help response."
 ---
-
-# Introduction to Business — Final Examination (2016-17)
-
 <!-- page 14 -->
 
 University of Barishal

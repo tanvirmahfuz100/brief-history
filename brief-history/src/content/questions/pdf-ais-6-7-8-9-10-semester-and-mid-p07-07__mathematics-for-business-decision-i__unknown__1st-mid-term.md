@@ -2,25 +2,20 @@
 source_id: pdf-ais-6-7-8-9-10-semester-and-mid
 source_file: "pdf-ais-6-7-8-9-10-semester-and-mid"
 pages: [7]
-university: University of Barisal
-department: Department of Accounting & Information Systems
-course: Mathematics for Business Decisions-I
-course_code: ais 1104
-year_semester: 1st year 1st Semester
-exam: 1st Mid-term
-session: unknown
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Mathematics for Business Decisions-I"
+course_code: "ais 1104"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "1st Midterm"
+session: "unknown"
 time: "1 hour"
 full_marks: 10
 instructions: ""
 choice: "All questions"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Program: BBA. No session or course code is printed on this paper. Question 1 uses the printed figure 3,00,000."
 ---
-
-# Mathematics for Business Decision I — 1st Mid-term Examination (unknown session)
-
 <!-- page 7 -->
 ## Question 1 — [4]
 A manufacturer has a fixed cost of TK 80,000 and a variable cost of TK 3.20 per unit made and sold. Selling price is TK 4 per unit.

@@ -2,25 +2,20 @@
 source_id: pdf-ais-10-mid-term-questions-first-year-second-semester
 source_file: "AIS-10 (Mid-term Questions, First Year Second Semester).pdf"
 pages: [3, 4]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Management
-course_code: ais 1203
-year_semester: 1st Year 2nd Semester
-exam: Mid-term
-session: 2021-2022
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Management"
+course_code: "ais 1203"
+year_semester: "BBA 1st Year 2nd Semester"
+exam: "Midterm"
+session: "2021-22"
 time: "60 Minutes for each mid-term"
 full_marks: 10
 instructions: "Attempt all the questions. Question No. 1, and 2 are for first mid-term, whereas all the remaining questions are for second mid-term."
 choice: "All questions"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "One paper covering both mid-terms: Q1-Q2 = 1st mid-term (8+2=10), Q3-Q7 = 2nd mid-term (5x2=10). Handwritten '2nd Mid' between Q2 and Q3 ignored. Top margins of both scans show show-through text from reverse side (question fragments and figures) — not part of this paper."
 ---
-
-# Principles of Management — Mid-term (2021-2022)
-
 **University of Barishal**
 **Faculty of Business Studies**
 **Department of Accounting & Information Systems**
@@ -59,7 +54,6 @@ According to Sandy Weill, former chairman of Citicorp and a UTC board member, Da
 
 **iv.** Which managerial competencies does David seem to possess? Does he seem to lack any?
 
-**Marks: [(2\*4) =8].**
 
 ## Question 2 — [2]
 

@@ -2,25 +2,20 @@
 source_id: pdf-ais-6-7-8-9-10-semester-and-mid
 source_file: "pdf-ais-6-7-8-9-10-semester-and-mid"
 pages: [8]
-university: University of Barisal
-department: Department of Accounting & Information Systems
-course: Business Communication and Report Writing
-course_code: ais 1103
-year_semester: unknown
-exam: Class Test
-session: 2016-17
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Business Communication and Report Writing"
+course_code: "ais 1103"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Class Test"
+session: "2016-17"
 time: "30 minutes"
 full_marks: 5
 instructions: ""
 choice: "All questions"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Bottom paper on a two-paper scan. No course code or year/semester is printed. Item 5 is printed 'It is quite.' (probably intended 'quiet') and is reproduced verbatim."
 ---
-
-# Business Communication & Report Writing — Class Test (2016-17)
-
 <!-- page 8 -->
 ## Question 1 — [05]
 Assume that you are the assistant manager of a hotel and are describing your hotel's meeting room to a prospective customer who is thinking of holding a seminar there. Turn the following piece of information into coherent writing, making paragraph breaks where you think appropriate. Be ready to explain why you grouped the information and managed the emphasis the way you did. You may need to add some words or information to make the facts flow smoothly.

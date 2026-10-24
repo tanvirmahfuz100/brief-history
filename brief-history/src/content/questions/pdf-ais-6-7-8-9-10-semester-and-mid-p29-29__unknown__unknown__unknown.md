@@ -2,25 +2,20 @@
 source_id: pdf-ais-6-7-8-9-10-semester-and-mid
 source_file: "AIS-6-7-8-9-10 Semester and Mid.pdf"
 pages: [29]
-university: unknown
-department: unknown
-course: unknown
-course_code: unknown
-year_semester: unknown
-exam: unknown
-session: unknown
+university: "University of Barishal"
+department: ""
+course: "Unidentified paper"
+course_code: "unknown"
+year_semester: "unknown"
+exam: "Final"
+session: "unknown"
 time: ""
-full_marks: null
+full_marks: ""
 instructions: ""
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Page 29. Mr. Rahman transportation consulting business 'The High Flyers' April transactions journal problem. Required: (a) general journal entries, (b) open accounts with balance column format, (c) prepare trial balance. [5+6+4=15]. Page 3 of 3."
 ---
-
-# Unknown Course — Unknown Examination
-
 <!-- page 29 -->
 
 Mr. Rahman opens a transportation consulting business called The High Flyers and completes the following transactions

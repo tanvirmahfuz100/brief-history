@@ -2,25 +2,20 @@
 source_id: pdf-ais-11-mid
 source_file: "AIS-11 Mid.pdf"
 pages: [1]
-university: University of Barishal
-department: Department of Accounting and Information Systems
-course: Introduction to Financial Accounting
-course_code: ais 1101
-year_semester: unknown
-exam: 1st Midterm
-session: 2022-23
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Financial Accounting"
+course_code: "ais 1101"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "1st Midterm"
+session: "2022-23"
 time: "1 Hour"
 full_marks: 10
 instructions: "Answer all the following questions."
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Header reads '1st Midterm (Session 2022-23)'. Question 4 is printed with a large 'A' glyph that is taken as '4'. The second instruction under Question 4 is printed as 'If.' (apparently a typo for 'ii.'). Handwritten ticks and the scanner footer ('Shot by ...') ignored."
 ---
-
-# Introduction to Financial Accounting — 1st Midterm (2022-23)
-
 <!-- page 1 -->
 **Department of Accounting and Information Systems**
 **University of Barishal**

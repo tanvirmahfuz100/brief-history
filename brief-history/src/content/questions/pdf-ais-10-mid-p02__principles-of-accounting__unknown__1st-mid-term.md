@@ -2,25 +2,20 @@
 source_id: pdf-ais-10-mid
 source_file: "AIS-10 Mid.pdf"
 pages: [2]
-university: University of Barishal
-department: Department of Accounting and Information Systems
-course: Introduction to Financial Accounting
-course_code: ais 1101
-year_semester: 1st Year 1st Semester
-exam: 1st Mid-term
-session: unknown
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Financial Accounting"
+course_code: "ais 1101"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "1st Midterm"
+session: "unknown"
 time: "1 Hour"
 full_marks: 10
 instructions: ""
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "The Question 2 equation table is partly obscured by shadow, but all amounts are legible. Handwritten answers '2,3,500' and '2740' at the bottom are ignored."
 ---
-
-# Principles of Accounting — 1st Mid-term Examination (Unknown Session)
-
 <!-- page 2 -->
 **Time:** 1 Hour     **Marks:** 10
 

@@ -2,25 +2,20 @@
 source_id: pdf-ais-10-first-year-second-semseter-final-questions
 source_file: "AIS-10 First Year Second Semseter Final Questions.pdf"
 pages: [1, 2]
-university: University of Barishal
-department: Department of Accounting and Information Systems
-course: Intermediate Accounting
-course_code: ais 1201
-year_semester: 1st Year 2nd Semester
-exam: Semester Final
-session: 2021-22
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Intermediate Accounting"
+course_code: "ais 1201"
+year_semester: "BBA 1st Year 2nd Semester"
+exam: "Final"
+session: "2021-22"
 time: "3 Hours"
 full_marks: 60
 instructions: "Answer any four sets of questions. Each part of the questions must be written sequentially."
 choice: "4 of 6"
-examiner_marks: "Illegible handwritten initials/date at top right above Question 2."
-faculty_source: ""
 ocr_confidence: medium
 notes: "Question 6 is incomplete: page 2 ends during requirement (i), and its remaining text and printed marks are missing. The final row label of the Question 4(a) cost table is cut off at the page 1/page 2 break; only the amount 2,000 is visible. Q3(1)(i) reads 'machinery contains 108,000 kgs' as printed (apparent source typo). One word in Q6(b) before 'reporting period' is indistinct. Grader ticks and handwritten annotations ignored."
 ---
-
-# Intermediate Accounting — Semester Final (2021-22)
-
 <!-- page 1 -->
 > Answer any four sets of questions. Each part of the questions must be written sequentially.
 
@@ -76,12 +71,6 @@ You ascertain the following information.
 | Site preparation | 400 |
 | Income while site used as a car park, prior to construction commencing | (50) |
 | [illegible] | 2,000 |
-
-<!-- page 2 -->
-<!-- table continued from page 1 -->
-
-| Tk in 000 | |
-|---|---:|
 | Testing of facility's processes | 300 |
 | Sale of by-products produced as part of testing process | (60) |
 | Consultancy fees reinstatement and assembly | 500 |

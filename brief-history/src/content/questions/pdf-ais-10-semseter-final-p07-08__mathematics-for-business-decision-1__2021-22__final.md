@@ -2,25 +2,20 @@
 source_id: pdf-ais-10-semseter-final
 source_file: "AIS-10 (Semester Final).pdf"
 pages: [7, 8]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Mathematics for Business Decisions-I
-course_code: ais 1104
-year_semester: 1st Year 1st Semester
-exam: Semester Final
-session: 2021-2022
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Mathematics for Business Decisions-I"
+course_code: "ais 1104"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "2021-22"
 time: "3.00 Hours"
 full_marks: 60
 instructions: "Answer any four of the following questions"
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Question 4's number is not visible at the top of page 8 (scan cropped close to the first line); its parts (a)-(e) and marks [2+3+4+4+3=15] place it as Q4. Q1(b) printed number struck through by scanner mark. Marginal handwritten numerals ignored."
 ---
-
-# Mathematics for business decision-1 — Semester Final (2021-2022)
-
 **University of Barishal**
 **Department of Accounting & Information Systems**
 **1st year 1st Semester Final Examination. Session: 2021-22**

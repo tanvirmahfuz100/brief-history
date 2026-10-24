@@ -2,25 +2,20 @@
 source_id: pdf-ais-10-first-year-second-semseter-final-questions
 source_file: "AIS-10 First Year Second Semseter Final Questions.pdf"
 pages: [3, 4]
-university: University of Barishal
-department: Department of Accounting and Information Systems
-course: Management
-course_code: ais 1203
-year_semester: 1st Year 2nd Semester
-exam: Semester Final
-session: 2021-22
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Management"
+course_code: "ais 1203"
+year_semester: "BBA 1st Year 2nd Semester"
+exam: "Final"
+session: "2021-22"
 time: "3 Hours"
 full_marks: 60
 instructions: "Answer any four sets of questions. Each part of the questions must be written sequentially."
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Question 1 is a case study spanning pages 3-4; its 'Required' items and marks appear on page 4. The scan has underlining and ticks on some phrases; these are ignored. Printed total for the six questions is 90, so four answers total 60."
 ---
-
-# Principles of Management — Semester Final (2021-22)
-
 <!-- page 3 -->
 > Answer any four sets of questions. Each part of the questions must be written sequentially.
 
@@ -46,7 +41,6 @@ According to Sandy Weill, former chairman of Citicorp and a UTC board member, Da
 **iii.** What evidence can you see of David's planning and strategizing, organizing, controlling, leading, and developing?
 **iv.** Which managerial competencies does David seem to possess? Does he seem to lack any?
 
-**Marks: [3+(3*4)=15]**
 
 ## Question 2 — [4+4+3+4] = [15]
 **a)** "In high-technology industries, where things are moving quickly, it is impossible to plan, so don't bother!" Is this statement reasonable? [4]

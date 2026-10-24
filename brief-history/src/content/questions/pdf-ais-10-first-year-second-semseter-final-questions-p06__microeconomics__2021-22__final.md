@@ -2,25 +2,20 @@
 source_id: pdf-ais-10-first-year-second-semseter-final-questions
 source_file: "AIS-10 First Year Second Semseter Final Questions.pdf"
 pages: [6]
-university: University of Barishal
-department: Department of Accounting and Information Systems
-course: Microeconomics
-course_code: ais 1202
-year_semester: 1st Year 2nd Semester
-exam: Semester Final
-session: 2021-22
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Microeconomics"
+course_code: "ais 1202"
+year_semester: "BBA 1st Year 2nd Semester"
+exam: "Final"
+session: "2021-22"
 time: "3 Hours"
 full_marks: 60
 instructions: "Answer any four sets of questions. Each part of the questions must be written sequentially."
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Single-page paper. Handwritten 'Ceteris Paribus' beside Q2(c), 'four CO focuses' at top right, and working for Q4(c)/Q5(c) are ignored. The printed Q4(c) terms appear as Q2; transcribed as Q^2 for mathematical notation."
 ---
-
-# Microeconomics — Semester Final (2021-22)
-
 <!-- page 6 -->
 > Answer any four sets of questions. Each part of the questions must be written sequentially.
 

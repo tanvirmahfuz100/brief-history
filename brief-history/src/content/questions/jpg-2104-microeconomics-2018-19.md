@@ -2,25 +2,20 @@
 source_id: jpg-2104-microeconomics-2018-19
 source_file: "2104 Microeconomics/2018-19.jpg"
 pages: [1]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Macroeconomics
-course_code: ais 2102
-year_semester: 2nd Year 1st Semester
-exam: Final
-session: 2019-20
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Macroeconomics"
+course_code: "ais 2102"
+year_semester: "BBA 2nd Year 1st Semester"
+exam: "Final"
+session: "2019-20"
 time: "3 Hours"
 full_marks: 60
 instructions: "Answer any 4 (Four) Questions."
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Header reads 'Course Name: Macroeconomics ; Course Code: AIS 2104.' Printed '(Answer any 4 (Four) Questions.)'. Questions 1-6 visible, so choice is 4 of 6. Currency values escaped per spec."
 ---
-
-# Macroeconomics — Final (2019-20)
-
 <!-- page 1 -->
 > Answer any 4 (Four) Questions.
 

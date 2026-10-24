@@ -26,30 +26,31 @@ Design spec: `brief-history/docs/superpowers/specs/2026-10-23-brief-history-webs
 11. `[x]` Hamburger menu fix — SVG hamburger lines now have `stroke="currentColor" stroke-width="2" stroke-linecap="round"` so the icon renders; added inline color style for currentColor inheritance; added client-side JS to toggle `.open` class on mobile menu; CSS `.mobile-menu.open { display: block; }`. Build passes.
 12. `[x]` Nat Geo inspired redesign — black header (`#0A0A0A`) with yellow accent border (`#FFD200`), white text, bold Inter typography; hero section on home page; card grid layouts for semesters/videos/blogs; semester progress rings from localStorage; consistent styling across course, browse, and paper pages. Build passes: 156 pages.
 
+
+## Current slice (uncommitted)
+
+13. `[x]` Audit and data fixes — de-duplicated 16 repeated/partial papers (117 remain), canonicalized course codes/titles from `sources/syllabus_catalog.md`, added the legacy banking 2204 route, normalized sessions/exams/departments, removed duplicate H1s and trailing marks, merged split tables, and removed unused front-matter fields.
+14. `[x]` Real video lessons — imported the YouTube course guide into `src/data/videos.generated.ts` (45 courses, 650 lessons) and added `/videos/` + `/videos/[course]/`.
+15. `[x]` Working nav destinations — client-side filtering on `/browse/`, new `/blog/`, `/tools/`, `/report/`, canonical `/courses/`, and base-path-correct logos.
+16. `[x]` Accessibility and responsive pass — darker link contrast, labelled filters, keyboard focus, scrollable tables, print styles, and a 193-page build with zero broken internal links (`npm run check:links`).
+
 ## Notes
 - Course codes are stored normalized (lowercase); page headings render in normalized form (e.g. `ais 2104`). Original casing is lost at the content-collection level.
 - Syllabus coverage is partial: only first-year courses 1101–1206 have outlines; higher courses show "Syllabus not available yet" — expected per spec.
 - Personal files at the repo root are ignored by `.gitignore` and are not part of this project.
 - GEMINI_SUGGESTIONS.md (sources/WHAT USER DREAMS FOR/) drives the post-MVP direction: client-side progress tracking, cross-reference tagging, analytics, PDF export, WhatsApp reporting, plus home-page enhancements (semester buttons Volume I–VIII, videos row, blogs row, counter line, most-viewed/newly-added rows, report link, last-updated date).
 - Dev server verified live at `http://localhost:4321/brief-history/` (200 OK on home, browse, course, paper pages). CSS imports correctly via `import '../styles/global.css'` in BaseLayout.
+- Current build: 193 pages (117 papers, 19 course pages incl. legacy/unknown, 45 video pages, home/browse/courses/videos/blog/tools/report). Node >= 22.23.4 is required; Node 22.23.2 fails the Astro engine check.
 
-## Design — Nat Geo inspired
-- Redesigned `src/styles/global.css` to Nat Geo style: black header (`#0A0A0A`) with yellow accent border (`#FFD200`), white text, bold Inter typography throughout, yellow as primary accent color, high-contrast easy-to-scan layout.
-- `src/layouts/BaseLayout.astro` — black header with brand (logo + "Brief History" where "Brief History" is yellow), nav (Browse/Tools/Report), mobile hamburger toggle, skip-to-content link, black footer.
-- `src/pages/index.astro` — home page: large hero title (56px), subtitle, prominent search form with yellow submit button, paper/course/semester counter, browse link.
-- `src/pages/courses/index.astro` — Index page with bold title, filter bar, dotted-leader course list (TOC style).
-- `src/pages/browse/index.astro` — Browse page with filter bar (search/course/exam/session/department) + course list with counts.
-- `src/pages/courses/[course]/index.astro` — course page with SVG logo, syllabus topics, papers grouped by session/exam, bold headings.
-- `src/pages/courses/[course]/[paper].astro` — paper page with bold title, metadata, provenance, content, cross-references, back links.
-- Semesters on home page: Volume I–VIII grouped by year (4 headings × 2 semesters), card grid layout, SVG progress rings from localStorage read progress.
-- Quick actions: Surprise me (random question) + Browse all buttons.
-- Recently searched: localStorage-backed chips (max 5).
-- Most papers: top 5 courses by paper count as chips.
-- Newly added: 5 most recent papers.
-- Videos: own channel pinned first, then YouTube suggestions, most watched chips.
-- Blogs: pinned post first, then latest 3 with tags, see all link.
-- Report link (mailto) + last updated date in home footer meta.
-- Build passes: 156 pages.
+## Design — current
+- Black header with yellow rule, white brand text, responsive nav: Browse, Videos, Blog, Tools, Report.
+- Home page: hero, search, semester volume cards, random/browse/tools actions, most papers, newly added, real video summary, notes.
+- Browse: all 117 papers rendered once; search/course/exam/session/semester filters run client-side and sync to the URL.
+- Course pages: canonical title + semester, logo, papers first grouped by session/exam, syllabus collapsed in a details panel, legacy banking route kept separate.
+- Paper pages: one H1, breadcrumb, collapsed provenance/metadata, readable question body, tables wrapped for horizontal scroll, print styles.
+- Videos: `/videos/` grouped by semester and `/videos/[course]/` with topics, external YouTube links, channel, note, and coverage caveats.
+- Blog/Tools/Report: static notes, random-paper picker, syllabus coverage table, and a no-server report form that copies text or opens email.
+- Build: 193 pages; `npm run check:links` passes.
 
 ---
 

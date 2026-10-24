@@ -2,25 +2,20 @@
 source_id: pdf-ais-6-7-8-9-10-semester-and-mid
 source_file: "AIS-6-7-8-9-10 Semester and Mid.pdf"
 pages: [23]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: unknown
-course_code: unknown
-year_semester: unknown
-exam: unknown
-session: unknown
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Unidentified paper"
+course_code: "unknown"
+year_semester: "unknown"
+exam: "Final"
+session: "unknown"
 time: ""
-full_marks: null
+full_marks: ""
 instructions: ""
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: low
 notes: "Page 23. Multiple stacked papers. Top section: inventory/fiscal year data 2009-2012 with COGS/gross profit/accounts payable questions. Middle: Dunder Mifflin Company November transactions. Bottom: Rothyen Genetics Company bank reconciliation May 2012. Course, session, and exam unclear from scan."
 ---
-
-# Unknown Course — Unknown Examination
-
 <!-- page 23 -->
 
 You are provided with the following selected information for the fiscal years 2009-2012.

@@ -2,25 +2,20 @@
 source_id: pdf-ais-6-7-8-9-10-semester-and-mid
 source_file: "AIS-6-7-8-9-10 Semester and Mid.pdf"
 pages: [30]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Introduction to Business
-course_code: ais 1102
-year_semester: 1st Year 1st Semester
-exam: Final Examination
-session: 2018-19
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Business"
+course_code: "ais 1102"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "2018-19"
 time: "3 Hours"
 full_marks: 60
 instructions: "Answer any Four Questions."
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Transcribed from the DeepSeek-assisted text for page 30."
 ---
-
-# Introduction to Business — Final Examination (2018-19)
-
 <!-- page 30 -->
 
 1. **a)** Define business. "The ultimate objective of business is to earn profit"-Do you agree? Explain the objective of Business. [4]

@@ -2,25 +2,20 @@
 source_id: pdf-ais-10-semseter-final
 source_file: "AIS-10 (Semester Final).pdf"
 pages: [6]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Business Communication and Report Writing
-course_code: ais 1103
-year_semester: 1st Year 1st Semester
-exam: Semester Final
-session: 2020-2021
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Business Communication and Report Writing"
+course_code: "ais 1103"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "2020-21"
 time: "3 Hours"
 full_marks: 60
 instructions: "Answer any four (04) of the following questions. Start answering each question from a fresh sheet. Answers must be sequential, properly structured, relevant, and neat."
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Header prints 'Session: 2020-21 10th Batch'. Marks are printed once per question as a breakdown, right-aligned just before the next question heading. Signature scribble at top right ignored."
 ---
-
-# Business Communication and Report Writing — Semester Final (2020-2021)
-
 **University of Barishal**
 **Faculty of Business Studies**
 **Department of Accounting & Information Systems**

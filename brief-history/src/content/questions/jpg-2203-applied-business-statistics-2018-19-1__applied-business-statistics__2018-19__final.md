@@ -2,25 +2,20 @@
 source_id: jpg-2203-applied-business-statistics-2018-19-1
 source_file: ["2203 Applied Business Statistics/2018-19 1.jpg", "2203 Applied Business Statistics/2018-19 2.jpg"]
 pages: [1, 2]
-university: University of Barishal
-department: Department of Accounting and Information Systems
-course: Business Statistics-II
-course_code: ais 2203
-year_semester: 2nd Year, 2nd Semester
-exam: Final examination
-session: 2018-19
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Business Statistics-II"
+course_code: "ais 2203"
+year_semester: "BBA 2nd Year 2nd Semester"
+exam: "Final"
+session: "2018-19"
 time: "3 hours"
 full_marks: 60
 instructions: "Answer any four of the following questions. Start answering each question from a fresh sheet. Different parts of the same question must be answered sequentially. Answer must be brief, relevant and neat."
 choice: "4 of 6"
-examiner_marks: "illegible signature (page 1, top right)"
-faculty_source: ""
 ocr_confidence: high
 notes: "Handwritten signature/initials at top right of page 1, not decipherable. Q3(c) wording 'must we conduct that some other value' (sic); Q2(d) reads 'Form previous surveys' (sic). Page 2 begins at Q4(a)(iii)."
 ---
-
-# Applied Business Statistics — Final examination (2018-19)
-
 <!-- page 1 -->
 > Answer any four of the following questions.
 >

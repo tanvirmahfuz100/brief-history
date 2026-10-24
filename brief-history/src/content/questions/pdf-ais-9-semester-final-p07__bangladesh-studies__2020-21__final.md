@@ -2,25 +2,20 @@
 source_id: pdf-ais-9-semester-final
 source_file: "AIS-9 (Semester Final).pdf"
 pages: [7]
-university: University of Barisal
-department: Department of Accounting & Information Systems
-course: History of the Emergence of Bangladesh
-course_code: ais 1105
-year_semester: 1st Year 1st Semester
-exam: Final
-session: 2020-21
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "History of the Emergence of Bangladesh"
+course_code: "ais 1105"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "2020-21"
 time: "3.00 Hours"
 full_marks: 60
 instructions: "Answer any four of the following questions"
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Fourth paper in source, occupies page 7 only."
 ---
-
-# Bangladesh Studies — Final (2020-21)
-
 <!-- page 7 -->
 ## Question 1 — [4+6+5]
 **a)** "Bangladesh is a developing country." Do you agree with this statement? Why or why not? [04]

@@ -2,25 +2,20 @@
 source_id: pdf-ais-6-7-8-9-10-semester-and-mid
 source_file: "pdf-ais-6-7-8-9-10-semester-and-mid"
 pages: [3]
-university: University of Barisal
-department: Department of Accounting and Information Systems
-course: Introduction to Financial Accounting
-course_code: ais 1101
-year_semester: unknown
-exam: Second Midterm
-session: unknown
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Financial Accounting"
+course_code: "ais 1101"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "2nd Midterm"
+session: "unknown"
 time: "1 hour"
 full_marks: 10
 instructions: ""
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "This paper is printed sideways on the scan. The trial-balance amounts are faint: Office Equipment is read as 50 and Depreciation Expense as 6; these make the two trial-balance columns total 132 each. Question 2 has no printed mark in the scan. Handwritten ticks/answers are omitted."
 ---
-
-# Principles of Accounting — Second Midterm Examination (unknown session)
-
 <!-- page 3 -->
 ## Question 1 — [6]
 The worksheet for Vietti Rental Company appears below. Using the adjustment data below, complete the worksheet. Add any accounts that are necessary.

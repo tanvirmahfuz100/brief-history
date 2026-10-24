@@ -2,23 +2,20 @@
 source_id: pdf-ais-6-7-8-9-10-semester-and-mid
 source_file: "AIS-6-7-8-9-10 Semester and Mid.pdf"
 pages: [35]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Mathematics for Business Decisions-I
-course_code: ais 1104
-year_semester: 1st Year 1st Semester
-exam: Final Examination
-session: unknown
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Mathematics for Business Decisions-I"
+course_code: "ais 1104"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "unknown"
 time: ""
-full_marks: null
+full_marks: ""
 instructions: "Answer any four questions. Each part of the questions must be written sequentially."
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: low
 notes: "Page is faint and heavily marked; session, marks, and several symbols are illegible."
 ---
-# Mathematics for Business Decision I — Final Examination
 <!-- page 35 -->
 1. **a)** What is the difference between subset and proper subset?
    **b)** If $A=\{1,2,3,4,5\}$, verify that $A\cap(B\cup C)=(A\cap B)\cup(A\cap C)$.

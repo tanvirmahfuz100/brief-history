@@ -2,25 +2,20 @@
 source_id: pdf-ais-10-first-year-second-semseter-final-questions
 source_file: "AIS-10 First Year Second Semseter Final Questions.pdf"
 pages: [5]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Computer Concepts and Application
-course_code: ais 1205
-year_semester: 1st Year 2nd Semester
-exam: Semester Final
-session: 2021-22
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Computer Concepts and Application"
+course_code: "ais 1205"
+year_semester: "BBA 1st Year 2nd Semester"
+exam: "Final"
+session: "2021-22"
 time: "2.5 hours"
 full_marks: 45
 instructions: "Answer any four sets of questions. Each part of the questions must be written sequentially."
 choice: "4 of 6"
-examiner_marks: "Handwritten 'PPMH' in left margin; '150 4' at lower right."
-faculty_source: ""
 ocr_confidence: high
 notes: "Single-page paper. Questions 1-6 each total 11.25 marks; four answers total 45. Handwritten 'minute' beside Q1(c) and the margin initials/number are grader annotations."
 ---
-
-# Introduction to Computer & IT — Semester Final (2021-22)
-
 <!-- page 5 -->
 > Answer any four sets of questions. Each part of the questions must be written sequentially.
 

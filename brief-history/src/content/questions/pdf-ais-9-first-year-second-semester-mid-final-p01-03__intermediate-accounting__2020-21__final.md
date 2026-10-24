@@ -2,25 +2,20 @@
 source_id: pdf-ais-9-first-year-second-semester-mid-final
 source_file: "AIS-9 (First Year Second Semester Mid-Final).pdf"
 pages: [1, 2, 3]
-university: University of Barishal
-department: Department of Accounting and Information Systems
-course: Intermediate Accounting
-course_code: ais 1201
-year_semester: 1st Year 2nd Semester
-exam: Semester Final
-session: 2020-21
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Intermediate Accounting"
+course_code: "ais 1201"
+year_semester: "BBA 1st Year 2nd Semester"
+exam: "Final"
+session: "2020-21"
 time: "3 hours"
 full_marks: 60
 instructions: "Answer any four (04) of the following questions. Start answering each question from a fresh sheet. Answers should be properly structured, relevant and computations, where necessary, need to be shown."
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Question 2(a) wording printed as \"Martin Buber paid\" (company referred to as Martin Buber Co.); Q1 sub-parts carry no individual marks, only printed [3+3+6+3] = [15]."
 ---
-
-# Intermediate Accounting — Semester Final (2020-21)
-
 <!-- page 1 -->
 University of Barishal
 Faculty of Business Studies

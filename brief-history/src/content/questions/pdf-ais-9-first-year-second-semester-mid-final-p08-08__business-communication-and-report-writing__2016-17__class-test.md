@@ -2,25 +2,20 @@
 source_id: pdf-ais-9-first-year-second-semester-mid-final
 source_file: "AIS-9 (First Year Second Semester Mid-Final).pdf"
 pages: [8]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Business Communication and Report Writing
-course_code: ais 1103
-year_semester: 1st Year 1st Semester
-exam: Class Test
-session: 2016-17
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Business Communication and Report Writing"
+course_code: "ais 1103"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Class Test"
+session: "2016-17"
 time: "30 minutes"
 full_marks: 5
 instructions: ""
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Bottom paper on page 8. Transcribed from DeepSeek help response."
 ---
-
-# Business Communication & Report Writing — Class Test (2016-17)
-
 <!-- page 8 -->
 
 University of Barisal

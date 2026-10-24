@@ -1,93 +1,133 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getCollection, render } from 'astro:content';
-import { courseSlug, slug } from '@/lib/slug';
+import { courseKey, courseInfoForKey, formatCode, normalizeExam, normalizeSession, titleForPaper } from '@/lib/catalog';
+import { VIDEO_BY_CODE } from '@/data/videos.generated';
 
 export async function getStaticPaths() {
   const questions = await getCollection('questions');
-  const codes = [...new Set(questions.map(q => q.data.course_code))];
-  return codes.map(code => ({
-    params: { course: courseSlug(code) },
-    props: { code },
-  }));
+  const keys = [...new Set(questions.map((q) => courseKey(q.data)))];
+  return keys.map((key) => {
+    const items = questions.filter((q) => courseKey(q.data) === key);
+    return { params: { course: key }, props: { key, sample: items[0].data } };
+  });
 }
 
-const { code } = Astro.props;
-const questions = (await getCollection('questions')).filter(q => q.data.course_code === code);
+const { key, sample } = Astro.props;
+const questions = (await getCollection('questions')).filter((q) => courseKey(q.data) === key);
+const info = courseInfoForKey(key);
+const code = info?.code ?? questions[0]?.data.course_code ?? 'unknown';
+const title = info?.title ?? questions[0]?.data.course ?? 'Unidentified paper';
+const isLegacy = key === 'legacy-banking-2204';
+const numericCode = !isLegacy ? String(code).match(/\d+/)?.[0] ?? '' : '';
+const logoPath = numericCode ? `/brief-history/logos/${numericCode}.svg` : '';
+const video = !isLegacy ? VIDEO_BY_CODE.get(String(code).toLowerCase()) : undefined;
 
-const numericCode = code.match(/\d+/)?.[0] ?? '';
-const logoPath = `/logos/${numericCode}.svg`;
 const syllabi = await getCollection('syllabi');
-const syllabus = numericCode ? syllabi.find(s => s.data.code === numericCode) : undefined;
+const syllabus = !isLegacy && numericCode ? syllabi.find((s) => s.data.code === numericCode) : undefined;
 const SyllabusContent = syllabus ? (await render(syllabus)).Content : undefined;
 
-const grouped = new Map();
+const examOrder = ['1st Mid-term', '2nd Mid-term', 'Mid-term', '1st Class Test', '2nd Class Test', 'Class Test', 'Quiz', 'Final'];
+const grouped = new Map<string, Map<string, typeof questions>>();
 for (const q of questions) {
-  const session = q.data.session || 'unknown';
-  const exam = q.data.exam || 'unknown';
+  const session = normalizeSession(q.data.session) || 'Session unknown';
+  const exam = normalizeExam(q.data.exam) || 'Exam unspecified';
   if (!grouped.has(session)) grouped.set(session, new Map());
-  if (!grouped.get(session).has(exam)) grouped.get(session).set(exam, []);
-  grouped.get(session).get(exam).push(q);
+  const exams = grouped.get(session)!;
+  if (!exams.has(exam)) exams.set(exam, []);
+  exams.get(exam)!.push(q);
 }
-const sessions = [...grouped.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+const sessions = [...grouped.entries()].sort((a, b) => b[0].localeCompare(a[0]));
+for (const [, exams] of sessions) {
+  exams.forEach((items) => items.sort((a, b) => a.id.localeCompare(b.id)));
+}
 ---
 
-<BaseLayout title={code}>
+<BaseLayout title={`${formatCode(code)} — ${title}`}>
   <div class="container section">
-    <nav class="course-nav">
+    <nav class="browse-nav" aria-label="Breadcrumb">
+      <a href="/brief-history/">Home</a>
+      <span aria-hidden="true">/</span>
       <a href="/brief-history/browse/">Browse</a>
       <span aria-hidden="true">/</span>
-      <span>{code.toUpperCase()}</span>
+      <span>{formatCode(code)}</span>
     </nav>
 
-    <div class="course-logo">
-      <img src={logoPath} alt={`Course ${numericCode}`} width="120" height="120" />
-    </div>
+    <header class="course-header">
+      {logoPath ? (
+        <img class="course-header-logo" src={logoPath} alt="" width="88" height="88" loading="lazy" />
+      ) : null}
+      <div>
+        <p class="course-code">{formatCode(code)}</p>
+        <h1 class="course-title">{title}</h1>
+        {info?.semester ? <p class="course-semester">{info.semester}</p> : null}
+        {isLegacy ? (
+          <p class="course-legacy-note">
+            Legacy course: this code also belongs to Marketing in the 2022–23 syllabus.
+            These papers are kept separately under their printed course title.
+          </p>
+        ) : null}
+      </div>
+    </header>
 
-    <h1 class="course-title">{code.toUpperCase()} &mdash; {questions.length > 0 ? questions[0].data.course : code}</h1>
+    <p class="video-actions">
+      <a class="quick-btn" href={`/brief-history/browse/?course=${encodeURIComponent(formatCode(code))}`}>
+        Filter all papers by this course →
+      </a>
+      {video ? <a class="quick-btn" href={`/brief-history/videos/${key}/`}>{video.videoCount} video lessons →</a> : null}
+    </p>
 
-    {syllabus ? (
-      <section class="syllabus-topics">
-        <h2>Syllabus topics</h2>
-        <SyllabusContent />
-      </section>
-    ) : null}
-
-    <section class="papers-section">
-      <h2>Past questions ({questions.length})</h2>
+    <section class="papers-section" aria-labelledby="papers-heading">
+      <h2 class="section-heading" id="papers-heading">Past questions ({questions.length})</h2>
+      {questions.length === 0 ? <p>No papers for this course yet.</p> : null}
       <div class="papers-list">
         {sessions.map(([session, exams]) => (
-          <section class="session-block" id={`session-${slug(session)}`}>
+          <section class="session-block" id={`session-${session.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}>
             <h3 class="session-label">{session}</h3>
-            {[...exams.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([exam, items]) => (
-              <div class="course-exam">
-                <h4>{exam}</h4>
-                <ul>
-                  {items.map((q) => (
-                    <li class="question-card" key={q.id}>
-                      <a href={`/brief-history/courses/${courseSlug(code)}/${q.id}/`} class="paper-link">
-                        {q.data.course} &mdash; {q.data.exam}
-                      </a>
-                      <p class="question-meta">
-                        <b>{q.data.year_semester}</b>
-                        <span>&bull;</span>
-                        {q.data.full_marks ? <span>{q.data.full_marks} marks</span> : null}
-                        <span>&bull;</span>
-                        {q.data.session}
-                        {q.data.ocr_confidence ? <span>&bull; OCR {q.data.ocr_confidence}</span> : null}
-                      </p>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+            {[...exams.entries()]
+              .sort((a, b) => {
+                const ai = examOrder.indexOf(a[0]);
+                const bi = examOrder.indexOf(b[0]);
+                return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi) || a[0].localeCompare(b[0]);
+              })
+              .map(([exam, items]) => (
+                <div class="course-exam">
+                  <h4>{exam} <span class="exam-count">({items.length})</span></h4>
+                  <ul>
+                    {items.map((q) => (
+                      <li class="question-card">
+                        <a href={`/brief-history/courses/${key}/${q.id}/`} class="paper-link">
+                          {titleForPaper(q.data)}
+                        </a>
+                        <p class="question-meta">
+                          {q.data.year_semester ? <span>{q.data.year_semester}</span> : null}
+                          {q.data.full_marks ? <span>{q.data.full_marks} marks</span> : null}
+                          {q.data.time ? <span>{q.data.time}</span> : null}
+                          {q.data.ocr_confidence ? <span>OCR {q.data.ocr_confidence}</span> : null}
+                        </p>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
           </section>
         ))}
       </div>
     </section>
 
-    <p class="back-links">
-      <a href="/brief-history/browse/">&larr; Back to browse</a>
-    </p>
+    {syllabus ? (
+      <details class="syllabus-topics">
+        <summary>Syllabus for {formatCode(code)}</summary>
+        <SyllabusContent />
+      </details>
+    ) : (
+      <p class="syllabus-missing">Syllabus not available yet for this course.</p>
+    )}
+
+    <nav class="back-links" aria-label="Back links">
+      <a href="/brief-history/browse/">← Browse past questions</a>
+      <a href="/brief-history/videos/">Video lessons</a>
+      <a href="/brief-history/">Home</a>
+    </nav>
   </div>
 </BaseLayout>

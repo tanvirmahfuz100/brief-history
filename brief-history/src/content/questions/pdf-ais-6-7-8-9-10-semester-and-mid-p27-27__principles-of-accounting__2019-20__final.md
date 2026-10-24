@@ -2,25 +2,20 @@
 source_id: pdf-ais-6-7-8-9-10-semester-and-mid
 source_file: "AIS-6-7-8-9-10 Semester and Mid.pdf"
 pages: [27]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Introduction to Financial Accounting
-course_code: ais 1101
-year_semester: BBA 1st Year 1st Semester
-exam: Semester Final Examination
-session: 2019-20
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Financial Accounting"
+course_code: "ais 1101"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "2019-20"
 time: "3 hour"
 full_marks: 60
 instructions: "(Answer Any Four)"
 choice: "4 of ?"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Page 27. Principles of Accounting Final Exam Session 2019-20. Q1-Q4 theory, Q2c Victoria Hall journal entries + trial balance, Q3c Matthews Company worksheet (Before/After Adjustment columns). Some figures faint."
 ---
-
-# Principles of Accounting — Semester Final Examination (2019-20)
-
 <!-- page 27 -->
 
 University of Barishal

@@ -2,25 +2,20 @@
 source_id: pdf-ais-10-accounting-principles
 source_file: "AIS-10 (Accounting Principles).pdf"
 pages: [1, 2, 3, 4]
-university: University of Barishal
-department: Department of Accounting and Information Systems
-course: Introduction to Financial Accounting
-course_code: ais 1101
-year_semester: 1st Year 1st Semester
-exam: Semester Final
-session: 2021-2022
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Financial Accounting"
+course_code: "ais 1101"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "2021-22"
 time: "3 Hours"
 full_marks: 60
 instructions: "Answer any four of the following questions."
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Header reads '1st Year 1st Semester Final Examination-2022'; printed '15x4=60'. Q4 refers to a balance sheet 'at August 31' although the Renfro trial balance is dated June 2023 (as printed). Q3 trial balance is dated April 30, 2023 while the transaction list gives only April dates. Q5(a) requirements (closing entries, posting, post-closing trial balance) carry no individual marks; the printed 07 covers part (a) and 08 covers part (b). Q6(c) opening balances are printed in two side-by-side debit/credit columns and are transcribed here as a single debit/credit table. Show-through ink from the reverse side and grader ticks/handwriting are present but ignored. No illegible text."
 ---
-
-# Principles of Accounting — Semester Final (2021-2022)
-
 <!-- page 1 -->
 > Answer any four of the following questions.
 

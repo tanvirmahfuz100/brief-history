@@ -2,25 +2,20 @@
 source_id: pdf-ais-11-mid
 source_file: "AIS-11 Mid.pdf"
 pages: [7]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Mathematics for Business Decisions-I
-course_code: ais 1104
-year_semester: unknown
-exam: 2nd Mid-term Examination
-session: 2022-23
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Mathematics for Business Decisions-I"
+course_code: "ais 1104"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "2nd Midterm"
+session: "2022-23"
 time: "1 hour"
 full_marks: 10
 instructions: "Answer all the questions. Write within script. Question paper must be returned with answer script."
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Header prints 'Admission Session: 2022-23'. The last item is printed only as 'i.' / 'ii.' with no visible question number (the left margin is cropped); recorded as Question 4. Handwritten doodles and the 'ASSIGNMENT' / '... to Financial Accounting' notes at the top belong to another paper and are ignored."
 ---
-
-# Mathematics for Business Decision-I — 2nd Mid-term Examination (2022-23)
-
 <!-- page 7 -->
 **University of Barishal**
 **Department of Accounting & Information Systems**

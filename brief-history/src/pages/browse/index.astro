@@ -1,114 +1,198 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { courseSlug } from '@/lib/slug';
+import { courseKey, courseInfoForKey, formatCode, normalizeExam, normalizeSession, titleForPaper } from '@/lib/catalog';
 
 const questions = await getCollection('questions');
-const byCourse = new Map();
-for (const q of questions) {
-  const key = q.data.course_code;
-  if (!byCourse.has(key)) byCourse.set(key, { code: key, title: q.data.course, department: q.data.department, count: 0 });
-  byCourse.get(key).count++;
-}
-const courses = [...byCourse.values()].sort((a, b) => a.code.localeCompare(b.code));
-const totalPapers = questions.length;
-const totalCourses = courses.length;
-const courseOptions = courses.map(c => `${c.code} — ${c.title}`);
-const exams = [...new Set(questions.map(q => q.data.exam))].sort();
-const sessions = [...new Set(questions.map(q => q.data.session))].sort();
-const departments = [...new Set(questions.map(q => q.data.department).filter(Boolean))].sort();
-const search = new URL(Astro.request.url).searchParams.get('search') || '';
-const courseFilter = new URL(Astro.request.url).searchParams.get('course') || '';
-const examFilter = new URL(Astro.request.url).searchParams.get('exam') || '';
-const sessionFilter = new URL(Astro.request.url).searchParams.get('session') || '';
-const deptFilter = new URL(Astro.request.url).searchParams.get('department') || '';
 
-let filtered = questions;
-if (search) {
-  const s = search.toLowerCase();
-  filtered = filtered.filter(q =>
-    `${q.data.course} ${q.data.exam} ${q.data.session} ${q.data.course_code} ${q.data.year_semester}`.toLowerCase().includes(s)
-  );
+const courseMap = new Map<string, { key: string; code: string; title: string; semester: string; count: number }>();
+for (const q of questions) {
+  const key = courseKey(q.data);
+  const info = courseInfoForKey(key);
+  const code = info?.code ?? String(q.data.course_code ?? 'unknown');
+  const title = info?.title ?? String(q.data.course ?? 'Unidentified paper');
+  const semester = info?.semester ?? '';
+  if (!courseMap.has(key)) courseMap.set(key, { key, code, title, semester, count: 0 });
+  courseMap.get(key)!.count++;
 }
-if (courseFilter) {
-  filtered = filtered.filter(q => `${q.data.course_code} — ${q.data.course}` === courseFilter);
-}
-if (examFilter) {
-  filtered = filtered.filter(q => q.data.exam === examFilter);
-}
-if (sessionFilter) {
-  filtered = filtered.filter(q => q.data.session === sessionFilter);
-}
-if (deptFilter) {
-  filtered = filtered.filter(q => q.data.department === deptFilter);
-}
+const courses = [...courseMap.values()].sort((a, b) => a.code.localeCompare(b.code));
+const courseIndex = new Map(courses.map((c) => [c.key, c]));
+
+const papers = questions
+  .map((q) => {
+    const key = courseKey(q.data);
+    const course = courseIndex.get(key);
+    return {
+      id: q.id,
+      key,
+      code: formatCode(q.data.course_code),
+      title: course?.title ?? String(q.data.course ?? 'Unidentified paper'),
+      semester: course?.semester ?? '',
+      session: normalizeSession(q.data.session),
+      exam: normalizeExam(q.data.exam),
+      year: q.data.year_semester,
+      searchText: [
+        q.data.course,
+        q.data.course_code,
+        q.data.exam,
+        q.data.session,
+        q.data.year_semester,
+        course?.title,
+      ].filter(Boolean).join(' ').toLowerCase(),
+    };
+  })
+  .sort((a, b) => a.code.localeCompare(b.code) || b.session.localeCompare(a.session) || a.exam.localeCompare(b.exam));
+
+const exams = [...new Set(papers.map((p) => p.exam).filter(Boolean))].sort();
+const sessions = [...new Set(papers.map((p) => p.session).filter(Boolean))].sort().reverse();
+const semesters = [...new Set(courses.map((c) => c.semester).filter(Boolean))];
 ---
 
-<BaseLayout title="Browse">
+<BaseLayout title="Browse past questions">
   <div class="container section">
-    <nav class="browse-nav">
+    <nav class="browse-nav" aria-label="Breadcrumb">
       <a href="/brief-history/">Home</a>
       <span aria-hidden="true">/</span>
       <span>Browse</span>
     </nav>
 
     <h1 class="browse-title">Browse past questions</h1>
+    <p class="page-lede">
+      {questions.length} papers across {courses.length} courses. Filters run in your browser, so
+      the page stays fast and works without a login.
+    </p>
 
-    <div class="filters">
-      <p class="count">
-        <strong>{filtered.length}</strong> of <strong>{totalPapers}</strong> questions across <strong>{totalCourses}</strong> courses
-      </p>
+    <form class="filters" id="filters" method="GET" action="/brief-history/browse/">
+      <label class="filter-field filter-search">
+        <span>Search</span>
+        <input id="search" name="search" class="search-input" type="search" placeholder="Topic, course, code, session…" autocomplete="off" />
+      </label>
+      <label class="filter-field">
+        <span>Course</span>
+        <select id="course" name="course">
+          <option value="">All courses</option>
+          {courses.map((c) => (
+            <option value={c.key}>{formatCode(c.code)} — {c.title} ({c.count})</option>
+          ))}
+        </select>
+      </label>
+      <label class="filter-field">
+        <span>Exam</span>
+        <select id="exam" name="exam">
+          <option value="">All exams</option>
+          {exams.map((e) => <option value={e}>{e}</option>)}
+        </select>
+      </label>
+      <label class="filter-field">
+        <span>Session</span>
+        <select id="session" name="session">
+          <option value="">All sessions</option>
+          {sessions.map((s) => <option value={s}>{s}</option>)}
+        </select>
+      </label>
+      <label class="filter-field">
+        <span>Semester</span>
+        <select id="semester" name="semester">
+          <option value="">All semesters</option>
+          {semesters.map((s) => <option value={s}>{s}</option>)}
+        </select>
+      </label>
+      <button type="button" class="clear-btn" id="clear-filters">Clear</button>
+    </form>
 
-      <form method="GET" action="/brief-history/browse/">
-        <input
-          name="search"
-          class="search-input"
-          type="search"
-          placeholder="Search questions&hellip;"
-          value={search}
-        />
-        <select name="course">
-          <option value="">Course</option>
-          {courseOptions.map((c) => (
-            <option value={c} {c === courseFilter ? 'selected' : null}>{c}</option>
-          ))}
-        </select>
-        <select name="exam">
-          <option value="">Exam</option>
-          {exams.map((e) => (
-            <option value={e} {e === examFilter ? 'selected' : null}>{e}</option>
-          ))}
-        </select>
-        <select name="session">
-          <option value="">Session</option>
-          {sessions.map((s) => (
-            <option value={s} {s === sessionFilter ? 'selected' : null}>{s}</option>
-          ))}
-        </select>
-        <select name="department">
-          <option value="">Department</option>
-          {departments.map((d) => (
-            <option value={d} {d === deptFilter ? 'selected' : null}>{d}</option>
-          ))}
-        </select>
-      </form>
-    </div>
+    <p class="count" aria-live="polite">
+      Showing <strong id="result-count">{papers.length}</strong> of <strong>{papers.length}</strong> papers
+    </p>
 
-    <nav class="toc" id="course-list">
-      {filtered.map((q) => {
-        const c = courses.find(c => c.code === q.data.course_code);
-        return (
-          <a class="toc-line" href={`/brief-history/courses/${courseSlug(q.data.course_code)}/${q.id}/`}>
-            <span class="toc-title">{q.data.course}</span>
-            <span class="toc-leader" aria-hidden="true"></span>
-            <span class="toc-page">{q.data.course_code.toUpperCase()} &middot; {q.data.session}</span>
-          </a>
-        );
-      })}
+    <nav class="toc" id="paper-list" aria-label="Past question papers">
+      {papers.map((p) => (
+        <a
+          class="toc-line"
+          href={`/brief-history/courses/${p.key}/${p.id}/`}
+          data-key={p.key}
+          data-exam={p.exam}
+          data-session={p.session}
+          data-semester={p.semester}
+          data-search={p.searchText}
+        >
+          <span class="toc-title">{p.title}</span>
+          <span class="toc-leader" aria-hidden="true"></span>
+          <span class="toc-page">{p.code} · {p.session || 'Session unknown'} · {p.exam || 'Exam unspecified'}</span>
+        </a>
+      ))}
     </nav>
 
-    {filtered.length === 0 && (
-      <p class="no-results-msg">No questions match your filters.</p>
-    )}
+    <p class="no-results-msg" id="no-results" hidden>No papers match your filters.</p>
+
+    <p class="back-links"><a href="/brief-history/">← Home</a></p>
   </div>
+
+  <script>
+    const form = document.getElementById('filters');
+    const rows = [...document.querySelectorAll('#paper-list .toc-line')];
+    const count = document.getElementById('result-count');
+    const empty = document.getElementById('no-results');
+    const fields = {
+      search: document.getElementById('search'),
+      course: document.getElementById('course'),
+      exam: document.getElementById('exam'),
+      session: document.getElementById('session'),
+      semester: document.getElementById('semester'),
+    };
+
+    function readUrl() {
+      const params = new URLSearchParams(location.search);
+      for (const [name, field] of Object.entries(fields)) {
+        const value = params.get(name) || '';
+        if (name === 'course' && value.includes('|')) {
+          const first = value.split('|')[0].trim().toLowerCase();
+          field.value = [...field.options].some((o) => o.value === first) ? first : '';
+        } else {
+          field.value = value;
+        }
+      }
+    }
+
+    function apply(updateUrl = true) {
+      const search = fields.search.value.trim().toLowerCase();
+      const course = fields.course.value;
+      const exam = fields.exam.value;
+      const session = fields.session.value;
+      const semester = fields.semester.value;
+      let shown = 0;
+      for (const row of rows) {
+        const matches =
+          (!search || row.dataset.search.includes(search)) &&
+          (!course || row.dataset.key === course) &&
+          (!exam || row.dataset.exam === exam) &&
+          (!session || row.dataset.session === session) &&
+          (!semester || row.dataset.semester === semester);
+        row.hidden = !matches;
+        if (matches) shown++;
+      }
+      count.textContent = String(shown);
+      empty.hidden = shown !== 0;
+      if (updateUrl) {
+        const params = new URLSearchParams();
+        for (const [name, field] of Object.entries(fields)) {
+          if (field.value) params.set(name, field.value);
+        }
+        const qs = params.toString();
+        history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
+      }
+    }
+
+    readUrl();
+    apply(false);
+    form.addEventListener('input', () => apply());
+    form.addEventListener('change', () => apply());
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      apply();
+    });
+    document.getElementById('clear-filters').addEventListener('click', () => {
+      form.reset();
+      apply();
+    });
+  </script>
 </BaseLayout>

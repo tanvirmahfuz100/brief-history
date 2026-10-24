@@ -2,23 +2,20 @@
 source_id: jpg-3101-cost-accounting-2017-18-3
 source_file: "3101 Cost Accounting/2017-18-3 image"
 pages: [1]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Cost Accounting
-course_code: ais 3101
-year_semester: unknown
-exam: Final Examination
-session: 2017-18
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Cost Accounting"
+course_code: "ais 3101"
+year_semester: "BBA 3rd Year 1st Semester"
+exam: "Final"
+session: "2017-18"
 time: ""
-full_marks: null
+full_marks: ""
 instructions: ""
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Split scan contains a continuation page."
 ---
-# Cost Accounting — Final Examination (2017-18)
 <!-- page 1 -->
 5. **(c)** Particulars of three machines used in a factory for a six-week period of 160 working hours: machine costs Tk. 20,000, 30,000 and 40,000; workers 2, 5 and 10; direct wages Tk. 600, 1,600 and 2,400; power Tk. 90, 180 and 300; light points 4, 8 and 12; area occupied 200, 500 and 800 square metres. Expenses: power Tk. 550, lighting Tk. 96, rent and rates Tk. 900, depreciation Tk. 2,700, repairs Tk. 3,600, indirect wages Tk. 920, canteen expenses Tk. 102, miscellaneous expenses Tk. 600. Compute the machine-hour rate for each machine. [06]
 6. **a)** Differentiate between bin card and stores ledger. [03]

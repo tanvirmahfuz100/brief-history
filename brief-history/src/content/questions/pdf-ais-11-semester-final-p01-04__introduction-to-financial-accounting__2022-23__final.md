@@ -2,25 +2,20 @@
 source_id: pdf-ais-11-semester-final
 source_file: "AIS-11 Semester Final.pdf"
 pages: [1, 2, 3, 4]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Introduction to Financial Accounting
-course_code: ais 1101
-year_semester: 1st Year 1st Semester
-exam: Semester Final Examination
-session: 2022-23
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Financial Accounting"
+course_code: "ais 1101"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "2022-23"
 time: "3:00 Hours"
 full_marks: 60
 instructions: "Answer any four of the following questions."
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Six questions printed, each worth 15 marks; four required = 60. Numbering/marks are inconsistent around Question 3: the heading '3' carries parts (a) and (b) marked [Marks=8+7=15], then part (c) is the long Jeter Co. problem ending with a separate [Marks=2+2+11=15]; if (c) were a separate question the paper would have seven questions numbering 1-6 plus an unnumbered one. Reproduced as printed. The Halim Co. trial balance on pp. 1-2 repeats the same figures as the AIS 1101 2nd Midterm (Sergei Ashrecht Co.) problem. The worksheet question number on p. 3 is obscured by a pen tick (taken as Q4). Question 1(a)'s table is split across pp. 1-2. No marks are printed for Question 2 (its expected 15 is inferred from the paper total, not printed). The Halim Co. trial balance is introduced by a glyph that could be '(b)' or '(6)'; transcribed as part (b) of Question 2."
 ---
-
-# Introduction to Financial Accounting — Semester Final Examination (2022-23)
-
 <!-- page 1 -->
 **University of Barishal**
 **Department of Accounting & Information Systems**
@@ -73,7 +68,6 @@ i. Prepare an income statement and owner's equity statement for the month of Jun
 
 ii. Prepare an income statement and owner's equity statement for June assuming the following data are not included above: (i) $900 of services were performed and billed but not collected at June 30, and (ii) $150 of gasoline expense was incurred but not paid.
 
-**[Marks = 9+6=15]**
 
 ## Question 2
 **a)** Vera Ernst is a licensed dentist. During the first month of the operation of her business, the following events and transactions occurred.
@@ -113,12 +107,6 @@ iii. Prepare a trial balance on April 30, 2022.
 | Supplies | 1,200 | |
 | Equipment | 2,600 | |
 | Accounts Payable | | 3,666 |
-
-<!-- page 2 -->
-<!-- table continued from page 1 -->
-
-| Account | Debit | Credit |
-|---|---|---|
 | Unearned Service Revenue | 1,100 | |
 | Owner's Capital | | 8,000 |
 | Owner's Drawings | 800 | |
@@ -198,10 +186,6 @@ Each of the listed accounts has a normal balance per the general ledger. An exam
 | 15 | Withdraw $800 cash by M. Jeter for personal use. |
 | 15 | Post all entries to the subsidiary ledgers. |
 | 16 | Purchase merchandise from D. Saito $15,000, terms 1/10, n/30; S. Meek $14,200, terms 2/10, n/30; and S. Gamel $1,500, terms n/30. |
-
-<!-- page 3 -->
-| Date | Transaction |
-|---|---|
 | 17 | Pay $400 cash for supplies. |
 | 18 | Return $200 of merchandise to S. Meek and receive credit. |
 | 20 | Daily cash sales from January 11 to January 20 total $20,100. Make one journal entry for these sales. |
@@ -239,7 +223,6 @@ iv. Interest of $50 has accrued on the note payable.
 
 **f.** Prepare a post-closing trial balance, and determine whether the subsidiary ledgers agree with the control accounts in the general ledger.
 
-**[Marks = 2+2+11=15]**
 
 ## Question 4 — [3+12=15]
 **a)** Is worksheet a compulsory thing?
@@ -280,7 +263,6 @@ iv. Interest of $50 has accrued on the note payable.
 
 Enter the trial balance on a worksheet and complete the worksheet.
 
-**[Marks = 3+12=15]**
 
 ## Question 5 — [7+8=15]
 **a)** At the beginning of the current season on April 1, the ledger of Gage Pro Shop showed Cash $3,000, Inventory $4,000, and Owner's Capital $7,000. These transactions occurred during April 2022.
@@ -288,10 +270,6 @@ Enter the trial balance on a worksheet and complete the worksheet.
 | Date | Transaction |
 |---|---|
 | Apr. 5 | Purchased golf bags, clubs, and balls on account from Tiger Co. $1,200, terms 2/10, n/60, FOB shipping point. |
-
-<!-- page 4 -->
-| Date | Transaction |
-|---|---|
 | 7 | Paid freight on Tiger Co. purchases $50. |
 | 9 | Received credit from Tiger Co. for merchandise returned $100. |
 | 11 | Sold merchandise on account to members $600, terms n/30. |
@@ -352,7 +330,6 @@ During December, the company completed the following summary transactions.
 
 **e.** Prepare an income statement and an owner's equity statement for December and a classified balance sheet at December 31.
 
-**[Marks = 7+8=15]**
 
 ## Question 6 — [5+10=15]
 **a)** Briefly explain the attributes of cash control systems.
@@ -376,5 +353,3 @@ During December, the company completed the following summary transactions.
 i. Prepare a bank reconciliation statement, using the form in which both bank and book balances are brought to a corrected cash balance.
 
 ii. Give the correcting entries for Elkins Products required by the foregoing.
-
-**[Marks = 5+10=15]**

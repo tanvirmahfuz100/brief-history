@@ -2,25 +2,20 @@
 source_id: pdf-ais-11-mid
 source_file: "AIS-11 Mid.pdf"
 pages: [2]
-university: University of Barishal
-department: Department of Accounting and Information Systems
-course: Introduction to Financial Accounting
-course_code: ais 1101
-year_semester: unknown
-exam: 2nd Midterm
-session: 2022-23
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Financial Accounting"
+course_code: "ais 1101"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "2nd Midterm"
+session: "2022-23"
 time: "1 Hour"
 full_marks: 10
 instructions: "Answer all the following questions."
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Header reads '2nd Mid term (Session 2022-23)'. Trial-balance column totals do not sum to the listed amounts (Debit $12,522, Credit $17,286, and the Credit column's written total looks like $17,286) - reproduced as printed. Several handwritten corrections/annotations in red and blue ink (e.g. '-710', '-980', '-600') ignored. Question 3 refers to 'fiscal year' ending June 2023 but asks for statements 'on August 31'."
 ---
-
-# Introduction to Financial Accounting — 2nd Midterm (2022-23)
-
 <!-- page 2 -->
 **Department of Accounting and Information Systems**
 **University of Barishal**

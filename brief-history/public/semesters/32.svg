@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">3rd Year 2nd Semester</title>
+  <desc id="desc">Typographic archive cover for the second semester of the third year.</desc>
+  <rect width="1000" height="1000" fill="#B44925"/>
+  <rect x="36" y="36" width="928" height="928" fill="none" stroke="#FFD100" stroke-width="12"/>
+  <rect width="150" height="150" fill="#FFD100"/>
+  <text x="28" y="60" fill="#0A0A0A" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="4">SEM</text>
+  <text x="28" y="118" fill="#0A0A0A" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="800">06</text>
+  <text x="64" y="560" fill="#FFFFFF" font-family="Georgia, 'Times New Roman', serif" font-size="410" font-weight="700" letter-spacing="-8">VI</text>
+  <text x="70" y="670" fill="#FFD100" font-family="Inter, Arial, sans-serif" font-size="46" font-weight="800" letter-spacing="6">3RD YEAR</text>
+  <text x="70" y="746" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="6">2ND SEMESTER</text>
+  <line x1="70" y1="808" x2="270" y2="808" stroke="#FFD100" stroke-width="8"/>
+  <text x="70" y="880" fill="#FFFFFF" opacity="0.75" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="600" letter-spacing="6">A BRIEF HISTORY</text>
+  <text x="930" y="900" fill="#FFFFFF" opacity="0.55" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600" text-anchor="end" letter-spacing="4">AIS · UOB</text>
+</svg>

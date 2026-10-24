@@ -1,85 +1,51 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { courseSlug } from '@/lib/slug';
+import { courseHref, courseInfoForKey, courseKey, formatCode, semesterGroups } from '@/lib/catalog';
 
 const questions = await getCollection('questions');
-const byCourse = new Map();
+const byKey = new Map<string, { code: string; title: string; semester: string; papers: number }>();
 for (const q of questions) {
-  const key = q.data.course_code;
-  if (!byCourse.has(key)) byCourse.set(key, { code: key, title: q.data.course, department: q.data.department, count: 0 });
-  byCourse.get(key).count++;
+  const key = courseKey(q.data);
+  const info = courseInfoForKey(key);
+  if (!byKey.has(key)) {
+    byKey.set(key, {
+      code: info?.code ?? String(q.data.course_code ?? 'unknown'),
+      title: info?.title ?? String(q.data.course ?? 'Unidentified paper'),
+      semester: info?.semester ?? '',
+      papers: 0,
+    });
+  }
+  byKey.get(key)!.papers++;
 }
-const courses = [...byCourse.values()].sort((a, b) => a.code.localeCompare(b.code));
-const totalPapers = questions.length;
-const totalCourses = courses.length;
-const courseOptions = courses.map(c => `${c.code} — ${c.title}`);
-const exams = [...new Set(questions.map(q => q.data.exam))].sort();
-const sessions = [...new Set(questions.map(q => q.data.session))].sort();
-const departments = [...new Set(questions.map(q => q.data.department).filter(Boolean))].sort();
+const groups = semesterGroups([...byKey.values()].filter((course) => course.papers > 0));
 ---
 
-<BaseLayout title="Browse">
+<BaseLayout title="Courses">
   <div class="container section">
-    <nav class="browse-nav">
+    <nav class="browse-nav" aria-label="Breadcrumb">
       <a href="/brief-history/">Home</a>
       <span aria-hidden="true">/</span>
-      <span>Browse</span>
+      <span>Courses</span>
     </nav>
+    <h1 class="browse-title">Courses with papers</h1>
+    <p class="page-lede">Every course in the archive, grouped by semester. Open a course to see its papers and syllabus.</p>
 
-    <h1 class="browse-title">Browse past questions</h1>
-
-    <div class="filters">
-      <p class="count">
-        <strong>{courses.length}</strong> of <strong>{totalPapers}</strong> questions across <strong>{totalCourses}</strong> courses
-      </p>
-
-      <form method="GET" action="/brief-history/browse/">
-        <input
-          name="search"
-          class="search-input"
-          type="search"
-          placeholder="Search questions&hellip;"
-        />
-        <select name="course">
-          <option value="">Course</option>
-          {courseOptions.map((c) => (
-            <option value={c}>{c}</option>
+    {groups.map((group) => (
+      <section class="video-group">
+        <h2 class="section-heading">{group.semester}</h2>
+        <div class="course-video-grid">
+          {group.items.map((course) => (
+            <a class="course-video-card" href={courseHref({ course_code: course.code })}>
+              <span class="course-video-code">{formatCode(course.code)}</span>
+              <span class="course-video-title">{course.title}</span>
+              <span class="course-video-meta">{course.papers} papers</span>
+            </a>
           ))}
-        </select>
-        <select name="exam">
-          <option value="">Exam</option>
-          {exams.map((e) => (
-            <option value={e}>{e}</option>
-          ))}
-        </select>
-        <select name="session">
-          <option value="">Session</option>
-          {sessions.map((s) => (
-            <option value={s}>{s}</option>
-          ))}
-        </select>
-        <select name="department">
-          <option value="">Department</option>
-          {departments.map((d) => (
-            <option value={d}>{d}</option>
-          ))}
-        </select>
-      </form>
-    </div>
+        </div>
+      </section>
+    ))}
 
-    <nav class="toc" id="course-list">
-      {courses.map((c) => (
-        <a class="toc-line" href={`/brief-history/courses/${courseSlug(c.code)}/`}>
-          <span class="toc-title">{c.code.toUpperCase()}</span>
-          <span class="toc-leader" aria-hidden="true"></span>
-          <span class="toc-page">{c.title}</span>
-        </a>
-      ))}
-    </nav>
-
-    {courses.length === 0 && (
-      <p class="no-results-msg">No courses match your filters.</p>
-    )}
+    <p class="back-links"><a href="/brief-history/browse/">← Browse all papers</a></p>
   </div>
 </BaseLayout>

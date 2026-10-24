@@ -2,25 +2,20 @@
 source_id: pdf-ais-6-7-8-9-10-semester-and-mid
 source_file: "AIS-6-7-8-9-10 Semester and Mid.pdf"
 pages: [4]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Mathematics for Business Decisions-I
-course_code: ais 1104
-year_semester: 1st Year 1st Semester
-exam: 2nd Mid-term Examination
-session: unknown
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Mathematics for Business Decisions-I"
+course_code: "ais 1104"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "2nd Midterm"
+session: "unknown"
 time: "1 hour"
-full_marks: null
+full_marks: ""
 instructions: ""
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Top paper on a four-paper page. Question 2 wording is partly garbled ('If the per unit of labour and 1 unit of capital, the cost comes to 56'). No overall full marks printed."
 ---
-
-# Mathematics for Business Decision I — 2nd Mid-term Examination (unknown session)
-
 <!-- page 4 -->
 
 1. Solve the equation: $x^2 - 6x + 9 = 4\sqrt{x^2 - 6x + 6}$. [2]

@@ -1,0 +1,95 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Report a problem">
+  <div class="container section">
+    <nav class="browse-nav" aria-label="Breadcrumb">
+      <a href="/brief-history/">Home</a>
+      <span aria-hidden="true">/</span>
+      <span>Report</span>
+    </nav>
+    <h1 class="browse-title">Report a problem</h1>
+    <p class="page-lede">
+      Found a wrong mark, a missing paper, or an OCR error? Write it down here, copy the
+      report, and send it to your course representative or the department. This page has no
+      server: nothing is submitted or stored.
+    </p>
+
+    <section class="tool-card">
+      <h2 class="section-heading">What to report</h2>
+      <ul class="report-list">
+        <li>A question or mark that was transcribed incorrectly.</li>
+        <li>A paper filed under the wrong course or session.</li>
+        <li>A missing paper, page, or table.</li>
+        <li>A broken link.</li>
+      </ul>
+      <p>Include the paper title, course code, and source file name if you can see it in the paper details panel.</p>
+    </section>
+
+    <form class="report-form" id="report-form">
+      <label class="filter-field">
+        <span>Paper title or URL</span>
+        <input id="report-paper" type="text" placeholder="e.g. AIS 1101 — 2022-23 Final" />
+      </label>
+      <label class="filter-field">
+        <span>Problem type</span>
+        <select id="report-type">
+          <option>Transcription or OCR error</option>
+          <option>Wrong course or session</option>
+          <option>Missing paper or page</option>
+          <option>Broken link</option>
+          <option>Other</option>
+        </select>
+      </label>
+      <label class="filter-field">
+        <span>Details</span>
+        <textarea id="report-details" rows="6" placeholder="What is wrong, and what should it say?"></textarea>
+      </label>
+      <div class="report-actions">
+        <button class="quick-btn" type="button" id="copy-report">Copy report</button>
+        <a class="quick-btn" id="email-report" href="mailto:?subject=Past%20questions%20archive%20report">Open in email</a>
+      </div>
+      <p class="copy-status" id="copy-status" aria-live="polite"></p>
+    </form>
+
+    <p class="back-links"><a href="/brief-history/">← Home</a></p>
+  </div>
+
+  <script>
+    const paper = document.getElementById('report-paper');
+    const type = document.getElementById('report-type');
+    const details = document.getElementById('report-details');
+    const copy = document.getElementById('copy-report');
+    const email = document.getElementById('email-report');
+    const status = document.getElementById('copy-status');
+
+    function reportText() {
+      return [
+        'Past questions archive report',
+        '',
+        `Paper: ${paper.value.trim() || '(not given)'}`,
+        `Problem: ${type.value}`,
+        '',
+        details.value.trim() || '(no details given)',
+        '',
+        `Page: ${location.href}`,
+      ].join('\n');
+    }
+
+    function updateEmail() {
+      email.href = `mailto:?subject=${encodeURIComponent('Past questions archive report')}&body=${encodeURIComponent(reportText())}`;
+    }
+
+    copy.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(reportText());
+        status.textContent = 'Report copied. Paste it into an email or message.';
+      } catch {
+        status.textContent = 'Could not copy automatically. Select the text and copy it manually.';
+      }
+    });
+    for (const field of [paper, type, details]) field.addEventListener('input', updateEmail);
+    updateEmail();
+  </script>
+</BaseLayout>

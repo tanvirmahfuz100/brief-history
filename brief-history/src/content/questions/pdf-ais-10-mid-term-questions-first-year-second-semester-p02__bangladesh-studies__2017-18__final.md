@@ -2,25 +2,20 @@
 source_id: pdf-ais-10-mid-term-questions-first-year-second-semester
 source_file: "AIS-10 Mid-Term Questions First Year Second Semester.pdf"
 pages: [2]
-university: University of Barisal
-department: Department of Accounting & Information Systems
-course: History of the Emergence of Bangladesh
-course_code: ais 1105
-year_semester: 1st Year 2nd Semester
-exam: Final Examination
-session: 2017-18
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "History of the Emergence of Bangladesh"
+course_code: "ais 1105"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "2017-18"
 time: "3 hours"
 full_marks: 60
 instructions: "(Answer any four set of questions. Each part of the questions must be written sequentially)"
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Page 2 of AIS-10 mid-term questions. Transcribed from DeepSeek help response."
 ---
-
-# Bangladesh Studies — Final Examination (2017-18)
-
 <!-- page 2 -->
 
 UNIVERSITY OF BARISAL

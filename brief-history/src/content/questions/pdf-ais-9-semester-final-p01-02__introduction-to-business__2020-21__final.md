@@ -2,25 +2,20 @@
 source_id: pdf-ais-9-semester-final
 source_file: "AIS-9 (Semester Final).pdf"
 pages: [1, 2]
-university: University of Barisal
-department: Department of Accounting & Information Systems
-course: Introduction to Business
-course_code: ais 1102
-year_semester: 1st Year 1st Semester
-exam: Semester Final
-session: 2020-21
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Business"
+course_code: "ais 1102"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "2020-21"
 time: "3 hours"
 full_marks: 60
 instructions: "Answer any four questions"
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Marks for some parts are right-aligned and partly obscured by scan ticks; page 1 carries Questions 1-3."
 ---
-
-# Introduction to Business — Semester Final (2020-21)
-
 <!-- page 1 -->
 ## Question 1 — [6+4+5]
 **a)** Though a Sole Proprietorship business belongs to only you, and you are the single controller of the business, but still why might you prefer a Partnership form of business? Discuss with argument related to both Sole Proprietorship and Partnership. [6]

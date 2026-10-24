@@ -2,25 +2,20 @@
 source_id: pdf-ais-10-mid
 source_file: "AIS-10 Mid.pdf"
 pages: [3]
-university: University of Barishal
-department: Department of Accounting and Information Systems
-course: Introduction to Financial Accounting
-course_code: ais 1101
-year_semester: 1st Year 1st Semester
-exam: 2nd Mid-term
-session: unknown
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Financial Accounting"
+course_code: "ais 1101"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "2nd Midterm"
+session: "unknown"
 time: "1 Hour"
 full_marks: 10
 instructions: ""
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Trial-balance totals are transcribed as 23,600, which agrees with the listed debit and credit amounts. Handwritten workings and totals in the margins are ignored."
 ---
-
-# Principles of Accounting — 2nd Mid-term Examination (Unknown Session)
-
 <!-- page 3 -->
 **Time:** 1 Hour     **Marks:** 10
 

@@ -2,25 +2,20 @@
 source_id: jpg-2202-corporate-laws-and-governance-2018-19
 source_file: "2202 Corporate Laws and Governance/2018-19.jpg"
 pages: [1]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Corporate Laws and Secretarial Practices
-course_code: ais 2202
-year_semester: 2nd Year 2nd Semester
-exam: Final
-session: 2018-19
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Corporate Laws and Secretarial Practices"
+course_code: "ais 2202"
+year_semester: "BBA 2nd Year 2nd Semester"
+exam: "Final"
+session: "2018-19"
 time: "3.00 Hours"
 full_marks: 60
 instructions: "(Answer any two of the following questions) — Section A; (Answer any two of the following questions) — Section B"
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Header: 'BBA 2nd year 2nd Semester Final Examination. Session: 2018-19. Course Code: AIS 2202. Course Name: Corporate laws and governance'. Split into Section A (Q1-Q3) and Section B (Q4-Q6), answer any 2 per section (4 of 6 total). Handwritten checkmarks/circles beside question numbers ignored. All questions carry [Marks = 15]."
 ---
-
-# Corporate Laws and Governance — Final (2018-19)
-
 <!-- page 1 -->
 > Answer any two of the following questions
 

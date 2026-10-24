@@ -2,25 +2,20 @@
 source_id: pdf-ais-9-first-year-second-semester-mid-final
 source_file: "AIS-9 (First Year Second Semester Mid-Final).pdf"
 pages: [12]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Mathematics for Business Decisions-I
-course_code: ais 1104
-year_semester: 1st Year 1st Semester
-exam: 2nd Mid-term Examination
-session: 2016-17
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Mathematics for Business Decisions-I"
+course_code: "ais 1104"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "2nd Midterm"
+session: "2016-17"
 time: "1 hour"
-full_marks: null
+full_marks: ""
 instructions: ""
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Bottom paper on page 12. Transcribed from DeepSeek help response."
 ---
-
-# Mathematics for Business Decision I — 2nd Mid-term Examination (2016-17)
-
 <!-- page 12 -->
 
 University of Barishal

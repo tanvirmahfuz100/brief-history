@@ -2,25 +2,20 @@
 source_id: jpg-2105-principles-of-marketing-2018-19
 source_file: "2105 Principles of Marketing/2018-19.jpg"
 pages: [1]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Marketing
-course_code: ais 2204
-year_semester: 2nd Year 1st Semester
-exam: Final
-session: 2019-20
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Marketing"
+course_code: "ais 2204"
+year_semester: "BBA 2nd Year 2nd Semester"
+exam: "Final"
+session: "2019-20"
 time: "3 hours"
 full_marks: 60
 instructions: "(Answer any four set of questions. Each part of the questions must be written sequentially)"
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Header reads 'Course: Principles of Marketing; Code: AIS-2105'. Marks printed at right of each part; question heading total is the sum of parts. Handwritten circles/ticks beside question numbers ignored."
 ---
-
-# Principles of Marketing — Final (2019-20)
-
 <!-- page 1 -->
 > Answer any four set of questions. Each part of the questions must be written sequentially
 

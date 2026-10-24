@@ -2,23 +2,20 @@
 source_id: pdf-ais-6-7-8-9-10-semester-and-mid
 source_file: "AIS-6-7-8-9-10 Semester and Mid.pdf"
 pages: [33, 34]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Introduction to Financial Accounting
-course_code: ais 1101
-year_semester: 1st Year 1st Semester
-exam: Final Examination
-session: 2018-19
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Financial Accounting"
+course_code: "ais 1101"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "2018-19"
 time: "3 Hours"
 full_marks: 60
 instructions: "Answer any four set of questions. Each part of the questions must be written sequentially."
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Two-page paper; some faint figures and mathematical symbols are marked [illegible]."
 ---
-# Principles of Accounting — Final Examination (2018-19)
 <!-- page 33 -->
 1. **a)** Briefly explain the objectives of financial reporting. [05]
    **b)** Briefly explain the qualitative characteristic of accounting information. [05]

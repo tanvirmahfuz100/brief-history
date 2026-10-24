@@ -2,25 +2,20 @@
 source_id: pdf-ais-6-7-8-9-10-semester-and-mid
 source_file: "AIS-6-7-8-9-10 Semester and Mid.pdf"
 pages: [28]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Unknown Course
-course_code: unknown
-year_semester: 1st Year 1st Semester
-exam: unknown
-session: unknown
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Unidentified paper"
+course_code: "unknown"
+year_semester: "1st Year 1st Semester"
+exam: "Final"
+session: "unknown"
 time: ""
-full_marks: null
+full_marks: ""
 instructions: ""
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "This is page 2 of 3; course header is absent."
 ---
-
-# Unknown Course — unknown (unknown)
-
 For the Month Ended March 31, 2012
 | Account titles | Debit | Credit |
 | :--- | :--- | :--- |

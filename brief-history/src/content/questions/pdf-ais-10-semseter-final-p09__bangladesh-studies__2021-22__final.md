@@ -2,25 +2,20 @@
 source_id: pdf-ais-10-semseter-final
 source_file: "AIS-10 (Semester Final).pdf"
 pages: [9]
-university: University of Barishal
-department: Department of Accounting and Information System
-course: History of the Emergence of Bangladesh
-course_code: ais 1105
-year_semester: 1st Year 1st Semester
-exam: Semester Final
-session: 2021-2022
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "History of the Emergence of Bangladesh"
+course_code: "ais 1105"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "2021-22"
 time: "03 Hours"
 full_marks: 60
 instructions: "Answer any four of the following questions"
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Q1 marks 10+5; Q2-Q3 and Q6 each 5+5+5; Q4 and Q5 each a single 15-mark question. Tick marks on Q1, Q2, Q4, Q5 ignored."
 ---
-
-# Bangladesh Studies — Semester Final (2021-2022)
-
 **University of Barishal**
 **Department of Accounting and Information System**
 **Session: 2021-22, Year: 1st, Semester: 1st, Final Exam-2022**

@@ -2,25 +2,20 @@
 source_id: pdf-ais-10-semseter-final
 source_file: "AIS-10 (Semester Final).pdf"
 pages: [1]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Introduction to Business
-course_code: ais 1102
-year_semester: 1st Year 1st Semester
-exam: Semester Final
-session: 2021-2022
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Business"
+course_code: "ais 1102"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "2021-22"
 time: "3 Hours"
 full_marks: 60
 instructions: "Answer any four questions. Each question has equal weight of marks. Questions should be answered sequentially and in a relevant way. Handwriting must be readable."
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Printed per-part marks for Q1-Q5 sum to 15 each; Q6 parts read 03+03+02+05+03=16 (printed inconsistency, left unaltered). Tick marks left by examiner ignored."
 ---
-
-# Introduction to Business — Semester Final (2021-2022)
-
 **University of Barishal**
 **Department of Accounting & Information Systems**
 **BBA 1st Year 1st Semester Final Examination, Session 2021-22**

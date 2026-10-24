@@ -2,25 +2,20 @@
 source_id: pdf-ais-10-mid
 source_file: "AIS-10 Mid.pdf"
 pages: [5]
-university: unknown
-department: unknown
-course: Business Communication and Report Writing
-course_code: ais 1103
-year_semester: unknown
-exam: unknown
-session: unknown
+university: "University of Barishal"
+department: ""
+course: "Business Communication and Report Writing"
+course_code: "ais 1103"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "unknown"
 time: ""
-full_marks: null
+full_marks: ""
 instructions: ""
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Header is absent/cropped on this scan; only six numbered Business Communication questions are present. Course inferred from content; university, department, exam, session, time and marks are unknown. This is not a continuation of the page 4 2nd Mid Term, whose numbering and subparts differ. A tick, an underline, and handwritten 'piece' at the bottom are ignored."
 ---
-
-# Business Communication and Report Writing — Unknown Examination (Unknown Session)
-
 <!-- page 5 -->
 ## Question 1
 Compare and contrast written communication with oral communication.

@@ -1,0 +1,87 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { VIDEO_COURSES } from '@/data/videos.generated';
+import { COURSE_BY_CODE, courseKey, formatCode } from '@/lib/catalog';
+import { courseSlug, slug } from '@/lib/slug';
+
+export async function getStaticPaths() {
+  return VIDEO_COURSES.map((video) => ({
+    params: { course: courseSlug(video.code) },
+    props: { video },
+  }));
+}
+
+const { video } = Astro.props;
+const info = COURSE_BY_CODE.get(video.code);
+const title = info?.title ?? video.guideTitle;
+const code = formatCode(video.code);
+const questions = (await getCollection('questions')).filter((q) => courseKey(q.data) === slug(video.code));
+const courseHref = questions.length ? `/brief-history/courses/${courseSlug(video.code)}/` : null;
+const topics = video.topics.filter((topic) => topic.videos.length > 0);
+---
+
+<BaseLayout title={`${code} — Video lessons`}>
+  <div class="container section video-page">
+    <nav class="browse-nav" aria-label="Breadcrumb">
+      <a href="/brief-history/">Home</a>
+      <span aria-hidden="true">/</span>
+      <a href="/brief-history/videos/">Video lessons</a>
+      <span aria-hidden="true">/</span>
+      <span>{code}</span>
+    </nav>
+
+    <h1 class="course-title">{code} — {title}</h1>
+    <p class="page-lede">
+      {video.videoCount} YouTube lessons mapped to this course's syllabus. These are
+      third-party lessons checked at page level, not University of Barishal lectures.
+      Coverage is partial; verify every topic against your class materials.
+    </p>
+
+    <p class="video-actions">
+      {courseHref ? <a class="quick-btn" href={courseHref}>Past questions for this course →</a> : null}
+      <a class="quick-btn" href="/brief-history/videos/">All video lessons</a>
+    </p>
+
+    {topics.length > 5 ? (
+      <nav class="topic-index" aria-label="Topics on this page">
+        <h2 class="section-heading">Topics</h2>
+        <ol>
+          {topics.map((topic, i) => (
+            <li><a href={`#topic-${i + 1}`}>{topic.title}</a></li>
+          ))}
+        </ol>
+      </nav>
+    ) : null}
+
+    {topics.map((topic, i) => (
+      <section class="video-topic" id={`topic-${i + 1}`} aria-labelledby={`topic-heading-${i + 1}`}>
+        <h2 class="section-heading" id={`topic-heading-${i + 1}`}>{topic.title}</h2>
+        <ul class="video-list">
+          {topic.videos.map((item) => (
+            <li class="video-item">
+              <a class="video-link" href={item.url} target="_blank" rel="noopener noreferrer">
+                {item.title}
+              </a>
+              {item.channel ? <span class="video-channel">{item.channel}</span> : null}
+              {item.note ? <p class="video-note">{item.note}</p> : null}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+
+    {video.coverage ? (
+      <details class="coverage-note">
+        <summary>Coverage and caveats</summary>
+        <p>{video.coverage}</p>
+      </details>
+    ) : null}
+
+    <nav class="back-links" aria-label="Back links">
+      <a href="/brief-history/videos/">← All video lessons</a>
+      {courseHref ? <a href={courseHref}>← Past questions for {code}</a> : null}
+      <a href="/brief-history/">← Home</a>
+    </nav>
+  </div>
+</BaseLayout>

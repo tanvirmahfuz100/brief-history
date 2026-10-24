@@ -2,25 +2,20 @@
 source_id: jpg-3101-cost-accounting-2017-18-1
 source_file: ["3101 Cost Accounting/2017-18 1.jpg", "3101 Cost Accounting/2017-18 2.jpg", "3101 Cost Accounting/2017-18 3.jpg"]
 pages: [1, 2, 3]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Cost Accounting
-course_code: ais 3101
-year_semester: ""
-exam: Final Examination
-session: 2019-20
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Cost Accounting"
+course_code: "ais 3101"
+year_semester: "BBA 3rd Year 1st Semester"
+exam: "Final"
+session: "2019-20"
 time: "3 hours"
 full_marks: 60
 instructions: "Answer any four set of questions. Each part of the questions must be written sequentially"
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Folder dated 2017-18 but printed session is 2019-20 (Admission 2017-18). Q1(c) list runs i)-vii) then jumps to ix)-xii) although the requirement refers to '12 expense items'; viii) is not printed. Q4 has two parts labelled (b) (second one on wage payment methods) - printed as such. Power expense in Q5(c) printed as 570 (90+180+300) with a pen mark over the digit 7."
 ---
-
-# Cost Accounting — Final Examination (2019-20)
-
 <!-- page 1 -->
 > (Answer any four set of questions. Each part of the questions must be written sequentially)
 

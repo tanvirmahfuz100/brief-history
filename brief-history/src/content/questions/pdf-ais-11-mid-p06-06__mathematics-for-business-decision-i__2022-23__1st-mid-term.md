@@ -2,25 +2,20 @@
 source_id: pdf-ais-11-mid
 source_file: "AIS-11 Mid.pdf"
 pages: [6]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Mathematics for Business Decisions-I
-course_code: ais 1104
-year_semester: unknown
-exam: 1st Mid-term Examination
-session: 2022-23
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Mathematics for Business Decisions-I"
+course_code: "ais 1104"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "1st Midterm"
+session: "2022-23"
 time: "1 hour"
 full_marks: 10
 instructions: "Answer all the questions. Write within script. Question paper must be returned with answer script."
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Header prints 'Admission Session: 2022-23'. Handwritten note at top left ('Introduction to ... AIS 1101 Assignment - 05') belongs to another paper and is ignored, as are the pen ticks. In Question 3 the numerator grouping and the exponent '-q/2' are small in print; transcribed as printed with medium confidence."
 ---
-
-# Mathematics for Business Decision-I — 1st Mid-term Examination (2022-23)
-
 <!-- page 6 -->
 **University of Barishal**
 **Department of Accounting & Information Systems**

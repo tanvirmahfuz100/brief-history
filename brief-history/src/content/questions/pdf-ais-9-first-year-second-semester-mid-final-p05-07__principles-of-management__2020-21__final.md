@@ -2,25 +2,20 @@
 source_id: pdf-ais-9-first-year-second-semester-mid-final
 source_file: "AIS-9 (First Year Second Semester Mid-Final).pdf"
 pages: [5, 6, 7]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Management
-course_code: ais 1203
-year_semester: 1st Year 2nd Semester
-exam: Semester Final
-session: 2020-2021
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Management"
+course_code: "ais 1203"
+year_semester: "BBA 1st Year 2nd Semester"
+exam: "Final"
+session: "2020-21"
 time: "3 (Three) Hours"
 full_marks: 60
 instructions: "Answer any 4 (Four) of the following questions. Figures in right margin indicate full marks. Different parts of each question must be answered sequentially. Your answers need to be relevant and specific"
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Question 2 case study spans pages 5-6; its marks [3+4+8] =15 are printed on page 6 after the case questions. Page 6 top begins mid-question."
 ---
-
-# Principles of Management — Semester Final (2020-2021)
-
 <!-- page 5 -->
 UNIVERSITY OF BARISHAL
 **Department of Accounting & Information Systems**

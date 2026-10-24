@@ -2,25 +2,20 @@
 source_id: jpg-2201-advanced-financial-accounting-ii-2017-18-1
 source_file: ["2201 Advanced Financial Accounting - II/2017-18 1.jpg", "2201 Advanced Financial Accounting - II/2017-18 2.jpg", "2201 Advanced Financial Accounting - II/2017-18 3.jpg"]
 pages: [1, 2, 3]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Advanced Financial Accounting-II
-course_code: ais 2201
-year_semester: ""
-exam: Final Examination
-session: 2018-19
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Advanced Financial Accounting-II"
+course_code: "ais 2201"
+year_semester: "BBA 2nd Year 2nd Semester"
+exam: "Final"
+session: "2018-19"
 time: "3 hours"
 full_marks: 60
 instructions: "Answer any four set of questions. Each part of the questions must be written sequentially"
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Printed 'Final Examination- 2019; Session- 2018-19 (2017-18)'. Page 3 is a photocopy of a textbook page (running head '1454 Chapter 23 Statement of Cash Flows') on which the remainder of Q5 and Q6 are printed. Q4/Q5 marks brackets are offset in the scan: [3+5+7] read as Q3, [5+10] as Q4, and (3+12) at the end of Q5 and Q6."
 ---
-
-# Advanced Financial Accounting- II — Final Examination (2018-19)
-
 <!-- page 1 -->
 ## Question 1 — [2+4+2+3+4]
 **a)** What is earnings management? [2]
@@ -134,11 +129,6 @@ On the basis of above information, find out the intrinsic value of shares. Indic
 | Allowance for doubtful accounts |  | 13,300 |
 | Inventory | 74,200 |  |
 | Prepaid expenses |  | 17,800 |
-
-<!-- page 3 -->
-<!-- table continued from page 2 -->
-| Account | Debit | Credit |
-|---|---:|---:|
 | Investment in subsidiary (equity method) |  | 20,000 |
 | Plant and equipment | 210,000 |  |
 | Accumulated depreciation |  | 130,000 |

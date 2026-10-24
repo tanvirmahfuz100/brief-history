@@ -2,25 +2,20 @@
 source_id: pdf-ais-10-semseter-final
 source_file: "AIS-10 (Semester Final).pdf"
 pages: [2, 3, 4, 5]
-university: University of Barishal
-department: Department of Accounting and Information Systems
-course: Introduction to Financial Accounting
-course_code: ais 1101
-year_semester: 1st Year 1st Semester
-exam: Semester Final
-session: 2021-2022
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Financial Accounting"
+course_code: "ais 1101"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "2021-22"
 time: "3 Hours"
 full_marks: 60
 instructions: "Answer any four of the following questions."
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Q4(ii) asks for statements 'at August 31' although the Renfro trial balance is dated June 2023 (printed inconsistency, left as is). Q6 per-part marks 02+06+07. Scanner marks, ticks, and handwritten figures (e.g. '50,600', '11,400 / 2,3,600', '(3,100) b/x', circled '550') ignored."
 ---
-
-# Principles of Accounting — Semester Final (2021-2022)
-
 **Department of Accounting and Information Systems**
 **University of Barishal**
 **1st Year 1st Semester Final Examination-2022**

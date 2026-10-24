@@ -2,25 +2,20 @@
 source_id: pdf-ais-6-7-8-9-10-semester-and-mid
 source_file: "AIS-6-7-8-9-10 Semester and Mid.pdf"
 pages: [36]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Introduction to Business
-course_code: ais 1102
-year_semester: 1st Year 1st Semester
-exam: Midterm Examination
-session: 2020-21
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Business"
+course_code: "ais 1102"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Midterm"
+session: "2020-21"
 time: ""
 full_marks: 20
 instructions: "Answer any 4 (Four) of the following questions. Figures in the right margin indicate full marks."
 choice: "4 of 5"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "One of two papers printed on page 36."
 ---
-
-# Introduction to Business — Midterm Examination (2020-21)
-
 <!-- page 36 -->
 
 1. What are the different economic systems? Which one you think is more suitable for modern business operation.

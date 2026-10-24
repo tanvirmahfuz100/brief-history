@@ -2,25 +2,20 @@
 source_id: pdf-ais-11-mid
 source_file: "AIS-11 Mid.pdf"
 pages: [3]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Introduction to Business
-course_code: ais 1102
-year_semester: 1st Year 1st Semester
-exam: 2nd Mid-term Exam
-session: 2022-23
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Business"
+course_code: "ais 1102"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "2nd Midterm"
+session: "2022-23"
 time: "60 minutes"
 full_marks: 10
 instructions: ""
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Lower half of page 3; page also contains the AIS 1102 1st Mid-term Exam (separate file). Printed mark total is 'Possible Point: 10'; no per-question marks are printed."
 ---
-
-# Introduction to Business — 2nd Mid-term Exam (2022-23)
-
 <!-- page 3 -->
 **University of Barishal**
 **Department of Accounting & Information Systems**

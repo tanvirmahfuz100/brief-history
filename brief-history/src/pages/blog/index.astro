@@ -1,0 +1,31 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { latestPosts } from '@/data/posts';
+
+const posts = latestPosts();
+---
+
+<BaseLayout title="Blog">
+  <div class="container section">
+    <nav class="browse-nav" aria-label="Breadcrumb">
+      <a href="/brief-history/">Home</a>
+      <span aria-hidden="true">/</span>
+      <span>Blog</span>
+    </nav>
+    <h1 class="browse-title">Notes on the archive</h1>
+    <p class="page-lede">Short guides to using the papers, understanding coverage, and reading OCR notes.</p>
+
+    <div class="blog-index">
+      {posts.map((post) => (
+        <article class="blog-index-card">
+          <p class="blog-date">{new Date(post.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
+          <h2><a href={`/brief-history/blog/${post.slug}/`}>{post.title}</a></h2>
+          <p>{post.excerpt}</p>
+          <p class="blog-tags">{post.tags.map((tag) => <span class="blog-tag">{tag}</span>)}</p>
+        </article>
+      ))}
+    </div>
+
+    <p class="back-links"><a href="/brief-history/">← Home</a></p>
+  </div>
+</BaseLayout>

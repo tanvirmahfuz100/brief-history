@@ -2,25 +2,21 @@
 source_id: jpg-2204-laws-and-theories-of-banking-and-bank-accounts-2018-19
 source_file: "2204 Laws and Theories of Banking & Bank Accounts/2018-19.jpg"
 pages: [1]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Laws and Theories of Banking and Bank Accounts
-course_code: ais 2204
-year_semester: BBA 2nd year 2nd Semester
-exam: Final Examination
-session: 2018-19
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Laws and Theories of Banking and Bank Accounts"
+course_code: "ais 2204"
+course_slug: "legacy-banking-2204"
+year_semester: "BBA 2nd Year 2nd Semester"
+exam: "Final"
+session: "2018-19"
 time: "3.00 Hours"
 full_marks: 60
 instructions: "Answer any four of the following questions"
 choice: "4 of 6 (Q6: any five of seven)"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Q6 asks for short notes on any five of seven items, printed marks [Marks =5*3=15]. No handwritten examiner marks visible."
 ---
-
-# Laws and Theories of Banking and Bank Accounts — Final Examination (2018-19)
-
 <!-- page 1 -->
 > (Answer any four of the following questions)
 

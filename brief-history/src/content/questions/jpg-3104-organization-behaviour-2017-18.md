@@ -2,25 +2,20 @@
 source_id: jpg-3104-organization-behaviour-2017-18
 source_file: "3104 Organization Behaviour/2017-18.jpg"
 pages: [1]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Organizational Behavior
-course_code: ais 3204
-year_semester: 3rd Year 2nd Semester
-exam: Final
-session: 2019-20
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Organizational Behavior"
+course_code: "ais 3204"
+year_semester: "BBA 3rd Year 2nd Semester"
+exam: "Final"
+session: "2019-20"
 time: "03 Hours"
 full_marks: 60
 instructions: "(Answer any four questions out of six. All parts of a question must be answered sequentially. The figures in the right margin indicate the marks for each question)"
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Header: 'BBA 3rd Year 2nd Semester Final Examination: Session: 2019-20 (Admission: 2017-18). Course Title: Organizations Behavior; Course Code: AIS 3104'. Six questions, each with parts (a)(b)(c). Handwritten circles/ticks beside question numbers ignored."
 ---
-
-# Organizations Behavior — Final (2019-20)
-
 <!-- page 1 -->
 > Answer any four questions out of six. All parts of a question must be answered sequentially. The figures in the right margin indicate the marks for each question
 

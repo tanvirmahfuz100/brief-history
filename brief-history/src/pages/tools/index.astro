@@ -1,0 +1,86 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { ALL_COURSES, courseKey, formatCode, titleForPaper } from '@/lib/catalog';
+
+const questions = await getCollection('questions');
+const syllabi = await getCollection('syllabi');
+const syllabusCodes = new Set(syllabi.map((s) => s.data.code));
+
+const paperList = questions.map((q) => ({
+  title: titleForPaper(q.data),
+  href: `/brief-history/courses/${courseKey(q.data)}/${q.id}/`,
+}));
+
+const counts = new Map<string, number>();
+for (const q of questions) {
+  const key = courseKey(q.data);
+  counts.set(key, (counts.get(key) ?? 0) + 1);
+}
+const coverage = ALL_COURSES
+  .map((course) => {
+    const numeric = course.code.match(/\d+/)?.[0] ?? '';
+    return {
+      code: course.code,
+      title: course.title,
+      papers: counts.get(course.code) ?? 0,
+      syllabus: syllabusCodes.has(numeric),
+    };
+  })
+  .filter((row) => row.papers > 0 || row.syllabus);
+---
+
+<BaseLayout title="Tools">
+  <div class="container section">
+    <nav class="browse-nav" aria-label="Breadcrumb">
+      <a href="/brief-history/">Home</a>
+      <span aria-hidden="true">/</span>
+      <span>Tools</span>
+    </nav>
+    <h1 class="browse-title">Tools</h1>
+    <p class="page-lede">Small utilities for choosing what to revise next. Everything runs in your browser.</p>
+
+    <section class="tool-card" aria-labelledby="random-heading">
+      <h2 class="section-heading" id="random-heading">Random paper</h2>
+      <p>Pick a paper when you cannot decide. It chooses from all {paperList.length} papers in the archive.</p>
+      <button class="quick-btn" id="random-paper" type="button">Choose a random paper</button>
+      <p class="random-result" id="random-result" aria-live="polite">No paper chosen yet.</p>
+    </section>
+
+    <section class="tool-card" aria-labelledby="coverage-heading">
+      <h2 class="section-heading" id="coverage-heading">Syllabus coverage</h2>
+      <p>Courses with papers or a syllabus in the archive. A dash means the syllabus is not available yet.</p>
+      <div class="table-scroll">
+        <table class="coverage-table">
+          <thead><tr><th>Code</th><th>Course</th><th>Papers</th><th>Syllabus</th></tr></thead>
+          <tbody>
+            {coverage.map((row) => (
+              <tr>
+                <td>{formatCode(row.code)}</td>
+                <td>{row.title}</td>
+                <td>{row.papers || '—'}</td>
+                <td>{row.syllabus ? 'Yes' : '—'}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <p class="back-links"><a href="/brief-history/">← Home</a></p>
+  </div>
+
+  <script define:vars={{ paperList }}>
+    const button = document.getElementById('random-paper');
+    const result = document.getElementById('random-result');
+    button.addEventListener('click', () => {
+      if (!paperList.length) return;
+      const paper = paperList[Math.floor(Math.random() * paperList.length)];
+      result.innerHTML = '';
+      const link = document.createElement('a');
+      link.href = paper.href;
+      link.textContent = paper.title;
+      result.append(link);
+    });
+  </script>
+</BaseLayout>

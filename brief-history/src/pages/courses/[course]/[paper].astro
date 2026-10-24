@@ -1,18 +1,20 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getCollection, render } from 'astro:content';
-import { courseSlug } from '@/lib/slug';
+import { courseKey, formatCode, normalizeExam, normalizeSession, titleForPaper } from '@/lib/catalog';
 
 export async function getStaticPaths() {
   const questions = await getCollection('questions');
-  return questions.map(q => ({
-    params: { course: courseSlug(q.data.course_code), paper: q.id },
+  return questions.map((q) => ({
+    params: { course: courseKey(q.data), paper: q.id },
     props: { q },
   }));
 }
 
 const { q } = Astro.props;
 const { Content } = await render(q);
+const backHref = `/brief-history/courses/${courseKey(q.data)}/`;
+const title = titleForPaper(q.data);
 
 const provenance = [
   q.data.source_file ? `Source file: ${q.data.source_file}` : null,
@@ -23,61 +25,59 @@ const provenance = [
 ].filter(Boolean);
 ---
 
-<BaseLayout title={q.data.course}>
+<BaseLayout title={title}>
   <div class="container section paper-body">
-    <h1 class="paper-title">{q.data.course}</h1>
-    <p class="paper-meta">
-      <b>{q.data.course_code}</b>
-      <span>&bull;</span>
-      {q.data.session}
-      <span>&bull;</span>
-      {q.data.exam}
-      {q.data.year_semester ? <span>&bull;</span> <span>{q.data.year_semester}</span> : null}
-      {q.data.full_marks ? <span>&bull;</span> <span>Full marks: {q.data.full_marks}</span> : null}
-      {q.data.time ? <span>&bull;</span> <span>Time: {q.data.time}</span> : null}
-    </p>
+    <nav class="browse-nav" aria-label="Breadcrumb">
+      <a href="/brief-history/">Home</a>
+      <span aria-hidden="true">/</span>
+      <a href="/brief-history/browse/">Browse</a>
+      <span aria-hidden="true">/</span>
+      <a href={backHref}>{formatCode(q.data.course_code)}</a>
+      <span aria-hidden="true">/</span>
+      <span>{normalizeSession(q.data.session)} {normalizeExam(q.data.exam)}</span>
+    </nav>
 
-    {provenance.length ? (
-      <dl class="provenance-list">
+    <header class="paper-header">
+      <p class="paper-code">{formatCode(q.data.course_code)}</p>
+      <h1 class="paper-title">{q.data.course}</h1>
+      <p class="paper-meta">
+        {normalizeSession(q.data.session) ? <span>{normalizeSession(q.data.session)}</span> : null}
+        {normalizeExam(q.data.exam) ? <span>{normalizeExam(q.data.exam)}</span> : null}
+        {q.data.year_semester ? <span>{q.data.year_semester}</span> : null}
+        {q.data.full_marks ? <span>{q.data.full_marks} marks</span> : null}
+        {q.data.time ? <span>{q.data.time}</span> : null}
+      </p>
+    </header>
+
+    <details class="paper-details">
+      <summary>Paper details and provenance</summary>
+      <dl class="meta-list">
+        {q.data.course_code ? <><dt>Course code</dt><dd>{formatCode(q.data.course_code)}</dd></> : null}
+        {q.data.session ? <><dt>Session</dt><dd>{normalizeSession(q.data.session)}</dd></> : null}
+        {q.data.exam ? <><dt>Exam</dt><dd>{normalizeExam(q.data.exam)}</dd></> : null}
+        {q.data.instructions ? <><dt>Instructions</dt><dd>{q.data.instructions}</dd></> : null}
+        {q.data.choice ? <><dt>Choice</dt><dd>{q.data.choice}</dd></> : null}
         {provenance.map((p) => {
           const [k, ...v] = p.split(': ');
-          return (
-            <>
-              <dt>{k}</dt>
-              <dd>{v.join(': ')}</dd>
-            </>
-          );
+          return <><dt>{k}</dt><dd>{v.join(': ')}</dd></>;
         })}
       </dl>
-    ) : null}
+      {q.data.ocr_confidence || q.data.notes ? (
+        <div class="confidence-notice">
+          {q.data.ocr_confidence ? <p>OCR confidence: {q.data.ocr_confidence}</p> : null}
+          {q.data.notes ? <p>Transcription note: {q.data.notes}</p> : null}
+        </div>
+      ) : null}
+    </details>
 
-    {q.data.instructions ? (
-      <details>
-        <summary>Instructions</summary>
-        <p>{q.data.instructions}</p>
-      </details>
-    ) : null}
-
-    {q.data.choice ? (
-      <details>
-        <summary>Choice</summary>
-        <p>{q.data.choice}</p>
-      </details>
-    ) : null}
-
-    {q.data.ocr_confidence || q.data.notes ? (
-      <div class="confidence-notice">
-        {q.data.ocr_confidence ? <p>OCR confidence: {q.data.ocr_confidence}</p> : null}
-        {q.data.notes ? <p>Transcription note: {q.data.notes}</p> : null}
-      </div>
-    ) : null}
-
-    <Content />
+    <div class="paper-content">
+      <Content />
+    </div>
 
     {q.data.references && q.data.references.length ? (
       <section class="cross-refs" aria-label="Cross references">
         {q.data.references.map((ref) => (
-          <p class="marginal-note" key={ref.paper}>
+          <p class="marginal-note">
             <span class="note-label">Compare with:</span>{' '}
             {ref.note ?? ref.question ?? ref.paper}
           </p>
@@ -85,10 +85,19 @@ const provenance = [
       </section>
     ) : null}
 
-    <nav class="back-links">
-      <a href={`/brief-history/courses/${courseSlug(q.data.course_code)}/`}>&larr; Back to {q.data.course_code.toUpperCase()}</a>
-      <a href="/brief-history/browse/">&larr; Back to browse</a>
-      <a href="/brief-history/">&larr; Home</a>
+    <nav class="back-links" aria-label="Back links">
+      <a href={backHref}>← Back to {formatCode(q.data.course_code)}</a>
+      <a href="/brief-history/browse/">← Browse</a>
+      <a href="/brief-history/">Home</a>
     </nav>
   </div>
+
+  <script>
+    document.querySelectorAll('.paper-content table').forEach((table) => {
+      const wrap = document.createElement('div');
+      wrap.className = 'table-scroll';
+      table.parentNode.insertBefore(wrap, table);
+      wrap.appendChild(table);
+    });
+  </script>
 </BaseLayout>

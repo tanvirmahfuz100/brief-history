@@ -2,25 +2,20 @@
 source_id: jpg-5105-organization-stategy-and-control-2018-19-1
 source_file: ["5105 Organization Stategy and Control/2018-19 1.jpg", "5105 Organization Stategy and Control/2018-19 2.jpg"]
 pages: [1, 2]
-university: University of Barishal
-department: Dept. of Accounting and Information systems
-course: Organizations, Strategy and Control
-course_code: ais 5105
-year_semester: MBA 1st semester
-exam: Final examination
-session: 2018-19
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Organizations, Strategy and Control"
+course_code: "ais 5105"
+year_semester: "MBA 1st Semester"
+exam: "Final"
+session: "2018-19"
 time: "3 hours"
 full_marks: 60
 instructions: "Answer any four set of questions. Different parts of a question must be written sequentially."
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Folder name misspells 'Strategy' as 'Stategy'. Page numbers 'Page 1 of 2'/'Page 2 of 2' omitted."
 ---
-
-# Organizations, Strategy and Control — Final examination (2018-19)
-
 <!-- page 1 -->
 > (Answer any four set of questions. Different parts of a question must be written sequentially.)
 

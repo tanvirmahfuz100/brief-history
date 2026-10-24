@@ -2,25 +2,20 @@
 source_id: pdf-ais-9-first-year-second-semester-mid-final
 source_file: "AIS-9 (First Year Second Semester Mid-Final).pdf"
 pages: [4]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Microeconomics
-course_code: ais 1202
-year_semester: 1st Year 2nd Semester
-exam: Semester Final
-session: 2020-21
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Microeconomics"
+course_code: "ais 1202"
+year_semester: "BBA 1st Year 2nd Semester"
+exam: "Final"
+session: "2020-21"
 time: "3.00 Hours"
 full_marks: 60
 instructions: "Answer any four set of questions. Each part of the questions must be written sequentially"
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "Single-page paper; Q1-Q6 each total 15 marks (answer any four = 60). Minor scanner shadow at left edge."
 ---
-
-# Microeconomics — Semester Final (2020-21)
-
 <!-- page 4 -->
 University of Barishal
 **Department of Accounting & Information Systems**

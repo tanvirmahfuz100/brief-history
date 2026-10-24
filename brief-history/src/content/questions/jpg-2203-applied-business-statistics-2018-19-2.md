@@ -2,23 +2,20 @@
 source_id: jpg-2203-applied-business-statistics-2018-19-2
 source_file: "2203 Applied Business Statistics/2018-19-2 image"
 pages: [1]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Business Statistics-II
-course_code: ais 2203
-year_semester: unknown
-exam: Final Examination
-session: 2018-19
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Business Statistics-II"
+course_code: "ais 2203"
+year_semester: "BBA 2nd Year 2nd Semester"
+exam: "Final"
+session: "2018-19"
 time: ""
-full_marks: null
+full_marks: ""
 instructions: ""
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Split scan differs from the -1 source; page begins at question 4(b)."
 ---
-# Applied Business Statistics — Final Examination (2018-19)
 <!-- page 1 -->
 4. **(iii)** Construct a Paasche index for each year using 1994 as the base period. [06]
    **(b)** The data below are a random sample of 9 firms chosen from the “Digest of Earnings Reports” in The Wall Street Journal on February 6, 2012:

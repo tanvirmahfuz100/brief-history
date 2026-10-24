@@ -2,25 +2,20 @@
 source_id: pdf-ais-6-7-8-9-10-semester-and-mid
 source_file: "AIS-6-7-8-9-10 Semester and Mid.pdf"
 pages: [17, 18]
-university: University of Barishal
-department: Department of Accounting and Information Systems
-course: Mathematics for Business Decisions-I
-course_code: ais 1104
-year_semester: 1st Year 1st Semester
-exam: Final Examination
-session: 2016-17
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Mathematics for Business Decisions-I"
+course_code: "ais 1104"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "2016-17"
 time: "3 Hours"
 full_marks: 60
 instructions: "Answer any four of the following questions. Start answering each question from a fresh sheet. Different parts of the same question must be answered sequentially. Answers must be brief, relevant and neat."
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Question 2(b) and parts of 2(c) are obscured by handwriting/scribbles. Question 4 sub-numbering repeats 'iv)'/'iii)'. Page 18 lower half is handwritten budget notes; ignored. Q4(c) continues at top of page 18."
 ---
-
-# Mathematics for Business Decision I — Final Examination (2016-17)
-
 <!-- page 17 -->
 
 > Answer any four of the following questions.

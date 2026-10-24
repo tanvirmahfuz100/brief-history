@@ -2,25 +2,20 @@
 source_id: pdf-ais-9-semester-final
 source_file: "AIS-9 (Semester Final).pdf"
 pages: [4, 5, 6]
-university: University of Barisal
-department: Department of Accounting & Information Systems
-course: Introduction to Financial Accounting
-course_code: ais 1101
-year_semester: 1st Year 1st Semester
-exam: Final
-session: 2020-21
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Financial Accounting"
+course_code: "ais 1101"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "2020-21"
 time: "3 hour"
 full_marks: 60
 instructions: "Answer Any Four"
 choice: "4 of 6"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Third paper in source, begins page 4; Q3 continues beyond page 4. Course line printed as 'Course: (AIS 1102) Principles of Accounting'."
 ---
-
-# Principles of Accounting — Final (2020-21)
-
 <!-- page 4 -->
 ## Question 1 — [5x3=15]
 **1.** "Accounting is ingrained in our society and it is vital to our economic system." Do you agree? Explain. [03]
@@ -144,10 +139,6 @@ Prepare the adjusting entries needed at December 31, 2016.
 | 15 | Performed $5,400 of services on account. |
 | 17 | Paid $2,500 for employee salaries. |
 | 20 | Paid for the supplies purchased on account on May 3. |
-
-<!-- table continued from page 5 -->
-| Date | Transactions |
-|---|---|
 | 23 | Received a cash payment of $1,000 for services performed on account on May 15. |
 | 26 | Borrowed $5,000 from the bank on a note payable. |
 | 29 | Purchased equipment for $4,200 on account. |

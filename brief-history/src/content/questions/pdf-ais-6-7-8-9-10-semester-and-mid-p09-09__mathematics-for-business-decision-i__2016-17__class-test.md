@@ -2,25 +2,20 @@
 source_id: pdf-ais-6-7-8-9-10-semester-and-mid
 source_file: "pdf-ais-6-7-8-9-10-semester-and-mid"
 pages: [9]
-university: University of Barisal
-department: Department of Accounting & Information Systems
-course: Mathematics for Business Decisions-I
-course_code: ais 1104
-year_semester: unknown
-exam: First Class Test
-session: 2016-2017
-time: unknown
-full_marks: null
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Mathematics for Business Decisions-I"
+course_code: "ais 1104"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "1st Class Test"
+session: "2016-17"
+time: "unknown"
+full_marks: ""
 instructions: ""
 choice: "All questions"
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: high
 notes: "No time, full marks, course code or year/semester is printed. The printed per-question marks are [1], [3] and [1], which total 5."
 ---
-
-# Mathematics for Business Decision-1 — First Class Test (2016-2017)
-
 <!-- page 9 -->
 ## Question 1 — [1]
 Distinguish between rational numbers and irrational numbers.

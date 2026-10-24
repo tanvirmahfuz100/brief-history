@@ -34,6 +34,8 @@ const questions = defineCollection({
     department: z.string().optional().default(''),
     course: z.string(),
     course_code: z.any().transform(normalizeCode),
+    /** Optional route override for legacy courses that share a code. */
+    course_slug: z.string().optional().default(''),
     year_semester: z.string().optional().default(''),
     exam: z.string(),
     session: z.string(),

@@ -8,43 +8,100 @@ import '../styles/global.css';
 const { title } = Astro.props;
 const siteTitle = 'A Brief History of Past Questions';
 const pageTitle = title ? `${title} — ${siteTitle}` : siteTitle;
+const description =
+  'A public, login-free archive of past exam questions for the Department of Accounting & Information Systems, University of Barishal.';
+const pathname = Astro.url.pathname;
+const nav = [
+  { href: '/brief-history/browse/', label: 'Browse' },
+  { href: '/brief-history/courses/', label: 'Courses' },
+  { href: '/brief-history/videos/', label: 'Videos' },
+  { href: '/brief-history/blog/', label: 'Blog' },
+  { href: '/brief-history/tools/', label: 'Tools' },
+  { href: '/brief-history/report/', label: 'Report' },
+];
+const isActive = (href: string) =>
+  href === '/brief-history/' ? pathname === href : pathname.startsWith(href);
 ---
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#0A0A0A" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
     <title>{pageTitle}</title>
+    <link rel="icon" type="image/svg+xml" href="/brief-history/favicon.svg" />
+    <link rel="apple-touch-icon" href="/brief-history/brand/brief-history-mark.png" />
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
 
     <header class="site-header">
       <div class="bar">
-        <a class="brand" href="/brief-history/">
-          <img src="/brief-history/logo.png" alt="Brief History logo" width="24" height="24" loading="eager" />
-          <span>Brief History</span>
+        <a class="brand" href="/brief-history/" aria-label="Brief History — home">
+          <img
+            class="brand-mark"
+            src="/brief-history/brand/brief-history-mark.png"
+            alt=""
+            width="44"
+            height="44"
+            loading="eager"
+          />
+          <span class="brand-copy">
+            <span class="brand-kicker">AIS · University of Barishal</span>
+            <span class="brand-name">Brief History</span>
+          </span>
         </a>
 
-        <nav class="main-nav">
-          <a href="/brief-history/browse/">Browse</a>
-          <a href="/brief-history/tools/">Tools</a>
-          <a href="/brief-history/report/">Report</a>
+        <nav class="main-nav" aria-label="Main">
+          {nav.map((item) => (
+            <a
+              href={item.href}
+              class:list={{ active: isActive(item.href) }}
+              aria-current={isActive(item.href) ? 'page' : undefined}
+            >
+              {item.label}
+            </a>
+          ))}
         </nav>
 
-        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
-          <svg viewBox="0 0 20 20" aria-hidden="true" style="color: #ffffff; width: 20px; height: 20px; display: block;">
-            <line x1="3" y1="7" x2="17" y2="7" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-            <line x1="3" y1="10" x2="17" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-            <line x1="3" y1="13" x2="17" y2="13" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="menu-open-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+          <svg class="menu-close-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <line x1="5" y1="5" x2="19" y2="19" />
+            <line x1="19" y1="5" x2="5" y2="19" />
           </svg>
         </button>
       </div>
 
       <div class="mobile-menu" id="mobile-menu">
-        <a href="/brief-history/browse/">Browse</a>
-        <a href="/brief-history/tools/">Tools</a>
-        <a href="/brief-history/report/">Report</a>
+        <nav aria-label="Mobile">
+          {nav.map((item, index) => (
+            <a
+              href={item.href}
+              class:list={{ active: isActive(item.href) }}
+              aria-current={isActive(item.href) ? 'page' : undefined}
+            >
+              <span class="mobile-index">{String(index + 1).padStart(2, '0')}</span>
+              <span>{item.label}</span>
+              <span class="mobile-arrow" aria-hidden="true">→</span>
+            </a>
+          ))}
+        </nav>
       </div>
     </header>
 
@@ -53,9 +110,26 @@ const pageTitle = title ? `${title} — ${siteTitle}` : siteTitle;
     </main>
 
     <footer class="site-footer">
-      <div class="inner">
+      <div class="footer-main">
+        <a class="footer-brand" href="/brief-history/">
+          <img src="/brief-history/brand/brief-history-mark.png" alt="" width="52" height="52" loading="lazy" />
+          <span>
+            <strong>Brief History</strong>
+            <small>Past questions archive</small>
+          </span>
+        </a>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="/brief-history/browse/">Browse</a>
+          <a href="/brief-history/courses/">Courses</a>
+          <a href="/brief-history/videos/">Videos</a>
+          <a href="/brief-history/blog/">Blog</a>
+          <a href="/brief-history/tools/">Tools</a>
+          <a href="/brief-history/report/">Report</a>
+        </nav>
+      </div>
+      <div class="footer-meta">
         <p>Department of Accounting &amp; Information Systems, University of Barishal.</p>
-        <p>A Brief History of Past Questions &mdash; public, login-free archive.</p>
+        <p>Public, login-free archive. Independent student project.</p>
       </div>
     </footer>
 
@@ -64,10 +138,33 @@ const pageTitle = title ? `${title} — ${siteTitle}` : siteTitle;
         var btn = document.querySelector('.menu-toggle');
         var menu = document.getElementById('mobile-menu');
         if (!btn || !menu) return;
+
+        function setOpen(open) {
+          menu.classList.toggle('open', open);
+          btn.classList.toggle('is-open', open);
+          btn.setAttribute('aria-expanded', String(open));
+          btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+          document.body.classList.toggle('menu-open', open);
+        }
+
         btn.addEventListener('click', function () {
-          var open = menu.classList.contains('open');
-          btn.setAttribute('aria-expanded', String(!open));
-          menu.classList.toggle('open');
+          setOpen(!menu.classList.contains('open'));
+        });
+
+        menu.addEventListener('click', function (event) {
+          if (event.target.closest('a')) setOpen(false);
+        });
+
+        document.addEventListener('keydown', function (event) {
+          if (event.key === 'Escape' && menu.classList.contains('open')) {
+            setOpen(false);
+            btn.focus();
+          }
+        });
+
+        var desktop = window.matchMedia('(min-width: 900px)');
+        desktop.addEventListener('change', function (event) {
+          if (event.matches) setOpen(false);
         });
       })();
     </script>

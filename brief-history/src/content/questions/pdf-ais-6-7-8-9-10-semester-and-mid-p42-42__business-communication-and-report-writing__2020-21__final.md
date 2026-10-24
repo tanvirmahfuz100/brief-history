@@ -2,25 +2,20 @@
 source_id: pdf-ais-6-7-8-9-10-semester-and-mid
 source_file: "AIS-6-7-8-9-10 Semester and Mid.pdf"
 pages: [42]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Business Communication and Report Writing
-course_code: ais 1103
-year_semester: 1st Year 1st Semester
-exam: Final Examination
-session: 2020-21
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Business Communication and Report Writing"
+course_code: "ais 1103"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "2020-21"
 time: ""
-full_marks: null
+full_marks: ""
 instructions: ""
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Supplied DeepSeek transcription."
 ---
-
-# Business Communication and Report Writing — Final Examination (2020-21)
-
 Department of Accounting and Information Systems, University of Barisal
 1st Year 1st Semester Final Examination -2019. Session: 2018-19 (Admission Session: 2018-19)
 Course Code: AIS 1103. Course Title: Business Communication and Report Writing

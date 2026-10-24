@@ -2,25 +2,20 @@
 source_id: pdf-ais-6-7-8-9-10-semester-and-mid
 source_file: "AIS-6-7-8-9-10 Semester and Mid.pdf"
 pages: [22]
-university: University of Barishal
-department: Department of Accounting & Information Systems
-course: Introduction to Financial Accounting
-course_code: ais 1101
-year_semester: unknown
-exam: Final Examination
-session: 2016-17
+university: "University of Barishal"
+department: "Department of Accounting & Information Systems"
+course: "Introduction to Financial Accounting"
+course_code: "ais 1101"
+year_semester: "BBA 1st Year 1st Semester"
+exam: "Final"
+session: "2016-17"
 time: ""
-full_marks: null
+full_marks: ""
 instructions: ""
 choice: ""
-examiner_marks: ""
-faculty_source: ""
 ocr_confidence: medium
 notes: "Page 22. Mr. Eko Fashion Center trial balance (Nov 30, 2016) with adjustment data and Juliet's Tennis Shop merchandising transactions. Some figures faint; totals may not balance exactly as printed."
 ---
-
-# Principles of Accounting — Final Examination (2016-17)
-
 <!-- page 22 -->
 
 The trial balance of Mr. Eko Fashion Center contained the following accounts at November 30, the end of the company's fiscal year.

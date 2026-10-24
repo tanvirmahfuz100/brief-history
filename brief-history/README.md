@@ -1,43 +1,42 @@
-# Astro Starter Kit: Minimal
+# Brief History — past questions archive
+
+Static Astro site for the Department of Accounting & Information Systems, University of Barishal. Deployed under the `/brief-history` base path on GitHub Pages.
+
+## Run locally
+
+Use Node >= 22.23.4 (Node 24 works).
 
 ```sh
-npm create astro@latest -- --template minimal
+npm install
+npm run dev        # http://localhost:4321/brief-history/
+npm run build      # static output in dist/
+npm run preview    # preview the build
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Verify
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```sh
+npm run build
+npm run check:links     # checks every internal href/src in dist/
+npm run check:videos    # verifies the generated video data is current
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Content workflow
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+```sh
+npm run normalize:content   # normalize paper front matter and de-duplicate
+npm run normalize:syllabi   # normalize first-year syllabi
+npm run import:videos       # regenerate src/data/videos.generated.ts from sources/ais_bba_youtube_course_guide.md
+```
 
-Any static assets, like images, can be placed in the `public/` directory.
+Normalizers are idempotent and support `--dry-run`.
 
-## 🧞 Commands
+## Structure
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- `src/content/questions/` — 117 normalized paper Markdown files
+- `src/content/syllabi/` — 11 first-year syllabi
+- `src/data/courses.ts` — canonical course catalog (plus legacy banking 2204)
+- `src/lib/catalog.ts` — titles, codes, semesters, hrefs, normalization
+- `src/data/videos.generated.ts` — 650 YouTube lessons across 45 courses
+- `src/pages/` — Home, Browse, Courses, paper pages, Videos, Blog, Tools, Report
+- `scripts/` — content/syllabus normalizers, video importer, link checker
